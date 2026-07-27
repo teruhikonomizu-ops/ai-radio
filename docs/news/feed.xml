@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AIデイリーニュース</title>
+    <link>https://teruhikonomizu-ops.github.io/ai-radio/</link>
+    <description>AIがNHKニュース・Yahoo!ニュースの公式RSS見出しをもとに要約し、AI音声(AivisSpeech)でお届けする約10分のデイリーニュース。毎朝5時ごろ自動更新。</description>
+    <language>ja</language>
+    <atom:link href="https://teruhikonomizu-ops.github.io/ai-radio/news/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>unizom</itunes:author>
+    <itunes:image href="https://teruhikonomizu-ops.github.io/ai-radio/news/artwork.png"/>
+    <itunes:category text="News"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>【AIデイリーニュース】7/28(火) 消費税減税は首相判断へ／九州初の40度</title>
+      <description>【AIデイリーニュース】7/28(火) 消費税減税は首相判断へ／九州初の40度
+
+AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・大分県日田市で最高気温40度ちょうどを観測 九州で40度以上は統計開始以降初 28日も西日本中心に危険な暑さ
+・東北〜九州は28日も大気が不安定 局地的な非常に激しい雨・土砂災害に十分注意
+・食料品の消費税減税 国民会議は方向性打ち出せず 自民内に「税率1%」案 高市首相は「速やかに法案提出」の方針
+・日銀は今週の決定会合で政策金利据え置きの方向 米FRBは28日から会合
+・作家の東野圭吾さん死去 「容疑者Xの献身」「白夜行」など 68歳
+・声の「パブリシティ権」認める報告書案 法務省検討会が大筋とりまとめ
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています。
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります。
+
+#AIニュース #デイリーニュース #ニュースまとめ #stand_fm</description>
+      <pubDate>Tue, 28 Jul 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-07-28/news-2026-07-28.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-07-28/news-2026-07-28.mp3" length="9764824" type="audio/mpeg"/>
+      <itunes:duration>0:10:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
