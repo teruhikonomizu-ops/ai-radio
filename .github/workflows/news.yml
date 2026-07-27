@@ -1,0 +1,166 @@
+name: news-radio
+
+# AIデイリーニュース: 毎朝クラウドで 収集→台本(Claude)→音声合成(AivisSpeech)→配信(Release+RSS) まで無人実行
+# 手動実行: Actionsタブ → news-radio → Run workflow
+
+on:
+  schedule:
+    - cron: '0 20 * * *'   # 20:00 UTC = 日本時間 05:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-radio
+
+env:
+  TZ: Asia/Tokyo
+  SHOW: news
+  MODEL_UUID: baaae3c0-7b22-4605-8ba5-80c959b41a48   # morioki (AivisHub)
+  SPEAKER_ARGS: "--speaker 497929760 --speed 0.90 --sentpause 0.2 --parapause 0.8"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 日付と実行モードを判定
+        id: plan
+        run: |
+          today=$(date +%F)
+          echo "today=$today" >> "$GITHUB_OUTPUT"
+          if [ -f "radio/$SHOW/$today/meta.json" ]; then
+            echo "本日分は公開済みのためスキップ"
+            echo "mode=skip" >> "$GITHUB_OUTPUT"
+          elif [ -f "radio/$SHOW/$today/台本.txt" ]; then
+            echo "台本が既にあるため音声合成から再開"
+            echo "mode=resume" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 依存ツールを確認 (ffmpeg)
+        if: steps.plan.outputs.mode != 'skip'
+        run: |
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
+            sudo apt-get update && sudo apt-get install -y ffmpeg
+          fi
+          ffmpeg -version | head -n 1
+
+      - name: 音声エンジンのデータをキャッシュから復元
+        if: steps.plan.outputs.mode != 'skip'
+        uses: actions/cache@v4
+        with:
+          path: engine-data
+          key: aivis-engine-${{ env.MODEL_UUID }}-v1
+
+      - name: AivisSpeech Engine を起動 (Docker)
+        if: steps.plan.outputs.mode != 'skip'
+        run: |
+          mkdir -p engine-data work
+          sudo chown -R 1000:1000 engine-data
+          docker run -d --name aivis -p 10101:10101 \
+            -v "$PWD/engine-data:/home/user/.local/share/AivisSpeech-Engine-Dev" \
+            ghcr.io/aivis-project/aivisspeech-engine:cpu-latest
+          echo "エンジンの起動を待機中(初回はモデルDLで数分かかる)..."
+          for i in $(seq 1 120); do
+            sleep 5
+            if curl -fsS http://127.0.0.1:10101/version >/dev/null 2>&1; then
+              echo "エンジン起動OK: $(curl -fsS http://127.0.0.1:10101/version)"
+              exit 0
+            fi
+          done
+          echo "エンジンが10分以内に起動しなかった"
+          docker logs aivis
+          exit 1
+
+      - name: 声モデル (morioki) を用意
+        if: steps.plan.outputs.mode != 'skip'
+        run: |
+          if curl -fsS http://127.0.0.1:10101/aivm_models | grep -q "$MODEL_UUID"; then
+            echo "モデルはキャッシュ済み"
+          else
+            echo "AivisHubから声モデルをダウンロード..."
+            python3 scripts/install_model.py "$MODEL_UUID"
+          fi
+
+      - name: ニュース収集 (公式RSS)
+        if: steps.plan.outputs.mode == 'full'
+        run: |
+          python3 scripts/collect_news.py work/digest.md
+          python3 scripts/check_digest.py work/digest.md
+
+      - name: Claude で台本と概要欄を執筆
+        if: steps.plan.outputs.mode == 'full'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          cat "prompts/$SHOW.md" work/digest.md > work/prompt.md
+          ok=""
+          for i in 1 2; do
+            claude -p --model sonnet < work/prompt.md > work/claude_out.txt
+            if [ "$i" = 1 ]; then lo=2600; hi=3400; else lo=2200; hi=4200; fi
+            if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt "$lo" "$hi"; then
+              ok=1; break
+            fi
+            echo "不合格。修正指示を付けて再生成する。"
+            printf '\n\n【重要・作り直し】前回の出力は不合格だった。以下を必ず守り、最初から全体を作り直すこと:\n' >> work/prompt.md
+            cat work/feedback.txt >> work/prompt.md
+          done
+          if [ -z "$ok" ]; then echo "台本生成に2回失敗"; exit 1; fi
+          ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
+          mkdir -p "$ep"
+          cp work/digest.md "$ep/digest.md"
+          cp work/script.txt "$ep/台本.txt"
+          cp work/desc.txt "$ep/概要欄.txt"
+
+      - name: 音声合成 (AivisSpeech)
+        if: steps.plan.outputs.mode != 'skip'
+        run: |
+          mkdir -p work
+          ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
+          python3 scripts/tts_aivis.py "$ep/台本.txt" "work/$SHOW-${{ steps.plan.outputs.today }}.mp3" $SPEAKER_ARGS
+
+      - name: 長さ検証とメタ情報の生成
+        if: steps.plan.outputs.mode != 'skip'
+        run: |
+          ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
+          mp3="work/$SHOW-${{ steps.plan.outputs.today }}.mp3"
+          dur=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$mp3" | cut -d. -f1)
+          echo "長さ: $((dur/60))分$((dur%60))秒"
+          if [ "$dur" -lt 300 ] || [ "$dur" -gt 900 ]; then
+            echo "長さが異常(5分未満または15分超)のため公開を中止"
+            exit 1
+          fi
+          python3 scripts/write_meta.py "$SHOW" "${{ steps.plan.outputs.today }}" "$mp3" "$ep/概要欄.txt" "$ep/meta.json"
+
+      - name: GitHub Release に mp3 を公開
+        if: steps.plan.outputs.mode != 'skip'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="$SHOW-${{ steps.plan.outputs.today }}"
+          ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --title "$(head -n 1 "$ep/概要欄.txt")" --notes-file "$ep/概要欄.txt"
+          fi
+          gh release upload "$tag" "work/$SHOW-${{ steps.plan.outputs.today }}.mp3" --clobber
+
+      - name: フィード更新とコミット
+        if: steps.plan.outputs.mode != 'skip'
+        run: |
+          python3 scripts/make_feed.py "$SHOW"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add radio docs
+          git commit -m "$SHOW ${{ steps.plan.outputs.today }}"
+          git pull --rebase origin main
+          git push
+
+      - name: キャッシュ保存用にファイル所有権を戻す
+        if: always() && steps.plan.outputs.mode != 'skip'
+        run: sudo chown -R "$(id -u):$(id -g)" engine-data 2>/dev/null || true
