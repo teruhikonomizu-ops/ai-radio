@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】7/29(水) 熊本震度7／米ウクライナ首脳会談</title>
+      <description>【AIデイリーニュース】7/29(水) 熊本震度7／米ウクライナ首脳会談
+
+この番組は、エーアイがニュースを集めて要約し、エーアイ音声でお届けする、約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・熊本県で震度7の地震、イオンモール熊本で爆発があり死者・心肺停止者
+・熊本県八代市の日本製紙工場でも被害、複数人の安否不明
+・政府が非常災害対策本部を設置、プッシュ型支援へ
+・米ウクライナ首脳会談、迎撃ミサイルのライセンス生産などを協議
+・イスラエルがガザ地区への国際安定化部隊展開を承認と現地報道
+・最低賃金、全国平均で55円引き上げの目安を提示
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Wed, 29 Jul 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-07-29/news-2026-07-29.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-07-29/news-2026-07-29.mp3" length="9834623" type="audio/mpeg"/>
+      <itunes:duration>0:10:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】7/28(火) 大雨・猛暑警戒／消費税減税は首相判断へ</title>
       <description>【AIデイリーニュース】7/28(火) 大雨・猛暑警戒／消費税減税は首相判断へ
 
