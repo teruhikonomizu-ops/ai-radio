@@ -6,7 +6,7 @@
 | 番組 | 実行時刻(JST) | フィードURL |
 |---|---|---|
 | AIデイリーニュース | 毎朝 05:00 | `https://teruhikonomizu-ops.github.io/ai-radio/news/feed.xml` |
-| 世界のAIニュース | (準備中・毎朝04:00予定) | `https://teruhikonomizu-ops.github.io/ai-radio/tech/feed.xml` |
+| 世界のAIニュース | 毎朝 04:00 | `https://teruhikonomizu-ops.github.io/ai-radio/tech/feed.xml` |
 
 スマホのポッドキャストアプリに上のフィードURLを登録すると、毎朝自動で新エピソードが届く。
 
@@ -30,7 +30,7 @@ GitHub Actions (毎朝・cron)
 
 ## フォルダ
 
-- `.github/workflows/news.yml` … ニュースラジオのワークフロー本体
+- `.github/workflows/news.yml` / `tech.yml` … 各番組のワークフロー本体(構成は同一・番組設定だけ違う)
 - `scripts/` … 収集・検査・分割・合成・フィード生成(全て標準ライブラリのみ)
 - `prompts/news.md` … 台本ルール(執筆プロンプト)。文言調整はここ
 - `radio/<show>/<日付>/` … 台本.txt・概要欄.txt・digest.md・meta.json(公開の記録)
