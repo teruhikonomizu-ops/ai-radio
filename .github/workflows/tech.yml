@@ -101,17 +101,26 @@ jobs:
           npm install -g @anthropic-ai/claude-code
           cat "prompts/$SHOW.md" work/digest.md > work/prompt.md
           ok=""
-          for i in 1 2; do
-            claude -p --model sonnet < work/prompt.md > work/claude_out.txt
-            if [ "$i" = 1 ]; then lo=2600; hi=3300; else lo=2200; hi=4000; fi
+          judged=0   # 品質判定まで到達した回数(Claude呼び出し自体の失敗は数えない)
+          for i in 1 2 3 4; do
+            if ! claude -p --model sonnet < work/prompt.md > work/claude_out.txt 2> work/claude_err.txt; then
+              echo "::warning::Claudeの呼び出しが失敗した(試行 $i)。60秒待って再挑戦する。"
+              echo "--- claude 標準出力(末尾) ---"; tail -c 2000 work/claude_out.txt || true
+              echo "--- claude 標準エラー(末尾) ---"; tail -c 2000 work/claude_err.txt || true
+              sleep 60
+              continue
+            fi
+            judged=$((judged+1))
+            if [ "$judged" = 1 ]; then lo=2600; hi=3300; else lo=2200; hi=4000; fi
             if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt "$lo" "$hi"; then
               ok=1; break
             fi
+            if [ "$judged" -ge 2 ]; then echo "品質不合格が2回続いた"; break; fi
             echo "不合格。修正指示を付けて再生成する。"
             printf '\n\n【重要・作り直し】前回の出力は不合格だった。以下を必ず守り、最初から全体を作り直すこと:\n' >> work/prompt.md
-            cat work/feedback.txt >> work/prompt.md
+            cat work/feedback.txt >> work/prompt.md 2>/dev/null || true
           done
-          if [ -z "$ok" ]; then echo "台本生成に2回失敗"; exit 1; fi
+          if [ -z "$ok" ]; then echo "台本生成に失敗した"; exit 1; fi
           ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
           mkdir -p "$ep"
           cp work/digest.md "$ep/digest.md"
