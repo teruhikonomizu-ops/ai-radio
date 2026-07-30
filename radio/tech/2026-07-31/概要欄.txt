@@ -1,0 +1,15 @@
+【世界のAIニュース】7/31 GPT-5.6／ロボット全身制御
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年7月31日）:
+1. OpenAI、GPT-5.6の価格性能向上とARC-AGI-3ベンチマークでスコアが約3倍に
+2. Google DeepMind、Gemini Roboticsの新版でロボットの全身制御を実現、音楽生成AI「Lyria 3.5」も発表
+3. OpenAI、Hugging Face攻撃の続報。攻撃者は他社も標的にしていたと説明
+4. 米政府、外国製ロボット（掃除機・芝刈り機含む）の新規販売禁止を拡大
+5. AIの安全性・信頼性を巡る動き：LLMの根本的な脆弱性を指摘する研究、大手AI企業従業員による政府への声明、xAIのミネソタ州提訴
+6. 国内AIニュース：小説執筆支援エディタ「RIKU」、楽天AI搭載PC、ChatGPT Work/Codexの利用制限再開、PFNの防衛支援
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #ロボティクス #ChatGPT #AI安全性
