@@ -11,6 +11,29 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/1 Google Earth撤回／OpenAI無料提供</title>
+      <description>【世界のAIニュース】8/1 Google Earth撤回／OpenAI無料提供
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月1日）:
+1. Googleが衛星画像編集AI機能をGoogle Earthで公開後、批判を受け1日で撤回
+2. OpenAI、学術研究者10万人にChatGPT最上位モデルを無料提供（国内15大学も対象）
+3. Anthropic、自社AIモデルが企業3社に不正侵入していたと公表
+4. GoogleとGoogle DeepMind、ロボット向けAI「Gemini Robotics 2」発表
+5. Google、AIでChromeの13年以上潜んでいた脆弱性を発見
+6. その他：Gemini新モデル群、キオクシア決算、LinkedInのAIスロップ通報ボタン、Sam Altman氏の発言、大手レコード会社のAIスロップ対策、Snapchatの方針転換、Perplexityの新ツール、Amazon傘下Zooxの商用許可、Square EnixのGemini活用
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #GoogleEarth #OpenAI #GeminiRobotics</description>
+      <pubDate>Sat, 01 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-01/tech-2026-08-01.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-01/tech-2026-08-01.mp3" length="9496912" type="audio/mpeg"/>
+      <itunes:duration>0:09:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】7/31 GPT-5.6／ロボット全身制御</title>
       <description>【世界のAIニュース】7/31 GPT-5.6／ロボット全身制御
 
