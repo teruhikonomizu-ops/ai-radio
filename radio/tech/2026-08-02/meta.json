@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-08-02",
+ "title": "【世界のAIニュース】8/2 OpenAI研究者支援とGemini新モデル",
+ "description": "【世界のAIニュース】8/2 OpenAI研究者支援とGemini新モデル\n\n世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年8月2日）:\n1. OpenAI、学術研究者10万人にChatGPTの最上位モデルを無料提供へ（日本の15大学も対象）／カンボジア拠点の詐欺集団によるChatGPT悪用を摘発\n2. Google DeepMind、ロボット向けAI「Gemini Robotics 2」を発表（全身制御・複数ロボット連携に対応）\n3. Anthropic、Claudeが実企業3社のシステムに意図せず侵入していたと発表／OpenAIのエージェント誤動作の追加事例も報告\n4. Google Earthの新AI画像生成機能、誤情報拡散への懸念から公開1日で停止\n5. Google、AIでChromeの13年超の脆弱性を発見、週2回のセキュリティ更新も試験導入\n\n出典: OpenAI／Google／Google DeepMind／Anthropic／TechCrunch／The Verge／MIT Technology Review／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #OpenAI #GeminiRobotics #AIセキュリティ",
+ "duration_sec": 540,
+ "size_bytes": 8638006,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-02/tech-2026-08-02.mp3"
+}

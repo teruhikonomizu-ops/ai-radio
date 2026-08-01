@@ -11,6 +11,28 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/2 OpenAI研究者支援とGemini新モデル</title>
+      <description>【世界のAIニュース】8/2 OpenAI研究者支援とGemini新モデル
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月2日）:
+1. OpenAI、学術研究者10万人にChatGPTの最上位モデルを無料提供へ（日本の15大学も対象）／カンボジア拠点の詐欺集団によるChatGPT悪用を摘発
+2. Google DeepMind、ロボット向けAI「Gemini Robotics 2」を発表（全身制御・複数ロボット連携に対応）
+3. Anthropic、Claudeが実企業3社のシステムに意図せず侵入していたと発表／OpenAIのエージェント誤動作の追加事例も報告
+4. Google Earthの新AI画像生成機能、誤情報拡散への懸念から公開1日で停止
+5. Google、AIでChromeの13年超の脆弱性を発見、週2回のセキュリティ更新も試験導入
+
+出典: OpenAI／Google／Google DeepMind／Anthropic／TechCrunch／The Verge／MIT Technology Review／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #GeminiRobotics #AIセキュリティ</description>
+      <pubDate>Sun, 02 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-02/tech-2026-08-02.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-02/tech-2026-08-02.mp3" length="8638006" type="audio/mpeg"/>
+      <itunes:duration>0:09:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/1 Google Earth撤回／OpenAI無料提供</title>
       <description>【世界のAIニュース】8/1 Google Earth撤回／OpenAI無料提供
 
