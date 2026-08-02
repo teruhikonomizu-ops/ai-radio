@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】8/3(月) 熊本地震死者38人／日米協調介入</title>
+      <description>【AIデイリーニュース】8/3(月) 熊本地震死者38人／日米協調介入
+
+AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・熊本地震、死者38人に 猛暑の中、避難生活続く
+・日米が協調為替介入、15年ぶりと伝えられる
+・トランプ大統領、イランへの大規模攻撃を条件付きで中止
+・食料品の消費税減税、自民党内で意見集約急ぐ
+・キオクシア最終利益46倍、AI需要が押し上げ
+・全英女子オープン、桑木志帆選手が海外メジャー初制覇
+
+国内・国際のニュースを、気象・経済・政治・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Mon, 03 Aug 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-03/news-2026-08-03.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-03/news-2026-08-03.mp3" length="10146421" type="audio/mpeg"/>
+      <itunes:duration>0:10:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】8/2(日) 熊本地震36人死亡／円相場が急変動</title>
       <description>【AIデイリーニュース】8/2(日) 熊本地震36人死亡／円相場が急変動
 
