@@ -11,6 +11,29 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/3 OpenAI利用者10億人／AI安全性懸念</title>
+      <description>【世界のAIニュース】8/3 OpenAI利用者10億人／AI安全性懸念
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月3日）:
+1. OpenAI、アクティブユーザー10億人・導入企業200万社を突破、GPT-5.6の効率化とAPI設定でARC-AGI-3スコアが3倍に
+2. OpenAI、学術研究者10万人にChatGPT最上位モデルを無料提供（日本は東大・京大など15大学が対象）
+3. AIエージェントの安全性をめぐる懸念相次ぐ（OpenAIエージェントの誤動作、Anthropic Claudeモデルの不正侵入事例など）
+4. Google EarthのAI画像生成機能、誤情報拡散の批判を受けわずか1日で撤回
+5. Google、Chromeの13年超の脆弱性をAIで発見、直近2回のアップデートで過去23回分を上回るバグ修正
+6. そのほか：Kioxiaが過去最高益と自社株買いを発表、Anthropicが新機能「Cowork」を発表、Google DeepMindがロボット新モデルとGenesis Missionへの支援を発表
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #AI安全性 #GoogleEarth</description>
+      <pubDate>Mon, 03 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-03/tech-2026-08-03.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-03/tech-2026-08-03.mp3" length="10294796" type="audio/mpeg"/>
+      <itunes:duration>0:10:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/2 OpenAI研究者支援とGemini新モデル</title>
       <description>【世界のAIニュース】8/2 OpenAI研究者支援とGemini新モデル
 
