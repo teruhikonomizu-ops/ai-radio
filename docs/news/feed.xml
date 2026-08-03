@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】8/4(火) 熊本地震1週間／消費税減税へ</title>
+      <description>【AIデイリーニュース】8/4(火) 熊本地震1週間／消費税減税へ
+
+この番組は、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・熊本地震から1週間、災害関連死を含め38人死亡
+・食料品の消費税減税、5日にも閣議決定へ
+・日米協調介入で円相場が一時155円台に
+・台風13号が小笠原に接近、週末は沖縄・奄美へ
+・ウクライナ、対外情報局長官にウメロフ氏を任命
+・ガザ地区でイスラエル軍の攻撃により18人死亡
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Tue, 04 Aug 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-04/news-2026-08-04.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-04/news-2026-08-04.mp3" length="9207266" type="audio/mpeg"/>
+      <itunes:duration>0:09:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】8/3(月) 熊本地震死者38人／日米協調介入</title>
       <description>【AIデイリーニュース】8/3(月) 熊本地震死者38人／日米協調介入
 
