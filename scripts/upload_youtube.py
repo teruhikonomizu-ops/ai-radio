@@ -110,6 +110,33 @@ def upload_video(video_path, desc_path, show_type):
     print("[OK] YouTube への投稿が成功しました！", flush=True)
     print(f"URL: https://www.youtube.com/watch?v={video_id}", flush=True)
 
+    # 再生リストへの自動追加
+    try:
+        playlist_keyword = "世界のAIニュース" if show_type == "tech" else "AIデイリーニュース"
+        pl_res = youtube.playlists().list(mine=True, part="snippet", maxResults=50).execute()
+        target_pl_id = None
+        for item in pl_res.get("items", []):
+            if playlist_keyword in item["snippet"]["title"]:
+                target_pl_id = item["id"]
+                break
+
+        if target_pl_id:
+            youtube.playlistItems().insert(
+                part="snippet",
+                body={
+                    "snippet": {
+                        "playlistId": target_pl_id,
+                        "resourceId": {
+                            "kind": "youtube#video",
+                            "videoId": video_id
+                        }
+                    }
+                }
+            ).execute()
+            print(f"[OK] 再生リスト「{playlist_keyword}」に自動追加しました！", flush=True)
+    except Exception as e:
+        print(f"[NOTE] 再生リストの自動追加はスキップされました: {e}", flush=True)
+
 def main():
     if len(sys.argv) < 4:
         print("Usage: python upload_youtube.py <video_path> <desc_path> <show_type>")
