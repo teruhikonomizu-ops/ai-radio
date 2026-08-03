@@ -34,13 +34,19 @@ def create_video(audio_path, image_path, output_path):
         output_path
     ]
 
-    print(f"🎬 動画作成を開始します: {output_path}")
+    if hasattr(sys.stdout, 'reconfigure'):
+        try:
+            sys.stdout.reconfigure(encoding='utf-8')
+        except Exception:
+            pass
+
+    print(f"[INFO] 動画作成を開始します: {output_path}")
     res = subprocess.run(cmd, capture_output=True, text=True)
     if res.returncode != 0:
-        print(f"❌ ffmpeg でのエラーが発生しました:\n{res.stderr}")
+        print(f"[ERROR] ffmpeg でのエラーが発生しました:\n{res.stderr}")
         sys.exit(1)
 
-    print(f"✅ 動画の作成が完了しました: {output_path}")
+    print(f"[OK] 動画の作成が完了しました: {output_path}")
 
 def main():
     if len(sys.argv) < 4:

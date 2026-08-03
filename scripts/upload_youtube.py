@@ -86,7 +86,13 @@ def upload_video(video_path, desc_path, show_type):
         }
     }
 
-    print(f"🚀 YouTube への動画アップロードを開始します: {title}", flush=True)
+    if hasattr(sys.stdout, 'reconfigure'):
+        try:
+            sys.stdout.reconfigure(encoding='utf-8')
+        except Exception:
+            pass
+
+    print(f"[INFO] YouTube への動画アップロードを開始します: {title}", flush=True)
     media = MediaFileUpload(video_path, chunksize=-1, resumable=True)
     request = youtube.videos().insert(
         part=','.join(body.keys()),
@@ -101,8 +107,8 @@ def upload_video(video_path, desc_path, show_type):
             print(f"進捗: {int(status.progress() * 100)}%", flush=True)
 
     video_id = response.get("id")
-    print("🎉 YouTube への投稿が成功しました！", flush=True)
-    print(f"📺 動画URL: https://www.youtube.com/watch?v={video_id}", flush=True)
+    print("[OK] YouTube への投稿が成功しました！", flush=True)
+    print(f"URL: https://www.youtube.com/watch?v={video_id}", flush=True)
 
 def main():
     if len(sys.argv) < 4:
