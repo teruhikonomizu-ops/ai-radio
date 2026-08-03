@@ -54,6 +54,23 @@ def wrap_text(text, max_chars=36):
         lines.append(current)
     return lines
 
+def chunk_sentences(sentences, max_chars_per_slide=140):
+    """喋っている文章を溢れさせず複数スライドに分割するヘルパー"""
+    chunks = []
+    current_chunk = []
+    current_len = 0
+    for s in sentences:
+        if current_len + len(s) > max_chars_per_slide and current_chunk:
+            chunks.append(current_chunk)
+            current_chunk = [s]
+            current_len = len(s)
+        else:
+            current_chunk.append(s)
+            current_len += len(s)
+    if current_chunk:
+        chunks.append(current_chunk)
+    return chunks
+
 def parse_sections(script_path):
     if not os.path.exists(script_path):
         return []
@@ -61,7 +78,7 @@ def parse_sections(script_path):
     with open(script_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    sections = []
+    raw_sections = []
 
     # パターン1: # ヘッダーで区切られている場合 (newsラジオ等)
     if "#" in content:
@@ -76,7 +93,7 @@ def parse_sections(script_path):
                 raw_title = re.sub(r'^[#\s─\-]+|[─\-\s]+$', '', header_line).strip()
                 body_lines = lines[1:]
             else:
-                raw_title = "オープニング"
+                raw_title = "番組紹介"
                 body_lines = lines
 
             text_lines = [l for l in body_lines if not l.startswith("#")]
@@ -84,24 +101,16 @@ def parse_sections(script_path):
             if not full_text:
                 continue
 
-            # オープニング判定
             if idx == 0 or "オープニング" in raw_title:
                 title = "番組紹介"
             else:
                 title = raw_title or "ニュース"
 
             sentences = [s.strip() for s in re.split(r'[。！？\n]', full_text) if s.strip()]
-            bullets = sentences[:3]
-
-            sections.append({
-                "title": title,
-                "full_text": full_text,
-                "bullets": bullets,
-                "char_count": len(full_text)
-            })
+            raw_sections.append({"title": title, "sentences": sentences})
 
     # パターン2: ヘッダーがなく段落区切りの場合 (techラジオ等)
-    if not sections:
+    if not raw_sections:
         raw_paragraphs = [p.strip() for p in re.split(r'\n\s*\n', content) if p.strip()]
         topic_counter = 1
 
@@ -111,7 +120,6 @@ def parse_sections(script_path):
             if not full_text:
                 continue
 
-            # 冒頭（セクション0）はトピック1にせず「番組紹介」とする
             if idx == 0:
                 title = "番組紹介"
             elif "ダイジェスト" in full_text or "見出し" in full_text:
@@ -140,24 +148,28 @@ def parse_sections(script_path):
                 topic_counter += 1
 
             sentences = [s.strip() for s in re.split(r'[。！？\n]', full_text) if s.strip()]
-            bullets = sentences[:3]
+            raw_sections.append({"title": title, "sentences": sentences})
 
-            sections.append({
-                "title": title,
-                "full_text": full_text,
-                "bullets": bullets,
-                "char_count": len(full_text)
+    # 喋っている全文章を漏れなくスライド化 (1スライドに入り切らない場合は同タイトルで複数スライドに分割)
+    final_slides = []
+    for sec in raw_sections:
+        sentence_chunks = chunk_sentences(sec["sentences"], max_chars_per_slide=130)
+        for chunk in sentence_chunks:
+            chunk_text = " ".join(chunk)
+            final_slides.append({
+                "title": sec["title"],
+                "bullets": chunk,
+                "char_count": len(chunk_text)
             })
 
-    if not sections:
-        sections.append({
+    if not final_slides:
+        final_slides.append({
             "title": "番組紹介",
-            "full_text": "ニュースダイジェスト",
             "bullets": ["最新のニュースをお届けします"],
             "char_count": 100
         })
 
-    return sections
+    return final_slides
 
 def create_slide_image(output_path, show_type, section_title, bullets, date_str):
     width, height = 1920, 1080
@@ -188,7 +200,7 @@ def create_slide_image(output_path, show_type, section_title, bullets, date_str)
     draw.rectangle([80, 130, 1840, 230], fill=accent_color)
     draw.text((120, 150), f"{icon_symbol}  {section_title}", font=font_section, fill=text_white)
 
-    # 4. 箇条書きコンテンツパネル（全文章を改行表示）
+    # 4. 箇条書きコンテンツパネル（全文章を表示）
     panel_y_start = 260
     panel_y_end = 960
     draw.rectangle([80, panel_y_start, 1840, panel_y_end], fill=panel_color)
@@ -222,9 +234,9 @@ def create_multi_slide_video(audio_path, script_path, artwork_path, output_mp4_p
         sys.exit(1)
 
     total_duration = get_audio_duration(audio_path)
-    sections = parse_sections(script_path)
+    slides_data = parse_sections(script_path)
 
-    if not sections or not os.path.exists(script_path):
+    if not slides_data or not os.path.exists(script_path):
         if not os.path.exists(artwork_path):
             print("[ERROR] アートワーク画像も見つかりません")
             sys.exit(1)
@@ -237,7 +249,7 @@ def create_multi_slide_video(audio_path, script_path, artwork_path, output_mp4_p
         subprocess.run(cmd, check=True)
         return
 
-    total_chars = sum(s["char_count"] for s in sections) or 1
+    total_chars = sum(s["char_count"] for s in slides_data) or 1
     work_dir = os.path.dirname(os.path.abspath(output_mp4_path))
     slides_dir = os.path.join(work_dir, "slides")
     os.makedirs(slides_dir, exist_ok=True)
@@ -247,7 +259,7 @@ def create_multi_slide_video(audio_path, script_path, artwork_path, output_mp4_p
 
     concat_file_path = os.path.join(slides_dir, "concat.txt")
     with open(concat_file_path, "w", encoding="utf-8") as f:
-        for idx, s in enumerate(sections):
+        for idx, s in enumerate(slides_data):
             duration = max(3.0, (s["char_count"] / total_chars) * total_duration)
             slide_img_path = os.path.join(slides_dir, f"slide_{idx:02d}.png")
             create_slide_image(slide_img_path, show_type, s["title"], s["bullets"], date_str)
@@ -256,10 +268,10 @@ def create_multi_slide_video(audio_path, script_path, artwork_path, output_mp4_p
             f.write(f"file '{clean_path}'\n")
             f.write(f"duration {duration:.2f}\n")
 
-        clean_path = os.path.join(slides_dir, f"slide_{len(sections)-1:02d}.png").replace("\\", "/")
+        clean_path = os.path.join(slides_dir, f"slide_{len(slides_data)-1:02d}.png").replace("\\", "/")
         f.write(f"file '{clean_path}'\n")
 
-    print(f"[INFO] スライド動画を生成中 ({len(sections)} セクション)...", flush=True)
+    print(f"[INFO] スライド動画を生成中 (全 {len(slides_data)} スライド)...", flush=True)
     cmd = [
         "ffmpeg", "-y",
         "-f", "concat",
@@ -279,7 +291,7 @@ def create_multi_slide_video(audio_path, script_path, artwork_path, output_mp4_p
         print(f"[ERROR] FFmpegでエラーが発生しました:\n{res.stderr}")
         sys.exit(1)
 
-    print(f"[OK] スライド切り替え付き動画の生成が完了しました: {output_mp4_path}")
+    print(f"[OK] 全喋り文章網羅版スライド動画の生成が完了しました: {output_mp4_path}")
 
 def main():
     if len(sys.argv) < 4:
