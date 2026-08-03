@@ -166,12 +166,12 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: |
-          pip install google-auth-oauthlib google-api-python-client
+          pip install google-auth-oauthlib google-api-python-client pillow
           mp3="work/$SHOW-${{ steps.plan.outputs.today }}.mp3"
           mp4="work/$SHOW-${{ steps.plan.outputs.today }}.mp4"
           ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
           art="docs/$SHOW/artwork.png"
-          python3 scripts/create_video.py "$mp3" "$art" "$mp4"
+          python3 scripts/create_video.py "$mp3" "$ep/台本.txt" "$art" "$mp4" "$SHOW"
           python3 scripts/upload_youtube.py "$mp4" "$ep/概要欄.txt" "$SHOW"
 
       - name: フィード更新とコミット
