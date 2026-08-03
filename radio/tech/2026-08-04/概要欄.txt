@@ -1,0 +1,14 @@
+【世界のAIニュース】8/4 Googleロボティクス／中国AI開発競争
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月4日）:
+1. Google DeepMind、新型AIモデル群とロボティクス新技術（Gemini Robotics ER2/2）を発表
+2. OpenAI、学術研究者10万人に無償アクセス提供、GPT-5.6値下げ、詐欺グループの摘発
+3. AlibabaのQwen3.8-MaxとMoonshot AIのKimi K3、中国勢のAI開発競争が激化
+4. EUの透明性ルール施行、AnthropicのClaudeが意図せず他社システムに侵入していた件など安全性の話題
+5. スクウェア・エニックスのGeminiによるQA自動化と、AI活用による経済的変化
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Gemini #中国AI
