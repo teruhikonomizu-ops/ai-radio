@@ -48,44 +48,83 @@ def parse_sections(script_path):
     with open(script_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    raw_blocks = re.split(r'\n(?=#\s*)', content)
     sections = []
 
-    for block in raw_blocks:
-        lines = [l.strip() for l in block.split("\n") if l.strip()]
-        if not lines:
-            continue
-        
-        header_line = lines[0]
-        if header_line.startswith("#"):
-            title = re.sub(r'^[#\s─\-]+|[─\-\s]+$', '', header_line).strip()
-            body_lines = lines[1:]
-        else:
-            title = "ニュース"
-            body_lines = lines
+    # パターン1: # ヘッダーで区切られている場合 (newsラジオ等)
+    if "#" in content:
+        raw_blocks = re.split(r'\n(?=#\s*)', content)
+        for block in raw_blocks:
+            lines = [l.strip() for l in block.split("\n") if l.strip()]
+            if not lines:
+                continue
+            
+            header_line = lines[0]
+            if header_line.startswith("#"):
+                title = re.sub(r'^[#\s─\-]+|[─\-\s]+$', '', header_line).strip()
+                body_lines = lines[1:]
+            else:
+                title = "ニュース"
+                body_lines = lines
 
-        # コメント行や空行を除外
-        text_lines = [l for l in body_lines if not l.startswith("#")]
-        full_text = " ".join(text_lines)
-        if not full_text:
-            continue
+            text_lines = [l for l in body_lines if not l.startswith("#")]
+            full_text = " ".join(text_lines)
+            if not full_text:
+                continue
 
-        # 箇条書き用のセンテンス抽出
-        sentences = [s.strip() for s in re.split(r'[。！？\n]', full_text) if s.strip()]
-        bullets = sentences[:3]  # 上位3文
+            sentences = [s.strip() for s in re.split(r'[。！？\n]', full_text) if s.strip()]
+            bullets = sentences[:3]
 
-        sections.append({
-            "title": title or "ニュース",
-            "full_text": full_text,
-            "bullets": bullets,
-            "char_count": len(full_text)
-        })
+            sections.append({
+                "title": title or "ニュース",
+                "full_text": full_text,
+                "bullets": bullets,
+                "char_count": len(full_text)
+            })
+
+    # パターン2: ヘッダーがなく段落区切りの場合 (techラジオ等)
+    if not sections:
+        raw_paragraphs = [p.strip() for p in re.split(r'\n\s*\n', content) if p.strip()]
+        for idx, p in enumerate(raw_paragraphs):
+            lines = [l for l in p.split("\n") if not l.startswith("#")]
+            full_text = " ".join(lines)
+            if not full_text:
+                continue
+
+            # トピック名の自動抽出
+            if "一つ目" in full_text or "1つ目" in full_text:
+                title = "トピック 1"
+            elif "二つ目" in full_text or "2つ目" in full_text:
+                title = "トピック 2"
+            elif "三つ目" in full_text or "3つ目" in full_text:
+                title = "トピック 3"
+            elif "四つ目" in full_text or "4つ目" in full_text:
+                title = "トピック 4"
+            elif "五つ目" in full_text or "5つ目" in full_text:
+                title = "トピック 5"
+            elif "ダイジェスト" in full_text or "オープニング" in full_text:
+                title = "本日のハイライト"
+            elif "ここからは" in full_text or "そのほか" in full_text:
+                title = "注目のAIニュース"
+            elif "以上" in full_text or "おわり" in full_text:
+                title = "エンディング"
+            else:
+                title = f"トピック {idx + 1}"
+
+            sentences = [s.strip() for s in re.split(r'[。！？\n]', full_text) if s.strip()]
+            bullets = sentences[:3]
+
+            sections.append({
+                "title": title,
+                "full_text": full_text,
+                "bullets": bullets,
+                "char_count": len(full_text)
+            })
 
     if not sections:
         sections.append({
             "title": "今日のニュース",
             "full_text": "ニュースダイジェスト",
-            "bullets": ["最新のデイリーニュースをお届けします"],
+            "bullets": ["最新のテクノロジーニュースをお届けします"],
             "char_count": 100
         })
 
