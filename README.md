@@ -21,7 +21,9 @@ GitHub Actions (毎朝・cron)
   4. scripts/split_output.py   … 台本/概要欄に分割・文字数検査(不合格なら1回作り直し)
   5. scripts/tts_aivis.py      … AivisSpeech Engine(公式Dockerイメージ・CPU)で音声合成 → mp3
   6. 長さ検証(5〜15分の範囲外なら公開中止) → GitHub Release にmp3を添付
-  7. scripts/make_feed.py      … docs/<show>/feed.xml を再生成 → コミット(GitHub Pagesが配信)
+  7. scripts/create_video.py  … ffmpeg でアートワーク(PNG)+mp3を結合 → 1080p MP4動画を生成 (2026-08-03追加)
+  8. scripts/upload_youtube.py… YouTube Data API v3 で YouTube へ自動投稿 (2026-08-03追加)
+  9. scripts/make_feed.py      … docs/<show>/feed.xml を再生成 → コミット(GitHub Pagesが配信)
 ```
 
 - 声: morioki (AivisHub `baaae3c0-7b22-4605-8ba5-80c959b41a48`)。エンジンデータはActionsキャッシュで高速化
