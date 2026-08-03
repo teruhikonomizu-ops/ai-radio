@@ -41,6 +41,19 @@ def get_japanese_font(size):
                 pass
     return ImageFont.load_default()
 
+def wrap_text(text, max_chars=36):
+    """テキストを画面幅に合わせて自然に折り返すヘルパー"""
+    lines = []
+    current = ""
+    for char in text:
+        current += char
+        if len(current) >= max_chars:
+            lines.append(current)
+            current = ""
+    if current:
+        lines.append(current)
+    return lines
+
 def parse_sections(script_path):
     if not os.path.exists(script_path):
         return []
@@ -53,17 +66,17 @@ def parse_sections(script_path):
     # パターン1: # ヘッダーで区切られている場合 (newsラジオ等)
     if "#" in content:
         raw_blocks = re.split(r'\n(?=#\s*)', content)
-        for block in raw_blocks:
+        for idx, block in enumerate(raw_blocks):
             lines = [l.strip() for l in block.split("\n") if l.strip()]
             if not lines:
                 continue
             
             header_line = lines[0]
             if header_line.startswith("#"):
-                title = re.sub(r'^[#\s─\-]+|[─\-\s]+$', '', header_line).strip()
+                raw_title = re.sub(r'^[#\s─\-]+|[─\-\s]+$', '', header_line).strip()
                 body_lines = lines[1:]
             else:
-                title = "ニュース"
+                raw_title = "オープニング"
                 body_lines = lines
 
             text_lines = [l for l in body_lines if not l.startswith("#")]
@@ -71,11 +84,17 @@ def parse_sections(script_path):
             if not full_text:
                 continue
 
+            # オープニング判定
+            if idx == 0 or "オープニング" in raw_title:
+                title = "番組紹介"
+            else:
+                title = raw_title or "ニュース"
+
             sentences = [s.strip() for s in re.split(r'[。！？\n]', full_text) if s.strip()]
             bullets = sentences[:3]
 
             sections.append({
-                "title": title or "ニュース",
+                "title": title,
                 "full_text": full_text,
                 "bullets": bullets,
                 "char_count": len(full_text)
@@ -84,31 +103,41 @@ def parse_sections(script_path):
     # パターン2: ヘッダーがなく段落区切りの場合 (techラジオ等)
     if not sections:
         raw_paragraphs = [p.strip() for p in re.split(r'\n\s*\n', content) if p.strip()]
+        topic_counter = 1
+
         for idx, p in enumerate(raw_paragraphs):
             lines = [l for l in p.split("\n") if not l.startswith("#")]
             full_text = " ".join(lines)
             if not full_text:
                 continue
 
-            # トピック名の自動抽出
-            if "一つ目" in full_text or "1つ目" in full_text:
-                title = "トピック 1"
+            # 冒頭（セクション0）はトピック1にせず「番組紹介」とする
+            if idx == 0:
+                title = "番組紹介"
+            elif "ダイジェスト" in full_text or "見出し" in full_text:
+                title = "本日の主なニュース"
+            elif "一つ目" in full_text or "1つ目" in full_text:
+                title = f"トピック {topic_counter}"
+                topic_counter += 1
             elif "二つ目" in full_text or "2つ目" in full_text:
-                title = "トピック 2"
+                title = f"トピック {topic_counter}"
+                topic_counter += 1
             elif "三つ目" in full_text or "3つ目" in full_text:
-                title = "トピック 3"
+                title = f"トピック {topic_counter}"
+                topic_counter += 1
             elif "四つ目" in full_text or "4つ目" in full_text:
-                title = "トピック 4"
+                title = f"トピック {topic_counter}"
+                topic_counter += 1
             elif "五つ目" in full_text or "5つ目" in full_text:
-                title = "トピック 5"
-            elif "ダイジェスト" in full_text or "オープニング" in full_text:
-                title = "本日のハイライト"
+                title = f"トピック {topic_counter}"
+                topic_counter += 1
             elif "ここからは" in full_text or "そのほか" in full_text:
                 title = "注目のAIニュース"
             elif "以上" in full_text or "おわり" in full_text:
                 title = "エンディング"
             else:
-                title = f"トピック {idx + 1}"
+                title = f"トピック {topic_counter}"
+                topic_counter += 1
 
             sentences = [s.strip() for s in re.split(r'[。！？\n]', full_text) if s.strip()]
             bullets = sentences[:3]
@@ -122,9 +151,9 @@ def parse_sections(script_path):
 
     if not sections:
         sections.append({
-            "title": "今日のニュース",
+            "title": "番組紹介",
             "full_text": "ニュースダイジェスト",
-            "bullets": ["最新のテクノロジーニュースをお届けします"],
+            "bullets": ["最新のニュースをお届けします"],
             "char_count": 100
         })
 
@@ -142,8 +171,8 @@ def create_slide_image(output_path, show_type, section_title, bullets, date_str)
     draw = ImageDraw.Draw(img)
 
     font_title = get_japanese_font(44)
-    font_section = get_japanese_font(60)
-    font_bullet = get_japanese_font(38)
+    font_section = get_japanese_font(56)
+    font_bullet = get_japanese_font(34)
     font_footer = get_japanese_font(30)
 
     # 1. 上部アクセントバー
@@ -152,29 +181,38 @@ def create_slide_image(output_path, show_type, section_title, bullets, date_str)
     # 2. 番組ヘッダー
     show_name = "【AIデイリーニュース】" if show_type == "news" else "【世界のAIニュース】"
     header_text = f"{show_name}  {date_str}"
-    draw.text((80, 60), header_text, font=font_title, fill=accent_color)
+    draw.text((80, 50), header_text, font=font_title, fill=accent_color)
 
     # 3. トピックタイトルカード
-    draw.rectangle([80, 140, 1840, 240], fill=accent_color)
-    draw.text((120, 162), f"📌  {section_title}", font=font_section, fill=text_white)
+    icon_symbol = "🎙️" if section_title in ["番組紹介", "オープニング", "エンディング"] else "📌"
+    draw.rectangle([80, 130, 1840, 230], fill=accent_color)
+    draw.text((120, 150), f"{icon_symbol}  {section_title}", font=font_section, fill=text_white)
 
-    # 4. 箇条書きコンテンツパネル
-    panel_y_start = 280
-    panel_y_end = 940
+    # 4. 箇条書きコンテンツパネル（全文章を改行表示）
+    panel_y_start = 260
+    panel_y_end = 960
     draw.rectangle([80, panel_y_start, 1840, panel_y_end], fill=panel_color)
 
-    y_offset = panel_y_start + 50
+    y_offset = panel_y_start + 40
+    line_spacing = 46
+
     for b in bullets:
-        if len(b) > 42:
-            b = b[:41] + "…"
-        draw.text((130, y_offset), "・", font=font_bullet, fill=accent_color)
-        draw.text((170, y_offset), b, font=font_bullet, fill=text_white)
-        y_offset += 120
-        if y_offset > panel_y_end - 60:
+        wrapped_lines = wrap_text(b, max_chars=38)
+        for i, line_text in enumerate(wrapped_lines):
+            if y_offset > panel_y_end - 50:
+                break
+            if i == 0:
+                draw.text((120, y_offset), "・", font=font_bullet, fill=accent_color)
+                draw.text((160, y_offset), line_text, font=font_bullet, fill=text_white)
+            else:
+                draw.text((160, y_offset), line_text, font=font_bullet, fill=text_white)
+            y_offset += line_spacing
+        y_offset += 20  # 箇条書き間隔
+        if y_offset > panel_y_end - 50:
             break
 
     # 5. 下部フッター
-    draw.text((80, 990), "※ AI音声による全自動デイリーニュース配信", font=font_footer, fill=text_muted)
+    draw.text((80, 995), "※ AI音声による全自動デイリーニュース配信", font=font_footer, fill=text_muted)
 
     img.save(output_path)
 
@@ -186,7 +224,6 @@ def create_multi_slide_video(audio_path, script_path, artwork_path, output_mp4_p
     total_duration = get_audio_duration(audio_path)
     sections = parse_sections(script_path)
 
-    # 脚本が存在しない、または解析失敗時はアートワーク静止画へフォールバック
     if not sections or not os.path.exists(script_path):
         if not os.path.exists(artwork_path):
             print("[ERROR] アートワーク画像も見つかりません")
@@ -215,12 +252,10 @@ def create_multi_slide_video(audio_path, script_path, artwork_path, output_mp4_p
             slide_img_path = os.path.join(slides_dir, f"slide_{idx:02d}.png")
             create_slide_image(slide_img_path, show_type, s["title"], s["bullets"], date_str)
             
-            # FFmpeg concat の記述 (パスはスラッシュ区切り)
             clean_path = slide_img_path.replace("\\", "/")
             f.write(f"file '{clean_path}'\n")
             f.write(f"duration {duration:.2f}\n")
 
-        # concat仕様の最後のダミーリピート
         clean_path = os.path.join(slides_dir, f"slide_{len(sections)-1:02d}.png").replace("\\", "/")
         f.write(f"file '{clean_path}'\n")
 
