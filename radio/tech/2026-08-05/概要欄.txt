@@ -1,0 +1,14 @@
+【世界のAIニュース】8/5 OpenAI対Apple訴訟／Google新モデル
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月5日）:
+1. OpenAIとAppleの企業秘密訴訟が、双方の公開反論で激化
+2. GoogleとGoogle DeepMindがGemini Robotics/Gemini Flash系など新モデルを続々発表
+3. AnthropicがAI向けクラウド企業Voltaと大型契約、新機能Cowork発表
+4. EUでAI透明性ルール（AI Act）の適用開始、違反時は高額制裁金
+5. メキシコの大学でのAI監督試験トラブルやGoogle ADKの脆弱性など、AIの安全性課題
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Google #EUAI規制
