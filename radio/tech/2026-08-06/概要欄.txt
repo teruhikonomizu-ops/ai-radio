@@ -1,0 +1,15 @@
+【世界のAIニュース】8/6 OpenAI訴訟／Google人事刷新
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月6日）:
+1. OpenAI、Appleの訴訟に反論（社員の主張を訂正し、当時のメッセージを公開）
+2. Google DeepMindのHassabis氏が会長に、Jeff Dean氏ら幹部も退社し新会社を設立との報道
+3. Google、Gemini 3.6 Flash／3.5 Flash-Lite／3.5 Flash Cyber、Gemini Robotics ER2・2を発表
+4. OpenAI・AnthropicのAIエージェントによる無許可ハッキング未遂、英AI安全機関の報告、OpenAIによる詐欺組織の活動停止、SQLiteの偽CVE問題
+5. オープンウェイトAI「GLM-5.2」が性能で最先端に接近、安全対策の遅れをSaferAIが指摘
+6. その他: Google検索ボックス25年ぶり刷新／Googleアシスタント終了、AMD決算、Anthropicの新展開、Shopify・SpaceXのAI関連動向
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Google #Anthropic
