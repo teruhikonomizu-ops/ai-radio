@@ -11,6 +11,30 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/7 ChatGPT新モデル／Googleロボット新AI</title>
+      <description>【世界のAIニュース】8/7 ChatGPT新モデル／Googleロボット新AI
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月7日）:
+1. OpenAIがChatGPTの標準モデルを刷新、有料版はGPT-5.6 Sol、無料版はGPT-5.6 Lunaでテキストチャット無制限に
+2. OpenAIとAppleの企業秘密訴訟、双方の主張が対立
+3. Google DeepMindがGemini Robotics ER 2・Robotics 2などロボット向けAIとGemini 3.6 Flash系モデルを発表
+4. Googleのジェフ・ディーン氏が退社、新会社Discovery Loopを設立
+5. Anthropicが自社ハードウェア開発方針とデスクトップ新機能Coworkを発表
+6. Sunoが著作権対策として楽曲への透かし技術導入を発表
+7. このほか、AI企業による古書スキャン、DeepSeekの値上げ予告など
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #ChatGPT #GoogleDeepMind #Anthropic</description>
+      <pubDate>Fri, 07 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-07/tech-2026-08-07.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-07/tech-2026-08-07.mp3" length="9517392" type="audio/mpeg"/>
+      <itunes:duration>0:09:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/6 OpenAI訴訟／Google人事刷新</title>
       <description>【世界のAIニュース】8/6 OpenAI訴訟／Google人事刷新
 
