@@ -1,0 +1,17 @@
+【世界のAIニュース】8/8 ChatGPT無制限化／OpenAI新端末
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月8日）:
+1. OpenAI、ChatGPT無料ユーザー向けにテキストチャットを無制限化、GPT-5.6 Sol/Lunaを改善
+2. OpenAI、新モデル「Astra」の社内利用を一時停止、サイバーセキュリティ評価体制を強化
+3. OpenAIの新端末、Jony Ive氏デザインで価格300〜400ドルと判明、Appleとの訴訟にも反論
+4. Google DeepMind、Gemini 3.6 Flash等の新モデルとロボット・音楽・気象予測技術を発表
+5. Googleの生成AI部門で人事刷新、Jeff Dean氏らが異動
+6. Anthropic「Cowork」公開、Cloudflare・Railway・Nous Researchなど関連企業の動き
+7. Meta児童安全訴訟で追加5.67億ドルの支払い命令、ByteDanceが10兆パラメータモデルを開発
+8. 日本:法務省が声の無断利用に法的見解、PFN「PLaMo 3.0 Prime」が提供開始
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／VentureBeat／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #GoogleDeepMind #ChatGPT
