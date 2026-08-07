@@ -5,7 +5,10 @@ name: tech-radio
 
 on:
   schedule:
-    - cron: '0 19 * * *'   # 19:00 UTC = 日本時間 04:00
+    - cron: '0 19 * * *'   # 19:00 UTC = 日本時間 04:00(本線)
+    - cron: '0 22 * * *'   # 22:00 UTC = 日本時間 07:00(取りこぼし保険。本線が発火/成功していれば
+                            # 上の「日付と実行モードを判定」でmode=skipになり即終了・無駄なし。
+                            # GitHub Actionsのスケジュール実行は混雑時に発火自体が飛ぶことがあるための保険。2026-08-07追加)
   workflow_dispatch:
 
 permissions:
