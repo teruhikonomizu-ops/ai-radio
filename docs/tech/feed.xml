@@ -11,6 +11,28 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/9 アストラ停止／新型AIスピーカー</title>
+      <description>【世界のAIニュース】8/9 アストラ停止／新型AIスピーカー
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月9日）:
+1. OpenAI、新型モデル「Astra」の一部開発を停止(サイバー能力がCriticalレベルに到達の可能性)
+2. OpenAIの新型AIスピーカー、価格・デザインの詳細判明(Jony Ive氏デザイン、Apple提訴への反論も)
+3. Google DeepMind、Gemini新モデル群・ロボティクスAI・WeatherNext(台風予測)・Genesis Mission等を発表
+4. Meta、ニューメキシコ州の児童安全訴訟で追加5億6700万ドルの支払いを命じられる(総額9億4200万ドル)
+5. 日本国内外のその他の話題:声の無断利用を巡る法務省見解、PLaMo 3.0 Prime提供開始、Anthropicの安全対策見直し、Sunoの透かし導入など
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Google #Gemini</description>
+      <pubDate>Sun, 09 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-09/tech-2026-08-09.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-09/tech-2026-08-09.mp3" length="9756465" type="audio/mpeg"/>
+      <itunes:duration>0:10:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/8 ChatGPT無制限化／OpenAI新端末</title>
       <description>【世界のAIニュース】8/8 ChatGPT無制限化／OpenAI新端末
 
