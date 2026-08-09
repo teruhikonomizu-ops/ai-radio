@@ -1,0 +1,15 @@
+【世界のAIニュース】8/10 Astra停止／ChatGPT無制限化
+
+世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月10日）:
+1. OpenAIの新モデル「Astra」、サイバー能力の高さから一部開発を停止
+2. ChatGPT、無料・Goプランのユーザーも来週からテキストチャット無制限に
+3. Google DeepMind、ロボット向け新モデル「Gemini Robotics 2」等を発表
+4. Google DeepMindの気象AI「WeatherNext」、台風予測で進歩
+5. Anthropic、「Claude Code」の自動化機能「auto mode」を8/14からデフォルト化
+6. OpenAIの新型音声デバイス報道と、Appleの訴訟への反論
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／VentureBeat／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #ChatGPT #ClaudeCode
