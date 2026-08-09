@@ -45,11 +45,14 @@ jobs:
             echo "mode=full" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: 依存ツールを確認 (ffmpeg)
+      - name: 依存ツールを確認 (ffmpeg・日本語フォント)
         if: steps.plan.outputs.mode != 'skip'
         run: |
           if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
             sudo apt-get update && sudo apt-get install -y ffmpeg
+          fi
+          if ! fc-list 2>/dev/null | grep -qi "noto sans cjk"; then
+            sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
           fi
           ffmpeg -version | head -n 1
 
