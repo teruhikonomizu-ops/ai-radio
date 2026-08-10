@@ -1,0 +1,25 @@
+name: delete-video
+
+# 誤投稿したYouTube動画を削除する手動専用ユーティリティ。
+# 実行: Actionsタブ → delete-video → Run workflow → video_idを入力
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: "削除するYouTube動画ID(URLの watch?v= の後ろの部分)"
+        required: true
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 動画を削除
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          pip install google-auth-oauthlib google-api-python-client
+          python3 scripts/delete_youtube.py "${{ github.event.inputs.video_id }}"
