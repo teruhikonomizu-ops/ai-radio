@@ -3,7 +3,7 @@
   <channel>
     <title>AIデイリーニュース</title>
     <link>https://teruhikonomizu-ops.github.io/ai-radio/</link>
-    <description>AIがNHKニュース・Yahoo!ニュースの公式RSS見出しをもとに要約し、AI音声(AivisSpeech)でお届けする約10分のデイリーニュース。毎朝5時ごろ自動更新。</description>
+    <description>AIがNHKニュース・Yahoo!ニュースの公式RSS見出しをもとに要約し、AIアンドロイドのソラと相棒ロボットのピコがAI音声でお届けする約10分のデイリーニュース。毎朝5時ごろ自動更新。(音声: VOICEVOX)</description>
     <language>ja</language>
     <atom:link href="https://teruhikonomizu-ops.github.io/ai-radio/news/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>unizom</itunes:author>
@@ -11,18 +11,18 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>【AIデイリーニュース】8/10(月) 台風13号接近／熊本地震死者39人</title>
-      <description>【AIデイリーニュース】8/10(月) 台風13号接近／熊本地震死者39人
+      <title>【AIデイリーニュース】8/10(月) 台風13号接近／熊本地震死者39人に</title>
+      <description>【AIデイリーニュース】8/10(月) 台風13号接近／熊本地震死者39人に
 
-AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+AIアンドロイドのソラと、相棒ロボットのピコの掛け合いで、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
 
 【今日の主なニュース】
-・大型で非常に強い台風13号が沖縄本島の西の海上を進行、沖縄・奄美では長時間の風雨に厳重警戒
-・熊本地震の死者が39人に、専門家は日奈久断層帯の隣接領域がずれ動いたと分析
-・OpenAIがAIモデル「アストラ」の開発を一時中断、AIによるサイバー攻撃実行のおそれを理由に
-・アメリカ雇用統計で就業者数が市場予想に反し減少、円高ドル安が進行
-・食料自給率が37%と過去最低に、コメの価格高騰が影響
-・ウクライナ・キーウ州でロシアの攻撃が相次ぎ3人死亡
+・台風13号が沖縄本島の西を進行、沖縄・奄美で長時間の警戒続く
+・熊本地震の死者39人に、専門家は10年前の地震と隣り合う断層域の動きと分析
+・オープンAI、AIモデル「アストラ」の開発を一時中断、サイバー攻撃リスクを理由に
+・米雇用統計が市場予想を下回り円高ドル安に、東芝は最終利益4兆4000億円超
+・子どものSNS利用規制、高市首相が年末めどの法案化方針を指示
+・ロシアがウクライナ攻撃を継続、コロンビアでは親米派大統領が就任
 
 国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
 
@@ -32,8 +32,8 @@ AIがニュースを集めて要約し、AI音声でお届けする約10分の�
 #AIニュース #デイリーニュース #ニュースまとめ</description>
       <pubDate>Mon, 10 Aug 2026 05:00:00 +0900</pubDate>
       <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-10/news-2026-08-10.mp3</guid>
-      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-10/news-2026-08-10.mp3" length="9979237" type="audio/mpeg"/>
-      <itunes:duration>0:10:24</itunes:duration>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-10/news-2026-08-10.mp3" length="8722221" type="audio/mpeg"/>
+      <itunes:duration>0:09:05</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
