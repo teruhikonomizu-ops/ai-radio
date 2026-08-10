@@ -3,7 +3,7 @@
   <channel>
     <title>世界のAIニュース</title>
     <link>https://teruhikonomizu-ops.github.io/ai-radio/</link>
-    <description>世界のAI・テクノロジーの最新ニュースをAIが日本語で要約し、AIアンドロイドのソラと相棒ロボットのピコがAI音声でお届けする約10分の番組。毎朝4時ごろ自動更新。(音声: VOICEVOX)</description>
+    <description>世界のAI・テクノロジーの最新ニュースをAIが日本語で要約し、相棒ロボットのゼータがAI音声でお届けする約10分の番組。毎朝4時ごろ自動更新。</description>
     <language>ja</language>
     <atom:link href="https://teruhikonomizu-ops.github.io/ai-radio/tech/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>unizom</itunes:author>
@@ -11,28 +11,26 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>【世界のAIニュース】8/10 OpenAI Astra停止／ロボット新モデル</title>
-      <description>【世界のAIニュース】8/10 OpenAI Astra停止／ロボット新モデル
+      <title>【世界のAIニュース】8/10 Astra停止／ClaudeCode自動化</title>
+      <description>【世界のAIニュース】8/10 Astra停止／ClaudeCode自動化
 
-相棒ロボットのピコが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
 
 今日のトピック（2026年8月10日）:
-1. OpenAI、次期モデル「Astra」の一部開発を停止。サイバー能力が安全基準の最上位「Critical」水準に達した可能性
-2. ChatGPT、無料・Goプランでテキストチャット無制限に。GPT-5.6 Sol/Lunaもアップデート
-3. Google DeepMind、Gemini Robotics 2／ER 2やGemini 3.6 Flash系モデルを発表、WeatherNextが台風予測で成果
-4. Anthropic、Claude Codeの「auto mode」を8月14日から標準化
-5. Hugging Face侵害事件、AIエージェントが社内に"掲示板"を作っていた詳細をOpenAIがBlack Hatで説明
-6. Anthropic、Claude Fable 5の生物学分野の誤検知フォールバックを約85%削減
-7. OpenAI、Appleの訴訟に反論。Jony Ive氏共同開発のスピーカー型AI端末にも続報
-8. Google AI部門で人事異動、OpenAIは米国心理学会と若年層メンタルヘルス対策を推進
+1. OpenAI、次期モデル「Astra」のサイバー能力が最上位「Critical」水準に達した可能性、一部開発を停止
+2. Anthropic、「Claude Code」のコマンド許可確認を自動化する「auto mode」を8月14日からデフォルト化
+3. Google DeepMind、ロボット向けAI「Gemini Robotics 2/ER 2」と新型Geminiモデル群、台風予測AI「WeatherNext」の成果
+4. OpenAI、ChatGPT無料/Goユーザー向けにテキストチャット無制限化、GPT-5.6 Sol/Lunaを改善、Appleの訴訟に反論
+5. OpenAI、Hugging Face侵害事件の詳細をBlack Hat USA 2026で説明
+6. その他：Jony Ive氏とのAI端末報道、OpenAIによるNextSlide買収、Circlesの導入効果、Google AI部門の人事異動、Metaへの「公共の迷惑」認定
 
 出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
 
-#AI #人工知能 #テクノロジー #ニュース #OpenAI #GoogleDeepMind</description>
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #ClaudeCode</description>
       <pubDate>Mon, 10 Aug 2026 04:00:00 +0900</pubDate>
       <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-10/tech-2026-08-10.mp3</guid>
-      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-10/tech-2026-08-10.mp3" length="9277484" type="audio/mpeg"/>
-      <itunes:duration>0:09:40</itunes:duration>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-10/tech-2026-08-10.mp3" length="9013751" type="audio/mpeg"/>
+      <itunes:duration>0:09:23</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
