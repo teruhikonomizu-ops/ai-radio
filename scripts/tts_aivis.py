@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
-"""掛け合い台本(ソラ/ピコ) → VOICEVOX ENGINE(無料・OSS)で2話者音声合成 → mp3/wav。
+"""掛け合い台本(ソラ/ピコ) → AivisSpeech Engine(無料・OSS)で2話者音声合成 → mp3/wav。
 使い方:
-  python tts_voicevox.py 台本.txt 出力.mp3 \
-      [--sora-speaker "四国めたん"] [--pico-speaker "白上虎太郎"] \
+  python tts_aivis.py 台本.txt 出力.mp3 \
+      [--sora-speaker 497929760] [--pico-speaker 1878365376] \
       [--speed 1.0] [--sora-pitch 0.0] [--pico-pitch 0.0] \
       [--sora-intonation 1.0] [--pico-intonation 1.0]
-前提: VOICEVOX ENGINE が http://127.0.0.1:50021 で起動していること(公式Dockerイメージ voicevox/voicevox_engine)。
+前提: AivisSpeech Engine が http://127.0.0.1:10101 で起動していること(公式Dockerイメージ)。
+話者はVOICEVOX/AivisSpeech共通のキャラ名でも、styleIdの数字でも指定できる。
 台本の書き方:
   ・1行 = 1人のセリフ。行頭に「ソラ: 」または「ピコ: 」(半角コロン)
   ・空行 = 話者交代・段落の区切り(0.7秒の間が入る)
@@ -26,7 +27,7 @@ from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-BASE = "http://127.0.0.1:50021"
+BASE = "http://127.0.0.1:10101"
 PARA_PAUSE_SEC = 0.7
 SENT_PAUSE_SEC = 0.0
 SPEAKERS = ("ソラ", "ピコ")
@@ -43,7 +44,7 @@ def api(path: str, method="GET", body=None, timeout=180):
 
 
 def resolve_speaker(name_or_id: str):
-    """VOICEVOXのキャラ名(例:「四国めたん」)またはstyleIdの数字を、実際のstyleIdに解決する"""
+    """キャラ名(例:「四国めたん」)またはstyleIdの数字を、実際のstyleIdに解決する"""
     speakers = api("/speakers")
     styles = [(sp["name"], st["name"], st["id"]) for sp in speakers for st in sp["styles"]]
     if name_or_id.isdigit():
@@ -116,8 +117,8 @@ def main():
     version = api("/version")
     speaker_ids = {}
     for name, opt_key, default in (
-        ("ソラ", "--sora-speaker", "四国めたん"),
-        ("ピコ", "--pico-speaker", "白上虎太郎"),
+        ("ソラ", "--sora-speaker", "497929760"),
+        ("ピコ", "--pico-speaker", "1878365376"),
     ):
         sid, label = resolve_speaker(opts.get(opt_key, default))
         pitch = float(opts.get(f"--{'sora' if name == 'ソラ' else 'pico'}-pitch", "0.0"))
@@ -134,7 +135,7 @@ def main():
     frames = bytearray()
     params = None
     done = 0
-    segments = []  # 動画側の字幕・口パク同期用: 1行=1セグメント
+    segments = []  # 動画側の字幕・口パク同期用: 1文=1セグメント(行より細かく刻んで字幕のズレを防ぐ)
 
     def silence(sec):
         n = int(params.framerate * sec)
@@ -153,19 +154,18 @@ def main():
         speaker, line_text = item
         spk = speaker_ids[speaker]
         sentences = split_sentences(line_text)
-        line_start = None
         for si, s in enumerate(sentences):
+            sent_start = cur_time()
             wav_bytes = synthesize(s, spk["id"], speed, spk["pitch"], spk["intonation"])
             with wave.open(io.BytesIO(wav_bytes)) as w:
                 if params is None:
                     params = w.getparams()
-                if line_start is None:
-                    line_start = cur_time()
+                    sent_start = cur_time()
                 frames += w.readframes(w.getnframes())
+            segments.append({"speaker": speaker, "text": s,
+                              "start": round(sent_start, 3), "end": round(cur_time(), 3)})
             if sent_pause > 0 and si < len(sentences) - 1:
                 frames += silence(sent_pause)
-        segments.append({"speaker": speaker, "text": line_text,
-                          "start": round(line_start, 3), "end": round(cur_time(), 3)})
         done += 1
         if done % 10 == 0 or done == total:
             print(f"  {done}/{total} 行 合成済み")

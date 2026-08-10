@@ -1,6 +1,6 @@
 name: news-radio
 
-# AIデイリーニュース: 毎朝クラウドで 収集→台本(Claude、ソラ×ピコの掛け合い)→音声合成(VOICEVOX)→
+# AIデイリーニュース: 毎朝クラウドで 収集→台本(Claude、ソラ×ピコの掛け合い)→音声合成(AivisSpeech)→
 #   配信(Release+RSS)→YouTube動画(立ち絵+字幕) まで無人実行
 # 手動実行: Actionsタブ → news-radio → Run workflow
 
@@ -21,7 +21,8 @@ concurrency:
 env:
   TZ: Asia/Tokyo
   SHOW: news
-  VOICEVOX_ARGS: "--sora-speaker 四国めたん --pico-speaker 白上虎太郎 --speed 0.95 --sentpause 0.2 --parapause 0.8"
+  MODEL_UUID: baaae3c0-7b22-4605-8ba5-80c959b41a48   # morioki(ソラ役・AivisHub)
+  AIVIS_ARGS: "--sora-speaker 497929760 --pico-speaker 1878365376 --pico-pitch -0.09 --pico-intonation 0.85 --speed 0.90 --sentpause 0.2 --parapause 0.8"
 
 jobs:
   build:
@@ -56,22 +57,42 @@ jobs:
           fi
           ffmpeg -version | head -n 1
 
-      - name: VOICEVOX ENGINE を起動 (Docker・無料OSS。ソラ/ピコの声はキャラは全て内蔵済みでモデルDL不要)
+      - name: 音声エンジンのデータをキャッシュから復元
+        if: steps.plan.outputs.mode != 'skip'
+        uses: actions/cache@v4
+        with:
+          path: engine-data
+          key: aivis-engine-${{ env.MODEL_UUID }}-v1
+
+      - name: AivisSpeech Engine を起動 (Docker)
         if: steps.plan.outputs.mode != 'skip'
         run: |
-          mkdir -p work
-          docker run -d --name voicevox -p 50021:50021 voicevox/voicevox_engine:cpu-latest
-          echo "エンジンの起動を待機中..."
-          for i in $(seq 1 60); do
+          mkdir -p engine-data work
+          sudo chown -R 1000:1000 engine-data
+          docker run -d --name aivis -p 10101:10101 \
+            -v "$PWD/engine-data:/home/user/.local/share/AivisSpeech-Engine-Dev" \
+            ghcr.io/aivis-project/aivisspeech-engine:cpu-latest
+          echo "エンジンの起動を待機中(初回はモデルDLで数分かかる)..."
+          for i in $(seq 1 120); do
             sleep 5
-            if curl -fsS http://127.0.0.1:50021/version >/dev/null 2>&1; then
-              echo "エンジン起動OK: $(curl -fsS http://127.0.0.1:50021/version)"
+            if curl -fsS http://127.0.0.1:10101/version >/dev/null 2>&1; then
+              echo "エンジン起動OK: $(curl -fsS http://127.0.0.1:10101/version)"
               exit 0
             fi
           done
-          echo "エンジンが5分以内に起動しなかった"
-          docker logs voicevox
+          echo "エンジンが10分以内に起動しなかった"
+          docker logs aivis
           exit 1
+
+      - name: 声モデル (morioki・ソラ役) を用意
+        if: steps.plan.outputs.mode != 'skip'
+        run: |
+          if curl -fsS http://127.0.0.1:10101/aivm_models | grep -q "$MODEL_UUID"; then
+            echo "モデルはキャッシュ済み"
+          else
+            echo "AivisHubから声モデルをダウンロード..."
+            python3 scripts/install_model.py "$MODEL_UUID"
+          fi
 
       - name: ニュース収集 (公式RSS)
         if: steps.plan.outputs.mode == 'full'
@@ -113,12 +134,12 @@ jobs:
           cp work/script.txt "$ep/台本.txt"
           cp work/desc.txt "$ep/概要欄.txt"
 
-      - name: 音声合成 (VOICEVOX・ソラ×ピコ)
+      - name: 音声合成 (AivisSpeech・ソラ×ピコ)
         if: steps.plan.outputs.mode != 'skip'
         run: |
           mkdir -p work
           ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
-          python3 scripts/tts_voicevox.py "$ep/台本.txt" "work/$SHOW-${{ steps.plan.outputs.today }}.mp3" $VOICEVOX_ARGS
+          python3 scripts/tts_aivis.py "$ep/台本.txt" "work/$SHOW-${{ steps.plan.outputs.today }}.mp3" $AIVIS_ARGS
 
       - name: 長さ検証とメタ情報の生成
         if: steps.plan.outputs.mode != 'skip'
@@ -169,3 +190,7 @@ jobs:
           git commit -m "$SHOW ${{ steps.plan.outputs.today }}"
           git pull --rebase origin main
           git push
+
+      - name: キャッシュ保存用にファイル所有権を戻す
+        if: always() && steps.plan.outputs.mode != 'skip'
+        run: sudo chown -R "$(id -u):$(id -g)" engine-data 2>/dev/null || true
