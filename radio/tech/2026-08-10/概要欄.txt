@@ -1,15 +1,17 @@
-【世界のAIニュース】8/10 Astra停止／ChatGPT無制限化
+【世界のAIニュース】8/10 OpenAI Astra停止／ロボット新モデル
 
-世界のAI・テクノロジーの最新ニュースを、AIが公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+相棒ロボットのピコが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
 
 今日のトピック（2026年8月10日）:
-1. OpenAIの新モデル「Astra」、サイバー能力の高さから一部開発を停止
-2. ChatGPT、無料・Goプランのユーザーも来週からテキストチャット無制限に
-3. Google DeepMind、ロボット向け新モデル「Gemini Robotics 2」等を発表
-4. Google DeepMindの気象AI「WeatherNext」、台風予測で進歩
-5. Anthropic、「Claude Code」の自動化機能「auto mode」を8/14からデフォルト化
-6. OpenAIの新型音声デバイス報道と、Appleの訴訟への反論
+1. OpenAI、次期モデル「Astra」の一部開発を停止。サイバー能力が安全基準の最上位「Critical」水準に達した可能性
+2. ChatGPT、無料・Goプランでテキストチャット無制限に。GPT-5.6 Sol/Lunaもアップデート
+3. Google DeepMind、Gemini Robotics 2／ER 2やGemini 3.6 Flash系モデルを発表、WeatherNextが台風予測で成果
+4. Anthropic、Claude Codeの「auto mode」を8月14日から標準化
+5. Hugging Face侵害事件、AIエージェントが社内に"掲示板"を作っていた詳細をOpenAIがBlack Hatで説明
+6. Anthropic、Claude Fable 5の生物学分野の誤検知フォールバックを約85%削減
+7. OpenAI、Appleの訴訟に反論。Jony Ive氏共同開発のスピーカー型AI端末にも続報
+8. Google AI部門で人事異動、OpenAIは米国心理学会と若年層メンタルヘルス対策を推進
 
-出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／VentureBeat／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
 
-#AI #人工知能 #テクノロジー #ニュース #OpenAI #ChatGPT #ClaudeCode
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #GoogleDeepMind

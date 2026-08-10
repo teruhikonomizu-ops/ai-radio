@@ -1,4 +1,4 @@
-# AIニュースダイジェスト 2026-08-10 04:26
+# AIニュースダイジェスト 2026-08-10 10:24
 # (en)=英語ソース=台本で日本語に要約 / (ja)=日本語ソース
 
 ## OpenAI (en)
@@ -38,6 +38,7 @@
 - Google DeepMind and A24 announce first-of-its-kind research partnership
 
 ## TechCrunch AI (en)
+- Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry — The AI-focused hedge fund is still making some big bets.
 - Anthropic is turning Claude Code’s auto mode on by default — Programming with Claude Code will soon require even less human oversight.
 - Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy — On the latest episode of Equity, we spoke to Jill Lepore about "government by machines" and why Elon Musk is a bad science fiction reader.
 - The AI safety test is becoming a safety risk — AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry stand
@@ -47,7 +48,6 @@
 - After Rippling blew millions on AI in months, it built an employee ROI tool — After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.
 - Cloudflare launches Kitesurf, a browser built for AI agents — Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping dev
 - Airbnb says AI is helping it ship features faster as it tests a new search function — Airbnb will debut a new AI-powered search experience with a toggle.
-- Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers — Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they re forming a new governmen
 
 ## The Verge AI (en)
 - AI detectors are creating a new era of distrust — This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow 
@@ -95,18 +95,21 @@
 - Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment — Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday 
 
 ## ITmedia AI＋ (ja)
+- Salesforce「サポート部門9000→5000人」は人員削減ではない AI時代に生き残る“配置転換” — 米SalesforceがAI導入に伴いサポート人員を「9000人から5000人規模へ再配置」した。この動向は、AI時代のキャリア変革を象徴している。同社日本法人では、全社員に毎年更新の「AI免許」取得を義務付け、現場でAIを即興実装する新職種「FDE」を生み出すなど、人材育成と評価構造の再定義を推進。解雇や単純削減では
+- 中国AI「DeepSeek」、設立3年・残業ゼロで「ChatGPTのライバル」にのし上がった若き創業者の手腕 — 中国のAI大手DeepSeekは、残業ゼロで「ChatGPTのライバル」と言わしめる立場にまで登り詰めた。若き創業者の驚くべき経営手腕とは。
+- 「Windowsの重い・遅い」の性能分析に専門知識はもう不要？ Microsoftが新ツール — Windowsの動作遅延や高負荷は、情シスを悩ませる問題の一つだ。これまでは、原因究明に向けたログ解析や分析の難しさが対応の壁となっていた。専門的な知識がなくてもスピーディーに原因を特定できるツールが発表された。
+- シャープが2026年9月からAIサーバ事業を開始、2026年度業績は円安で下方修正 — シャープは2026年度第1四半期の決算説明会において、新規事業となるAIサーバ事業の受注活動を2026年9月に開催予定の同事業の説明会に合わせて開始すると発表した。
 - 「Claude Code」、AIが権限確認を代行する「auto mode」がデフォルトに 8月14日から — Anthropicは、AIコーディングツール「Claude Code」で、コマンド実行前の権限確認を自動化する「auto mode」をデフォルト化すると発表した。危険なコマンドを分類器が自動でブロックする仕組みで、人間による確認の形骸化を防ぐ。実験では人間の拒否率を大きく上回る検出精度を示し、作業効率の向上も確認されて
 - 「Claude Code」にセッション同士がメッセージを送り合う機能 macOSとLinuxに — AnthropicはAIコーディングツール「Claude Code」に、起動中の複数セッション間でメッセージを相互送信できる新機能を追加した。作業の変更や移行プロセスの進捗などをClaudeが自律的に連携する。セキュリティに配慮し共有はテキストのみに制限され、ローカル間通信では外部サーバを経由しない仕様だ。
 - Hugging Face侵害、AIエージェントは社内に“秘密の掲示板”を作っていた──OpenAIがBlack Hatで詳細説明 — OpenAIは、7月に発覚したHugging Face侵害インシデントの詳細を「Black Hat USA 2026」で説明した。評価中のAIエージェントたちが社内のパッケージ管理システムを“掲示板”として使い、脆弱性やスクリプトを共有して協調していたという。掲示板は一度消去されたが、2日後に別の手段で再構築されていた
 - Google Chromeの新機能「Skills」 AIプロンプトの“毎回手打ち”を不要に — GoogleはChrome向けのAI新機能「Skills in Chrome」を発表した。AIプロンプトを保存してワンクリックで再利用可能にするという。
 - Anthropic、「Fable 5」の生物学の制限を緩和 誤検知によるフォールバックを約85％削減 — Anthropicは、AIモデル「Claude Fable 5」の生物学分野における過度な保護機能を緩和したと発表した。安全性を重視するあまり発生していた無害な質問への誤検知や下位モデルへのフォールバックを大幅に削減。専門的な二重用途研究への制限は維持しつつ、一般的な健康・教育用途での利便性を向上させた。
 - OpenAI、次期モデル「Astra」の一部開発を停止 「Critical」級サイバー能力の可能性否定できず — OpenAIは、次期主力モデル「Astra」のサイバー能力が自社の安全指針における最上位「Critical」に達している可能性を発表した。要件を満たさない一部活動を停止し、リアルタイム監視や思考過程の評価など管理を強化する。能力を抑制するのではなく、政府機関や外部組織と協力して検証と安全策の提供を進める方針だ。
-- 「声の無断利用」が権利侵害に――法務省が見解を明示 「AIカバー」も対象 — 法務省は、生成AIの普及によって声優などの声が無断利用されている問題を巡り、声も既存の権利で法的に保護できるとの見解を明示した。本人の声を模したAI音声によるカバー音源なども権利侵害の可能性があるという。
-- シャープ、通期純利益見通し170億円下方修正 円安など影響 AIサーバは9月に参入 — シャープは7日、2027年3月期の連結純利益が前期比47.3％減の250億円になる見通しだと発表した。期初予想から170億円下方修正した。樹脂・燃料の価格上昇や円安が収益を圧迫する。営業利益は190億円引き下げて300億円。売上高は1兆7700億円に据え置いた。
-- 「就活に生成AI利用」ほぼ全員に 面接で内容追及され困惑も — 2027年春に卒業予定の大学生らを対象に行ったアンケートで、就職活動で生成AIを「利用していない」とした割合は3％にとどまり、ほぼ全ての学生が就活で何らかの形で生成AIを活用している実態が、人事分野の調査研究機関HR総研（東京都千代田区）などの調査で分かった。
-- 「声」の権利明記 生成AIで無断利用、法務省が民事責任の解釈指針を公表 — 著名人の肖像などが生成AIで無断利用されている問題を巡り、法務省は声優らの「声」も法的保護の対象になると明記した解釈指針を公式サイトで公表した。肖像や氏名の無断利用については最高裁判例があるが、声については違法性の線引きが曖昧だった。権利侵害に当たる具体的な事例も盛り込み、生成AIサービスの提供事業者や利用者にも注意を
 
 ## GIGAZINE (ja)
+- どんなゲーム機を持ってる？欲しいゲーム機は？好きなゲームのジャンルは？などGIGAZINE読者のゲーム事情を徹底調査してみた — GIGAZINEには「ゲーム」カテゴリがあるように、さまざまなゲームの最新情報を記事化したり、実際にプレイしてレビュー記事を公開したりしています。そんなGIGAZINE読者は一体どの程度ゲームをプレイしているのか気になったので、毎年3回実施しているプレゼントアンケートで調査してみました。 続きを読む...
+- 半導体がどうやって作られるかがゲーム風のビジュアルと説明で簡単にすぐわかる「ChipTycoon」 — 半導体製造プロセスをアニメーションで視覚化した「Chip Tycoon」が公開されました。ミニチュア工場でぐるぐると動き回る半導体を見ながら製造プロセスを理解することができます。 続きを読む...
+- 生まれた順番と病気のリスクに関連はあるのか？ — 同じ親から生まれ同じ家庭で育つ兄弟でも、体質や健康状態が同じとは限りません。シカゴ大学のベンジャミン・クレイマー氏らの研究チームが、アメリカの商用医療保険データに含まれる2人兄弟1000万人超を対象に、生まれた順番と病気の診断傾向にどのような関係があるのかを調査しました。 続きを読む...
 - 18歳以下入場禁止なワンダーフェスティバル 2026[夏]の成人向けエリアのアイテムいろいろ — 「世界最大級の造形・フィギュアの祭典」であるワンダーフェスティバルには多種多様な造形物が集結していますが、参加者数増加などの理由によって、「成人向け」のアイテムについては18歳以下入場禁止エリアに分けられています。2026年7月26日に開催されたワンダーフェスティバル 2026[夏]ではエリア内がどんな様子だったか、ち
 - 宗教的な集まりに参加することに直接的なメンタルヘルス改善効果はないとの研究結果 — 数十年にわたるさまざまな研究で、宗教的な行事や集会への参加と良好なメンタルヘルスとの間に強い相関関係があることが示唆されてきました。ところが、長期的なデータを分析した新たな研究では、宗教儀式への参加には直接的なメンタルヘルス改善効果はないことが明らかとなっています。 続きを読む...
 - がん関連ウイルスを大幅に減少させるチューインガムが開発される — ペンシルベニア大学の研究者らが、がん予防効果のあるチューインガムを開発しました。チューインガムをかむだけで、首から顔の領域にできる「頭頸部(とうけいぶ)がん」に関連する微生物を標的としてウイルス1種と細菌2種を大幅に減少させたことが報告されています。 続きを読む...
@@ -114,11 +117,9 @@
 - 見えないドローン「ファントム・ツイスト」、本体ごと高速回転して姿を消しつつ飛行可能 — 「見えないドローン」をアメリカ・ノースウェスタン大学の研究グループが開発しました。「ファントム・ツイスト(Phantom Twist)」と名付けられたこのドローンは、高速回転する扇風機の羽根やプロペラの形状が見えにくくなる「モーションブラー」を利用して姿を隠します。 続きを読む...
 - 無料で画像・動画・音声・データ・ドキュメントなどあらゆるファイルを自分のローカルPC内で変換できるオープンソースのセルフホスト型ファイルコンバーター「Transmute」、ファイルサイズ制限や透かしの追加など一切なしでユーザー作成も可能 — 画像や動画・音声・文書などのファイル形式を変換するオンラインサービスは手軽に利用できますが、容量制限が設けられていたり機密性のあるファイルを外部サーバーへ送信しなければならなかったりします。「Transmute」なら自分のPCや管理下のサーバー内で幅広いファイル形式を変換・圧縮できるオープンソースのセルフホスト型ファイ
 - センサー式でフタが自動開閉してニオイの拡散を防ぐ山善「センサー付きごみ箱 40L」を動かしてみた — 暑い季節になるとゴミの臭いが気になるもので、対策としてフタ付きのごみ箱を使いたいところ。山善の「センサー付きごみ箱 40L」(ESTW-40)はフタ部分にセンサーが内蔵されていて、手をかざすと自動開閉してくれるということで、夏のプレゼント大放出企画に提供してもらった品で実際に開閉してみました。 続きを読む...
-- メカニカルスイッチを搭載した高級キーボード「HHKB Studio」を使ってみた — 「Happy Hacking Keyboard(HHKB)」はキーボードにこだわる人々から愛されている傑作キーボードで、「ファンクションキーを廃したコンパクト設計」や「静電容量無接点方式のスイッチによる上質な打鍵感」を特徴としています。2023年に登場したHHKB StudioはHHKBのキー配列はそのままに、静電容量
-- アニメーションっぽく画像が動く「レグレッシブJPEG」とは？ — 「レグレッシブJPEG」とはJPEGのプログレッシブ表示機能とスキャン範囲の制御を利用して単一の画像ファイル内に複数の画像を埋め込み、アニメーションやビデオのように見せる技術です。レグレッシブJPEGとはどんなものかについては以下のブログサイトで解説しています。 続きを読む...
-- コンパクトなのに10000mAhの大容量で最大3台のデバイスを同時充電できる半固体モバイルバッテリー「SMARTCOBY Pro SLIM SS」レビュー — 夏になり暑い日が続きますが、電車内や駅構内でモバイルバッテリーやハンディファンが発火する事案が報告されており、東急電鉄は車内でのモバイルバッテリーの使用を控えるようお願いが出されるほど問題になっています。そんな発火の危険性を低減することに成功した半固体モバイルバッテリーが「SMARTCOBY Pro SLIM SS」で
 
 ## Yahoo IT (ja)
+- AI「暴走」自律的攻撃に米危機感
 - SNSで紹介した川で事故 責任は
 - イオン爆発巡り 遺族装う投稿拡散
 - 日本郵便で一時システム障害
@@ -126,6 +127,5 @@
 - オープンAI 対話スピーカー発売か
 - グーグル幹部退社 AI競争に危機感
 - 貴重な都市鉱山?「Eゴミ」の課題
-- 秋田にAIデータセンター建設へ
 
 (取得成功 11/11 ソース)
