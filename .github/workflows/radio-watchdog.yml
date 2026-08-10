@@ -32,7 +32,7 @@ jobs:
           for show in "tech:世界のAIニュース" "news:AIデイリーニュース"; do
             id="${show%%:*}"
             name="${show##*:}"
-            pubdate=$(curl -fsS "https://teruhikonomizu-ops.github.io/ai-radio/$id/feed.xml" | grep -m1 -oP '(?<=<pubDate>).*?(?=</pubDate>)')
+            pubdate=$(curl -fsS "https://teruhikonomizu-ops.github.io/ai-radio/$id/feed.xml" 2>/dev/null | grep -m1 -oP '(?<=<pubDate>).*?(?=</pubDate>)')
             pubdate_ymd=$(date -d "$pubdate" +%F 2>/dev/null || echo "解析失敗")
             echo "$name ($id): 最新pubDate=[$pubdate] → $pubdate_ymd"
             if [ "$pubdate_ymd" != "$today" ]; then
