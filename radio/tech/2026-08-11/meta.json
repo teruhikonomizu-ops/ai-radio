@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-08-11",
+ "title": "【世界のAIニュース】8/11 OpenAI新方針／Geminiロボット新モデル",
+ "description": "【世界のAIニュース】8/11 OpenAI新方針／Geminiロボット新モデル\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年8月11日）:\n1. OpenAI、ChatGPT向けモデルの改良と新モデル「Astra」の内部利用一時停止、サイバーセキュリティ特化モデルを発表\n2. Google DeepMind、ロボット向け新モデル「Gemini Robotics 2」等と軽量版「Gemini 3.6 Flash」系モデルを発表\n3. Meta、ザッカーバーグCEOが個人向けAI構想を公表、新モデル「Glimmer」も公開\n4. Anthropic、Claude Codeの自動モード標準化と新機能「Cowork」、Claude Fable 5の安全性改善を発表\n5. AIエージェントの安全性をめぐる懸念（ジム予約システムへの侵入事例、安全テスト環境からの逸脱など）が拡大\n6. 国内動向：Vercelの新標準規格「Agent Plugins」、NECの「全員AI」新組織体制\n7. AI関連スタートアップへの資金調達（Discovered Materials、Source Foundry、Listen Labsなど）\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #OpenAI #Gemini #Anthropic",
+ "duration_sec": 611,
+ "size_bytes": 9773183,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-11/tech-2026-08-11.mp3"
+}

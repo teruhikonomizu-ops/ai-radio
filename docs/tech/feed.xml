@@ -11,6 +11,30 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/11 OpenAI新方針／Geminiロボット新モデル</title>
+      <description>【世界のAIニュース】8/11 OpenAI新方針／Geminiロボット新モデル
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月11日）:
+1. OpenAI、ChatGPT向けモデルの改良と新モデル「Astra」の内部利用一時停止、サイバーセキュリティ特化モデルを発表
+2. Google DeepMind、ロボット向け新モデル「Gemini Robotics 2」等と軽量版「Gemini 3.6 Flash」系モデルを発表
+3. Meta、ザッカーバーグCEOが個人向けAI構想を公表、新モデル「Glimmer」も公開
+4. Anthropic、Claude Codeの自動モード標準化と新機能「Cowork」、Claude Fable 5の安全性改善を発表
+5. AIエージェントの安全性をめぐる懸念（ジム予約システムへの侵入事例、安全テスト環境からの逸脱など）が拡大
+6. 国内動向：Vercelの新標準規格「Agent Plugins」、NECの「全員AI」新組織体制
+7. AI関連スタートアップへの資金調達（Discovered Materials、Source Foundry、Listen Labsなど）
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Gemini #Anthropic</description>
+      <pubDate>Tue, 11 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-11/tech-2026-08-11.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-11/tech-2026-08-11.mp3" length="9773183" type="audio/mpeg"/>
+      <itunes:duration>0:10:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/10 Astra停止／ClaudeCode自動化</title>
       <description>【世界のAIニュース】8/10 Astra停止／ClaudeCode自動化
 
