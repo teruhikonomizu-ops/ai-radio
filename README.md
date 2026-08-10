@@ -1,7 +1,7 @@
 # ai-radio — AIラジオ2番組の全自動クラウド生成・配信
 
-毎朝、GitHub Actions がクラウド上で「ニュース収集 → 台本執筆(Claude、ソラ×ピコの掛け合い) →
-音声合成(AivisSpeech) → ポッドキャスト配信(RSS) → YouTube動画(立ち絵+字幕)」まで無人実行する。
+毎朝、GitHub Actions がクラウド上で「ニュース収集 → 台本執筆(Claude) →
+音声合成(AivisSpeech) → ポッドキャスト配信(RSS) → YouTube動画(立ち絵+大きな字幕)」まで無人実行する。
 **PCの電源は不要。人の作業もゼロ。**
 
 | 番組 | 実行時刻(JST) | フィードURL |
@@ -13,10 +13,13 @@
 
 ## 登場キャラクター(unizomのオリジナルIP・2026-08-10導入)
 
-両番組とも、AIアンドロイド「**ソラ**」(ニュースを読む進行役)と、相棒ロボット「**ピコ**」(合いの手・反応役)
-の掛け合い形式。見た目はHiggsfieldで1から作った完全オリジナルデザイン(`assets/characters/`)で、既存の
-版権キャラ(ずんだもん等)とは無関係。声はAivisSpeech(無料・OSS)のmorioki(ソラ役)・コハク候補6(ピコ役)。
+番組ごとに専属の1キャラがソロで読み上げる(掛け合いではない)。
+- **AIデイリーニュース**: AIアンドロイド「**ソラ**」。声はAivisSpeechのmorioki
+- **世界のAIニュース**: 相棒ロボット「**ピコ**」。声はAivisSpeechのコハク候補6
+
 どちらも元々ニュースラジオ/AIテックラジオで使っていた声で、キャラクターが変わっても声は据え置き。
+見た目はHiggsfieldで1から作った完全オリジナルデザイン(`assets/characters/`、胸元にunizomロゴ入り)で、
+既存の版権キャラ(ずんだもん等)とは無関係。
 
 ## 仕組み
 
@@ -24,13 +27,13 @@
 GitHub Actions (毎朝・cron)
   1. scripts/collect_news.py    … 公式RSS(NHK/Yahoo!)から見出し収集 → digest.md
   2. scripts/check_digest.py    … 取得成功が半分未満なら中止(誤報防止)
-  3. claude -p                  … prompts/<show>.md のルールでソラ×ピコの掛け合い台本+概要欄を執筆
+  3. claude -p                  … prompts/<show>.md のルールで番組専属キャラのソロ台本+概要欄を執筆
                                    (CLAUDE_CODE_OAUTH_TOKEN シークレット=Claude定額プラン内)
   4. scripts/split_output.py    … 台本/概要欄に分割・文字数検査(不合格なら1回作り直し)
-  5. scripts/tts_aivis.py       … AivisSpeech Engine(公式Dockerイメージ・CPU・無料)で2話者音声合成
+  5. scripts/tts_aivis.py       … AivisSpeech Engine(公式Dockerイメージ・CPU・無料)で音声合成
                                    → mp3 + 文単位のタイミング情報(*.segments.json)
   6. 長さ検証(5〜15分の範囲外なら公開中止) → GitHub Release にmp3を添付
-  7. scripts/create_video.py    … segments.jsonを使いソラ/ピコの立ち絵(口パク)+字幕を合成 → 1080p MP4
+  7. scripts/create_video.py    … segments.jsonを使いキャラの立ち絵(口パク)+大きな字幕を合成 → 1080p MP4
   8. scripts/upload_youtube.py  … YouTube Data API v3 で YouTube へ自動投稿
   9. scripts/make_feed.py       … docs/<show>/feed.xml を再生成 → コミット(GitHub Pagesが配信)
 ```
