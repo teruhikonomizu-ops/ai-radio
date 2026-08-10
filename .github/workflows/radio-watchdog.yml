@@ -1,0 +1,47 @@
+name: radio-watchdog
+
+# ラジオ2番組(tech-radio/news-radio)は「1セット」。
+# 本線・保険どちらのcronも終わった後の時間帯に、両番組の当日分が
+# ちゃんとRSSに乗っているかだけを確認する。片方でも欠けていたらジョブを失敗させ、
+# GitHub Actionsの標準の失敗メールで teruhiko.nomizu@gmail.com に知らせる。
+# (tech-radio/news-radio自体の失敗メールと違い、これは「保険まで含めて本当に
+#  当日分が出ているか」を見るので、リトライで自己解決したケースでは鳴らない)
+#
+# 手動確認: Actionsタブ → radio-watchdog → Run workflow
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 01:00 UTC = 日本時間10:00
+                            # (tech: 本線04:00/保険07:00, news: 本線05:00/保険08:00 が
+                            #  最も遅れても収まる時間帯を見て設定。詳細は README/CLAUDE.md)
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 両番組の本日分がRSSに乗っているか確認
+        run: |
+          today=$(date +%F)
+          echo "本日(JST): $today"
+          fail=0
+          for show in "tech:世界のAIニュース" "news:AIデイリーニュース"; do
+            id="${show%%:*}"
+            name="${show##*:}"
+            pubdate=$(curl -fsS "https://teruhikonomizu-ops.github.io/ai-radio/$id/feed.xml" | grep -m1 -oP '(?<=<pubDate>).*?(?=</pubDate>)')
+            pubdate_ymd=$(date -d "$pubdate" +%F 2>/dev/null || echo "解析失敗")
+            echo "$name ($id): 最新pubDate=[$pubdate] → $pubdate_ymd"
+            if [ "$pubdate_ymd" != "$today" ]; then
+              echo "::error::$name ($id) が本日($today)分未配信。最新は $pubdate_ymd"
+              fail=1
+            fi
+          done
+          if [ "$fail" = 1 ]; then
+            echo "::error::ラジオ2番組セットが崩れています。tech-radio/news-radioのActionsログを確認してください。"
+            exit 1
+          fi
+          echo "両番組とも本日分の配信を確認しました。"
