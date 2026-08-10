@@ -2,6 +2,12 @@ name: delete-video
 
 # 誤投稿したYouTube動画を削除する手動専用ユーティリティ。
 # 実行: Actionsタブ → delete-video → Run workflow → video_idを入力
+#
+# 既知の制限(2026-08-10確認): YOUTUBE_REFRESH_TOKENは"youtube.upload"スコープでのみ
+# 発行されており、削除に必要な"youtube.force-ssl"(またはyoutube)スコープが無いため
+# invalid_scopeで失敗する。使うには、より広いスコープでOAuth同意をやり直し
+# 新しいリフレッシュトークンをシークレットに登録し直す必要がある。
+# それまでは誤投稿はYouTube Studioで手動削除すること。
 
 on:
   workflow_dispatch:
