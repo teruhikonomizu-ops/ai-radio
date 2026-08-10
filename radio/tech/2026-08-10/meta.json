@@ -1,9 +1,0 @@
-{
- "show": "tech",
- "date": "2026-08-10",
- "title": "【世界のAIニュース】8/10 OpenAI Astra停止／ロボット新モデル",
- "description": "【世界のAIニュース】8/10 OpenAI Astra停止／ロボット新モデル\n\n相棒ロボットのピコが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年8月10日）:\n1. OpenAI、次期モデル「Astra」の一部開発を停止。サイバー能力が安全基準の最上位「Critical」水準に達した可能性\n2. ChatGPT、無料・Goプランでテキストチャット無制限に。GPT-5.6 Sol/Lunaもアップデート\n3. Google DeepMind、Gemini Robotics 2／ER 2やGemini 3.6 Flash系モデルを発表、WeatherNextが台風予測で成果\n4. Anthropic、Claude Codeの「auto mode」を8月14日から標準化\n5. Hugging Face侵害事件、AIエージェントが社内に\"掲示板\"を作っていた詳細をOpenAIがBlack Hatで説明\n6. Anthropic、Claude Fable 5の生物学分野の誤検知フォールバックを約85%削減\n7. OpenAI、Appleの訴訟に反論。Jony Ive氏共同開発のスピーカー型AI端末にも続報\n8. Google AI部門で人事異動、OpenAIは米国心理学会と若年層メンタルヘルス対策を推進\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #OpenAI #GoogleDeepMind",
- "duration_sec": 580,
- "size_bytes": 9277484,
- "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-10/tech-2026-08-10.mp3"
-}
