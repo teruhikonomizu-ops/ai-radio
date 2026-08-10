@@ -1,7 +1,8 @@
 # ai-radio — AIラジオ2番組の全自動クラウド生成・配信
 
-毎朝、GitHub Actions がクラウド上で「ニュース収集 → 台本執筆(Claude) → 音声合成(AivisSpeech) →
-ポッドキャスト配信(RSS)」まで無人実行する。**PCの電源は不要。人の作業もゼロ。**
+毎朝、GitHub Actions がクラウド上で「ニュース収集 → 台本執筆(Claude、ソラ×ピコの掛け合い) →
+音声合成(VOICEVOX) → ポッドキャスト配信(RSS) → YouTube動画(立ち絵+字幕)」まで無人実行する。
+**PCの電源は不要。人の作業もゼロ。**
 
 | 番組 | 実行時刻(JST) | フィードURL |
 |---|---|---|
@@ -10,38 +11,49 @@
 
 スマホのポッドキャストアプリに上のフィードURLを登録すると、毎朝自動で新エピソードが届く。
 
+## 登場キャラクター(unizomのオリジナルIP・2026-08-10導入)
+
+両番組とも、AIアンドロイド「**ソラ**」(ニュースを読む進行役)と、相棒ロボット「**ピコ**」(合いの手・反応役、
+語尾に「ピコ!」の口癖)の掛け合い形式。見た目はHiggsfieldで1から作った完全オリジナルデザイン
+(`assets/characters/`)で、既存の版権キャラ(ずんだもん等)とは無関係。声はVOICEVOX(無料・OSS)の
+既存キャラクターボイスを借用しており、動画・概要欄にクレジット表記が入る。
+
 ## 仕組み
 
 ```
 GitHub Actions (毎朝・cron)
-  1. scripts/collect_news.py   … 公式RSS(NHK/Yahoo!)から見出し収集 → digest.md
-  2. scripts/check_digest.py   … 取得成功が半分未満なら中止(誤報防止)
-  3. claude -p                 … prompts/<show>.md のルールで台本+概要欄を執筆
-                                  (CLAUDE_CODE_OAUTH_TOKEN シークレット=Claude定額プラン内)
-  4. scripts/split_output.py   … 台本/概要欄に分割・文字数検査(不合格なら1回作り直し)
-  5. scripts/tts_aivis.py      … AivisSpeech Engine(公式Dockerイメージ・CPU)で音声合成 → mp3
+  1. scripts/collect_news.py    … 公式RSS(NHK/Yahoo!)から見出し収集 → digest.md
+  2. scripts/check_digest.py    … 取得成功が半分未満なら中止(誤報防止)
+  3. claude -p                  … prompts/<show>.md のルールでソラ×ピコの掛け合い台本+概要欄を執筆
+                                   (CLAUDE_CODE_OAUTH_TOKEN シークレット=Claude定額プラン内)
+  4. scripts/split_output.py    … 台本/概要欄に分割・文字数検査(不合格なら1回作り直し)
+  5. scripts/tts_voicevox.py    … VOICEVOX ENGINE(公式Dockerイメージ・CPU・無料)で2話者音声合成
+                                   → mp3 + タイミング情報(*.segments.json)
   6. 長さ検証(5〜15分の範囲外なら公開中止) → GitHub Release にmp3を添付
-  7. scripts/create_video.py  … ffmpeg でアートワーク(PNG)+mp3を結合 → 1080p MP4動画を生成 (2026-08-03追加)
-  8. scripts/upload_youtube.py… YouTube Data API v3 で YouTube へ自動投稿 (2026-08-03追加)
-  9. scripts/make_feed.py      … docs/<show>/feed.xml を再生成 → コミット(GitHub Pagesが配信)
+  7. scripts/create_video.py    … segments.jsonを使いソラ/ピコの立ち絵(口パク)+字幕を合成 → 1080p MP4
+  8. scripts/upload_youtube.py  … YouTube Data API v3 で YouTube へ自動投稿
+  9. scripts/make_feed.py       … docs/<show>/feed.xml を再生成 → コミット(GitHub Pagesが配信)
 ```
 
-- 声: morioki (AivisHub `baaae3c0-7b22-4605-8ba5-80c959b41a48`)。エンジンデータはActionsキャッシュで高速化
+- 声: VOICEVOX(四国めたん=ソラ役、白上虎太郎=ピコ役)。モデルはDockerイメージに内蔵済みでDL不要
 - 生成済みの日は自動スキップ。`台本.txt` だけある日は音声合成から再開(手動修復の入り口)
 - 失敗時はGitHubからオーナーへ通知メールが飛ぶ(Actionsの既定動作)
 
 ## フォルダ
 
 - `.github/workflows/news.yml` / `tech.yml` … 各番組のワークフロー本体(構成は同一・番組設定だけ違う)
-- `scripts/` … 収集・検査・分割・合成・フィード生成(全て標準ライブラリのみ)
-- `prompts/news.md` … 台本ルール(執筆プロンプト)。文言調整はここ
+- `scripts/` … 収集・検査・分割・合成・動画生成・フィード生成(標準ライブラリ+Pillow)
+- `prompts/news.md` / `tech.md` … 台本ルール(執筆プロンプト・キャラ設定)。文言調整はここ
+- `assets/characters/` … ソラ・ピコの立ち絵(口の開閉2種類×2キャラ、背景透過PNG)
 - `radio/<show>/<日付>/` … 台本.txt・概要欄.txt・digest.md・meta.json(公開の記録)
-- `docs/` … GitHub Pages(feed.xml・アートワーク)
+- `docs/` … GitHub Pages(feed.xml)
 
 ## 運用メモ
 
 - 手動実行: Actionsタブ → news-radio → Run workflow
 - 作り直したい日: `radio/news/<日付>/` の `meta.json` を消して手動実行(台本ごと作り直すなら`台本.txt`も消す)
 - 元の運用(ローカルPC生成+stand.fm投稿)は
-  OneDrive `デスクトップ/ai記事自動/ニュースラジオ/` にあり、当面は保険として並走
+  OneDrive `デスクトップ/ai記事自動/ニュースラジオ/` にあり、当面は保険として並走(2026-08-06より無効化中)
 - 台本の出典・著作権方針: 公式RSSの見出し・要旨のみを素材に自分の言葉で要約(prompts/news.md 参照)
+- キャラクター立ち絵を差し替えたい場合: `assets/characters/{sora,pico}_{open,closed}.png` を同じ構図・
+  同じ透過背景で置き換えるだけでよい(`scripts/create_video.py` がそのまま使う)

@@ -27,6 +27,7 @@ script = extract("台本")
 desc = extract("概要欄")
 
 spoken = "\n".join(l for l in script.splitlines() if not l.startswith("#"))
+spoken = re.sub(r"^(ソラ|ピコ):\s*", "", spoken, flags=re.M)  # 話者タグは読み上げられないので字数に含めない
 chars = len(re.sub(r"\s", "", spoken))
 title = desc.splitlines()[0].strip()
 print(f"台本(読み上げ分) {chars}字 / タイトル {len(title)}字: {title}")
