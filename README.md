@@ -13,13 +13,14 @@
 
 ## 登場キャラクター(unizomのオリジナルIP・2026-08-10導入)
 
-番組ごとに専属の1キャラがソロで読み上げる(掛け合いではない)。
-- **AIデイリーニュース**: AIアンドロイド「**ソラ**」。声はAivisSpeechのmorioki
-- **世界のAIニュース**: 相棒ロボット「**ピコ**」。声はAivisSpeechのコハク候補6
+番組ごとに専属の1キャラがソロで読み上げる(掛け合いではない)。画面上にキャラ名の表示はしない。
+- **AIデイリーニュース**: AIアンドロイド「**ユー**」。声はAivisSpeechのmorioki
+- **世界のAIニュース**: 相棒ロボット「**ゼータ**」。声はAivisSpeechのコハク候補6
 
 どちらも元々ニュースラジオ/AIテックラジオで使っていた声で、キャラクターが変わっても声は据え置き。
 見た目はHiggsfieldで1から作った完全オリジナルデザイン(`assets/characters/`、胸元にunizomロゴ入り)で、
-既存の版権キャラ(ずんだもん等)とは無関係。
+既存の版権キャラ(ずんだもん等)とは無関係。背景も番組ごとにHiggsfieldで作った専用のテック調グラフィック
+(`assets/backgrounds/`、一度作った静止画を毎日使い回す・生成コストは初回のみ)。
 
 ## 仕組み
 
@@ -38,7 +39,7 @@ GitHub Actions (毎朝・cron)
   9. scripts/make_feed.py       … docs/<show>/feed.xml を再生成 → コミット(GitHub Pagesが配信)
 ```
 
-- 声: AivisSpeech(morioki=ソラ役・AivisHubからDL、コハク候補6=ピコ役・エンジン標準搭載)
+- 声: AivisSpeech(morioki=ユー役・AivisHubからDL、コハク候補6=ゼータ役・エンジン標準搭載)
 - 生成済みの日は自動スキップ。`台本.txt` だけある日は音声合成から再開(手動修復の入り口)
 - 失敗時はGitHubからオーナーへ通知メールが飛ぶ(Actionsの既定動作)
 
@@ -47,7 +48,8 @@ GitHub Actions (毎朝・cron)
 - `.github/workflows/news.yml` / `tech.yml` … 各番組のワークフロー本体(構成は同一・番組設定だけ違う)
 - `scripts/` … 収集・検査・分割・合成・動画生成・フィード生成(標準ライブラリ+Pillow)
 - `prompts/news.md` / `tech.md` … 台本ルール(執筆プロンプト・キャラ設定)。文言調整はここ
-- `assets/characters/` … ソラ・ピコの立ち絵(口の開閉2種類×2キャラ、背景透過PNG)
+- `assets/characters/` … ユー・ゼータの立ち絵(口の開閉2種類×2キャラ、背景透過PNG)
+- `assets/backgrounds/` … 番組ごとの背景画像(news.png/tech.png、1920×1080)
 - `radio/<show>/<日付>/` … 台本.txt・概要欄.txt・digest.md・meta.json(公開の記録)
 - `docs/` … GitHub Pages(feed.xml)
 
@@ -58,5 +60,5 @@ GitHub Actions (毎朝・cron)
 - 元の運用(ローカルPC生成+stand.fm投稿)は
   OneDrive `デスクトップ/ai記事自動/ニュースラジオ/` にあり、当面は保険として並走(2026-08-06より無効化中)
 - 台本の出典・著作権方針: 公式RSSの見出し・要旨のみを素材に自分の言葉で要約(prompts/news.md 参照)
-- キャラクター立ち絵を差し替えたい場合: `assets/characters/{sora,pico}_{open,closed}.png` を同じ構図・
+- キャラクター立ち絵を差し替えたい場合: `assets/characters/{yu,zeta}_{open,closed}.png` を同じ構図・
   同じ透過背景で置き換えるだけでよい(`scripts/create_video.py` がそのまま使う)

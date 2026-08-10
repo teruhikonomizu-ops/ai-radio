@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-"""掛け合い台本(ソラ/ピコ) → AivisSpeech Engine(無料・OSS)で2話者音声合成 → mp3/wav。
+"""番組ソロ台本(ユー/ゼータ) → AivisSpeech Engine(無料・OSS)で音声合成 → mp3/wav。
 使い方:
   python tts_aivis.py 台本.txt 出力.mp3 \
-      [--sora-speaker 497929760] [--pico-speaker 1878365376] \
-      [--speed 1.0] [--sora-pitch 0.0] [--pico-pitch 0.0] \
-      [--sora-intonation 1.0] [--pico-intonation 1.0]
+      [--yu-speaker 497929760] [--zeta-speaker 1878365376] \
+      [--speed 1.0] [--yu-pitch 0.0] [--zeta-pitch 0.0] \
+      [--yu-intonation 1.0] [--zeta-intonation 1.0]
 前提: AivisSpeech Engine が http://127.0.0.1:10101 で起動していること(公式Dockerイメージ)。
 話者はVOICEVOX/AivisSpeech共通のキャラ名でも、styleIdの数字でも指定できる。
 台本の書き方:
-  ・1行 = 1人のセリフ。行頭に「ソラ: 」または「ピコ: 」(半角コロン)
-  ・空行 = 話者交代・段落の区切り(0.7秒の間が入る)
+  ・1行 = 1つのまとまり。行頭に「ユー: 」または「ゼータ: 」(半角コロン。1台本につきどちらか1人のみ)
+  ・空行 = 段落の区切り(0.7秒の間が入る)
   ・「#」で始まる行はコメント(読まれない)
 外部ライブラリ不要(標準ライブラリ+ffmpeg)。
 """
@@ -30,7 +30,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 BASE = "http://127.0.0.1:10101"
 PARA_PAUSE_SEC = 0.7
 SENT_PAUSE_SEC = 0.0
-SPEAKERS = ("ソラ", "ピコ")
+SPEAKERS = ("ユー", "ゼータ")
 
 
 def api(path: str, method="GET", body=None, timeout=180):
@@ -86,9 +86,9 @@ def parse_script(text: str):
             continue
         if line.startswith("#"):
             continue
-        m = re.match(r"^(ソラ|ピコ):\s*(.+)$", line)
+        m = re.match(r"^(ユー|ゼータ):\s*(.+)$", line)
         if not m:
-            raise SystemExit(f"話者タグが無い行が見つかった(ソラ:/ピコ: で始まっていない): {line!r}")
+            raise SystemExit(f"話者タグが無い行が見つかった(ユー:/ゼータ: で始まっていない): {line!r}")
         items.append((m.group(1), m.group(2)))
     while items and items[-1] is None:
         items.pop()
@@ -117,12 +117,13 @@ def main():
     version = api("/version")
     speaker_ids = {}
     for name, opt_key, default in (
-        ("ソラ", "--sora-speaker", "497929760"),
-        ("ピコ", "--pico-speaker", "1878365376"),
+        ("ユー", "--yu-speaker", "497929760"),
+        ("ゼータ", "--zeta-speaker", "1878365376"),
     ):
         sid, label = resolve_speaker(opts.get(opt_key, default))
-        pitch = float(opts.get(f"--{'sora' if name == 'ソラ' else 'pico'}-pitch", "0.0"))
-        intona = float(opts.get(f"--{'sora' if name == 'ソラ' else 'pico'}-intonation", "1.0"))
+        prefix = "yu" if name == "ユー" else "zeta"
+        pitch = float(opts.get(f"--{prefix}-pitch", "0.0"))
+        intona = float(opts.get(f"--{prefix}-intonation", "1.0"))
         speaker_ids[name] = {"id": sid, "label": label, "pitch": pitch, "intonation": intona}
         print(f"{name}: {label} (styleId={sid}) / pitch {pitch} / 抑揚 {intona}")
     print(f"engine {version} / 速度 {speed}")

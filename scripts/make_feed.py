@@ -20,8 +20,8 @@ SHOWS = {
     "news": {
         "title": "AIデイリーニュース",
         "description": "AIがNHKニュース・Yahoo!ニュースの公式RSS見出しをもとに要約し、"
-                       "AIアンドロイドのソラと相棒ロボットのピコがAI音声でお届けする約10分のデイリーニュース。"
-                       "毎朝5時ごろ自動更新。(音声: VOICEVOX)",
+                       "AIアンドロイドのユーがAI音声でお届けする約10分のデイリーニュース。"
+                       "毎朝5時ごろ自動更新。",
         "author": "unizom",
         "category": "News",
         "pub_hour": 5,
@@ -29,8 +29,8 @@ SHOWS = {
     "tech": {
         "title": "世界のAIニュース",
         "description": "世界のAI・テクノロジーの最新ニュースをAIが日本語で要約し、"
-                       "AIアンドロイドのソラと相棒ロボットのピコがAI音声でお届けする約10分の番組。"
-                       "毎朝4時ごろ自動更新。(音声: VOICEVOX)",
+                       "相棒ロボットのゼータがAI音声でお届けする約10分の番組。"
+                       "毎朝4時ごろ自動更新。",
         "author": "unizom",
         "category": "Technology",
         "pub_hour": 4,

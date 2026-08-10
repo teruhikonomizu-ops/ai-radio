@@ -22,13 +22,17 @@ FPS = 5                 # 口パクの切り替え頻度を兼ねる動画フレ
 MOUTH_TOGGLE_SEC = 0.22  # しゃべっている間、口の開閉を切り替える間隔
 
 ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets" / "characters"
+BACKGROUNDS_DIR = Path(__file__).resolve().parent.parent / "assets" / "backgrounds"
 
 SHOW_THEME = {
-    "news": {"accent": (37, 99, 235), "label": "【AIデイリーニュース】", "character": "ソラ"},
-    "tech": {"accent": (124, 58, 237), "label": "【世界のAIニュース】", "character": "ピコ"},
+    "news": {"accent": (37, 99, 235), "label": "【AIデイリーニュース】", "character": "ユー", "bg": "news.png"},
+    "tech": {"accent": (124, 58, 237), "label": "【世界のAIニュース】", "character": "ゼータ", "bg": "tech.png"},
 }
 
-CHAR_FILE_PREFIX = {"ソラ": "sora", "ピコ": "pico"}
+CHAR_FILE_PREFIX = {"ユー": "yu", "ゼータ": "zeta"}
+
+# 行頭に来てはいけない文字(禁則処理): 前の行の末尾にくっつける
+NO_LINE_START = "、。！？!?」』）)"
 
 
 def get_audio_duration(audio_path):
@@ -59,14 +63,25 @@ def get_japanese_font(size, bold=False):
 
 
 def wrap_text(text, max_chars=15):
-    lines, current = [], ""
-    for ch in text:
-        current += ch
-        if len(current) >= max_chars:
-            lines.append(current)
-            current = ""
-    if current:
-        lines.append(current)
+    """句読点の直後を優先して改行し、行頭に句読点が来ないようにする(禁則処理)"""
+    lines = []
+    remaining = text
+    while remaining:
+        if len(remaining) <= max_chars:
+            lines.append(remaining)
+            break
+        window_start = max(1, max_chars - 6)
+        break_at = None
+        for i in range(min(max_chars, len(remaining)) - 1, window_start - 1, -1):
+            if remaining[i] in "、。！？!?":
+                break_at = i + 1
+                break
+        if break_at is None:
+            break_at = max_chars
+        while break_at < len(remaining) and remaining[break_at] in NO_LINE_START:
+            break_at += 1
+        lines.append(remaining[:break_at])
+        remaining = remaining[break_at:]
     return lines
 
 
@@ -85,20 +100,9 @@ def load_character_image(character, char_height=900):
 def build_base_background(show_type, date_str):
     theme = SHOW_THEME[show_type]
     accent = theme["accent"]
-    bg_left = (15, 23, 42)
-    bg_right = (30, 27, 55) if show_type == "tech" else (17, 34, 64)
 
-    img = Image.new("RGB", (WIDTH, HEIGHT), bg_left)
-    px = img.load()
-    for x in range(WIDTH):
-        t = x / WIDTH
-        r = int(bg_left[0] + (bg_right[0] - bg_left[0]) * t)
-        g = int(bg_left[1] + (bg_right[1] - bg_left[1]) * t)
-        b = int(bg_left[2] + (bg_right[2] - bg_left[2]) * t)
-        for y in range(0, HEIGHT, 4):  # 4px間引きで塗って高速化
-            for dy in range(4):
-                if y + dy < HEIGHT:
-                    px[x, y + dy] = (r, g, b)
+    bg_path = BACKGROUNDS_DIR / theme["bg"]
+    img = Image.open(bg_path).convert("RGB").resize((WIDTH, HEIGHT), Image.LANCZOS)
 
     draw = ImageDraw.Draw(img)
     draw.rectangle([0, 0, WIDTH, 14], fill=accent)
@@ -106,13 +110,10 @@ def build_base_background(show_type, date_str):
     font_header = get_japanese_font(40, bold=True)
     draw.text((60, 40), f"{theme['label']}  {date_str}", font=font_header, fill=(255, 255, 255))
 
-    # キャラと字幕を分ける縦のアクセントライン
-    draw.rectangle([720, 0, 726, HEIGHT], fill=accent)
-
     return img
 
 
-def draw_frame(base_img, char_variants, mouth_open, caption_text, fonts, accent):
+def draw_frame(base_img, char_variants, mouth_open, caption_text, fonts):
     frame = base_img.copy()
     draw = ImageDraw.Draw(frame)
 
@@ -171,7 +172,7 @@ def render_video(audio_path, segments_path, output_mp4_path, show_type):
         caption = seg["text"] if seg else ""
         mouth_open = bool(seg) and (int(t / MOUTH_TOGGLE_SEC) % 2 == 0)
 
-        frame = draw_frame(base_img, char_variants, mouth_open, caption, fonts, theme["accent"])
+        frame = draw_frame(base_img, char_variants, mouth_open, caption, fonts)
         proc.stdin.write(frame.convert("RGB").tobytes())
 
         if fi % (FPS * 30) == 0:

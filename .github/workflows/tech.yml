@@ -1,6 +1,6 @@
 name: tech-radio
 
-# 世界のAIニュース: 毎朝クラウドで 収集→台本(Claude、ソラ×ピコの掛け合い)→音声合成(AivisSpeech)→
+# 世界のAIニュース: 毎朝クラウドで 収集→台本(Claude、ゼータのソロ進行)→音声合成(AivisSpeech)→
 #   配信(Release+RSS)→YouTube動画(立ち絵+字幕) まで無人実行
 # 手動実行: Actionsタブ → tech-radio → Run workflow
 
@@ -21,8 +21,8 @@ concurrency:
 env:
   TZ: Asia/Tokyo
   SHOW: tech
-  MODEL_UUID: baaae3c0-7b22-4605-8ba5-80c959b41a48   # morioki(ソラ役・AivisHub。コハクはエンジン標準搭載でDL不要)
-  AIVIS_ARGS: "--sora-speaker 497929760 --pico-speaker 1878365376 --pico-pitch -0.09 --pico-intonation 0.85 --speed 0.86 --sentpause 0.3 --parapause 1.0"
+  MODEL_UUID: baaae3c0-7b22-4605-8ba5-80c959b41a48   # morioki(ユー役・AivisHub。コハクはエンジン標準搭載でDL不要)
+  AIVIS_ARGS: "--yu-speaker 497929760 --zeta-speaker 1878365376 --zeta-pitch -0.09 --zeta-intonation 0.85 --speed 0.86 --sentpause 0.3 --parapause 1.0"
 
 jobs:
   build:
@@ -84,7 +84,7 @@ jobs:
           docker logs aivis
           exit 1
 
-      - name: 声モデル (morioki・ソラ役) を用意
+      - name: 声モデル (morioki・ユー役) を用意
         if: steps.plan.outputs.mode != 'skip'
         run: |
           if curl -fsS http://127.0.0.1:10101/aivm_models | grep -q "$MODEL_UUID"; then
@@ -134,7 +134,7 @@ jobs:
           cp work/script.txt "$ep/台本.txt"
           cp work/desc.txt "$ep/概要欄.txt"
 
-      - name: 音声合成 (AivisSpeech・ソラ×ピコ)
+      - name: 音声合成 (AivisSpeech・ゼータ)
         if: steps.plan.outputs.mode != 'skip'
         run: |
           mkdir -p work
