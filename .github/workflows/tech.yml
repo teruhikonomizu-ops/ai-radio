@@ -168,6 +168,11 @@ jobs:
 
       - name: YouTube用動画の作成とアップロード
         if: steps.plan.outputs.mode != 'skip'
+        id: youtube
+        # 失敗しても次の「フィード更新とコミット」(=ポッドキャストRSS)を道連れにしない。
+        # 2026-08-11、トークン失効でここが落ちた際にRSS配信まで止まった実害への対策。
+        # 失敗そのものは最後の「YouTube失敗の最終判定」がジョブを赤にして失敗メールを飛ばす。
+        continue-on-error: true
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
@@ -190,6 +195,12 @@ jobs:
           git commit -m "$SHOW ${{ steps.plan.outputs.today }}"
           git pull --rebase origin main
           git push
+
+      - name: YouTube失敗の最終判定
+        if: steps.plan.outputs.mode != 'skip' && steps.youtube.outcome == 'failure'
+        run: |
+          echo "::error::YouTube投稿は失敗しましたが、RSS配信(ポッドキャスト)は完了しています。トークン失効なら正典『データ源の状況.md』の直し方欄を参照。この日のYouTube分は自動では再試行されません。"
+          exit 1
 
       - name: キャッシュ保存用にファイル所有権を戻す
         if: always() && steps.plan.outputs.mode != 'skip'
