@@ -11,6 +11,33 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/13 Gemini10億人／Pixel11発表</title>
+      <description>【世界のAIニュース】8/13 Gemini10億人／Pixel11発表
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月13日）:
+1. GoogleのGeminiアプリとOpenAIのChatGPTが、そろって月間利用者10億人を突破
+2. Googleが新型スマートフォン「Pixel 11」シリーズと折りたたみ機「Pixel 11 Pro Fold」を発表
+3. OpenAIがChatGPTに広告表示のテストを開始
+4. AIコーディング企業CognitionとLovableで大型資金調達の動き
+5. Anthropicが研究版ClaudeにリーマンR予想への挑戦を試みさせたと発表
+6. OpenAI幹部Brad Lightcap氏が退任
+7. Twitchが配信者向けにAI学習からのオプトアウト機能を追加
+8. NVIDIAが新しいオープンモデル「Nemotron 3.5 Lightning」を公開
+9. 中国発AIエージェント「Manus」がMetaから独立へ
+10. ChatGPTデスクトップアプリにLinux版が登場
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #ChatGPT #Gemini #Pixel11</description>
+      <pubDate>Thu, 13 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-13/tech-2026-08-13.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-13/tech-2026-08-13.mp3" length="9992194" type="audio/mpeg"/>
+      <itunes:duration>0:10:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/12 広告テスト／Gemini10億人突破</title>
       <description>【世界のAIニュース】8/12 広告テスト／Gemini10億人突破
 
