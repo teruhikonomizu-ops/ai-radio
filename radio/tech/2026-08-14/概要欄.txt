@@ -1,0 +1,17 @@
+【世界のAIニュース】8/14 GPT-5.6超高速化／DeepSeek値上げ
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月14日）:
+1. OpenAI、GPT-5.6 Sol向け高速モード「Ultrafast」（最大14倍速）を発表
+2. OpenAIの最高収益責任者(CRO)交代、IBMとの提携、Codex利用者数1500万人突破
+3. Anthropic、複数AIエージェントの予期せぬ衝突・連携に関する研究結果
+4. Anthropicの新透かし機能への利用者の反応と、IPO評価額2兆ドル報道
+5. Anthropic、Claude Desktop向け新機能「Cowork」発表
+6. Anthropic、リーマン予想をめぐるAIの新発見
+7. 中国DeepSeek、API料金を最大12倍に値上げ、新モデルも公開
+8. Google共同創業者ブリン氏のGemini発破、Grok 4.6発表、Microsoft Copilot統合、Twitch AI学習オプトアウトほか
+
+出典: OpenAI／Anthropic／Google／TechCrunch／The Verge／Ars Technica／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic
