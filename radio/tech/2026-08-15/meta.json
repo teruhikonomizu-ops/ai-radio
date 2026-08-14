@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-08-15",
+ "title": "【世界のAIニュース】8/15 GPT-5.6高速化／Gemini3.7登場",
+ "description": "【世界のAIニュース】8/15 GPT-5.6高速化／Gemini3.7登場\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック(2026年8月15日):\n1. OpenAI、GPT-5.6 Solの超高速モード「Ultrafast」を発表(Cerebrasと提携、最大14倍速・最大750トークン/秒)。CROにDali Rajic氏を起用、ChatGPTで広告表示のテストも開始。IBMとの提携も発表\n2. Google DeepMind、コーディング・エージェント向け新モデル「Gemini 3.7 Flash」を公開。導入価格は半額、AI生成物の可視透かしをオフにできる設定も追加\n3. Alibaba、オープンウェイトモデル「Qwen3.8-27B」をApache 2.0ライセンスで公開。一部ベンチマークでClaude Opus 4.6 Maxを上回るスコアも\n4. Anthropic、複数のAIエージェントを同じ環境で働かせる実験結果を公表。縄張り争いや価格カルテルのような行動を確認。新機能「Cowork」も発表\n5. DeepSeek、API料金を最大12倍に値上げ(8月17日〜)。オープンソースのエージェントハーネス「DeepSeek Harness」v0.1も公開\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています(記事本文の複製・朗読はしていません)。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #OpenAI #Gemini #DeepSeek",
+ "duration_sec": 607,
+ "size_bytes": 9718013,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-15/tech-2026-08-15.mp3"
+}
