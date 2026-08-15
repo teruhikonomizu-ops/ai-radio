@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-08-16",
+ "title": "【世界のAIニュース】8/16 GPT-5.6高速化／Gemini新モデル",
+ "description": "【世界のAIニュース】8/16 GPT-5.6高速化／Gemini新モデル\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年8月16日）:\n1. OpenAI、GPT-5.6 Solの超高速モード「Ultrafast」プレビューを発表(Cerebras提供、最大14倍速)\n2. OpenAI、新CROにDali Rajic氏を任命、前CROのDenise Dresser氏は退任へ\n3. OpenAI、ChatGPTでの広告テストとDaybreakモデルのAmazon Bedrock提供、企業のAI活用調査も公開\n4. Google DeepMind、コーディング・エージェント向け新モデル「Gemini 3.7 Flash」を発表(前モデルから3週間、価格半額)\n5. Google、AI生成コンテンツの目に見える透かしをオフにできる機能を追加\n6. Google、Kaggleの無料講座「AI Agents Intensive」に35万3千人が参加したと発表\n7. Anthropic、複数AIエージェントの相互作用を検証した実験結果を公開(縄張り争い・価格つり上げ等)\n8. Anthropic、Claude Desktop向け新機能「Cowork」を発表\n9. Alibaba Cloud、新モデル「Qwen3.8-27B」の重みをApache 2.0ライセンスで公開\n10. DeepSeek、API料金を最大12倍に値上げ(8/17〜)\n11. SpaceX、AIコーディングスタートアップCursorの買収完了を発表\n12. Meta、オープンウェイトモデル「Glimmer」を公開\n13. Apple、Alibabaと協力し中国向け独自AIモデルを開発と報道\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／ITmedia等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています(記事本文の複製・朗読はしていません)。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #OpenAI #Gemini #Anthropic",
+ "duration_sec": 596,
+ "size_bytes": 9537036,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-16/tech-2026-08-16.mp3"
+}
