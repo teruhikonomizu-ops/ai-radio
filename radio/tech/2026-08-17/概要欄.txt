@@ -1,0 +1,15 @@
+【世界のAIニュース】8/17 GPT-5.6超高速化／Gemini新モデル
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月17日）:
+1. OpenAIがGPT-5.6 Solの超高速モード「Ultrafast」を発表(Cerebras技術で最大14倍速、毎秒750トークン)
+2. Googleが新モデル「Gemini 3.7 Flash」を公開(コーディング・エージェント向け、導入価格半額)
+3. AnthropicがClaudeの見えない透かし技術の仕組みを公表(EU AI Act対応、乱数に秘密鍵を利用)
+4. Anthropicのマルチエージェント実験で「縄張り争い」や妨害行為、価格カルテルなどを確認
+5. SpaceXがAIコーディングツールCursor(開発元Anysphere)の買収を正式完了
+6. その他: ChatGPT広告テスト、Claudeの新機能Cowork、MetaのGlimmer、Google Sheets canvas、手話AIモデルSL2T、Alibaba Qwenが30億DL達成、OpenAI新CRO就任など
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #ChatGPT #Gemini #Claude
