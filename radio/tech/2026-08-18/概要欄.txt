@@ -1,0 +1,18 @@
+【世界のAIニュース】8/18 ジェミニ新モデル続々／OpenAI幹部異動
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月18日）:
+1. Google DeepMindがGemini 3.7 Flashなど新モデル群、ロボット・音楽・気象AIを一挙発表
+2. OpenAI、GPT-5.6を最大14倍高速化する新サービス層「Ultrafast」をプレビュー公開
+3. OpenAI、ChatGPTでの広告テスト開始とサイバーセキュリティ機能「Daybreak」のAWS提供
+4. OpenAIで「準備チーム」解散が報道、CRO交代など経営陣の異動が相次ぐ
+5. Anthropic、Claudeの電子透かし技術の詳細と謎のモデル「Model 2」、CEOの信頼危機発言
+6. StripeがAIゲートウェイのOpenRouterを70億ドル超で買収と報道
+7. NvidiaがSoftBank傘下データセンター企業に15億ドル投資、Groqも350億円規模を調達
+8. Amazonが希少本をAI学習のために破棄していると報道
+9. 中国Unitreeの新型ヒューマノイドロボットが高さ2mジャンプの映像を公開
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Gemini #OpenAI #Anthropic
