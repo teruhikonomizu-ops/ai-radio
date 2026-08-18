@@ -1,0 +1,15 @@
+【世界のAIニュース】8/19 十代版ChatGPT／NVIDIA大型投資
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月19日）:
+1. OpenAI、ティーン向け新モード「ChatGPT for Teens」を発表、教育団体CodeAIとも提携
+2. OpenAI、Hugging Face侵害を受けてモデル開発のセキュリティ対策を強化
+3. Anthropicの年間換算売上高が650億ドルを突破、7カ月で約7倍に拡大
+4. NVIDIA、OpenAIのオハイオ州データセンターに最大1050億ドルの債務保証
+5. Google DeepMind、Gemini 3.7 Flashなど新型Geminiモデル群を発表
+6. そのほか:Apple新型AirPods／Etched・Groqの資金調達／Anthropic「Cowork」／Google検索ボックス刷新／Firefox「Smart Window」／Microsoft Copilotの脆弱性／イスラエルの偽シンクタンク問題
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #ChatGPT #Anthropic #NVIDIA
