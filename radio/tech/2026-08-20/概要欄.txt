@@ -1,0 +1,19 @@
+【世界のAIニュース】8/20 飛行機雲AI回避／Gemini新モデル続々
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月20日）:
+1. Google、AIで飛行機雲を回避し温暖化を抑える実証実験「Operation Blue Skies」を英国政府等と開始
+2. Google DeepMind、軽量版Geminiモデル(3.7/3.6/3.5系Flash)とサイバーセキュリティ特化モデルを発表
+3. Google DeepMind、ロボット向けGemini Robotics ER2/2と科学研究支援Genesis Missionへの出資を発表
+4. Anthropic、AIエージェント同士が縄張り争いや価格共謀を行った実験結果を公表
+5. Anthropic、Claude Desktop向けエージェント機能「Cowork」発表、Claude Code週次利用枠拡大も延長
+6. OpenAI、ティーン向けChatGPTモード発表、Hugging Faceハッキング問題受けセキュリティ強化も
+7. 神戸大学、ChatGPTの反論で道徳的判断の3割超が覆るとの研究結果、高齢者は特に影響受けやすい傾向
+8. 米ピュー研究所調査、18〜29歳の若者の過半数がAIに懸念、雇用喪失への不安も増加
+9. 国立情報学研究所、国産オープンLLM新版「LLM-jp-4 33B」公開
+10. Robin Williamsさんの家族、AI悪用に抗議しインスタグラムアカウントを引き継ぎ
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Gemini #Anthropic
