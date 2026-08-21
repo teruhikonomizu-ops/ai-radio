@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】8/22(土) 台風13号／熊本地震39人に</title>
+      <description>【AIデイリーニュース】8/22(土) 台風13号／熊本地震39人に
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・大型で非常に強い台風13号が沖縄本島の西を進行、沖縄・奄美で長時間の風雨に厳重警戒
+・熊本地震の死者が39人に、専門家は10年前の熊本地震と隣り合う断層帯のずれと分析
+・OpenAI、AIモデル「アストラ」の開発を一時中断
+・米雇用統計が予想外の減少、外国為替市場で円高ドル安が進行
+・食料自給率37%で過去最低に、片山財務相は消費税減税でNHKインタビューに対応
+・法務省検討会がパブリシティ権について「声」も保護対象とする報告書をまとめる
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Sat, 22 Aug 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-22/news-2026-08-22.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-22/news-2026-08-22.mp3" length="9177591" type="audio/mpeg"/>
+      <itunes:duration>0:09:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】8/21(金) 台風13号警戒／熊本地震死者39人に</title>
       <description>【AIデイリーニュース】8/21(金) 台風13号警戒／熊本地震死者39人に
 
