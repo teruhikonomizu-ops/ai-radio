@@ -11,6 +11,29 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/22 新型Gemini発表／Kimi日本上陸</title>
+      <description>【世界のAIニュース】8/22 新型Gemini発表／Kimi日本上陸
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月22日）:
+1. Google DeepMindが新型Geminiモデル群（3.7 Flash、3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyber）とロボティクス新モデルを発表
+2. Googleのオープンモデル「Gemma」が累計10億ダウンロードを突破
+3. OpenAIがChatGPT for Teensを提供開始、Zero Data Retention強化とChatGPT Ads欧州拡大も
+4. AnthropicがCoworkを公開、学習サイトClaude Academyも開設。企業向け市場でOpenAIとの競争が話題に
+5. 中国発AI「Kimi」が日本進出、AIデータ企業Micro1が急成長、Starcloudが軌道上データセンターに250万ドル規模の資金調達
+6. Grokの誤応答問題、AI案件をめぐるYouTuber炎上、Robin Williamsさんのインスタグラム復活
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Gemini #Anthropic #Kimi</description>
+      <pubDate>Sat, 22 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-22/tech-2026-08-22.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-22/tech-2026-08-22.mp3" length="9709235" type="audio/mpeg"/>
+      <itunes:duration>0:10:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/21 OpenAI新安全策／Gemini新モデル続々</title>
       <description>【世界のAIニュース】8/21 OpenAI新安全策／Gemini新モデル続々
 
