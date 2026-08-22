@@ -1,0 +1,520 @@
+{
+ "updated": "2026-08-23",
+ "entries": [
+  {
+   "date": "2026-08-23",
+   "topic": "Google DeepMindがGemini 3.7 Flash／3.6 Flash／3.5 Flash-Lite／3.",
+   "keys": [
+    "Google DeepMind",
+    "Gemini 3.7 Flash",
+    "Flash",
+    "Flash-Lite",
+    "Flash Cyber"
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "topic": "AnthropicがClaude Desktopの新エージェント機能「Cowork」を発表、最上位モデルClaude M",
+   "keys": [
+    "Claude Desktop",
+    "Cowork",
+    "Claude Mythos 5",
+    "Claude Security",
+    "スキャンサービス"
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "topic": "DeepMind出身者が設立したInherentが、研究論文を再現するAIエージェント「Faraday」を公開",
+   "keys": [
+    "Inherent",
+    "Faraday",
+    "出身者",
+    "設立",
+    "研究論文"
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "topic": "OpenAIがカリフォルニア州のAI安全法案SB53の強化を要請、あわせてChatGPT for TeensやZero ",
+   "keys": [
+    "SB53",
+    "ChatGPT for Teens",
+    "Zero Data Retention",
+    "macOS",
+    "カリフォルニア"
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "topic": "中国Moonshot AIの「Kimi」が日本進出の動き、GoogleのオープンモデルGemmaが累計10億ダウンロード",
+   "keys": [
+    "Moonshot AI",
+    "Kimi",
+    "Gemma",
+    "累計10億",
+    "オープンモデル"
+   ]
+  },
+  {
+   "date": "2026-08-23",
+   "topic": "その他：Google Antigravityのリモート操作対応、Google Discoverのカスタマイズ機能、Sla",
+   "keys": [
+    "Google Antigravity",
+    "Google Discover",
+    "vibe-coding",
+    "Railway",
+    "Starcloud"
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "topic": "Google DeepMindが新型Geminiモデル群（3.7 Flash、3.6 Flash、3.5 Flash-L",
+   "keys": [
+    "Google DeepMind",
+    "Flash",
+    "Flash-Lite",
+    "Flash Cyber",
+    "ロボティクス"
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "topic": "Googleのオープンモデル「Gemma」が累計10億ダウンロードを突破",
+   "keys": [
+    "Gemma",
+    "累計10億",
+    "オープンモデル",
+    "ダウンロード",
+    "累計"
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "topic": "OpenAIがChatGPT for Teensを提供開始、Zero Data Retention強化とChatGPT ",
+   "keys": [
+    "ChatGPT for Teens",
+    "Zero Data Retention",
+    "ChatGPT Ads",
+    "提供開始",
+    "欧州拡大"
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "topic": "AnthropicがCoworkを公開、学習サイトClaude Academyも開設。企業向け市場でOpenAIとの競争",
+   "keys": [
+    "Cowork",
+    "Claude Academy",
+    "サイト",
+    "学習",
+    "開設"
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "topic": "中国発AI「Kimi」が日本進出、AIデータ企業Micro1が急成長、Starcloudが軌道上データセンターに250万",
+   "keys": [
+    "Kimi",
+    "Micro1",
+    "Starcloud",
+    "データセンター",
+    "中国発"
+   ]
+  },
+  {
+   "date": "2026-08-22",
+   "topic": "Grokの誤応答問題、AI案件をめぐるYouTuber炎上、Robin Williamsさんのインスタグラム復活",
+   "keys": [
+    "Grok",
+    "YouTuber",
+    "Robin Williams",
+    "インスタグラム",
+    "誤応答問題"
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "topic": "OpenAI、ZDR（データ非保持）を維持しつつ不正検知の新機構「Private Safety Processing」を",
+   "keys": [
+    "ZDR",
+    "Private Safety Processing",
+    "ハッキング",
+    "非保持",
+    "維持"
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "topic": "Stripe、AIモデルゲートウェイ「OpenRouter」を約75億ドルで買収",
+   "keys": [
+    "Stripe",
+    "OpenRouter",
+    "約75億",
+    "モデルゲートウェイ",
+    "買収"
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "topic": "Google、Gemini 3.7 Flashなど新モデル群、ロボット向けGemini Robotics ER 2・Ro",
+   "keys": [
+    "Gemini 3.7 Flash",
+    "Gemini Robotics ER 2",
+    "Robotics 2",
+    "AMIE",
+    "Genesis Mission"
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "topic": "OpenAI、10代向けの「ChatGPT for Teens」を発表。Geminiの学生向けハブも紹介",
+   "keys": [
+    "ChatGPT for Teens",
+    "代向",
+    "学生向",
+    "紹介"
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "topic": "X（旧Twitter）のAI「Grok」で意味不明な応答や、暗号化指示によるデータ流出のリスクが報告",
+   "keys": [
+    "Grok",
+    "リスク",
+    "意味不明",
+    "応答",
+    "暗号化指示"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "Google、AIで飛行機雲を回避し温暖化を抑える実証実験「Operation Blue Skies」を英国政府等と開始",
+   "keys": [
+    "Operation Blue Skies",
+    "飛行機雲",
+    "回避",
+    "温暖化",
+    "実証実験"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "Google DeepMind、軽量版Geminiモデル(3.7/3.6/3.5系Flash)とサイバーセキュリティ特化",
+   "keys": [
+    "Google DeepMind",
+    "Flash",
+    "サイバーセキュリティ",
+    "軽量版",
+    "特化"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "Google DeepMind、ロボット向けGemini Robotics ER2/2と科学研究支援Genesis Mi",
+   "keys": [
+    "Google DeepMind",
+    "Gemini Robotics ER2",
+    "Genesis Mission",
+    "ロボット",
+    "科学研究支援"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "Anthropic、AIエージェント同士が縄張り争いや価格共謀を行った実験結果を公表",
+   "keys": [
+    "同士",
+    "縄張",
+    "価格共謀",
+    "実験結果",
+    "公表"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "Anthropic、Claude Desktop向けエージェント機能「Cowork」発表、Claude Code週次利用",
+   "keys": [
+    "Claude Desktop",
+    "Cowork",
+    "Claude Code",
+    "週次利用枠拡大",
+    "延長"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "OpenAI、ティーン向けChatGPTモード発表、Hugging Faceハッキング問題受けセキュリティ強化も",
+   "keys": [
+    "Hugging Face",
+    "ティーン",
+    "モード",
+    "ハッキング",
+    "問題受"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "神戸大学、ChatGPTの反論で道徳的判断の3割超が覆るとの研究結果、高齢者は特に影響受けやすい傾向",
+   "keys": [
+    "神戸大学",
+    "反論",
+    "道徳的判断",
+    "割超",
+    "研究結果"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "米ピュー研究所調査、18〜29歳の若者の過半数がAIに懸念、雇用喪失への不安も増加",
+   "keys": [
+    "ピュー",
+    "研究所調査",
+    "若者",
+    "過半数",
+    "懸念"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "国立情報学研究所、国産オープンLLM新版「LLM-jp-4 33B」公開",
+   "keys": [
+    "LLM-jp-4 33B",
+    "オープン",
+    "国立情報学研究所",
+    "国産",
+    "新版"
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "topic": "Robin Williamsさんの家族、AI悪用に抗議しインスタグラムアカウントを引き継ぎ",
+   "keys": [
+    "Robin Williams",
+    "インスタグラムアカウント",
+    "家族",
+    "悪用",
+    "抗議"
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "topic": "OpenAI、ティーン向け新モード「ChatGPT for Teens」を発表、教育団体CodeAIとも提携",
+   "keys": [
+    "ChatGPT for Teens",
+    "CodeAI",
+    "ティーン",
+    "モード",
+    "教育団体"
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "topic": "OpenAI、Hugging Face侵害を受けてモデル開発のセキュリティ対策を強化",
+   "keys": [
+    "Hugging Face",
+    "侵害",
+    "対策"
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "topic": "Anthropicの年間換算売上高が650億ドルを突破、7カ月で約7倍に拡大",
+   "keys": [
+    "年間換算売上高",
+    "突破"
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "topic": "NVIDIA、OpenAIのオハイオ州データセンターに最大1050億ドルの債務保証",
+   "keys": [
+    "最大1050億",
+    "オハイオ",
+    "データセンター",
+    "最大",
+    "債務保証"
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "topic": "Google DeepMind、Gemini 3.7 Flashなど新型Geminiモデル群を発表",
+   "keys": [
+    "Google DeepMind",
+    "Gemini 3.7 Flash"
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "topic": "そのほか:Apple新型AirPods／Etched・Groqの資金調達／Anthropic「Cowork」／Googl",
+   "keys": [
+    "AirPods",
+    "Etched",
+    "Groq",
+    "Cowork",
+    "Firefox"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "Google DeepMindがGemini 3.7 Flashなど新モデル群、ロボット・音楽・気象AIを一挙発表",
+   "keys": [
+    "Google DeepMind",
+    "Gemini 3.7 Flash",
+    "ロボット",
+    "音楽",
+    "気象"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "OpenAI、GPT-5.6を最大14倍高速化する新サービス層「Ultrafast」をプレビュー公開",
+   "keys": [
+    "GPT-5.6",
+    "Ultrafast",
+    "プレビュー",
+    "最大",
+    "倍高速化"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "OpenAI、ChatGPTでの広告テスト開始とサイバーセキュリティ機能「Daybreak」のAWS提供",
+   "keys": [
+    "Daybreak",
+    "テスト",
+    "サイバーセキュリティ",
+    "広告"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "OpenAIで「準備チーム」解散が報道、CRO交代など経営陣の異動が相次ぐ",
+   "keys": [
+    "CRO",
+    "チーム",
+    "準備",
+    "解散",
+    "報道"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "Anthropic、Claudeの電子透かし技術の詳細と謎のモデル「Model 2」、CEOの信頼危機発言",
+   "keys": [
+    "Model 2",
+    "CEO",
+    "電子透",
+    "技術",
+    "詳細"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "StripeがAIゲートウェイのOpenRouterを70億ドル超で買収と報道",
+   "keys": [
+    "Stripe",
+    "OpenRouter",
+    "ゲートウェイ",
+    "買収",
+    "報道"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "NvidiaがSoftBank傘下データセンター企業に15億ドル投資、Groqも350億円規模を調達",
+   "keys": [
+    "SoftBank",
+    "Groq",
+    "データセンター",
+    "傘下",
+    "投資"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "Amazonが希少本をAI学習のために破棄していると報道",
+   "keys": [
+    "希少本",
+    "学習",
+    "破棄",
+    "報道"
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "topic": "中国Unitreeの新型ヒューマノイドロボットが高さ2mジャンプの映像を公開",
+   "keys": [
+    "Unitree",
+    "ヒューマノイドロボット",
+    "ジャンプ",
+    "中国",
+    "映像"
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "topic": "OpenAIがGPT-5.6 Solの超高速モード「Ultrafast」を発表(Cerebras技術で最大14倍速、毎秒",
+   "keys": [
+    "GPT-5.6 Sol",
+    "Ultrafast",
+    "Cerebras",
+    "モード",
+    "トークン"
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "topic": "Googleが新モデル「Gemini 3.7 Flash」を公開(コーディング・エージェント向け、導入価格半額)",
+   "keys": [
+    "Gemini 3.7 Flash",
+    "コーディング",
+    "導入価格半額"
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "topic": "AnthropicがClaudeの見えない透かし技術の仕組みを公表(EU AI Act対応、乱数に秘密鍵を利用)",
+   "keys": [
+    "EU AI Act",
+    "技術",
+    "仕組",
+    "公表",
+    "乱数"
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "topic": "Anthropicのマルチエージェント実験で「縄張り争い」や妨害行為、価格カルテルなどを確認",
+   "keys": [
+    "マルチエージェント",
+    "カルテル",
+    "縄張",
+    "妨害行為",
+    "価格"
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "topic": "SpaceXがAIコーディングツールCursor(開発元Anysphere)の買収を正式完了",
+   "keys": [
+    "SpaceX",
+    "Cursor",
+    "Anysphere",
+    "コーディングツール",
+    "開発元"
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "topic": "その他: ChatGPT広告テスト、Claudeの新機能Cowork、MetaのGlimmer、Google Sheet",
+   "keys": [
+    "Cowork",
+    "Glimmer",
+    "Google Sheets canvas",
+    "SL2T",
+    "Alibaba Qwen"
+   ]
+  }
+ ]
+}

@@ -1,21 +1,22 @@
 # -*- coding: utf-8 -*-
 """AIテックラジオ用: AI・テクノロジーの公式RSS/Atomから見出し+要旨を収集しダイジェスト出力。
 海外(英語)一次情報＋国内AI媒体。本文は取得しない=著作権安全側。台本側で日本語に要約する。
-使い方: python collect_ai_news.py > digest.md  (または引数に出力先パス)
-標準ライブラリのみ。RSS2.0(item) と Atom(entry) の両方に対応。
+
+使い方:
+  python3 collect_ai_news.py work/digest.md [--log radio/tech/_放送済み.json]
+                                             [--also-log radio/news/_放送済み.json]
+                                             [--hours 60] [--min-new 18]
 """
-import sys
 import io
-import re
 import os
-import urllib.request
-import xml.etree.ElementTree as ET
-from datetime import datetime
+import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+import build_digest
 
-# 公式フィード(見出し+要旨のみ利用)。末尾(en)=英語で翻訳が要る / (ja)=日本語
-SOURCES = [
+# 主力。末尾(en)=英語で翻訳が要る / (ja)=日本語
+MAIN = [
     # --- 海外・企業公式(一次情報) ---
     ("OpenAI (en)",         "https://openai.com/news/rss.xml"),
     ("Google Blog AI (en)", "https://blog.google/technology/ai/rss/"),
@@ -32,69 +33,46 @@ SOURCES = [
     ("Yahoo IT (ja)",       "https://news.yahoo.co.jp/rss/topics/it.xml"),
 ]
 
-MAX_ITEMS = 10          # 1ソースあたり上限(トークン節約)
-DESC_LEN = 160          # 要旨の切り出し長(翻訳・要約の材料。英語は少し長めに)
-ATOM = "{http://www.w3.org/2005/Atom}"
+# 予備(新規が目標本数に届かない朝だけ足す)
+BACKUP = [
+    ("Hugging Face (en)",   "https://huggingface.co/blog/feed.xml"),
+    ("Google Research (en)","https://research.google/blog/rss/"),
+    ("AWS ML Blog (en)",    "https://aws.amazon.com/blogs/machine-learning/feed/"),
+    ("NVIDIA Blog (en)",    "https://blogs.nvidia.com/feed/"),
+    ("WIRED AI (en)",       "https://www.wired.com/feed/tag/ai/latest/rss"),
+    ("ZDNET AI (en)",       "https://www.zdnet.com/topic/artificial-intelligence/rss.xml"),
+    ("MIT News AI (en)",    "https://news.mit.edu/rss/topic/artificial-intelligence2"),
+    ("Simon Willison (en)", "https://simonwillison.net/atom/everything/"),
+    ("Publickey (ja)",      "https://www.publickey1.jp/atom.xml"),
+    ("CNET Japan (ja)",     "https://feeds.japan.cnet.com/rss/cnet/all.rdf"),
+    ("PC Watch (ja)",       "https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf"),
+    ("ITmedia NEWS (ja)",   "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml"),
+]
 
-def fetch(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (personal AI news digest)"})
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return r.read()
-
-def strip_html(s: str) -> str:
-    s = re.sub(r"<[^>]+>", " ", s)          # タグ除去
-    s = re.sub(r"&[a-zA-Z#0-9]+;", " ", s)  # 実体参照除去
-    s = re.sub(r"\s+", " ", s)
-    return s.strip()
-
-def parse_items(xml_bytes: bytes):
-    root = ET.fromstring(xml_bytes)
-    items = list(root.iter("item"))         # RSS 2.0 / RDF
-    if items:
-        for it in items:
-            title = strip_html(it.findtext("title") or "")
-            desc = strip_html(it.findtext("description") or "")
-            pub = (it.findtext("pubDate") or "").strip()
-            if title:
-                yield title, desc, pub
-        return
-    for e in root.iter(ATOM + "entry"):     # Atom
-        title = strip_html(e.findtext(ATOM + "title") or "")
-        summ = e.findtext(ATOM + "summary") or e.findtext(ATOM + "content") or ""
-        desc = strip_html(summ)
-        pub = (e.findtext(ATOM + "updated") or e.findtext(ATOM + "published") or "").strip()
-        if title:
-            yield title, desc, pub
 
 def main():
-    if len(sys.argv) >= 2:
-        os.makedirs(os.path.dirname(os.path.abspath(sys.argv[1])), exist_ok=True)
-        out = open(sys.argv[1], "w", encoding="utf-8")
-    else:
-        out = sys.stdout
-    print(f"# AIニュースダイジェスト {datetime.now().strftime('%Y-%m-%d %H:%M')}", file=out)
-    print("# (en)=英語ソース=台本で日本語に要約 / (ja)=日本語ソース", file=out)
-    ok, ng = 0, []
-    for name, url in SOURCES:
-        try:
-            items = list(parse_items(fetch(url)))[:MAX_ITEMS]
-            ok += 1
-        except Exception as e:
-            ng.append(f"{name}: {e}")
-            continue
-        print(f"\n## {name}", file=out)
-        for title, desc, pub in items:
-            line = f"- {title}"
-            if desc:
-                line += f" — {desc[:DESC_LEN]}"
-            print(line, file=out)
-    if ng:
-        print("\n## 取得失敗", file=out)
-        for n in ng:
-            print(f"- {n}", file=out)
-    print(f"\n(取得成功 {ok}/{len(SOURCES)} ソース)", file=out)
-    if out is not sys.stdout:
-        out.close()
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    opts = {}
+    i = 1
+    while i < len(sys.argv):
+        if sys.argv[i].startswith("--"):
+            opts[sys.argv[i]] = sys.argv[i + 1]
+            i += 2
+        else:
+            i += 1
+    out = args[0] if args else "work/digest.md"
+    logs = [p for p in (opts.get("--log"), opts.get("--also-log")) if p]
+    build_digest.run(
+        "AIニュース", MAIN, BACKUP, out,
+        hours=float(opts.get("--hours", 60)),   # 企業ブログは毎日は出ないので国内ニュースより広め
+        min_new=int(opts.get("--min-new", 18)),
+        per_source=int(opts.get("--per-source", 10)),
+        max_total=int(opts.get("--max-total", 65)),
+        desc_len=160,
+        stale_days=10,    # 企業の公式ブログは1週間出ないこともある。故障判定は緩め
+        logs=logs,
+    )
+
 
 if __name__ == "__main__":
     main()

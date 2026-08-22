@@ -22,7 +22,7 @@ env:
   TZ: Asia/Tokyo
   SHOW: tech
   MODEL_UUID: baaae3c0-7b22-4605-8ba5-80c959b41a48   # morioki(ユー役・AivisHub。コハクはエンジン標準搭載でDL不要)
-  AIVIS_ARGS: "--yu-speaker 497929760 --zeta-speaker 1878365376 --zeta-pitch -0.09 --zeta-intonation 0.85 --speed 0.86 --sentpause 0.3 --parapause 1.0"
+  AIVIS_ARGS: "--yu-speaker 497929760 --zeta-speaker 1878365376 --zeta-pitch -0.09 --zeta-intonation 0.85 --speed 0.82 --sentpause 0.45 --parapause 1.25 --sectpause 1.8"
 
 jobs:
   build:
@@ -97,7 +97,7 @@ jobs:
       - name: AIニュース収集 (公式RSS)
         if: steps.plan.outputs.mode == 'full'
         run: |
-          python3 scripts/collect_ai_news.py work/digest.md
+          python3 scripts/collect_ai_news.py work/digest.md  --log "radio/$SHOW/_放送済み.json" --also-log radio/news/_放送済み.json
           python3 scripts/check_digest.py work/digest.md
 
       - name: Claude で台本と概要欄を執筆
@@ -118,8 +118,9 @@ jobs:
               continue
             fi
             judged=$((judged+1))
-            if [ "$judged" = 1 ]; then lo=2600; hi=3300; else lo=2200; hi=4000; fi
-            if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt "$lo" "$hi"; then
+            # 1回目は狙いどおりの尺(約10分半)に収まる範囲。2回目以降は放送を落とさないため緩める
+            if [ "$judged" = 1 ]; then lo=2700; hi=3050; strict=1; else lo=2400; hi=3400; strict=0; fi
+            if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt  "$lo" "$hi" work/topics.txt "$strict"; then
               ok=1; break
             fi
             if [ "$judged" -ge 2 ]; then echo "品質不合格が2回続いた"; break; fi
@@ -133,6 +134,7 @@ jobs:
           cp work/digest.md "$ep/digest.md"
           cp work/script.txt "$ep/台本.txt"
           cp work/desc.txt "$ep/概要欄.txt"
+          cp work/topics.txt "$ep/トピック.txt" 2>/dev/null || true
 
       - name: 音声合成 (AivisSpeech・ゼータ)
         if: steps.plan.outputs.mode != 'skip'
@@ -148,8 +150,8 @@ jobs:
           mp3="work/$SHOW-${{ steps.plan.outputs.today }}.mp3"
           dur=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$mp3" | cut -d. -f1)
           echo "長さ: $((dur/60))分$((dur%60))秒"
-          if [ "$dur" -lt 300 ] || [ "$dur" -gt 900 ]; then
-            echo "長さが異常(5分未満または15分超)のため公開を中止"
+          if [ "$dur" -lt 480 ] || [ "$dur" -gt 960 ]; then
+            echo "長さが異常(8分未満または16分超)のため公開を中止"
             exit 1
           fi
           python3 scripts/write_meta.py "$SHOW" "${{ steps.plan.outputs.today }}" "$mp3" "$ep/概要欄.txt" "$ep/meta.json"
@@ -184,6 +186,12 @@ jobs:
           ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
           python3 scripts/create_video.py "$mp3" "$ep/台本.txt" "" "$mp4" "$SHOW"
           python3 scripts/upload_youtube.py "$mp4" "$ep/概要欄.txt" "$SHOW"
+
+      - name: 放送済み台帳を更新 (明日の重複排除に使う)
+        if: steps.plan.outputs.mode != 'skip'
+        run: |
+          ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
+          python3 scripts/broadcast_log.py add "radio/$SHOW/_放送済み.json"  "${{ steps.plan.outputs.today }}" "$ep/トピック.txt"  || echo "::warning::放送済み台帳を更新できなかった(明日の重複排除が弱くなる)"
 
       - name: フィード更新とコミット
         if: steps.plan.outputs.mode != 'skip'

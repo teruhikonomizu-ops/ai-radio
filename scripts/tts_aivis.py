@@ -10,7 +10,8 @@
 台本の書き方:
   ・1行 = 1つのまとまり。行頭に「ユー: 」または「ゼータ: 」(半角コロン。1台本につきどちらか1人のみ)
   ・空行 = 段落の区切り(0.7秒の間が入る)
-  ・「#」で始まる行はコメント(読まれない)
+  ・「#」で始まる行はコメント(読まれない)。「# ──国内──」のように罫線を含むものは
+    コーナーの切れ目とみなし、段落よりも長めの間が入る
 外部ライブラリ不要(標準ライブラリ+ffmpeg)。
 """
 import sys
@@ -28,8 +29,9 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 BASE = "http://127.0.0.1:10101"
-PARA_PAUSE_SEC = 0.7
-SENT_PAUSE_SEC = 0.0
+PARA_PAUSE_SEC = 0.7    # 空行(段落の切れ目)の間
+SENT_PAUSE_SEC = 0.0    # 文と文の間
+SECT_PAUSE_SEC = 0.0    # 「# ──国内──」のようなコメント行(コーナーの切れ目)の間。0なら段落の間×1.6
 SPEAKERS = ("ユー", "ゼータ")
 
 
@@ -76,21 +78,33 @@ def synthesize(text: str, speaker: int, speed: float, pitch: float, intona: floa
 
 
 def parse_script(text: str):
-    """行を (speaker, text) のリストに変換。空行は None を挟んで段落区切りを表す"""
+    """行を (speaker, text) のリストに変換。
+    空行は "para"、コーナー見出しのコメント行は "sect" を挟んで区切りを表す。"""
     items = []
+
+    def mark(kind):
+        if not items:
+            return
+        if items[-1] in ("para", "sect"):
+            if kind == "sect":          # 空行のあとにコーナー見出しが来たら長いほうを採る
+                items[-1] = "sect"
+            return
+        items.append(kind)
+
     for raw_line in text.splitlines():
         line = raw_line.strip()
         if not line:
-            if items and items[-1] is not None:
-                items.append(None)
+            mark("para")
             continue
         if line.startswith("#"):
+            if re.search(r"[─―—–\-=＝]{2,}", line):   # 「# ──国内──」等はコーナーの切れ目
+                mark("sect")
             continue
         m = re.match(r"^(ユー|ゼータ):\s*(.+)$", line)
         if not m:
             raise SystemExit(f"話者タグが無い行が見つかった(ユー:/ゼータ: で始まっていない): {line!r}")
         items.append((m.group(1), m.group(2)))
-    while items and items[-1] is None:
+    while items and items[-1] in ("para", "sect"):
         items.pop()
     return items
 
@@ -113,6 +127,7 @@ def main():
     speed = float(opts.get("--speed", "1.0"))
     sent_pause = float(opts.get("--sentpause", str(SENT_PAUSE_SEC)))
     para_pause = float(opts.get("--parapause", str(PARA_PAUSE_SEC)))
+    sect_pause = float(opts.get("--sectpause", str(SECT_PAUSE_SEC))) or round(para_pause * 1.6, 3)
 
     version = api("/version")
     speaker_ids = {}
@@ -126,11 +141,11 @@ def main():
         intona = float(opts.get(f"--{prefix}-intonation", "1.0"))
         speaker_ids[name] = {"id": sid, "label": label, "pitch": pitch, "intonation": intona}
         print(f"{name}: {label} (styleId={sid}) / pitch {pitch} / 抑揚 {intona}")
-    print(f"engine {version} / 速度 {speed}")
+    print(f"engine {version} / 速度 {speed} / 間: 文{sent_pause}秒 段落{para_pause}秒 コーナー{sect_pause}秒")
 
     text = src.read_text(encoding="utf-8")
     items = parse_script(text)
-    total = sum(1 for it in items if it is not None)
+    total = sum(1 for it in items if it not in ("para", "sect"))
     print(f"セリフ行 {total}")
 
     frames = bytearray()
@@ -147,13 +162,20 @@ def main():
             return 0.0
         return len(frames) / (params.framerate * params.sampwidth * params.nchannels)
 
-    pending_para_pause = False
+    pending_pause = 0.0
+    first = True
     for item in items:
-        if item is None:
-            pending_para_pause = True
+        if item in ("para", "sect"):
+            pending_pause = max(pending_pause, para_pause if item == "para" else sect_pause)
             continue
+        if not first and pending_pause == 0.0 and sent_pause > 0:
+            pending_pause = sent_pause      # 続けて書かれた行どうしの間(以前は無音ゼロで詰まっていた)
         speaker, line_text = item
         spk = speaker_ids[speaker]
+        if pending_pause > 0 and params is not None:
+            frames += silence(pending_pause)
+        pending_pause = 0.0
+        first = False
         sentences = split_sentences(line_text)
         for si, s in enumerate(sentences):
             sent_start = cur_time()
@@ -170,9 +192,6 @@ def main():
         done += 1
         if done % 10 == 0 or done == total:
             print(f"  {done}/{total} 行 合成済み")
-        if pending_para_pause:
-            frames += silence(para_pause)
-            pending_para_pause = False
 
     dur = len(frames) / (params.framerate * params.sampwidth * params.nchannels)
     tmp_wav = Path(tempfile.gettempdir()) / "radio_tmp.wav"
