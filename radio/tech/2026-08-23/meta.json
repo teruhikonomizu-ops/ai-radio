@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-08-23",
+ "title": "【世界のAIニュース】8/23 Gemini新モデル／Anthropic新機能",
+ "description": "【世界のAIニュース】8/23 Gemini新モデル／Anthropic新機能\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年8月23日）:\n1. Google DeepMindがGemini 3.7 Flash／3.6 Flash／3.5 Flash-Lite／3.5 Flash Cyberなど新モデルを相次いで発表、ロボット向けGemini Robotics ER 2・Robotics 2も公開\n2. AnthropicがClaude Desktopの新エージェント機能「Cowork」を発表、最上位モデルClaude Mythos 5を脆弱性スキャンサービス「Claude Security」に導入\n3. DeepMind出身者が設立したInherentが、研究論文を再現するAIエージェント「Faraday」を公開\n4. OpenAIがカリフォルニア州のAI安全法案SB53の強化を要請、あわせてChatGPT for TeensやZero Data Retention、macOS版ChatGPTのApple「メッセージ」連携なども発表\n5. 中国Moonshot AIの「Kimi」が日本進出の動き、GoogleのオープンモデルGemmaが累計10億ダウンロード突破\n6. その他：Google Antigravityのリモート操作対応、Google Discoverのカスタマイズ機能、Slackのvibe-codingチャンネル、Railway／Starcloud／Nvidiaのインフラ投資動向\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #Gemini #OpenAI #Anthropic",
+ "duration_sec": 606,
+ "size_bytes": 9702548,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-23/tech-2026-08-23.mp3"
+}
