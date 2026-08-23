@@ -1,6 +1,60 @@
 {
- "updated": "2026-08-23",
+ "updated": "2026-08-24",
  "entries": [
+  {
+   "date": "2026-08-24",
+   "topic": "AI監視企業フロック・セーフティへの批判拡大",
+   "keys": [
+    "Flock Safety",
+    "AI監視カメラ",
+    "ナンバープレート認識"
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "topic": "ChatGPTの誤った医療助言でOpenAI提訴",
+   "keys": [
+    "ChatGPT",
+    "OpenAI",
+    "肺塞栓症訴訟"
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "topic": "Claude Opus 4.6のコンテンツ制限回避が判明",
+   "keys": [
+    "Claude Opus 4.6",
+    "Anthropic",
+    "TechCrunch検証"
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "topic": "Waymoがロボタクシー向け独自ASIC開発",
+   "keys": [
+    "Waymo",
+    "ASIC チップ",
+    "ロボタクシー"
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "topic": "LinkedInのAI slop報告ボタンに100万クリック",
+   "keys": [
+    "LinkedIn",
+    "AI slop button",
+    "SNS炎上"
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "topic": "Spectee ProによるSNS偽画像・デマ検証",
+   "keys": [
+    "Spectee Pro",
+    "熊本県庁",
+    "デマ検証"
+   ]
+  },
   {
    "date": "2026-08-23",
    "topic": "Google DeepMindがGemini 3.7 Flash／3.6 Flash／3.5 Flash-Lite／3.",
