@@ -1,0 +1,18 @@
+【世界のAIニュース】8/25 謎のAI出現／Nvidia社員起訴
+
+この番組は、相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月25日）:
+1. 謎のステルスAI「Ox Alpha」が出現、無料テスト開始
+2. Nvidia社員がSupermicroのAIサーバー中国密輸事件で起訴
+3. OpenAIがAIエージェントを一般ユーザー向けに拡大
+4. NvidiaがAIサーバー製品を15%以上値上げへ
+5. General Intuitionがロボット向けAIで60億ドル評価額の資金調達
+6. Google DeepMindがEVE OnlineでAI研究を発表
+7. 日本企業のAI投資、成果実感はわずか13%（アクセンチュア調査）
+8. LinkedInの「AIスロップ通報ボタン」が100万人利用
+9. AIモデル学習と著作権書籍をめぐる合法性の議論
+
+出典: OpenAI／Google DeepMind／TechCrunch／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #NVIDIA #OpenAI #DeepMind
