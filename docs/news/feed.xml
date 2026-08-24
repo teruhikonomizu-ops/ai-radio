@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】8/25(火) 台風18号接近／カナダ関税50%</title>
+      <description>【AIデイリーニュース】8/25(火) 台風18号接近／カナダ関税50%
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・台風18号が沖縄・奄美に接近、暴風や高波に警戒
+・トランプ大統領、カナダ車への追加関税を50%に
+・福岡県議会、藏内議長が辞職願を提出
+・ウクライナ独立記念日から4年半、EUが1兆円規模の支援
+・損保ジャパン、自動車保険料を来年1月から5%値上げ
+・JAXA、人工衛星でキャベツの出荷を予測する取り組み開始
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Tue, 25 Aug 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-25/news-2026-08-25.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-25/news-2026-08-25.mp3" length="10063247" type="audio/mpeg"/>
+      <itunes:duration>0:10:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】8/24(月) 地震と台風、立民合流協議</title>
       <description>【AIデイリーニュース】8/24(月) 地震と台風、立民合流協議
 
