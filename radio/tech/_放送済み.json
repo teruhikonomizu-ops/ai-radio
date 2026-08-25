@@ -1,6 +1,110 @@
 {
- "updated": "2026-08-25",
+ "updated": "2026-08-26",
  "entries": [
+  {
+   "date": "2026-08-26",
+   "topic": "OpenAI推論チップ「Jalapeño」初公開",
+   "keys": [
+    "Jalapeño",
+    "OpenAI",
+    "InferenceX",
+    "Sarah Friar"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "Stability AIが7600万ドル資金調達",
+   "keys": [
+    "Stability AI",
+    "Stable Diffusion",
+    "$76 million"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "Claude、チャットとCoworkで記憶共有",
+   "keys": [
+    "Claude",
+    "Claude Cowork",
+    "Anthropic",
+    "shared memory"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "OpenAI、ロシア発偽情報工作を阻止",
+   "keys": [
+    "OpenAI",
+    "Russia",
+    "covert influence campaign",
+    "sovereignty index"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "ChatGPT Plusに5時間制限が復活",
+   "keys": [
+    "ChatGPT Plus",
+    "ChatGPT Work",
+    "Codex",
+    "5-hour limit"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "日本政府がAI事業者向け知財指針策定",
+   "keys": [
+    "プリンシプル・コード",
+    "知的財産権",
+    "生成AI"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "AIヘッジファンドにSEC捜査の報道",
+   "keys": [
+    "Situational Awareness",
+    "SEC",
+    "hedge fund"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "Apple、ローカルAI開発向け新デスクトップ",
+   "keys": [
+    "Apple",
+    "Mac",
+    "local AI development"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "Windowsペイントに電子透かし発覚",
+   "keys": [
+    "Windows Paint",
+    "Microsoft Photos",
+    "watermark",
+    "GUID"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "シャープ「ポケとも」新モデル発表",
+   "keys": [
+    "ポケとも",
+    "Sharp",
+    "対話型AIロボット"
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "topic": "AIで若手雇用19%減、Stanford調査",
+   "keys": [
+    "Stanford",
+    "entry-level jobs",
+    "19%"
+   ]
+  },
   {
    "date": "2026-08-25",
    "topic": "謎のステルスAI「Ox Alpha」が無料テスト開始",

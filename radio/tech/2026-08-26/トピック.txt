@@ -1,0 +1,11 @@
+OpenAI推論チップ「Jalapeño」初公開 ||| Jalapeño, OpenAI, InferenceX, Sarah Friar
+Stability AIが7600万ドル資金調達 ||| Stability AI, Stable Diffusion, $76 million
+Claude、チャットとCoworkで記憶共有 ||| Claude, Claude Cowork, Anthropic, shared memory
+OpenAI、ロシア発偽情報工作を阻止 ||| OpenAI, Russia, covert influence campaign, sovereignty index
+ChatGPT Plusに5時間制限が復活 ||| ChatGPT Plus, ChatGPT Work, Codex, 5-hour limit
+日本政府がAI事業者向け知財指針策定 ||| プリンシプル・コード, 知的財産権, 生成AI
+AIヘッジファンドにSEC捜査の報道 ||| Situational Awareness, SEC, hedge fund
+Apple、ローカルAI開発向け新デスクトップ ||| Apple, Mac, local AI development
+Windowsペイントに電子透かし発覚 ||| Windows Paint, Microsoft Photos, watermark, GUID
+シャープ「ポケとも」新モデル発表 ||| ポケとも, Sharp, 対話型AIロボット
+AIで若手雇用19%減、Stanford調査 ||| Stanford, entry-level jobs, 19%

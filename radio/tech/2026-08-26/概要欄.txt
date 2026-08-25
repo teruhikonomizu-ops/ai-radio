@@ -1,0 +1,20 @@
+【世界のAIニュース】8/26 推論チップ／クロード記憶機能／資金調達
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月26日）:
+1. OpenAI、推論用チップ「Jalapeño」の初性能データを公開
+2. Stability AIが7,600万ドルを新規調達、累計232百万ドルに
+3. AnthropicがClaude Coworkに記憶共有機能を追加
+4. OpenAI、ロシア発の偽情報工作アカウント群を停止
+5. ChatGPT Plus（Work/Codex対象）で5時間利用制限が復活
+6. 日本政府、生成AI事業者向け知財保護指針「プリンシプル・コード」を策定
+7. AIヘッジファンド「Situational Awareness」にSEC捜査の報道
+8. Apple、ローカルAI開発向け新デスクトップを発表
+9. Windowsペイント/フォトのAI生成画像に電子透かしが判明
+10. シャープ、対話型AIロボット「ポケとも」新モデルを発表
+11. スタンフォード大学調査、AI影響職種で若手雇用が19%減
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic #ChatGPT
