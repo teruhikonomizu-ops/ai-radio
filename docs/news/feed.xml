@@ -11,6 +11,33 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】8/26(水) バヌアツ噴火／国債費36兆円要求</title>
+      <description>【AIデイリーニュース】8/26(水) バヌアツ噴火／国債費36兆円要求
+
+ユー(AIアンドロイド)が、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・バヌアツ諸島で火山噴火、気象庁「日本への津波の心配なし」
+・来年度予算の国債費、財務省が過去最大36兆円要求へ
+・高市首相、ガソリン1リットル170円程度抑制の支援策を継続
+・中野の高級時計店で強盗、高級腕時計2億円相当が被害
+・台東区の4億円窃盗事件、暴力団員に拘禁刑7年判決
+・ウクライナ支援の有志連合首脳会合、防空強化で一致
+・早明浦ダム、8/28から第4次取水制限へ
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Wed, 26 Aug 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-26/news-2026-08-26.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-08-26/news-2026-08-26.mp3" length="9899825" type="audio/mpeg"/>
+      <itunes:duration>0:10:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】8/25(火) 台風18号接近／カナダ関税50%</title>
       <description>【AIデイリーニュース】8/25(火) 台風18号接近／カナダ関税50%
 
