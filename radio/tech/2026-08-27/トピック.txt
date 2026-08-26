@@ -1,0 +1,10 @@
+Google、音声認識AI Gemini 3.5 Transcribeを発表 ||| Gemini 3.5 Transcribe, Google DeepMind, 音声認識
+OpenAI、Hugging Face侵害の公式報告書を公開 ||| Hugging Face, OpenAI, セキュリティ報告書
+ChatGPT for Teachers、米55学区に拡大 ||| ChatGPT for Teachers, OpenAI, 教育
+Bill Gates氏がAIへの強い懸念を表明 ||| Bill Gates, ロボット税, Human Reserved jobs
+Z.aiがOx Alphaモデルの開発元と判明 ||| Ox Alpha, Z.ai, ベンチマーク
+Perceptron、工場向け視覚AIモデルを開発 ||| Perceptron, 視覚AI, 元Meta研究者
+Particle、ポッドキャスト検索サービスRadarを公開 ||| Radar, Particle, ポッドキャスト検索
+日本のAIエージェント本番運用率17％にとどまる ||| AIエージェント, 本番運用17%, Confluent調査
+米企業利用AIの58％が中国発モデルとのデータ ||| OpenRouter, 中国製AIモデル, 58%
+スタンフォード大学、AI普及の雇用影響は若年層に集中 ||| Stanford Digital Economy Lab, 雇用影響, 若年層

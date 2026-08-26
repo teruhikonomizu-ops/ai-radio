@@ -11,6 +11,33 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/27 Gemini文字起こし／Gatesの警鐘</title>
+      <description>【世界のAIニュース】8/27 Gemini文字起こし／Gatesの警鐘
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月27日）:
+1. Google DeepMind、音声認識AI「Gemini 3.5 Transcribe」を発表
+2. OpenAI、Hugging Face侵害事件の公式調査報告書を公開
+3. OpenAI、教員向け「ChatGPT for Teachers」を米国55学区に拡大
+4. Bill Gates氏、AIのリスクについて強い懸念を表明
+5. Z.ai、話題のモデル「Ox Alpha」の開発元であると発表
+6. Perceptron、工場向け視覚AIモデルを開発
+7. Particle、ポッドキャスト検索サービス「Radar」を公開
+8. 日本企業のAIエージェント本番運用率は17％にとどまるとの調査結果
+9. 米企業が利用するAIモデルの58％が中国発とのデータ
+10. スタンフォード大学、生成AI普及による雇用影響は若年層に集中と分析
+
+出典: OpenAI／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #GeminiTranscribe #OpenAI #BillGates</description>
+      <pubDate>Thu, 27 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-27/tech-2026-08-27.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-27/tech-2026-08-27.mp3" length="9410395" type="audio/mpeg"/>
+      <itunes:duration>0:09:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/26 推論チップ／クロード記憶機能／資金調達</title>
       <description>【世界のAIニュース】8/26 推論チップ／クロード記憶機能／資金調達
 
