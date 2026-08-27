@@ -11,6 +11,31 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】8/28 Nvidia、Hugging Face買収か</title>
+      <description>【世界のAIニュース】8/28 Nvidia、Hugging Face買収か
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月28日）:
+1. NvidiaがHugging Faceを約129億ドルで買収と報道
+2. Google検索のAIモードに旅行予約・航空券価格追跡機能が追加
+3. OpenAI・Anthropic・Googleなど100社超が暴走AI対策を呼びかけ
+4. Google DeepMindが「Gemini Omni 1.1 Flash」公開、二重盲検評価も試験導入
+5. Meta、AI置き換え計画「Project OT」が社内反発で頓挫と報道
+6. 中国Z.aiのステルスモデル「GLM-5.3-Flash」がMITライセンスで公開
+7. ABI Research、AI推論市場は2035年に消費電力46ギガワットへ拡大と予測
+8. NVIDIA支援の国内歯科用AI「Mucosight AI」が製造販売承認取得
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Nvidia #HuggingFace #GeminiOmni</description>
+      <pubDate>Fri, 28 Aug 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-28/tech-2026-08-28.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-08-28/tech-2026-08-28.mp3" length="10396360" type="audio/mpeg"/>
+      <itunes:duration>0:10:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】8/27 Gemini文字起こし／Gatesの警鐘</title>
       <description>【世界のAIニュース】8/27 Gemini文字起こし／Gatesの警鐘
 

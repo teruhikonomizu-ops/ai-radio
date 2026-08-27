@@ -1,0 +1,8 @@
+NvidiaがHugging Faceを買収と報道 ||| Nvidia, Hugging Face, $12.9 billion acquisition
+Google検索AIモードに旅行予約機能追加 ||| Google AI Mode, hotel booking, flight tracking
+100社超が暴走AI対策を呼びかけ ||| OpenAI, Anthropic, Google, rogue AI coalition
+Gemini Omni 1.1 Flash公開、二重盲検評価も ||| Gemini Omni 1.1 Flash, double-blind AI evaluation
+Meta「Project OT」AI置き換え計画が頓挫 ||| Meta, Project OT, Mark Zuckerberg
+中国のステルスモデルGLM-5.3-Flash公開 ||| GLM-5.3-Flash, Z.ai, Ox Alpha, Claude Opus 4.8
+AI推論市場、2035年に46ギガワットへ拡大予測 ||| ABI Research, AI inference market, 46 gigawatts
+NVIDIA支援の歯科用AI「Mucosight AI」承認取得 ||| Mucosight AI, NVIDIA, oral mucosa detection
