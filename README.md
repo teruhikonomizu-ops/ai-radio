@@ -6,8 +6,13 @@
 
 | 番組 | 実行時刻(JST) | フィードURL |
 |---|---|---|
-| AIデイリーニュース | 毎朝 05:00 | `https://teruhikonomizu-ops.github.io/ai-radio/news/feed.xml` |
-| 世界のAIニュース | 毎朝 04:00 | `https://teruhikonomizu-ops.github.io/ai-radio/tech/feed.xml` |
+| AIデイリーニュース | 毎朝 04:47(保険 05:47/06:47/07:47) | `https://teruhikonomizu-ops.github.io/ai-radio/news/feed.xml` |
+| 世界のAIニュース | 毎朝 04:13(保険 05:13/06:13/07:13) | `https://teruhikonomizu-ops.github.io/ai-radio/tech/feed.xml` |
+
+> 2026-08-28改修: GitHub Actionsのcronは毎時0分が混雑ピークで発火自体が飛ぶことがある
+> (8/26〜28に本線・保険とも欠落が続き、8/28朝は両番組とも未生成になった)。
+> 対策として①全cronを0分以外へ移動 ②保険を各3本に増強 ③radio-watchdog(10:17 JST)を
+> 「欠けていたら自動でworkflow_dispatch再実行→復旧確認、直らない時だけメール」の自己修復型に格上げ。
 
 スマホのポッドキャストアプリに上のフィードURLを登録すると、毎朝自動で新エピソードが届く。
 

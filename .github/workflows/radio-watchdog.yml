@@ -2,46 +2,76 @@ name: radio-watchdog
 
 # ラジオ2番組(tech-radio/news-radio)は「1セット」。
 # 本線・保険どちらのcronも終わった後の時間帯に、両番組の当日分が
-# ちゃんとRSSに乗っているかだけを確認する。片方でも欠けていたらジョブを失敗させ、
-# GitHub Actionsの標準の失敗メールで teruhiko.nomizu@gmail.com に知らせる。
-# (tech-radio/news-radio自体の失敗メールと違い、これは「保険まで含めて本当に
-#  当日分が出ているか」を見るので、リトライで自己解決したケースでは鳴らない)
+# ちゃんとRSSに乗っているかを確認する。
+#
+# 2026-08-28改修(自己修復化): 8/26〜28にGitHub側のスケジュール発火が丸ごと欠落する事象が
+# 続いたため、「知らせるだけ」から「欠けていたら workflow_dispatch で自動再実行→
+# 最大45分待って復旧確認」に格上げ。メールが来るのは自動再実行でも直らなかった時だけ。
 #
 # 手動確認: Actionsタブ → radio-watchdog → Run workflow
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # 01:00 UTC = 日本時間10:00
-                            # (tech: 本線04:00/保険07:00, news: 本線05:00/保険08:00 が
-                            #  最も遅れても収まる時間帯を見て設定。詳細は README/CLAUDE.md)
+    - cron: '17 1 * * *'   # 01:17 UTC = 日本時間10:17
+                            # (毎時0分はGitHub混雑で発火が飛びやすいため0分を避ける。
+                            #  tech/newsの本線+保険3本がすべて終わった後の時間帯)
   workflow_dispatch:
+
+permissions:
+  actions: write   # 欠けていた番組を workflow_dispatch で再実行するため
 
 env:
   TZ: Asia/Tokyo
+  GH_TOKEN: ${{ github.token }}
+  GH_REPO: ${{ github.repository }}
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 60
     steps:
-      - name: 両番組の本日分がRSSに乗っているか確認
+      - name: 両番組の本日分を確認し、欠けていたら自動で再実行
         run: |
           today=$(date +%F)
           echo "本日(JST): $today"
-          fail=0
-          for show in "tech:世界のAIニュース" "news:AIデイリーニュース"; do
-            id="${show%%:*}"
-            name="${show##*:}"
-            pubdate=$(curl -fsS "https://teruhikonomizu-ops.github.io/ai-radio/$id/feed.xml" 2>/dev/null | grep -m1 -oP '(?<=<pubDate>).*?(?=</pubDate>)')
-            pubdate_ymd=$(date -d "$pubdate" +%F 2>/dev/null || echo "解析失敗")
-            echo "$name ($id): 最新pubDate=[$pubdate] → $pubdate_ymd"
-            if [ "$pubdate_ymd" != "$today" ]; then
-              echo "::error::$name ($id) が本日($today)分未配信。最新は $pubdate_ymd"
-              fail=1
+
+          check() {  # $1=show id。当日分が配信済みなら0
+            pubdate=$(curl -fsS "https://teruhikonomizu-ops.github.io/ai-radio/$1/feed.xml" 2>/dev/null | grep -m1 -oP '(?<=<pubDate>).*?(?=</pubDate>)')
+            [ "$(date -d "$pubdate" +%F 2>/dev/null)" = "$today" ]
+          }
+
+          missing=""
+          for id in tech news; do
+            if check "$id"; then
+              echo "$id: 本日分あり"
+            else
+              echo "$id: 本日分なし → workflow_dispatchで再実行を発火"
+              missing="$missing $id"
             fi
           done
-          if [ "$fail" = 1 ]; then
-            echo "::error::ラジオ2番組セットが崩れています。tech-radio/news-radioのActionsログを確認してください。"
-            exit 1
+          if [ -z "$missing" ]; then
+            echo "両番組とも本日分の配信を確認しました。"
+            exit 0
           fi
-          echo "両番組とも本日分の配信を確認しました。"
+
+          for id in $missing; do
+            gh workflow run "$id-radio"
+          done
+
+          # 生成は1本およそ30分。5分おき・最大9回(45分)だけ待つ(上限なしの完了待ちループは書かない)
+          for i in $(seq 1 9); do
+            sleep 300
+            still=""
+            for id in $missing; do
+              check "$id" || still="$still $id"
+            done
+            missing="$still"
+            if [ -z "$missing" ]; then
+              echo "自動再実行で復旧しました。"
+              exit 0
+            fi
+            echo "待機中($i/9): 未配信=$missing"
+          done
+
+          echo "::error::自動再実行でも復旧せず:$missing。tech-radio/news-radioのActionsログを確認してください。"
+          exit 1
