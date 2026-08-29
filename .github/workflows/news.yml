@@ -32,7 +32,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
+      # 2026-08-30: 遅れて届いたschedule実行が「実行が作られた時点の古いコミット」を見て
+      # 「本日分はまだ無い」と誤判定し、同じ番組を二重生成する事故を防ぐ。
+      # ref: main により、実際に走り出す瞬間の main を取り直す。
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: 日付と実行モードを判定
         id: plan
