@@ -1,0 +1,11 @@
+中国Z.aiがGLM-5.3を無償オープン公開 ||| GLM-5.3, Z.ai, オープンモデル
+Anthropicが国防総省相手の裁判で勝訴 ||| Anthropic, Pentagon, 供給網リスク指定
+Anthropicが機器制御の新規格MHS発表 ||| Model Hardware Standard, MHS, Anthropic
+LambdaがNvidia向けチップ調達へ10億ドル調達 ||| Lambda, Nvidia, Microsoft
+Google AI Modeがホテル予約や航空券追跡に対応 ||| AI Mode, Google Search, ホテル予約
+Gemini NotebookがExpert Intelligenceで電子書籍連携 ||| Gemini Notebook, Expert Intelligence, Google Play Books
+Metaのスマートグラスが録画制限を追加 ||| Meta AI Glasses, 安全ランプ, 録画制限
+EPAがデータセンターの大気汚染情報開示を緩和検討 ||| EPA, データセンター, 大気汚染
+Anthropic研究者が自己改善AIの成果を公開 ||| Anthropic, self-improving AI, misaligned behaviors
+Meta幹部Sandhya DevanathanがOpenAIへ移籍 ||| Sandhya Devanathan, Meta, OpenAI
+Hugging FaceのMicroduckがあひる型ロボット発表 ||| Microduck, Pollen Robotics, Hugging Face

@@ -1,0 +1,18 @@
+【世界のAIニュース】8/29 GLM-5.3公開／Anthropic訴訟勝利
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年8月29日）:
+1. 中国のZ.aiがオープンモデル「GLM-5.3」を無償公開、Claude Fable 5やGPT-5.6 Sol級と評価
+2. Anthropicが国防総省の供給網リスク指定を巡る裁判で勝訴
+3. Anthropicが機器制御の共通規格「Model Hardware Standard(MHS)」を発表
+4. AIインフラ企業LambdaがNvidia向けチップ調達のため10億ドルを調達
+5. GoogleのAI Modeが旅行予約に対応、Gemini NotebookはExpert Intelligenceで電子書籍と連携
+6. MetaがAIグラスの録画制限を追加、EPAはデータセンターの大気汚染情報開示の緩和を検討
+7. Anthropicの研究者が自己改善AIの研究成果を公開
+8. Meta幹部Sandhya DevanathanがOpenAIへ移籍
+9. Hugging Face傘下のPollen Roboticsがあひる型ロボット「Microduck」を発表
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Anthropic #GLM53 #Microduck

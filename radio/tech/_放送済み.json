@@ -1,6 +1,105 @@
 {
- "updated": "2026-08-28",
+ "updated": "2026-08-29",
  "entries": [
+  {
+   "date": "2026-08-29",
+   "topic": "中国Z.aiがGLM-5.3を無償オープン公開",
+   "keys": [
+    "GLM-5.3",
+    "Z.ai",
+    "オープンモデル"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "Anthropicが国防総省相手の裁判で勝訴",
+   "keys": [
+    "Anthropic",
+    "Pentagon",
+    "供給網リスク指定"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "Anthropicが機器制御の新規格MHS発表",
+   "keys": [
+    "Model Hardware Standard",
+    "MHS",
+    "Anthropic"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "LambdaがNvidia向けチップ調達へ10億ドル調達",
+   "keys": [
+    "Lambda",
+    "Nvidia",
+    "Microsoft"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "Google AI Modeがホテル予約や航空券追跡に対応",
+   "keys": [
+    "AI Mode",
+    "Google Search",
+    "ホテル予約"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "Gemini NotebookがExpert Intelligenceで電子書籍連携",
+   "keys": [
+    "Gemini Notebook",
+    "Expert Intelligence",
+    "Google Play Books"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "Metaのスマートグラスが録画制限を追加",
+   "keys": [
+    "Meta AI Glasses",
+    "安全ランプ",
+    "録画制限"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "EPAがデータセンターの大気汚染情報開示を緩和検討",
+   "keys": [
+    "EPA",
+    "データセンター",
+    "大気汚染"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "Anthropic研究者が自己改善AIの成果を公開",
+   "keys": [
+    "Anthropic",
+    "self-improving AI",
+    "misaligned behaviors"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "Meta幹部Sandhya DevanathanがOpenAIへ移籍",
+   "keys": [
+    "Sandhya Devanathan",
+    "Meta",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-08-29",
+   "topic": "Hugging FaceのMicroduckがあひる型ロボット発表",
+   "keys": [
+    "Microduck",
+    "Pollen Robotics",
+    "Hugging Face"
+   ]
+  },
   {
    "date": "2026-08-28",
    "topic": "NvidiaがHugging Faceを買収と報道",
