@@ -107,7 +107,8 @@ def run(show_label, main_sources, backup_sources, out_path, *,
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open("w", encoding="utf-8") as f:
         p = lambda s="": print(s, file=f)
-        p(f"# {show_label}ダイジェスト {now.strftime('%Y-%m-%d %H:%M')}(日本時間)")
+        wd = "月火水木金土日"[now.weekday()]  # AIに曜日を計算させない(2026-08-29 タイトル曜日誤りの再発防止)
+        p(f"# {show_label}ダイジェスト {now.strftime('%Y-%m-%d')}({wd}) {now.strftime('%H:%M')}(日本時間)")
         p(f"# 各行の [今日][昨日][N日前] は記事の配信日時。今日と昨日のものを優先して扱うこと。")
         p(f"# 「新規」= まだ放送していない話題 / 「既報」= 直近{broadcast_log.MATCH_DAYS}日の放送で扱い済み")
         p()
