@@ -1,6 +1,103 @@
 {
- "updated": "2026-08-29",
+ "updated": "2026-08-30",
  "entries": [
+  {
+   "date": "2026-08-30",
+   "topic": "Sony MusicらAnthropicを著作権侵害で提訴",
+   "keys": [
+    "Anthropic",
+    "Sony Music",
+    "Warner Chappell",
+    "lawsuit"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "AI生成偽楽曲をミュージシャンが摘発する動き",
+   "keys": [
+    "AI-generated music",
+    "musicians",
+    "detectives"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "OpenAI、CursorへのAIモデル提供終了",
+   "keys": [
+    "OpenAI",
+    "Cursor",
+    "SpaceX",
+    "November 12 2026"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "Nvidiaのデータセンター効率化とオープンウェイト企業M&A",
+   "keys": [
+    "Nvidia",
+    "open-weight AI",
+    "data center",
+    "M&A"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "EPAがデータセンターの大気汚染開示を緩和検討",
+   "keys": [
+    "EPA",
+    "data center",
+    "air pollution disclosure"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "Metaのスマートグラスに録画制限機能追加",
+   "keys": [
+    "Meta",
+    "AI glasses",
+    "safety light",
+    "recording"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "OpenAI、タイでAIスタートアップ支援プログラム開始",
+   "keys": [
+    "OpenAI",
+    "Thailand",
+    "MHESI",
+    "accelerator"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "アトムの人型ロボット作業風景を長時間生配信",
+   "keys": [
+    "Atom",
+    "humanoid robot",
+    "livestream",
+    "conveyor"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "Keysightが次世代AI半導体設計イベントを開催",
+   "keys": [
+    "Keysight Technologies",
+    "KDES",
+    "AI-driven EDA"
+   ]
+  },
+  {
+   "date": "2026-08-30",
+   "topic": "Timee×ZEALSがヒューマノイド向けデータ収集で提携",
+   "keys": [
+    "Timee",
+    "ZEALS",
+    "humanoid",
+    "data collection"
+   ]
+  },
   {
    "date": "2026-08-29",
    "topic": "中国Z.aiがGLM-5.3を無償オープン公開",
