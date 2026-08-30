@@ -1,6 +1,71 @@
 {
- "updated": "2026-08-30",
+ "updated": "2026-08-31",
  "entries": [
+  {
+   "date": "2026-08-31",
+   "topic": "キャタピラー、鉱山自動化の知見をAI導入に活用",
+   "keys": [
+    "Caterpillar",
+    "AI deployment",
+    "autonomous mining"
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "topic": "マスク氏新工場のガスタービン量産とデータセンター電力・大気汚染",
+   "keys": [
+    "SpaceX turbine foundry",
+    "Elon Musk",
+    "EPA",
+    "data center power"
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "topic": "メタのデータセンターロボット試験導入と国産ヒューマノイド「アトム」",
+   "keys": [
+    "Meta robots",
+    "data center",
+    "Atom humanoid"
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "topic": "オープンウェイトAI企業の買収熱と半導体投資競争",
+   "keys": [
+    "open-weight AI acquisition",
+    "Kioxia",
+    "semiconductor investment"
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "topic": "可視化中間言語「Flint」公開",
+   "keys": [
+    "Flint",
+    "Vega-Lite",
+    "ECharts",
+    "Chart.js",
+    "MCP server"
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "topic": "AIチャット編集ツール「ThoughtDAG」公開",
+   "keys": [
+    "ThoughtDAG",
+    "LLM context graph"
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "topic": "AIに意識はあるか、Google研究者の見解",
+   "keys": [
+    "Blaise Agüera y Arcas",
+    "Susan Schneider",
+    "AI consciousness"
+   ]
+  },
   {
    "date": "2026-08-30",
    "topic": "Sony MusicらAnthropicを著作権侵害で提訴",

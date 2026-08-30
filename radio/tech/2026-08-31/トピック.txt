@@ -1,0 +1,7 @@
+キャタピラー、鉱山自動化の知見をAI導入に活用 ||| Caterpillar, AI deployment, autonomous mining
+マスク氏新工場のガスタービン量産とデータセンター電力・大気汚染 ||| SpaceX turbine foundry, Elon Musk, EPA, data center power
+メタのデータセンターロボット試験導入と国産ヒューマノイド「アトム」 ||| Meta robots, data center, Atom humanoid
+オープンウェイトAI企業の買収熱と半導体投資競争 ||| open-weight AI acquisition, Kioxia, semiconductor investment
+可視化中間言語「Flint」公開 ||| Flint, Vega-Lite, ECharts, Chart.js, MCP server
+AIチャット編集ツール「ThoughtDAG」公開 ||| ThoughtDAG, LLM context graph
+AIに意識はあるか、Google研究者の見解 ||| Blaise Agüera y Arcas, Susan Schneider, AI consciousness
