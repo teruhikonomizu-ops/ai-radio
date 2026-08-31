@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/1(火) メッシ引退／ネパール土石流919人死亡</title>
+      <description>【AIデイリーニュース】9/1(火) メッシ引退／ネパール土石流919人死亡
+
+この番組は、AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・アルゼンチンのメッシ選手が、サッカー代表からの引退を表明
+・ネパール・中国国境の土石流、死者919人・行方不明4700人以上に
+・9月の食品値上げが4900品目超、今年最多
+・住宅ローン変動金利、三菱UFJ・三井住友が9月から引き上げ
+・上海協力機構首脳会議開幕、中ロ首脳会談
+・ホルムズ海峡でアメリカとイランが約1か月ぶりに攻撃応酬
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Tue, 01 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-01/news-2026-09-01.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-01/news-2026-09-01.mp3" length="9567965" type="audio/mpeg"/>
+      <itunes:duration>0:09:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】8/31(月) 福井大雨特別警報／ネパール土石流768人</title>
       <description>【AIデイリーニュース】8/31(月) 福井大雨特別警報／ネパール土石流768人
 
