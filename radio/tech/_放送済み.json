@@ -1,6 +1,61 @@
 {
- "updated": "2026-08-31",
+ "updated": "2026-09-01",
  "entries": [
+  {
+   "date": "2026-09-01",
+   "topic": "ChatGPT広告事業が年間売上10億ドル突破",
+   "keys": [
+    "ChatGPT Ads",
+    "OpenAI",
+    "$1 billion ARR"
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "topic": "NVIDIA、台湾MediaTekに35億ドル出資",
+   "keys": [
+    "NVIDIA",
+    "MediaTek",
+    "$3.5 billion investment"
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "topic": "ChatGPTにEUデジタルサービス法の規制適用",
+   "keys": [
+    "ChatGPT",
+    "EU Digital Services Act",
+    "Reddit"
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "topic": "Instagramがなりすましエーアイ対策強化",
+   "keys": [
+    "Instagram",
+    "AI creator label",
+    "fake accounts"
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "topic": "Debianがエーアイ活用コード投稿を容認",
+   "keys": [
+    "Debian",
+    "Linux",
+    "AI-generated code policy"
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "topic": "韓国「AI for All」の運営コンソーシアム選定",
+   "keys": [
+    "AI for All",
+    "SK Telecom",
+    "KT",
+    "Kakao"
+   ]
+  },
   {
    "date": "2026-08-31",
    "topic": "キャタピラー、鉱山自動化の知見をAI導入に活用",
@@ -1112,70 +1167,6 @@
     "ジャンプ",
     "中国",
     "映像"
-   ]
-  },
-  {
-   "date": "2026-08-17",
-   "topic": "OpenAIがGPT-5.6 Solの超高速モード「Ultrafast」を発表(Cerebras技術で最大14倍速、毎秒",
-   "keys": [
-    "GPT-5.6 Sol",
-    "Ultrafast",
-    "Cerebras",
-    "モード",
-    "トークン"
-   ]
-  },
-  {
-   "date": "2026-08-17",
-   "topic": "Googleが新モデル「Gemini 3.7 Flash」を公開(コーディング・エージェント向け、導入価格半額)",
-   "keys": [
-    "Gemini 3.7 Flash",
-    "コーディング",
-    "導入価格半額"
-   ]
-  },
-  {
-   "date": "2026-08-17",
-   "topic": "AnthropicがClaudeの見えない透かし技術の仕組みを公表(EU AI Act対応、乱数に秘密鍵を利用)",
-   "keys": [
-    "EU AI Act",
-    "技術",
-    "仕組",
-    "公表",
-    "乱数"
-   ]
-  },
-  {
-   "date": "2026-08-17",
-   "topic": "Anthropicのマルチエージェント実験で「縄張り争い」や妨害行為、価格カルテルなどを確認",
-   "keys": [
-    "マルチエージェント",
-    "カルテル",
-    "縄張",
-    "妨害行為",
-    "価格"
-   ]
-  },
-  {
-   "date": "2026-08-17",
-   "topic": "SpaceXがAIコーディングツールCursor(開発元Anysphere)の買収を正式完了",
-   "keys": [
-    "SpaceX",
-    "Cursor",
-    "Anysphere",
-    "コーディングツール",
-    "開発元"
-   ]
-  },
-  {
-   "date": "2026-08-17",
-   "topic": "その他: ChatGPT広告テスト、Claudeの新機能Cowork、MetaのGlimmer、Google Sheet",
-   "keys": [
-    "Cowork",
-    "Glimmer",
-    "Google Sheets canvas",
-    "SL2T",
-    "Alibaba Qwen"
    ]
   }
  ]
