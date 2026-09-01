@@ -1,0 +1,20 @@
+【世界のAIニュース】9/2 Google Pics／ChatGPT医療連携
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月2日）:
+1. Googleの新しい画像生成ツール「Google Pics」がWorkspaceで利用可能に
+2. Google DeepMindがGeminiにエージェント的な動画理解機能を追加
+3. ChatGPTが医療機関の電子カルテ（Epic）と連携、臨床データに接続可能に
+4. AppleがOpenAIを提訴、元社員による証拠隠滅を主張
+5. 米国防総省がChatGPT Mil・Gemini・Grokの3モデルを運用開始
+6. Google Researchが予測AIモデル「TimesFM-3」を公開
+7. EUがChatGPT規制を強化、OpenAIはカリフォルニア州の未成年AI安全法案を支持
+8. エージェント管理のAIRが5000万ドル、Empirikが2100万ドルを調達
+9. NVIDIAが9月3日にDLSS 5の提供を開始
+10. Instagramが「AI生成プロフィール」表示を強化
+11. 総務省が「AX・新技術戦略室」を新設
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #GooglePics #ChatGPT #OpenAI

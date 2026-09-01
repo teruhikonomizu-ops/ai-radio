@@ -1,6 +1,96 @@
 {
- "updated": "2026-09-01",
+ "updated": "2026-09-02",
  "entries": [
+  {
+   "date": "2026-09-02",
+   "topic": "GoogleのAI画像編集ツール「Google Pics」提供開始",
+   "keys": [
+    "Google Pics",
+    "Nano Banana",
+    "Google Workspace"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "GeminiにAI動画理解のエージェント機能追加",
+   "keys": [
+    "Gemini",
+    "agentic video understanding",
+    "Google DeepMind"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "ChatGPTが電子カルテのEpicと連携開始",
+   "keys": [
+    "ChatGPT Health",
+    "Epic",
+    "EHR integration"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "AppleがOpenAIを提訴、証拠隠滅を主張",
+   "keys": [
+    "Apple v. OpenAI",
+    "evidence destruction",
+    "expedited discovery"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "米国防総省がChatGPT Mil・Gemini・Grokを運用",
+   "keys": [
+    "ChatGPT Mil",
+    "Pentagon AI portal",
+    "Grok"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "Google ResearchがTimesFM-3を公開",
+   "keys": [
+    "TimesFM-3",
+    "time-series forecasting",
+    "Google Research"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "EU・米加州でAI若者保護規制の動き",
+   "keys": [
+    "EU ChatGPT regulation",
+    "California SB 1119",
+    "youth AI safety"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "AIエージェント管理AIRとITインフラ予測Empirikが資金調達",
+   "keys": [
+    "AIR $50M",
+    "Empirik $21M",
+    "agent skill vetting"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "NVIDIAがDLSS 5の提供開始",
+   "keys": [
+    "DLSS 5",
+    "NVIDIA",
+    "September 3 launch"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "topic": "Instagramが「AI生成プロフィール」表示を厳格化",
+   "keys": [
+    "AI-generated profile label",
+    "Instagram",
+    "Meta"
+   ]
+  },
   {
    "date": "2026-09-01",
    "topic": "ChatGPT広告事業が年間売上10億ドル突破",
@@ -1070,103 +1160,6 @@
     "Groq",
     "Cowork",
     "Firefox"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "Google DeepMindがGemini 3.7 Flashなど新モデル群、ロボット・音楽・気象AIを一挙発表",
-   "keys": [
-    "Google DeepMind",
-    "Gemini 3.7 Flash",
-    "ロボット",
-    "音楽",
-    "気象"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "OpenAI、GPT-5.6を最大14倍高速化する新サービス層「Ultrafast」をプレビュー公開",
-   "keys": [
-    "GPT-5.6",
-    "Ultrafast",
-    "プレビュー",
-    "最大",
-    "倍高速化"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "OpenAI、ChatGPTでの広告テスト開始とサイバーセキュリティ機能「Daybreak」のAWS提供",
-   "keys": [
-    "Daybreak",
-    "テスト",
-    "サイバーセキュリティ",
-    "広告"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "OpenAIで「準備チーム」解散が報道、CRO交代など経営陣の異動が相次ぐ",
-   "keys": [
-    "CRO",
-    "チーム",
-    "準備",
-    "解散",
-    "報道"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "Anthropic、Claudeの電子透かし技術の詳細と謎のモデル「Model 2」、CEOの信頼危機発言",
-   "keys": [
-    "Model 2",
-    "CEO",
-    "電子透",
-    "技術",
-    "詳細"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "StripeがAIゲートウェイのOpenRouterを70億ドル超で買収と報道",
-   "keys": [
-    "Stripe",
-    "OpenRouter",
-    "ゲートウェイ",
-    "買収",
-    "報道"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "NvidiaがSoftBank傘下データセンター企業に15億ドル投資、Groqも350億円規模を調達",
-   "keys": [
-    "SoftBank",
-    "Groq",
-    "データセンター",
-    "傘下",
-    "投資"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "Amazonが希少本をAI学習のために破棄していると報道",
-   "keys": [
-    "希少本",
-    "学習",
-    "破棄",
-    "報道"
-   ]
-  },
-  {
-   "date": "2026-08-18",
-   "topic": "中国Unitreeの新型ヒューマノイドロボットが高さ2mジャンプの映像を公開",
-   "keys": [
-    "Unitree",
-    "ヒューマノイドロボット",
-    "ジャンプ",
-    "中国",
-    "映像"
    ]
   }
  ]

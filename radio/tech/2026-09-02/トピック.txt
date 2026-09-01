@@ -1,0 +1,10 @@
+GoogleのAI画像編集ツール「Google Pics」提供開始 ||| Google Pics, Nano Banana, Google Workspace
+GeminiにAI動画理解のエージェント機能追加 ||| Gemini, agentic video understanding, Google DeepMind
+ChatGPTが電子カルテのEpicと連携開始 ||| ChatGPT Health, Epic, EHR integration
+AppleがOpenAIを提訴、証拠隠滅を主張 ||| Apple v. OpenAI, evidence destruction, expedited discovery
+米国防総省がChatGPT Mil・Gemini・Grokを運用 ||| ChatGPT Mil, Pentagon AI portal, Grok
+Google ResearchがTimesFM-3を公開 ||| TimesFM-3, time-series forecasting, Google Research
+EU・米加州でAI若者保護規制の動き ||| EU ChatGPT regulation, California SB 1119, youth AI safety
+AIエージェント管理AIRとITインフラ予測Empirikが資金調達 ||| AIR $50M, Empirik $21M, agent skill vetting
+NVIDIAがDLSS 5の提供開始 ||| DLSS 5, NVIDIA, September 3 launch
+Instagramが「AI生成プロフィール」表示を厳格化 ||| AI-generated profile label, Instagram, Meta
