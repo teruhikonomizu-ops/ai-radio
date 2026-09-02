@@ -1,0 +1,19 @@
+【世界のAIニュース】9/3 Gemini 3.8とAstraの安全性論争
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月3日）:
+1. Google DeepMindが新モデル「Gemini 3.8 Flash」「Gemini 3.8 Flash Cyber」を発表
+2. OpenAI「Astra」が重大サイバーセキュリティ能力の基準に到達、公開前に安全性への懸念も
+3. トランプ政権がNYT著作権訴訟でOpenAI支持を表明
+4. AnthropicがClaude Fable 5.1／Mythos 5.1を発表、料金最大45%引き下げ
+5. World Labsが空間知能モデル「Atlas」を発表
+6. Amazon Alexaに詐欺メール検知機能を追加
+7. Metaがリアルタイム音声認識モデル「Muse Voice Transcribe」を発表
+8. 米裁判所、Googleに広告取引システム売却は命じず
+9. NYC市が児童のAI利用を1年間禁止、OpenAIには新たな訴訟も
+10. HiddenLayerが1億ドル調達、WonderfulはシリーズC調達で評価額倍増
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Gemini #Astra #ClaudeFable

@@ -1,6 +1,114 @@
 {
- "updated": "2026-09-02",
+ "updated": "2026-09-03",
  "entries": [
+  {
+   "date": "2026-09-03",
+   "topic": "Gemini 3.8 Flash/Flash Cyber発表",
+   "keys": [
+    "Gemini 3.8 Flash",
+    "Gemini 3.8 Flash Cyber",
+    "Google DeepMind"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "OpenAI「Astra」が重大サイバー能力到達",
+   "keys": [
+    "Astra",
+    "Preparedness Framework",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "米政府がNYT著作権訴訟でOpenAI支持",
+   "keys": [
+    "OpenAI",
+    "New York Times",
+    "Trump administration"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "Anthropic「Claude Fable 5.1」発表",
+   "keys": [
+    "Claude Fable 5.1",
+    "Claude Mythos 5.1",
+    "Anthropic"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "World Labs空間知能モデル「Atlas」発表",
+   "keys": [
+    "Atlas",
+    "World Labs",
+    "Marble"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "Amazon Alexaに詐欺検知機能追加",
+   "keys": [
+    "Alexa",
+    "Amazon",
+    "scam detection"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "Meta「Muse Voice Transcribe」発表",
+   "keys": [
+    "Muse Voice Transcribe",
+    "Meta",
+    "Muse Code"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "米裁判所Googleに広告取引売却命じず",
+   "keys": [
+    "Google",
+    "ad exchange",
+    "antitrust"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "NYC市が児童のAI利用禁止／OpenAI提訴",
+   "keys": [
+    "NYC",
+    "Zohran Mamdani",
+    "Sam Altman",
+    "Tumbler Ridge"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "HiddenLayer調達／Wonderful評価額倍増",
+   "keys": [
+    "HiddenLayer",
+    "Wonderful",
+    "Series C"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "Google Fairwind Program発表",
+   "keys": [
+    "Fairwind Program",
+    "Google"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "topic": "OpenAIが医療機関向けChatGPT連携拡大",
+   "keys": [
+    "ChatGPT",
+    "EHR",
+    "OpenAI"
+   ]
+  },
   {
    "date": "2026-09-02",
    "topic": "GoogleのAI画像編集ツール「Google Pics」提供開始",
@@ -1102,64 +1210,6 @@
     "家族",
     "悪用",
     "抗議"
-   ]
-  },
-  {
-   "date": "2026-08-19",
-   "topic": "OpenAI、ティーン向け新モード「ChatGPT for Teens」を発表、教育団体CodeAIとも提携",
-   "keys": [
-    "ChatGPT for Teens",
-    "CodeAI",
-    "ティーン",
-    "モード",
-    "教育団体"
-   ]
-  },
-  {
-   "date": "2026-08-19",
-   "topic": "OpenAI、Hugging Face侵害を受けてモデル開発のセキュリティ対策を強化",
-   "keys": [
-    "Hugging Face",
-    "侵害",
-    "対策"
-   ]
-  },
-  {
-   "date": "2026-08-19",
-   "topic": "Anthropicの年間換算売上高が650億ドルを突破、7カ月で約7倍に拡大",
-   "keys": [
-    "年間換算売上高",
-    "突破"
-   ]
-  },
-  {
-   "date": "2026-08-19",
-   "topic": "NVIDIA、OpenAIのオハイオ州データセンターに最大1050億ドルの債務保証",
-   "keys": [
-    "最大1050億",
-    "オハイオ",
-    "データセンター",
-    "最大",
-    "債務保証"
-   ]
-  },
-  {
-   "date": "2026-08-19",
-   "topic": "Google DeepMind、Gemini 3.7 Flashなど新型Geminiモデル群を発表",
-   "keys": [
-    "Google DeepMind",
-    "Gemini 3.7 Flash"
-   ]
-  },
-  {
-   "date": "2026-08-19",
-   "topic": "そのほか:Apple新型AirPods／Etched・Groqの資金調達／Anthropic「Cowork」／Googl",
-   "keys": [
-    "AirPods",
-    "Etched",
-    "Groq",
-    "Cowork",
-    "Firefox"
    ]
   }
  ]
