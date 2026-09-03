@@ -1,6 +1,51 @@
 {
- "updated": "2026-09-03",
+ "updated": "2026-09-04",
  "entries": [
+  {
+   "date": "2026-09-04",
+   "topic": "NVIDIAがHugging Faceを約2兆円で買収",
+   "keys": [
+    "Nvidia",
+    "Hugging Face",
+    "$12.93 billion"
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "topic": "GoogleDeepMindが新気象AI発表",
+   "keys": [
+    "Google DeepMind",
+    "WeatherNext 3"
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "topic": "MetaがMuse Spark 1.3公開、コーディング強化",
+   "keys": [
+    "Meta",
+    "Muse Spark 1.3",
+    "DeepSWE"
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "topic": "GoogleがGmail等を声で操作できる新機能",
+   "keys": [
+    "Google",
+    "Gmail",
+    "Docs",
+    "Keep"
+   ]
+  },
+  {
+   "date": "2026-09-04",
+   "topic": "NY市教育局が公立学校でAI原則禁止の新方針",
+   "keys": [
+    "New York City",
+    "Zohran Mamdani",
+    "Kamal Samuels"
+   ]
+  },
   {
    "date": "2026-09-03",
    "topic": "Gemini 3.8 Flash/Flash Cyber発表",
@@ -1100,116 +1145,6 @@
     "意味不明",
     "応答",
     "暗号化指示"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "Google、AIで飛行機雲を回避し温暖化を抑える実証実験「Operation Blue Skies」を英国政府等と開始",
-   "keys": [
-    "Operation Blue Skies",
-    "飛行機雲",
-    "回避",
-    "温暖化",
-    "実証実験"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "Google DeepMind、軽量版Geminiモデル(3.7/3.6/3.5系Flash)とサイバーセキュリティ特化",
-   "keys": [
-    "Google DeepMind",
-    "Flash",
-    "サイバーセキュリティ",
-    "軽量版",
-    "特化"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "Google DeepMind、ロボット向けGemini Robotics ER2/2と科学研究支援Genesis Mi",
-   "keys": [
-    "Google DeepMind",
-    "Gemini Robotics ER2",
-    "Genesis Mission",
-    "ロボット",
-    "科学研究支援"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "Anthropic、AIエージェント同士が縄張り争いや価格共謀を行った実験結果を公表",
-   "keys": [
-    "同士",
-    "縄張",
-    "価格共謀",
-    "実験結果",
-    "公表"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "Anthropic、Claude Desktop向けエージェント機能「Cowork」発表、Claude Code週次利用",
-   "keys": [
-    "Claude Desktop",
-    "Cowork",
-    "Claude Code",
-    "週次利用枠拡大",
-    "延長"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "OpenAI、ティーン向けChatGPTモード発表、Hugging Faceハッキング問題受けセキュリティ強化も",
-   "keys": [
-    "Hugging Face",
-    "ティーン",
-    "モード",
-    "ハッキング",
-    "問題受"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "神戸大学、ChatGPTの反論で道徳的判断の3割超が覆るとの研究結果、高齢者は特に影響受けやすい傾向",
-   "keys": [
-    "神戸大学",
-    "反論",
-    "道徳的判断",
-    "割超",
-    "研究結果"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "米ピュー研究所調査、18〜29歳の若者の過半数がAIに懸念、雇用喪失への不安も増加",
-   "keys": [
-    "ピュー",
-    "研究所調査",
-    "若者",
-    "過半数",
-    "懸念"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "国立情報学研究所、国産オープンLLM新版「LLM-jp-4 33B」公開",
-   "keys": [
-    "LLM-jp-4 33B",
-    "オープン",
-    "国立情報学研究所",
-    "国産",
-    "新版"
-   ]
-  },
-  {
-   "date": "2026-08-20",
-   "topic": "Robin Williamsさんの家族、AI悪用に抗議しインスタグラムアカウントを引き継ぎ",
-   "keys": [
-    "Robin Williams",
-    "インスタグラムアカウント",
-    "家族",
-    "悪用",
-    "抗議"
    ]
   }
  ]

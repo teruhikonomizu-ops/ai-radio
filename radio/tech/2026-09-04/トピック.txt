@@ -1,0 +1,5 @@
+NVIDIAがHugging Faceを約2兆円で買収 ||| Nvidia, Hugging Face, $12.93 billion
+GoogleDeepMindが新気象AI発表 ||| Google DeepMind, WeatherNext 3
+MetaがMuse Spark 1.3公開、コーディング強化 ||| Meta, Muse Spark 1.3, DeepSWE
+GoogleがGmail等を声で操作できる新機能 ||| Google, Gmail, Docs, Keep
+NY市教育局が公立学校でAI原則禁止の新方針 ||| New York City, Zohran Mamdani, Kamal Samuels

@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-09-04",
+ "title": "【世界のAIニュース】9/4 Hugging Face買収／新天気AI",
+ "description": "【世界のAIニュース】9/4 Hugging Face買収／新天気AI\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年9月4日）:\n1. NVIDIA、Hugging Faceを約2兆円（129億3030万ドル）で買収へ\n2. Google DeepMind、新しい気象予測AI「WeatherNext 3」を発表\n3. Meta、コーディング・エージェント強化モデル「Muse Spark 1.3」公開\n4. Google、Gmail・Docs・Keepを声で操作できる新機能を展開\n5. Abliteration.ai、AIのガードレール除去をビジネス化する動き\n6. ニューヨーク市教育局、公立学校でのAI利用を原則禁止する新方針\n\n出典: NVIDIA／Google DeepMind／Meta／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #NVIDIA #HuggingFace #WeatherNext3",
+ "duration_sec": 606,
+ "size_bytes": 9700040,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-04/tech-2026-09-04.mp3"
+}
