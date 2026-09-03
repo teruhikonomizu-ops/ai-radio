@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/4(金)最低賃金1177円／奄美に大雨警戒</title>
+      <description>【AIデイリーニュース】9/4(金)最低賃金1177円／奄美に大雨警戒
+
+この番組は、AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・最低賃金、全国平均で時給1177円に引き上げ
+・台風と秋雨前線の影響で奄美地方に線状降水帯直前予測
+・「まんじゅうや」票は無効、東京高裁が市長の訴え退ける
+・ニューヨーク市、公立小中学校で生成AIを原則禁止に
+・ノーベル化学賞受賞者、白川英樹さんが90歳で死去
+・イグ・ノーベル賞、日本人研究者が「鼻のかみ方」研究で医学賞
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Fri, 04 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-04/news-2026-09-04.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-04/news-2026-09-04.mp3" length="9804530" type="audio/mpeg"/>
+      <itunes:duration>0:10:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/3(木) 円158円台／青森で氾濫／イラン報復攻撃</title>
       <description>【AIデイリーニュース】9/3(木) 円158円台／青森で氾濫／イラン報復攻撃
 
