@@ -1,6 +1,108 @@
 {
- "updated": "2026-09-04",
+ "updated": "2026-09-05",
  "entries": [
+  {
+   "date": "2026-09-05",
+   "topic": "アンソロピック、2兆ドルIPOと外部信託人制度",
+   "keys": [
+    "Anthropic",
+    "IPO",
+    "external trustees",
+    "Claude"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "OpenAIとGoogleのサイバー防御新プログラム",
+   "keys": [
+    "Daybreak for Frontline Defenders",
+    "Fairwind Program",
+    "OpenAI",
+    "Google"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "Gemini SparkがGoogle Photosを管理",
+   "keys": [
+    "Gemini Spark",
+    "Google Photos",
+    "AI Pro"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "ローランド生成AI音楽ツール「Melody Flip」",
+   "keys": [
+    "Roland",
+    "Melody Flip",
+    "Suno"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "Crusoeが30億ドル調達、評価額300億ドルに",
+   "keys": [
+    "Crusoe",
+    "Jane Street",
+    "$30B valuation"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "Thinking Machinesが10億ドル調達交渉",
+   "keys": [
+    "Thinking Machines",
+    "Accel",
+    "$40B valuation"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "GPT-6 Astraの業務活用事例",
+   "keys": [
+    "GPT-6 Astra",
+    "Legora",
+    "Playco"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "RIZAP従業員が私用AIに顧客情報誤アップロード",
+   "keys": [
+    "RIZAP",
+    "個人情報漏えい",
+    "生成AI私的利用"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "ChatGPT・Claude・Grok同時ダウン",
+   "keys": [
+    "ChatGPT",
+    "Claude",
+    "Grok",
+    "大規模障害"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "NY市公立校でAI原則禁止へ",
+   "keys": [
+    "New York City",
+    "公立学校",
+    "AI利用禁止"
+   ]
+  },
+  {
+   "date": "2026-09-05",
+   "topic": "続報:OpenAI暴走エージェントが外部ネットに到達",
+   "keys": [
+    "OpenAI",
+    "rogue AI agents",
+    "セキュリティ監視"
+   ]
+  },
   {
    "date": "2026-09-04",
    "topic": "NVIDIAがHugging Faceを約2兆円で買収",
@@ -1091,60 +1193,6 @@
     "Robin Williams",
     "インスタグラム",
     "誤応答問題"
-   ]
-  },
-  {
-   "date": "2026-08-21",
-   "topic": "OpenAI、ZDR（データ非保持）を維持しつつ不正検知の新機構「Private Safety Processing」を",
-   "keys": [
-    "ZDR",
-    "Private Safety Processing",
-    "ハッキング",
-    "非保持",
-    "維持"
-   ]
-  },
-  {
-   "date": "2026-08-21",
-   "topic": "Stripe、AIモデルゲートウェイ「OpenRouter」を約75億ドルで買収",
-   "keys": [
-    "Stripe",
-    "OpenRouter",
-    "約75億",
-    "モデルゲートウェイ",
-    "買収"
-   ]
-  },
-  {
-   "date": "2026-08-21",
-   "topic": "Google、Gemini 3.7 Flashなど新モデル群、ロボット向けGemini Robotics ER 2・Ro",
-   "keys": [
-    "Gemini 3.7 Flash",
-    "Gemini Robotics ER 2",
-    "Robotics 2",
-    "AMIE",
-    "Genesis Mission"
-   ]
-  },
-  {
-   "date": "2026-08-21",
-   "topic": "OpenAI、10代向けの「ChatGPT for Teens」を発表。Geminiの学生向けハブも紹介",
-   "keys": [
-    "ChatGPT for Teens",
-    "代向",
-    "学生向",
-    "紹介"
-   ]
-  },
-  {
-   "date": "2026-08-21",
-   "topic": "X（旧Twitter）のAI「Grok」で意味不明な応答や、暗号化指示によるデータ流出のリスクが報告",
-   "keys": [
-    "Grok",
-    "リスク",
-    "意味不明",
-    "応答",
-    "暗号化指示"
    ]
   }
  ]

@@ -1,0 +1,11 @@
+アンソロピック、2兆ドルIPOと外部信託人制度 ||| Anthropic, IPO, external trustees, Claude
+OpenAIとGoogleのサイバー防御新プログラム ||| Daybreak for Frontline Defenders, Fairwind Program, OpenAI, Google
+Gemini SparkがGoogle Photosを管理 ||| Gemini Spark, Google Photos, AI Pro
+ローランド生成AI音楽ツール「Melody Flip」 ||| Roland, Melody Flip, Suno
+Crusoeが30億ドル調達、評価額300億ドルに ||| Crusoe, Jane Street, $30B valuation
+Thinking Machinesが10億ドル調達交渉 ||| Thinking Machines, Accel, $40B valuation
+GPT-6 Astraの業務活用事例 ||| GPT-6 Astra, Legora, Playco
+RIZAP従業員が私用AIに顧客情報誤アップロード ||| RIZAP, 個人情報漏えい, 生成AI私的利用
+ChatGPT・Claude・Grok同時ダウン ||| ChatGPT, Claude, Grok, 大規模障害
+NY市公立校でAI原則禁止へ ||| New York City, 公立学校, AI利用禁止
+続報:OpenAI暴走エージェントが外部ネットに到達 ||| OpenAI, rogue AI agents, セキュリティ監視

@@ -11,6 +11,33 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/5 Anthropic 2兆ドルIPO／AI防御新展開</title>
+      <description>【世界のAIニュース】9/5 Anthropic 2兆ドルIPO／AI防御新展開
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック(2026年9月5日):
+1. Anthropicが2兆ドル規模のIPOを準備、外部信託人制度に注目
+2. OpenAIの「Daybreak for Frontline Defenders」とGoogleの「Fairwind Program」、サイバー防御新プログラム
+3. Gemini SparkがGoogle Photosの管理まで対応
+4. RolandがプラグインAI音楽ツール「Melody Flip」を発表
+5. データセンターのCrusoeが30億ドル調達(評価額300億ドル)、Thinking Machinesも1000億規模の資金調達交渉
+6. GPT-6 Astraの業務活用事例(Legora、Playco)
+7. RIZAP従業員が私用AIサービスに顧客情報を誤アップロード
+8. ChatGPT・Claude・Grokが同時にダウン
+9. ニューヨーク市、公立小中学校でAI利用を原則禁止へ
+10. 続報:OpenAIの暴走AIエージェントが外部インターネットに到達
+
+出典: OpenAI／Google／Anthropic関連報道／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています(記事本文の複製・朗読はしていません)。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Anthropic #OpenAI #サイバーセキュリティ</description>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-05/tech-2026-09-05.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-05/tech-2026-09-05.mp3" length="9959175" type="audio/mpeg"/>
+      <itunes:duration>0:10:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/4 Hugging Face買収／新天気AI</title>
       <description>【世界のAIニュース】9/4 Hugging Face買収／新天気AI
 
