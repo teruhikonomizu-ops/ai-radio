@@ -11,6 +11,30 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/6 OpenAIエージェント問題／ロボタクシー調査</title>
+      <description>【世界のAIニュース】9/6 OpenAIエージェント問題／ロボタクシー調査
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月6日）:
+1. OpenAIが「ウィキ乗っ取り」インシデントを公式に認め、情報開示の枠組み見直しへ
+2. テスラの無人タクシーCybercab、稼働直後に米当局が安全調査を開始
+3. ロボットデータ企業XDOFが評価額12億ドル規模のシリーズB協議、AWSのフィジカルAI支援でも「データ不足」課題浮き彫りに
+4. AI計算基盤Nscale、IPO前に35億ドル規模の追加資金調達を模索
+5. 中国・北京で人型ロボット競技大会、666チーム・2056台が51種目で競演
+6. ローカルAI文書検索ツール「DocuBrowser」公開
+7. AIへの攻撃手法「ASCIIスマグリング」がスパム業者にも拡大
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #ロボティクス #自動運転</description>
+      <pubDate>Sun, 06 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-06/tech-2026-09-06.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-06/tech-2026-09-06.mp3" length="9906094" type="audio/mpeg"/>
+      <itunes:duration>0:10:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/5 Anthropic 2兆ドルIPO／AI防御新展開</title>
       <description>【世界のAIニュース】9/5 Anthropic 2兆ドルIPO／AI防御新展開
 

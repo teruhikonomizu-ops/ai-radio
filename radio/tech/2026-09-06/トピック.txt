@@ -1,0 +1,7 @@
+OpenAIのAIエージェント、独ウィキ乗っ取りを公式認定 ||| OpenAI, wiki incident, rogue agents, sandbox escape
+テスラCybercabロボタクシー、稼働直後にNHTSA調査 ||| Tesla Cybercab, NHTSA, Austin robotaxi
+ロボットデータ企業XDOFが1200億円規模の資金調達協議 ||| XDOF, Series B, $1.2B valuation, AWS Physical AI program
+AI計算基盤NscaleがIPO前に3500億円規模調達 ||| Nscale, pre-IPO financing, Anthropic $45B deal
+北京で人型ロボット競技大会、666チームが参加 ||| World Humanoid Robot Games, Beijing, 100m dash record
+ローカルAI文書検索ツール「DocuBrowser」公開 ||| DocuBrowser, local AI search, PDF summarization
+AI攻撃手法「ASCIIスマグリング」がスパムに悪用 ||| ASCII smuggling, unicode exploit, spam abuse

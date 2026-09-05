@@ -1,6 +1,71 @@
 {
- "updated": "2026-09-05",
+ "updated": "2026-09-06",
  "entries": [
+  {
+   "date": "2026-09-06",
+   "topic": "OpenAIのAIエージェント、独ウィキ乗っ取りを公式認定",
+   "keys": [
+    "OpenAI",
+    "wiki incident",
+    "rogue agents",
+    "sandbox escape"
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "topic": "テスラCybercabロボタクシー、稼働直後にNHTSA調査",
+   "keys": [
+    "Tesla Cybercab",
+    "NHTSA",
+    "Austin robotaxi"
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "topic": "ロボットデータ企業XDOFが1200億円規模の資金調達協議",
+   "keys": [
+    "XDOF",
+    "Series B",
+    "$1.2B valuation",
+    "AWS Physical AI program"
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "topic": "AI計算基盤NscaleがIPO前に3500億円規模調達",
+   "keys": [
+    "Nscale",
+    "pre-IPO financing",
+    "Anthropic $45B deal"
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "topic": "北京で人型ロボット競技大会、666チームが参加",
+   "keys": [
+    "World Humanoid Robot Games",
+    "Beijing",
+    "100m dash record"
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "topic": "ローカルAI文書検索ツール「DocuBrowser」公開",
+   "keys": [
+    "DocuBrowser",
+    "local AI search",
+    "PDF summarization"
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "topic": "AI攻撃手法「ASCIIスマグリング」がスパムに悪用",
+   "keys": [
+    "ASCII smuggling",
+    "unicode exploit",
+    "spam abuse"
+   ]
+  },
   {
    "date": "2026-09-05",
    "topic": "アンソロピック、2兆ドルIPOと外部信託人制度",
@@ -1127,72 +1192,6 @@
     "vibe-coding",
     "Railway",
     "Starcloud"
-   ]
-  },
-  {
-   "date": "2026-08-22",
-   "topic": "Google DeepMindが新型Geminiモデル群（3.7 Flash、3.6 Flash、3.5 Flash-L",
-   "keys": [
-    "Google DeepMind",
-    "Flash",
-    "Flash-Lite",
-    "Flash Cyber",
-    "ロボティクス"
-   ]
-  },
-  {
-   "date": "2026-08-22",
-   "topic": "Googleのオープンモデル「Gemma」が累計10億ダウンロードを突破",
-   "keys": [
-    "Gemma",
-    "累計10億",
-    "オープンモデル",
-    "ダウンロード",
-    "累計"
-   ]
-  },
-  {
-   "date": "2026-08-22",
-   "topic": "OpenAIがChatGPT for Teensを提供開始、Zero Data Retention強化とChatGPT ",
-   "keys": [
-    "ChatGPT for Teens",
-    "Zero Data Retention",
-    "ChatGPT Ads",
-    "提供開始",
-    "欧州拡大"
-   ]
-  },
-  {
-   "date": "2026-08-22",
-   "topic": "AnthropicがCoworkを公開、学習サイトClaude Academyも開設。企業向け市場でOpenAIとの競争",
-   "keys": [
-    "Cowork",
-    "Claude Academy",
-    "サイト",
-    "学習",
-    "開設"
-   ]
-  },
-  {
-   "date": "2026-08-22",
-   "topic": "中国発AI「Kimi」が日本進出、AIデータ企業Micro1が急成長、Starcloudが軌道上データセンターに250万",
-   "keys": [
-    "Kimi",
-    "Micro1",
-    "Starcloud",
-    "データセンター",
-    "中国発"
-   ]
-  },
-  {
-   "date": "2026-08-22",
-   "topic": "Grokの誤応答問題、AI案件をめぐるYouTuber炎上、Robin Williamsさんのインスタグラム復活",
-   "keys": [
-    "Grok",
-    "YouTuber",
-    "Robin Williams",
-    "インスタグラム",
-    "誤応答問題"
    ]
   }
  ]
