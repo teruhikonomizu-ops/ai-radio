@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/16(水) 自民党役員人事／地価5年連続上昇</title>
+      <description>【AIデイリーニュース】9/16(水) 自民党役員人事／地価5年連続上昇
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・自民党の役員人事が固まり、16日に党役員人事、17日に内閣改造(高市内閣)
+・全国の地価調査、5年連続でプラス1.5%の上昇
+・航空自衛隊の大型無人偵察機グローバルホークが鳥取県沖で墜落と推定
+・長期金利が3.035%、約30年ぶりの高水準に上昇
+・栃木県の強盗殺人事件、勧誘役の高校生の初公判始まる
+・Microsoftが「超知能」開発の新行動規範を公表
+
+国内・国際のニュースを、政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Wed, 16 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-16/news-2026-09-16.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-16/news-2026-09-16.mp3" length="9740164" type="audio/mpeg"/>
+      <itunes:duration>0:10:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/15(火) 浜岡原発取り下げ／内閣支持率53%</title>
       <description>【AIデイリーニュース】9/15(火) 浜岡原発取り下げ／内閣支持率53%
 
