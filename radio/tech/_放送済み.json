@@ -1,6 +1,78 @@
 {
- "updated": "2026-09-15",
+ "updated": "2026-09-16",
  "entries": [
+  {
+   "date": "2026-09-16",
+   "topic": "Google DeepMindがGemini 3.8 Liveを発表",
+   "keys": [
+    "Gemini 3.8 Live",
+    "Gemini 3.8 Live Extended Thinking",
+    "Google DeepMind"
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "topic": "AIエージェント通報窓口AI Contact Hotline登場",
+   "keys": [
+    "AI Contact Hotline",
+    "TechCrunch"
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "topic": "Meta OneがAI機能付きプランに拡大",
+   "keys": [
+    "Meta One",
+    "Facebook",
+    "Instagram",
+    "WhatsApp"
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "topic": "マスク氏がGrok 5はAGIと発言",
+   "keys": [
+    "Grok 5",
+    "Grok 4.9",
+    "Astra",
+    "Elon Musk"
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "topic": "AI経営エージェントPionが登場",
+   "keys": [
+    "Pion",
+    "Andon Labs"
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "topic": "OpenAIのProject LilyがChatGPT会話精査",
+   "keys": [
+    "Project Lily",
+    "ChatGPT",
+    "OpenAI",
+    "404 Media"
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "topic": "Googleがオープンソース開発者名を削除",
+   "keys": [
+    "Google",
+    "open source credit removal"
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "topic": "Profoundが1.8億ドル調達しユニコーン化",
+   "keys": [
+    "Profound",
+    "Series D",
+    "AEO"
+   ]
+  },
   {
    "date": "2026-09-15",
    "topic": "iOS27でSiri刷新、Daydreamアプリも対応",
@@ -1239,61 +1311,6 @@
     "AI-generated profile label",
     "Instagram",
     "Meta"
-   ]
-  },
-  {
-   "date": "2026-09-01",
-   "topic": "ChatGPT広告事業が年間売上10億ドル突破",
-   "keys": [
-    "ChatGPT Ads",
-    "OpenAI",
-    "$1 billion ARR"
-   ]
-  },
-  {
-   "date": "2026-09-01",
-   "topic": "NVIDIA、台湾MediaTekに35億ドル出資",
-   "keys": [
-    "NVIDIA",
-    "MediaTek",
-    "$3.5 billion investment"
-   ]
-  },
-  {
-   "date": "2026-09-01",
-   "topic": "ChatGPTにEUデジタルサービス法の規制適用",
-   "keys": [
-    "ChatGPT",
-    "EU Digital Services Act",
-    "Reddit"
-   ]
-  },
-  {
-   "date": "2026-09-01",
-   "topic": "Instagramがなりすましエーアイ対策強化",
-   "keys": [
-    "Instagram",
-    "AI creator label",
-    "fake accounts"
-   ]
-  },
-  {
-   "date": "2026-09-01",
-   "topic": "Debianがエーアイ活用コード投稿を容認",
-   "keys": [
-    "Debian",
-    "Linux",
-    "AI-generated code policy"
-   ]
-  },
-  {
-   "date": "2026-09-01",
-   "topic": "韓国「AI for All」の運営コンソーシアム選定",
-   "keys": [
-    "AI for All",
-    "SK Telecom",
-    "KT",
-    "Kakao"
    ]
   }
  ]
