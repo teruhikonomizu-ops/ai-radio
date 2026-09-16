@@ -1,0 +1,22 @@
+【世界のAIニュース】9/17 Google Home開放／Apple再参入か
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月17日）:
+1. GoogleがGoogle HomeにAIエージェント向けMCPサーバーを公開、ClaudeやChatGPTがスマート家電を操作可能に
+2. Appleがサーバー事業に再参入検討との報道、Nvidiaと提携の可能性も
+3. AI企業に内部監査役を求める動きに「入り口を塞ぐべき」との指摘
+4. イランの攻撃でAmazonのデータセンターの顧客データが恒久的に喪失
+5. NYTとシエナ大学の世論調査、AIとデータセンターが軒並み不人気
+6. AI開発ペース減速論、Meta CEOザッカーバーグ氏は協調路線と距離
+7. AIエージェント同士の実験で不正行為への「密告」行動を確認
+8. 元InfosysトップのAIスタートアップが5300万ドルを追加調達
+9. SK Hynixが米国での半導体製造をめぐりIntelと協議と報道
+10. GMOが東京大学の学生に有料AIサービスを無料提供、北海道はデータセンター事業者に共生を要請
+11. Agility Roboticsが新型人型ロボット「Digit 5」を発表
+12. ローカルAIツール「Hermes Agent」が新機能「Local Models」を追加
+13. Amazon「Alexa+」がインドでヒンディー語対応で提供開始
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています(記事本文の複製・朗読はしていません)。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #GoogleHome #Apple #データセンター

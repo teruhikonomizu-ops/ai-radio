@@ -1,6 +1,127 @@
 {
- "updated": "2026-09-16",
+ "updated": "2026-09-17",
  "entries": [
+  {
+   "date": "2026-09-17",
+   "topic": "Google HomeをAIエージェントに開放",
+   "keys": [
+    "Google Home",
+    "MCP server",
+    "Claude",
+    "ChatGPT"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "Appleがサーバー事業に再参入検討",
+   "keys": [
+    "Apple",
+    "Nvidia",
+    "Xserve",
+    "The Information"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "AI企業の内部監査役より入り口対策が先との指摘",
+   "keys": [
+    "rogue agents",
+    "内部監査",
+    "TechCrunch"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "イラン攻撃でAmazonデータセンターの顧客データ喪失",
+   "keys": [
+    "Amazon",
+    "AWS",
+    "イラン",
+    "データセンター"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "米世論調査でAIとデータセンターが軒並み不人気",
+   "keys": [
+    "New York Times",
+    "Siena University",
+    "世論調査"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "ザッカーバーグ氏、AI減速の協調論に距離(続報)",
+   "keys": [
+    "Mark Zuckerberg",
+    "Meta",
+    "AIペース減速"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "AIエージェント同士が不正を密告する実験結果",
+   "keys": [
+    "AIエージェント",
+    "密告",
+    "数学問題実験"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "元Infosysトップのスタートアップが追加調達",
+   "keys": [
+    "Infosys",
+    "AIスタートアップ",
+    "53M"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "SK Hynixが米国製造でIntelと協議と報道",
+   "keys": [
+    "SK Hynix",
+    "Intel",
+    "メモリーチップ"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "GMO天秤AIが東大生に無料提供、北海道はデータセンター共生要請",
+   "keys": [
+    "GMOインターネットグループ",
+    "GMO天秤AI",
+    "北海道"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "Agility Roboticsが新型ロボット「Digit 5」発表",
+   "keys": [
+    "Agility Robotics",
+    "Digit 5",
+    "人型ロボット"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "Hermes AgentがLocal Models機能でQwen3.8をローカル実行",
+   "keys": [
+    "Hermes Agent",
+    "Local Models",
+    "Qwen3.8 27B"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "topic": "Alexa+がインドでヒンディー語対応開始",
+   "keys": [
+    "Amazon",
+    "Alexa+",
+    "インド",
+    "ヒンディー語"
+   ]
+  },
   {
    "date": "2026-09-16",
    "topic": "Google DeepMindがGemini 3.8 Liveを発表",
@@ -1221,96 +1342,6 @@
     "ChatGPT",
     "EHR",
     "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "GoogleのAI画像編集ツール「Google Pics」提供開始",
-   "keys": [
-    "Google Pics",
-    "Nano Banana",
-    "Google Workspace"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "GeminiにAI動画理解のエージェント機能追加",
-   "keys": [
-    "Gemini",
-    "agentic video understanding",
-    "Google DeepMind"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "ChatGPTが電子カルテのEpicと連携開始",
-   "keys": [
-    "ChatGPT Health",
-    "Epic",
-    "EHR integration"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "AppleがOpenAIを提訴、証拠隠滅を主張",
-   "keys": [
-    "Apple v. OpenAI",
-    "evidence destruction",
-    "expedited discovery"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "米国防総省がChatGPT Mil・Gemini・Grokを運用",
-   "keys": [
-    "ChatGPT Mil",
-    "Pentagon AI portal",
-    "Grok"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "Google ResearchがTimesFM-3を公開",
-   "keys": [
-    "TimesFM-3",
-    "time-series forecasting",
-    "Google Research"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "EU・米加州でAI若者保護規制の動き",
-   "keys": [
-    "EU ChatGPT regulation",
-    "California SB 1119",
-    "youth AI safety"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "AIエージェント管理AIRとITインフラ予測Empirikが資金調達",
-   "keys": [
-    "AIR $50M",
-    "Empirik $21M",
-    "agent skill vetting"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "NVIDIAがDLSS 5の提供開始",
-   "keys": [
-    "DLSS 5",
-    "NVIDIA",
-    "September 3 launch"
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "topic": "Instagramが「AI生成プロフィール」表示を厳格化",
-   "keys": [
-    "AI-generated profile label",
-    "Instagram",
-    "Meta"
    ]
   }
  ]

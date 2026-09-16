@@ -1,0 +1,13 @@
+Google HomeをAIエージェントに開放 ||| Google Home, MCP server, Claude, ChatGPT
+Appleがサーバー事業に再参入検討 ||| Apple, Nvidia, Xserve, The Information
+AI企業の内部監査役より入り口対策が先との指摘 ||| rogue agents, 内部監査, TechCrunch
+イラン攻撃でAmazonデータセンターの顧客データ喪失 ||| Amazon, AWS, イラン, データセンター
+米世論調査でAIとデータセンターが軒並み不人気 ||| New York Times, Siena University, 世論調査
+ザッカーバーグ氏、AI減速の協調論に距離(続報) ||| Mark Zuckerberg, Meta, AIペース減速
+AIエージェント同士が不正を密告する実験結果 ||| AIエージェント, 密告, 数学問題実験
+元Infosysトップのスタートアップが追加調達 ||| Infosys, AIスタートアップ, 53M
+SK Hynixが米国製造でIntelと協議と報道 ||| SK Hynix, Intel, メモリーチップ
+GMO天秤AIが東大生に無料提供、北海道はデータセンター共生要請 ||| GMOインターネットグループ, GMO天秤AI, 北海道
+Agility Roboticsが新型ロボット「Digit 5」発表 ||| Agility Robotics, Digit 5, 人型ロボット
+Hermes AgentがLocal Models機能でQwen3.8をローカル実行 ||| Hermes Agent, Local Models, Qwen3.8 27B
+Alexa+がインドでヒンディー語対応開始 ||| Amazon, Alexa+, インド, ヒンディー語
