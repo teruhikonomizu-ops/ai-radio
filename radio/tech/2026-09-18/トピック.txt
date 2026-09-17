@@ -1,0 +1,19 @@
+OpenAIのミスアライメント報告新枠組み ||| OpenAI, GPT-5.6 Sol, misalignment framework
+米当局が中国AIの知識蒸留に共同勧告 ||| NSA, CISA, FBI, knowledge distillation, Claude, GPT
+DeepMind Instituteの設立とAGI議論 ||| DeepMind Institute, Demis Hassabis, AGI
+三菱重工とPFNの資本業務提携 ||| Mitsubishi Heavy Industries, Preferred Networks, 100億円出資
+Cloudflareの「AI学習の不許可」機能 ||| Cloudflare, Disallow AI Training, Google, Apple, Microsoft
+Huaweiの次世代AIチップAscend 960DT ||| Huawei, Ascend 960DT, Nvidia, 2027 Q1
+InstinctとMeta Museの通話機能追加 ||| Instinct, Meta Muse, calling feature
+九州国立博物館の生成AIポスター問題 ||| 九州国立博物館, 卑弥呼の鏡, 生成AI
+千代田区の生成AI活用で4000時間削減 ||| 千代田区, 生成AI, 年間4000時間
+Emerald AI連合のデータセンター電力確保 ||| Emerald AI, Google, Nvidia, Anthropic, 100GW
+チャールズ国王のAI非公開サミット ||| King Charles, AI summit, UK government
+AIデータセンターのe-waste問題 ||| e-waste, 23 million shipping containers, 2050
+PinterestのAI機能「Restyle」 ||| Pinterest, Restyle, room redesign
+Base LabsのAI安全パートナーシップ ||| Base Labs, Hugging Face, Goodfire
+Trebleの音声シミュレーション資金調達 ||| Treble, voice simulation, $18 million
+SnapのSpecs Intelligence発表 ||| Snap, Specs Intelligence, Specs glasses
+Apple 2029年AIサーバー計画続報 ||| Apple, M-series Ultra, 2029 server
+AIコーディングハーネス比較研究 ||| UC Berkeley, Arena, harness benchmark
+Apple Reference Imageの仕組み ||| Apple Reference Image, iPhone 18 Pro
