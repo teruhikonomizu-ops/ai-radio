@@ -1,0 +1,10 @@
+ChatGPT開発者手がける新型AIモデル「Jev」 ||| Jev, ChatGPT, AIモデル
+Google家族向けAIエージェント「CC」始動 ||| Google CC, family AI agent
+Manus、5億ドル調達し評価額40億ドルへ ||| Manus, $500M funding, $4B valuation
+研究者がClaudeでOpenAI内部にアクセス ||| Claude, OpenAI, security research
+ディズニー初代CTOにCharacter.AI元CEO就任 ||| Disney CTO, Character.AI
+OpenAIがモデル不整合の報告枠組みを公表 ||| OpenAI, model misalignment
+OpenAI「Astra for Law」で法律分野に参入 ||| Astra for Law, OpenAI, Cooley GO Public
+透かし技術SynthIDが有害指示への応答に影響 ||| SynthID, watermarking, harmful prompts
+資生堂がAIエージェントで原料探索95%削減 ||| Shiseido, AI agent, LLM
+NECがSCM向け専門AIエージェントを披露 ||| NEC SCM AIエージェント, 国際物流総合展

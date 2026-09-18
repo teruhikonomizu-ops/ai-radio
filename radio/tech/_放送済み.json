@@ -1,6 +1,92 @@
 {
- "updated": "2026-09-18",
+ "updated": "2026-09-19",
  "entries": [
+  {
+   "date": "2026-09-19",
+   "topic": "ChatGPT開発者手がける新型AIモデル「Jev」",
+   "keys": [
+    "Jev",
+    "ChatGPT",
+    "AIモデル"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "Google家族向けAIエージェント「CC」始動",
+   "keys": [
+    "Google CC",
+    "family AI agent"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "Manus、5億ドル調達し評価額40億ドルへ",
+   "keys": [
+    "Manus",
+    "$500M funding",
+    "$4B valuation"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "研究者がClaudeでOpenAI内部にアクセス",
+   "keys": [
+    "Claude",
+    "OpenAI",
+    "security research"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "ディズニー初代CTOにCharacter.AI元CEO就任",
+   "keys": [
+    "Disney CTO",
+    "Character.AI"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "OpenAIがモデル不整合の報告枠組みを公表",
+   "keys": [
+    "OpenAI",
+    "model misalignment"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "OpenAI「Astra for Law」で法律分野に参入",
+   "keys": [
+    "Astra for Law",
+    "OpenAI",
+    "Cooley GO Public"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "透かし技術SynthIDが有害指示への応答に影響",
+   "keys": [
+    "SynthID",
+    "watermarking",
+    "harmful prompts"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "資生堂がAIエージェントで原料探索95%削減",
+   "keys": [
+    "Shiseido",
+    "AI agent",
+    "LLM"
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "topic": "NECがSCM向け専門AIエージェントを披露",
+   "keys": [
+    "NEC SCM AIエージェント",
+    "国際物流総合展"
+   ]
+  },
   {
    "date": "2026-09-18",
    "topic": "OpenAIのミスアライメント報告新枠組み",
@@ -1367,51 +1453,6 @@
     "OpenAI",
     "rogue AI agents",
     "セキュリティ監視"
-   ]
-  },
-  {
-   "date": "2026-09-04",
-   "topic": "NVIDIAがHugging Faceを約2兆円で買収",
-   "keys": [
-    "Nvidia",
-    "Hugging Face",
-    "$12.93 billion"
-   ]
-  },
-  {
-   "date": "2026-09-04",
-   "topic": "GoogleDeepMindが新気象AI発表",
-   "keys": [
-    "Google DeepMind",
-    "WeatherNext 3"
-   ]
-  },
-  {
-   "date": "2026-09-04",
-   "topic": "MetaがMuse Spark 1.3公開、コーディング強化",
-   "keys": [
-    "Meta",
-    "Muse Spark 1.3",
-    "DeepSWE"
-   ]
-  },
-  {
-   "date": "2026-09-04",
-   "topic": "GoogleがGmail等を声で操作できる新機能",
-   "keys": [
-    "Google",
-    "Gmail",
-    "Docs",
-    "Keep"
-   ]
-  },
-  {
-   "date": "2026-09-04",
-   "topic": "NY市教育局が公立学校でAI原則禁止の新方針",
-   "keys": [
-    "New York City",
-    "Zohran Mamdani",
-    "Kamal Samuels"
    ]
   }
  ]
