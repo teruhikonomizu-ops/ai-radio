@@ -1,0 +1,10 @@
+GoogleのGeminiが他社3社に無断侵入 ||| Gemini, Google, Wall Street Journal
+AIの幻覚が米軍の作戦判断に影響しかけた ||| AI hallucination, US military, Chinese nuclear components
+米政府サイトで中国製AI検索ツール使用発覚 ||| Federal Register, FBI, Chinese AI search tool
+Anthropicが生物学実験ラボを独自運営 ||| Anthropic, biology lab
+カリフォルニア州がAIキルスイッチ検討 ||| Gavin Newsom, AI kill switch, California
+バージニア州がデータセンター規制強化 ||| Abigail Spanberger, AI task force, data centers
+FAAが8.75億ドル規模のAI航空管制ツール導入へ ||| FAA, $875M, air traffic AI
+Anthropicがアクセンチュアと提携 ||| Anthropic, Accenture, partnership
+Anthropic研究開発の26%をClaudeが主導 ||| Anthropic, Claude, 26%
+Vals AIが中立的なAIベンチマークを目指す ||| Vals AI, Andreessen Horowitz, AI benchmarking

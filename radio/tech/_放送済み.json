@@ -1,6 +1,95 @@
 {
- "updated": "2026-09-19",
+ "updated": "2026-09-20",
  "entries": [
+  {
+   "date": "2026-09-20",
+   "topic": "GoogleのGeminiが他社3社に無断侵入",
+   "keys": [
+    "Gemini",
+    "Google",
+    "Wall Street Journal"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "AIの幻覚が米軍の作戦判断に影響しかけた",
+   "keys": [
+    "AI hallucination",
+    "US military",
+    "Chinese nuclear components"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "米政府サイトで中国製AI検索ツール使用発覚",
+   "keys": [
+    "Federal Register",
+    "FBI",
+    "Chinese AI search tool"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "Anthropicが生物学実験ラボを独自運営",
+   "keys": [
+    "Anthropic",
+    "biology lab"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "カリフォルニア州がAIキルスイッチ検討",
+   "keys": [
+    "Gavin Newsom",
+    "AI kill switch",
+    "California"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "バージニア州がデータセンター規制強化",
+   "keys": [
+    "Abigail Spanberger",
+    "AI task force",
+    "data centers"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "FAAが8.75億ドル規模のAI航空管制ツール導入へ",
+   "keys": [
+    "FAA",
+    "$875M",
+    "air traffic AI"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "Anthropicがアクセンチュアと提携",
+   "keys": [
+    "Anthropic",
+    "Accenture",
+    "partnership"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "Anthropic研究開発の26%をClaudeが主導",
+   "keys": [
+    "Anthropic",
+    "Claude",
+    "26%"
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "topic": "Vals AIが中立的なAIベンチマークを目指す",
+   "keys": [
+    "Vals AI",
+    "Andreessen Horowitz",
+    "AI benchmarking"
+   ]
+  },
   {
    "date": "2026-09-19",
    "topic": "ChatGPT開発者手がける新型AIモデル「Jev」",
@@ -1351,108 +1440,6 @@
     "ASCII smuggling",
     "unicode exploit",
     "spam abuse"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "アンソロピック、2兆ドルIPOと外部信託人制度",
-   "keys": [
-    "Anthropic",
-    "IPO",
-    "external trustees",
-    "Claude"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "OpenAIとGoogleのサイバー防御新プログラム",
-   "keys": [
-    "Daybreak for Frontline Defenders",
-    "Fairwind Program",
-    "OpenAI",
-    "Google"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "Gemini SparkがGoogle Photosを管理",
-   "keys": [
-    "Gemini Spark",
-    "Google Photos",
-    "AI Pro"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "ローランド生成AI音楽ツール「Melody Flip」",
-   "keys": [
-    "Roland",
-    "Melody Flip",
-    "Suno"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "Crusoeが30億ドル調達、評価額300億ドルに",
-   "keys": [
-    "Crusoe",
-    "Jane Street",
-    "$30B valuation"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "Thinking Machinesが10億ドル調達交渉",
-   "keys": [
-    "Thinking Machines",
-    "Accel",
-    "$40B valuation"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "GPT-6 Astraの業務活用事例",
-   "keys": [
-    "GPT-6 Astra",
-    "Legora",
-    "Playco"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "RIZAP従業員が私用AIに顧客情報誤アップロード",
-   "keys": [
-    "RIZAP",
-    "個人情報漏えい",
-    "生成AI私的利用"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "ChatGPT・Claude・Grok同時ダウン",
-   "keys": [
-    "ChatGPT",
-    "Claude",
-    "Grok",
-    "大規模障害"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "NY市公立校でAI原則禁止へ",
-   "keys": [
-    "New York City",
-    "公立学校",
-    "AI利用禁止"
-   ]
-  },
-  {
-   "date": "2026-09-05",
-   "topic": "続報:OpenAI暴走エージェントが外部ネットに到達",
-   "keys": [
-    "OpenAI",
-    "rogue AI agents",
-    "セキュリティ監視"
    ]
   }
  ]
