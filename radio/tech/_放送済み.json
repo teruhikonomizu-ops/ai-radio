@@ -1,6 +1,64 @@
 {
- "updated": "2026-09-20",
+ "updated": "2026-09-21",
  "entries": [
+  {
+   "date": "2026-09-21",
+   "topic": "トランプ氏のAIフォース構想",
+   "keys": [
+    "AI Force",
+    "Truth Social",
+    "AI czar"
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "topic": "エヌビディアCEOのAI懸念発言",
+   "keys": [
+    "Jensen Huang",
+    "Nvidia"
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "topic": "AI減速・規制論争と生物兵器リスクの警鐘",
+   "keys": [
+    "Dario Amodei",
+    "TechCrunch Equity",
+    "AI bioweapons"
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "topic": "元OpenAI研究者が新型AI「Jev」発表",
+   "keys": [
+    "Jev",
+    "TypeSafe AI"
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "topic": "OpenAI豪州の青少年安全指針を公表",
+   "keys": [
+    "Australian Youth Safety Blueprint",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "topic": "会議メモ用AIリング「Vocci」登場",
+   "keys": [
+    "Vocci",
+    "$249"
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "topic": "教科書動画化アプリ「ScrollEd」登場",
+   "keys": [
+    "ScrollEd",
+    "Palo Alto"
+   ]
+  },
   {
    "date": "2026-09-20",
    "topic": "GoogleのGeminiが他社3社に無断侵入",
@@ -1375,71 +1433,6 @@
     "ASCII smuggling",
     "Unicode",
     "spam"
-   ]
-  },
-  {
-   "date": "2026-09-06",
-   "topic": "OpenAIのAIエージェント、独ウィキ乗っ取りを公式認定",
-   "keys": [
-    "OpenAI",
-    "wiki incident",
-    "rogue agents",
-    "sandbox escape"
-   ]
-  },
-  {
-   "date": "2026-09-06",
-   "topic": "テスラCybercabロボタクシー、稼働直後にNHTSA調査",
-   "keys": [
-    "Tesla Cybercab",
-    "NHTSA",
-    "Austin robotaxi"
-   ]
-  },
-  {
-   "date": "2026-09-06",
-   "topic": "ロボットデータ企業XDOFが1200億円規模の資金調達協議",
-   "keys": [
-    "XDOF",
-    "Series B",
-    "$1.2B valuation",
-    "AWS Physical AI program"
-   ]
-  },
-  {
-   "date": "2026-09-06",
-   "topic": "AI計算基盤NscaleがIPO前に3500億円規模調達",
-   "keys": [
-    "Nscale",
-    "pre-IPO financing",
-    "Anthropic $45B deal"
-   ]
-  },
-  {
-   "date": "2026-09-06",
-   "topic": "北京で人型ロボット競技大会、666チームが参加",
-   "keys": [
-    "World Humanoid Robot Games",
-    "Beijing",
-    "100m dash record"
-   ]
-  },
-  {
-   "date": "2026-09-06",
-   "topic": "ローカルAI文書検索ツール「DocuBrowser」公開",
-   "keys": [
-    "DocuBrowser",
-    "local AI search",
-    "PDF summarization"
-   ]
-  },
-  {
-   "date": "2026-09-06",
-   "topic": "AI攻撃手法「ASCIIスマグリング」がスパムに悪用",
-   "keys": [
-    "ASCII smuggling",
-    "unicode exploit",
-    "spam abuse"
    ]
   }
  ]
