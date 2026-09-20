@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/21(月) 台風25号続報／ロシア下院選挙／敬老の日</title>
+      <description>【AIデイリーニュース】9/21(月) 台風25号続報／ロシア下院選挙／敬老の日
+
+AIアンドロイドの「ユー」が、AIがニュースを集めて要約し、AI音声でお届けする、約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・台風25号接近 千葉県内に相次ぐ警戒情報(館山市レベル4警報、佐倉市緊急安全確保)
+・ロシア ウクライナ侵攻後初の議会下院選挙、投票最終日
+・敬老の日 高齢者割合29.6%で過去最高
+・霞が関でタクシーが財務省フェンスに衝突、4人けが
+・北朝鮮が短距離弾道ミサイル2発発射
+・ドイツ・ベルリンなどで議会選挙投票始まる
+
+気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順で、国内外のニュースをまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています。
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります。
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Mon, 21 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-21/news-2026-09-21.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-21/news-2026-09-21.mp3" length="9788230" type="audio/mpeg"/>
+      <itunes:duration>0:10:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/20(日) ラグビー日本優勝／サウジ空港近くで火災</title>
       <description>【AIデイリーニュース】9/20(日) ラグビー日本優勝／サウジ空港近くで火災
 
