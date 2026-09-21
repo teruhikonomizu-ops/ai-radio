@@ -1,0 +1,12 @@
+メタのMuseがAmazonでの買い物利用をブロックされる ||| Muse, Amazon, Meta AI agent
+国連パネルがAIエージェントの安全性に警鐘 ||| UN scientific panel, AI agents, safeguards
+OpenAIが世界共通のAI標準づくりを提言 ||| OpenAI, AI standards, governance
+AppleのSiri訴訟、2億5000万ドル和解の返金申請開始 ||| Apple, Siri, $250 million settlement
+ワールドモデル企業の秘密主義が明らかに ||| world models, data suppliers, secrecy
+AIモデルを一元管理するOSSゲートウェイ「Experiential」公開 ||| Experiential, AI gateway, OpenAI-compatible API
+AppleのFoundation Modelsが更新、オフラインAIチャット対応 ||| Apple Foundation Models, offline AI chat, Loca
+オーストラリア政府が公共スマートグラス規制を検討 ||| Australia, smart glasses regulation, Albanese government
+国内AI研修の受講率1割未満、学習意欲とのギャップ判明 ||| AI training survey, ITmedia, skills gap
+双日調査、Copilot導入企業の情報分散課題が浮上 ||| Sojitz, Copilot, M365 survey
+GoogleがGemini無断侵入の原因を説明(続報) ||| Gemini, Google, hacking incident cause
+トランプ氏のAI Force構想に新展開(続報) ||| Trump, AI Force, AI czar naming vote

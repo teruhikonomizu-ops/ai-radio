@@ -1,6 +1,114 @@
 {
- "updated": "2026-09-21",
+ "updated": "2026-09-22",
  "entries": [
+  {
+   "date": "2026-09-22",
+   "topic": "メタのMuseがAmazonでの買い物利用をブロックされる",
+   "keys": [
+    "Muse",
+    "Amazon",
+    "Meta AI agent"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "国連パネルがAIエージェントの安全性に警鐘",
+   "keys": [
+    "UN scientific panel",
+    "AI agents",
+    "safeguards"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "OpenAIが世界共通のAI標準づくりを提言",
+   "keys": [
+    "OpenAI",
+    "AI standards",
+    "governance"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "AppleのSiri訴訟、2億5000万ドル和解の返金申請開始",
+   "keys": [
+    "Apple",
+    "Siri",
+    "$250 million settlement"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "ワールドモデル企業の秘密主義が明らかに",
+   "keys": [
+    "world models",
+    "data suppliers",
+    "secrecy"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "AIモデルを一元管理するOSSゲートウェイ「Experiential」公開",
+   "keys": [
+    "Experiential",
+    "AI gateway",
+    "OpenAI-compatible API"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "AppleのFoundation Modelsが更新、オフラインAIチャット対応",
+   "keys": [
+    "Apple Foundation Models",
+    "offline AI chat",
+    "Loca"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "オーストラリア政府が公共スマートグラス規制を検討",
+   "keys": [
+    "Australia",
+    "smart glasses regulation",
+    "Albanese government"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "国内AI研修の受講率1割未満、学習意欲とのギャップ判明",
+   "keys": [
+    "AI training survey",
+    "ITmedia",
+    "skills gap"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "双日調査、Copilot導入企業の情報分散課題が浮上",
+   "keys": [
+    "Sojitz",
+    "Copilot",
+    "M365 survey"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "GoogleがGemini無断侵入の原因を説明(続報)",
+   "keys": [
+    "Gemini",
+    "Google",
+    "hacking incident cause"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "topic": "トランプ氏のAI Force構想に新展開(続報)",
+   "keys": [
+    "Trump",
+    "AI Force",
+    "AI czar naming vote"
+   ]
+  },
   {
    "date": "2026-09-21",
    "topic": "トランプ氏のAIフォース構想",
@@ -1332,107 +1440,6 @@
     "警察庁",
     "110番",
     "AI活用"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "新聞社2社がOpenAIとMicrosoftを著作権侵害で提訴",
-   "keys": [
-    "Seattle Times",
-    "Newsday",
-    "OpenAI",
-    "Microsoft"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "ハイカーがGeminiの助言で食料不足のまま登山し救助",
-   "keys": [
-    "Google Gemini",
-    "遭難",
-    "保安官事務所"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "OpenAI幹部が「An Alien Mind」でAI安全性に警鐘",
-   "keys": [
-    "Jakub Pachocki",
-    "An Alien Mind",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "OpenAI社内でコーディングエージェントが研究を加速",
-   "keys": [
-    "OpenAI",
-    "coding agents",
-    "Research acceleration"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "データ圧縮とLLMの共通点「データの予測」を解説",
-   "keys": [
-    "LLM",
-    "データ圧縮",
-    "エントロピー",
-    "GIGAZINE"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "TeslaのCybercabが運用開始、米当局が安全基準調査",
-   "keys": [
-    "Tesla Cybercab",
-    "安全基準調査"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "女性の多い職種の方がAI自動化の影響を受けやすい研究",
-   "keys": [
-    "AI自動化",
-    "オーストラリア政府データ",
-    "女性職種"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "ChatGPT登場後のサイトの3分の1にAIの痕跡",
-   "keys": [
-    "ChatGPT",
-    "AI生成コンテンツ",
-    "ウェブサイト調査"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "複数AIエージェントを1つのターミナルで統括するHerdr",
-   "keys": [
-    "Herdr",
-    "Claude Code",
-    "Codex"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "OpenAI、休眠Wiki書き込み問題の非公表理由を説明",
-   "keys": [
-    "OpenAI",
-    "休眠Wiki",
-    "ミスアライメント",
-    "開示基準"
-   ]
-  },
-  {
-   "date": "2026-09-07",
-   "topic": "ASCII smugglingが迷惑メールにも悪用拡大",
-   "keys": [
-    "ASCII smuggling",
-    "Unicode",
-    "spam"
    ]
   }
  ]
