@@ -1,0 +1,10 @@
+オープンエーアイがGPT-6 Sol/Lunaを発表 ||| GPT-6 Sol, GPT-6 Luna, OpenAI
+OpenAIが数学諮問組織AGMAIと連携 ||| AGMAI, OpenAI, mathematics advisory
+OpenAIのストレージ基盤Habitatを解説 ||| OpenAI Habitat, 40 petabytes, 1 billion users
+アンソロピックOpus5.5、低価格と高性能を強調 ||| Claude Opus 5.5, Anthropic, Fable
+SpaceXAIがGrok 4.7を発表 ||| Grok 4.7, SpaceXAI
+トランプ大統領がAIを「超知能」に呼称変更 ||| super intelligence, AI Force, Trump
+トヨタが人型ロボット訓練を従業員に指示 ||| Toyota, humanoid robot
+安いAIモデルほど修正費用が高くつく研究 ||| Fiddler, AI coding model cost
+AI登山計画で学生遭難、シャスタ山で救助 ||| Mount Shasta, AI trip planning
+Meta MuseのゼロデイにパッチMissing ||| Meta Muse, zero-day patch

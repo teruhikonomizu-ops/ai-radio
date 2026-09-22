@@ -11,6 +11,33 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/23 GPT-6発表／Opus5.5続報／AI呼称変更</title>
+      <description>【世界のAIニュース】9/23 GPT-6発表／Opus5.5続報／AI呼称変更
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月23日）:
+1. OpenAI、新モデル「GPT-6 Sol」「GPT-6 Luna」を発表
+2. OpenAI、数学者の独立諮問グループ「AGMAI」と連携
+3. OpenAIの自社製ストレージ基盤「Habitat」、利用者10億人・40ペタバイト超を管理
+4. Anthropic「Claude Opus 5.5」、低価格化と最高性能を強調(続報)
+5. SpaceXAI、新モデル「Grok 4.7」を発表
+6. トランプ大統領、AIを「super intelligence」に呼称変更すると表明
+7. トヨタ、従業員に人型ロボットの訓練を指示
+8. 安価なAIモデルほど修正コストが高くつくとの調査結果(Fiddler)
+9. AIで登山計画を立てた大学生がシャスタ山で遭難、救助
+10. Meta、AIエージェント「Muse」のゼロデイ脆弱性を修正
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #GPT6 #ClaudeOpus5_5 #AI呼称変更</description>
+      <pubDate>Wed, 23 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-23/tech-2026-09-23.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-23/tech-2026-09-23.mp3" length="10254672" type="audio/mpeg"/>
+      <itunes:duration>0:10:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/22 Museアマゾン規制／Siri返金開始</title>
       <description>【世界のAIニュース】9/22 Museアマゾン規制／Siri返金開始
 

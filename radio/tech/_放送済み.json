@@ -1,6 +1,91 @@
 {
- "updated": "2026-09-22",
+ "updated": "2026-09-23",
  "entries": [
+  {
+   "date": "2026-09-23",
+   "topic": "オープンエーアイがGPT-6 Sol/Lunaを発表",
+   "keys": [
+    "GPT-6 Sol",
+    "GPT-6 Luna",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "OpenAIが数学諮問組織AGMAIと連携",
+   "keys": [
+    "AGMAI",
+    "OpenAI",
+    "mathematics advisory"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "OpenAIのストレージ基盤Habitatを解説",
+   "keys": [
+    "OpenAI Habitat",
+    "40 petabytes",
+    "1 billion users"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "アンソロピックOpus5.5、低価格と高性能を強調",
+   "keys": [
+    "Claude Opus 5.5",
+    "Anthropic",
+    "Fable"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "SpaceXAIがGrok 4.7を発表",
+   "keys": [
+    "Grok 4.7",
+    "SpaceXAI"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "トランプ大統領がAIを「超知能」に呼称変更",
+   "keys": [
+    "super intelligence",
+    "AI Force",
+    "Trump"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "トヨタが人型ロボット訓練を従業員に指示",
+   "keys": [
+    "Toyota",
+    "humanoid robot"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "安いAIモデルほど修正費用が高くつく研究",
+   "keys": [
+    "Fiddler",
+    "AI coding model cost"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "AI登山計画で学生遭難、シャスタ山で救助",
+   "keys": [
+    "Mount Shasta",
+    "AI trip planning"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "topic": "Meta MuseのゼロデイにパッチMissing",
+   "keys": [
+    "Meta Muse",
+    "zero-day patch"
+   ]
+  },
   {
    "date": "2026-09-22",
    "topic": "メタのMuseがAmazonでの買い物利用をブロックされる",
@@ -1351,95 +1436,6 @@
    "keys": [
     "Unitree Robotics",
     "自律格闘デモ"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "テスラのサイバーキャブ、日本初公開と米当局調査",
-   "keys": [
-    "Cybercab",
-    "Tesla Japan",
-    "safety investigation"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "東大発Highlandersの四足歩行ロボHLQ EDGE公開",
-   "keys": [
-    "Highlanders",
-    "HLQ EDGE",
-    "quadruped robot"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "DeepSeekが内モンゴルに新データセンター計画",
-   "keys": [
-    "DeepSeek",
-    "Ascend 950DT",
-    "Inner Mongolia"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "Anthropic和解金の分配を巡り著者が出版社に反発",
-   "keys": [
-    "Anthropic settlement",
-    "authors",
-    "publishers"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "Kalanickの新会社Atomsがロボタクシー参入",
-   "keys": [
-    "Travis Kalanick",
-    "Atoms",
-    "robotaxi"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "OpenAIがウクライナ報道支援プログラム開始",
-   "keys": [
-    "OpenAI",
-    "Ukraine journalism",
-    "WAN-IFRA"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "Copilot経由で広がる新型AIウイルス発見",
-   "keys": [
-    "Microsoft Copilot",
-    "Word",
-    "AI worm"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "Geminiの誤助言で登山者遭難、後日救助される",
-   "keys": [
-    "Google Gemini",
-    "hikers rescued"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "Gartner 2026年版ハイプ・サイクル発表",
-   "keys": [
-    "Gartner",
-    "Hype Cycle 2026",
-    "agentic AI"
-   ]
-  },
-  {
-   "date": "2026-09-08",
-   "topic": "警察庁が110番対応へのAI活用を検討",
-   "keys": [
-    "警察庁",
-    "110番",
-    "AI活用"
    ]
   }
  ]
