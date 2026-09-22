@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/23(水) 日米首脳会談／台風25号続報</title>
+      <description>【AIデイリーニュース】9/23(水) 日米首脳会談／台風25号続報
+
+AIアンドロイドの「ユー」が、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・高市首相とトランプ大統領がニューヨークで日米首脳会談
+・トランプ大統領、国連総会演説でICC加盟国に脱退呼びかけ
+・台風25号被害、千葉・神奈川で死者計7人、依然5人不明
+・北朝鮮の新型兵器、飛行距離約1000キロで日本の一部が射程内の可能性
+・OpenAIが安全なAI開発へ米主導の国際的取り組みを提言
+・青森県深浦町の住宅全焼火災で2人の遺体発見
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Wed, 23 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-23/news-2026-09-23.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-23/news-2026-09-23.mp3" length="9750613" type="audio/mpeg"/>
+      <itunes:duration>0:10:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/22(火) 台風25号続報／高市首相国連へ</title>
       <description>【AIデイリーニュース】9/22(火) 台風25号続報／高市首相国連へ
 
