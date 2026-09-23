@@ -1,6 +1,105 @@
 {
- "updated": "2026-09-23",
+ "updated": "2026-09-24",
  "entries": [
+  {
+   "date": "2026-09-24",
+   "topic": "ChatGPTモバイルに声のエージェント機能追加",
+   "keys": [
+    "ChatGPT mobile",
+    "Work tab",
+    "voice agent"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "OpenAI Academy2周年とウクライナ支援拡大",
+   "keys": [
+    "OpenAI Academy",
+    "Daybreak",
+    "Ukraine"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "Google Beam拡大とPrivate AI Compute強化",
+   "keys": [
+    "Google Beam",
+    "Private AI Compute",
+    "Industrious"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "新音声合成モデルGemini 3.8のTTS発表",
+   "keys": [
+    "Gemini 3.8",
+    "text-to-speech"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "YouTubeのAI新機能拡充(カスタムフィード等)",
+   "keys": [
+    "YouTube custom feeds",
+    "Ask Music",
+    "YouTube Studio"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "サンダース議員が超知能禁止法案を提出",
+   "keys": [
+    "Bernie Sanders",
+    "Greg Casar",
+    "superintelligence ban"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "AI日常利用者でも不安根強いという米調査",
+   "keys": [
+    "daily AI users survey",
+    "public unease"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "NHTSAがcomma.aiを調査、5件の事故確認",
+   "keys": [
+    "NHTSA",
+    "comma.ai",
+    "5 crashes"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "MicrosoftがEvilTokensを停止",
+   "keys": [
+    "Microsoft",
+    "EvilTokens",
+    "12",
+    "000 accounts"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "invideo/Ringg/HarveyのGPT-6 Astra活用事例",
+   "keys": [
+    "GPT-6 Astra",
+    "invideo",
+    "Ringg",
+    "Harvey",
+    "GPT-5.6"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "topic": "AWSとSalesforceのAI連携強化",
+   "keys": [
+    "AWS",
+    "Salesforce"
+   ]
+  },
   {
    "date": "2026-09-23",
    "topic": "オープンエーアイがGPT-6 Sol/Lunaを発表",
@@ -1358,84 +1457,6 @@
    "keys": [
     "Navier-Stokes",
     "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "OpenAIがナビエ・ストークス問題にAI解答",
-   "keys": [
-    "Navier-Stokes",
-    "Lean formal proof",
-    "Millennium Prize Problem"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "Mistralが30億ユーロを調達",
-   "keys": [
-    "Mistral AI",
-    "Series D",
-    "€21B valuation"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "Google CloudがAccentureと提携",
-   "keys": [
-    "Google Cloud",
-    "Accenture",
-    "forward-deployed engineers"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "Chromeが2週間ごとの更新に",
-   "keys": [
-    "Google Chrome",
-    "biweekly release"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "日本でローカルLLMが過熱",
-   "keys": [
-    "ローカルLLM",
-    "価格.com",
-    "AI PC"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "OpenAIが10代AI研究に助成金",
-   "keys": [
-    "OpenAI teen grant",
-    "$5 million"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "日立がフィジカルAI元年を宣言",
-   "keys": [
-    "日立製作所",
-    "HMAX",
-    "フィジカルAI"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "Xiaopengの人型ロボットIRONが量産へ",
-   "keys": [
-    "Xiaopeng",
-    "IRON",
-    "人型ロボット"
-   ]
-  },
-  {
-   "date": "2026-09-09",
-   "topic": "Unitreeが自律格闘デモを公開",
-   "keys": [
-    "Unitree Robotics",
-    "自律格闘デモ"
    ]
   }
  ]

@@ -1,0 +1,11 @@
+ChatGPTモバイルに声のエージェント機能追加 ||| ChatGPT mobile, Work tab, voice agent
+OpenAI Academy2周年とウクライナ支援拡大 ||| OpenAI Academy, Daybreak, Ukraine
+Google Beam拡大とPrivate AI Compute強化 ||| Google Beam, Private AI Compute, Industrious
+新音声合成モデルGemini 3.8のTTS発表 ||| Gemini 3.8, text-to-speech
+YouTubeのAI新機能拡充(カスタムフィード等) ||| YouTube custom feeds, Ask Music, YouTube Studio
+サンダース議員が超知能禁止法案を提出 ||| Bernie Sanders, Greg Casar, superintelligence ban
+AI日常利用者でも不安根強いという米調査 ||| daily AI users survey, public unease
+NHTSAがcomma.aiを調査、5件の事故確認 ||| NHTSA, comma.ai, 5 crashes
+MicrosoftがEvilTokensを停止 ||| Microsoft, EvilTokens, 12,000 accounts
+invideo/Ringg/HarveyのGPT-6 Astra活用事例 ||| GPT-6 Astra, invideo, Ringg, Harvey, GPT-5.6
+AWSとSalesforceのAI連携強化 ||| AWS, Salesforce

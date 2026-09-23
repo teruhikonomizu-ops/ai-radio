@@ -11,6 +11,35 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/24 ChatGPT音声エージェント／超知能禁止法案</title>
+      <description>【世界のAIニュース】9/24 ChatGPT音声エージェント／超知能禁止法案
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月24日）:
+1. ChatGPTモバイルに声で操作できるエージェント機能が追加
+2. OpenAI Academyが2周年、ウクライナへのサイバー防衛支援も拡大
+3. Google Beamが新たに5カ国へ展開、Industriousと提携
+4. Google DeepMindがPrivate AI Computeにサーバー側の記憶機能を追加
+5. 新音声合成モデル「Gemini 3.8」のテキスト読み上げ機能を発表
+6. YouTubeがAIカスタムフィードやAsk Musicなど新機能を拡充
+7. サンダース議員らが「超知能」開発を禁止する法案を提出
+8. AIを毎日使う米国人でも不安は根強いという調査結果
+9. NHTSAがcomma.aiを調査、5件の衝突事故を確認
+10. MicrosoftがAI悪用の不正アクセス基盤「EvilTokens」を停止
+11. invideo・Ringg・HarveyがGPT-6 Astra等でビジネス活用を加速
+12. AWSとSalesforceが連携強化、パーソルがAIデータ基盤支援サービス開始
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #ChatGPT #超知能規制 #GoogleBeam</description>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-24/tech-2026-09-24.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-24/tech-2026-09-24.mp3" length="9469327" type="audio/mpeg"/>
+      <itunes:duration>0:09:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/23 GPT-6発表／Opus5.5続報／AI呼称変更</title>
       <description>【世界のAIニュース】9/23 GPT-6発表／Opus5.5続報／AI呼称変更
 
