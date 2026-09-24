@@ -1,6 +1,77 @@
 {
- "updated": "2026-09-24",
+ "updated": "2026-09-25",
  "entries": [
+  {
+   "date": "2026-09-25",
+   "topic": "Metaがキーホルダー型AIガジェット発表",
+   "keys": [
+    "Muse Charm",
+    "Meta Connect 2026",
+    "Horizon"
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "topic": "MuseがファイルシステムをAI漏洩、OpenClaw類似指摘",
+   "keys": [
+    "Muse",
+    "OpenClaw",
+    "Meta AI agent"
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "topic": "AI誤情報が招いた米中軍事的緊張の報道",
+   "keys": [
+    "AI-generated report",
+    "China vessel",
+    "nuclear parts"
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "topic": "OracleがStargateデータセンターでforce majeure通知",
+   "keys": [
+    "Oracle",
+    "Stargate",
+    "New Mexico data center"
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "topic": "RSA暗号を破る新解読手法の発見",
+   "keys": [
+    "RSA",
+    "factoring",
+    "cryptography"
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "topic": "NVIDIAが音声識別AIモデルを公開",
+   "keys": [
+    "NVIDIA Nemotron 3 Diarization",
+    "speaker diarization"
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "topic": "Lovableの年間換算売上が6億ドル突破",
+   "keys": [
+    "Lovable",
+    "$600M ARR",
+    "vibe coding"
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "topic": "Patreon共同創業者らがOpenAIへ移籍",
+   "keys": [
+    "Patreon",
+    "Sam Yam",
+    "OpenAI"
+   ]
+  },
   {
    "date": "2026-09-24",
    "topic": "ChatGPTモバイルに声のエージェント機能追加",
@@ -1363,100 +1434,6 @@
    "keys": [
     "Maven Robotics",
     "Series A"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "Apple新製品発表、折りたたみ型iPhone Duo登場",
-   "keys": [
-    "iPhone Duo",
-    "iPhone 18 Pro",
-    "John Ternus",
-    "Apple Watch Ultra 4"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "Siri AI日本語版が10月提供開始",
-   "keys": [
-    "Siri AI",
-    "Apple Intelligence"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "OpenAI財団理事にPaul Christiano氏就任",
-   "keys": [
-    "Paul Christiano",
-    "OpenAI Foundation Board",
-    "Safety and Security Committee"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "Anthropic研究者が超知能開発に警鐘し退社",
-   "keys": [
-    "Anthropic",
-    "superintelligence",
-    "ControlAI",
-    "Connor Leahy"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "Google DeepMindがAlphaGenome Atlas公開",
-   "keys": [
-    "AlphaGenome Atlas",
-    "Google DeepMind"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "OpenAIがChatGPT Images 2.5を発表",
-   "keys": [
-    "ChatGPT Images 2.5",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "Meta「Muse」エージェントに注力",
-   "keys": [
-    "Muse",
-    "Meta"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "Amazon Prime VideoがAIリップシンク吹替導入",
-   "keys": [
-    "Prime Video",
-    "Amazon"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "1PasswordがCodex導入で生産性21%向上",
-   "keys": [
-    "1Password",
-    "Codex",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "Google GTIGがAI悪用の攻撃急増を報告",
-   "keys": [
-    "GTIG",
-    "Google"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "topic": "ナビエ・ストークス問題を巡る不正疑惑続報",
-   "keys": [
-    "Navier-Stokes",
-    "OpenAI"
    ]
   }
  ]

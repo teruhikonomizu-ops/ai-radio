@@ -1,0 +1,17 @@
+【世界のAIニュース】9/25 メタの新ガジェット／AI誤情報の緊張
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック(2026年9月25日):
+1. Metaが「Meta Connect 2026」でキーホルダー型AIガジェット「Muse Charm」を発表
+2. Meta AI「Muse」を巡る新たな懸念（ファイルシステム共有問題、OpenClawとの類似指摘）
+3. AIの誤情報が招いた米中の軍事的緊張（2026年春の偽報告書問題）
+4. Oracle、New Mexico州Stargateデータセンターでforce majeure通知
+5. RSA暗号を破る新しい解読手法の発見
+6. NVIDIAが音声識別AIモデル「Nemotron 3 Diarization」をオープン公開
+7. Lovableの年間換算売上が6億ドル突破
+8. Patreon共同創業者らがOpenAIへ移籍
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Meta #MuseCharm #NVIDIA

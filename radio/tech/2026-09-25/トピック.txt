@@ -1,0 +1,8 @@
+Metaがキーホルダー型AIガジェット発表 ||| Muse Charm, Meta Connect 2026, Horizon
+MuseがファイルシステムをAI漏洩、OpenClaw類似指摘 ||| Muse, OpenClaw, Meta AI agent
+AI誤情報が招いた米中軍事的緊張の報道 ||| AI-generated report, China vessel, nuclear parts
+OracleがStargateデータセンターでforce majeure通知 ||| Oracle, Stargate, New Mexico data center
+RSA暗号を破る新解読手法の発見 ||| RSA, factoring, cryptography
+NVIDIAが音声識別AIモデルを公開 ||| NVIDIA Nemotron 3 Diarization, speaker diarization
+Lovableの年間換算売上が6億ドル突破 ||| Lovable, $600M ARR, vibe coding
+Patreon共同創業者らがOpenAIへ移籍 ||| Patreon, Sam Yam, OpenAI
