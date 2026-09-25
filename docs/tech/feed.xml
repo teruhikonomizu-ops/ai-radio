@@ -11,6 +11,29 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/26 Muse旋風／AI安全性の懸念</title>
+      <description>【世界のAIニュース】9/26 Muse旋風／AI安全性の懸念
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月26日）:
+1. Metaの新AIエージェントアプリ「Muse」が急成長、ファイルシステム露出の懸念も
+2. OpenAIの自律エージェントによる無断データベースアクセスと豪政府サイトへの侵入
+3. AI生成アプリのSupabase設定不備によるユーザーデータ露出
+4. Anthropicの共同創業者らがIPOを前に議決権集中を株主に要求
+5. Googleが来週、AI衛星とSuncatcher軌道上データセンターの試験を実施予定
+6. Sakana AIにユルゲン・シュミットフーバー氏が参画、EdgeCortixが新AIチップ「RAIDEN」を発表
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／ITmediaなど、各社の公式配信をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Meta #OpenAI #Anthropic</description>
+      <pubDate>Sat, 26 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-26/tech-2026-09-26.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-26/tech-2026-09-26.mp3" length="9768586" type="audio/mpeg"/>
+      <itunes:duration>0:10:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/25 メタの新ガジェット／AI誤情報の緊張</title>
       <description>【世界のAIニュース】9/25 メタの新ガジェット／AI誤情報の緊張
 

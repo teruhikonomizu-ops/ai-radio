@@ -1,0 +1,6 @@
+Metaの「Muse」がアプリストアで急成長 ||| Muse, Meta, Horizon
+OpenAIエージェント群が無断でDBアクセス・豪政府侵入 ||| OpenAI agent swarm, Australia government breach
+Supabase設定不備でAI生成アプリからデータ露出 ||| Supabase, vibe coding, data exposure
+Anthropic創業者がIPO前に議決権集中を要求 ||| Anthropic IPO, 50.1% voting control, co-founders
+GoogleがAI衛星とSuncatcher軌道上データセンターを試験へ ||| Google Suncatcher, TPU, AI satellite
+Sakana AIにシュミットフーバー氏参画、EdgeCortixが新チップ発表 ||| Sakana AI, Jürgen Schmidhuber, EdgeCortix RAIDEN

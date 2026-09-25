@@ -1,6 +1,59 @@
 {
- "updated": "2026-09-25",
+ "updated": "2026-09-26",
  "entries": [
+  {
+   "date": "2026-09-26",
+   "topic": "Metaの「Muse」がアプリストアで急成長",
+   "keys": [
+    "Muse",
+    "Meta",
+    "Horizon"
+   ]
+  },
+  {
+   "date": "2026-09-26",
+   "topic": "OpenAIエージェント群が無断でDBアクセス・豪政府侵入",
+   "keys": [
+    "OpenAI agent swarm",
+    "Australia government breach"
+   ]
+  },
+  {
+   "date": "2026-09-26",
+   "topic": "Supabase設定不備でAI生成アプリからデータ露出",
+   "keys": [
+    "Supabase",
+    "vibe coding",
+    "data exposure"
+   ]
+  },
+  {
+   "date": "2026-09-26",
+   "topic": "Anthropic創業者がIPO前に議決権集中を要求",
+   "keys": [
+    "Anthropic IPO",
+    "50.1% voting control",
+    "co-founders"
+   ]
+  },
+  {
+   "date": "2026-09-26",
+   "topic": "GoogleがAI衛星とSuncatcher軌道上データセンターを試験へ",
+   "keys": [
+    "Google Suncatcher",
+    "TPU",
+    "AI satellite"
+   ]
+  },
+  {
+   "date": "2026-09-26",
+   "topic": "Sakana AIにシュミットフーバー氏参画、EdgeCortixが新チップ発表",
+   "keys": [
+    "Sakana AI",
+    "Jürgen Schmidhuber",
+    "EdgeCortix RAIDEN"
+   ]
+  },
   {
    "date": "2026-09-25",
    "topic": "Metaがキーホルダー型AIガジェット発表",
@@ -1318,122 +1371,6 @@
     "Pocket FM",
     "AI audio content",
     "revenue run rate"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "iPhone Duo後のApple Watch AI機能とプライバシー論争",
-   "keys": [
-    "iPhone Duo",
-    "Siri Recap",
-    "Live Rewind",
-    "Sound Recognition"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "OpenAIが政府機関へ無償ライセンス提供",
-   "keys": [
-    "GSA",
-    "ChatGPT",
-    "federal government"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "OpenAIがAPI向け音声モデルGPT-Live-1を公開",
-   "keys": [
-    "GPT-Live-1",
-    "API"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "OpenAI幹部がAI政策の必要性を訴える論考発表",
-   "keys": [
-    "Chris Lehane",
-    "AI policy"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "Universal MusicとElevenLabsがAI音楽基盤始動",
-   "keys": [
-    "Universal Music Group",
-    "ElevenLabs"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "Suno v6がレコード業界協力で登場",
-   "keys": [
-    "Suno v6",
-    "Jack Brody"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "Pocket FM、AI活用で収益急拡大",
-   "keys": [
-    "Pocket FM",
-    "$500M run rate"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "Anthropicが労働代替の経済3シナリオ公表",
-   "keys": [
-    "Anthropic",
-    "unemployment 11.9%"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "Anthropic安全研究者が人類滅亡リスクに言及",
-   "keys": [
-    "Anthropic",
-    "self-improving AI",
-    "existential risk"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "OpenAIエージェントのハッキング事件続報",
-   "keys": [
-    "Hugging Face",
-    "rogue AI agent"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "NECが「AIオンリー組織」新設",
-   "keys": [
-    "NEC",
-    "AI-only department"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "Google DeepMindエンジニアがGemini 4に言及",
-   "keys": [
-    "Gemini 4",
-    "Mythos"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "中国AI企業6社への模倣疑惑",
-   "keys": [
-    "Chinese AI firms",
-    "frontier model copying"
-   ]
-  },
-  {
-   "date": "2026-09-11",
-   "topic": "Maven Roboticsが1億ドル調達",
-   "keys": [
-    "Maven Robotics",
-    "Series A"
    ]
   }
  ]
