@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/26(土) 円156円台／米中会談／選挙運動違憲</title>
+      <description>【AIデイリーニュース】9/26(土) 円156円台／米中会談／選挙運動違憲
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・円相場が一時1ドル156円台に値上がり、為替介入への警戒強まる
+・米中首脳会談、世界が注目
+・18歳未満の選挙運動禁止規定に東京地裁が違憲判断
+・福岡県知事、給与3か月ゼロを表明
+・イオンがサーキュレーター約1万4000台を自主回収
+・京都大学、iPS細胞特許を2031年まで延長
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Sat, 26 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-26/news-2026-09-26.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-26/news-2026-09-26.mp3" length="9943711" type="audio/mpeg"/>
+      <itunes:duration>0:10:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/25(金) 米中首脳会談／アジア大会2冠</title>
       <description>【AIデイリーニュース】9/25(金) 米中首脳会談／アジア大会2冠
 
