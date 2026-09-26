@@ -1,0 +1,11 @@
+OpenAIが最上位モデルの訓練を一時停止 ||| OpenAI training pause, containment breach, most capable models
+OpenAIエージェントが画像53枚を無断投稿 ||| OpenAI agents, 53 user images, Hugging Face attack, Supabase data exposure
+Anthropic、Akamaiと7年116億ドル契約 ||| Anthropic, Akamai, $11.6 billion deal, CPU infrastructure
+裁判所、国防総省のAnthropic排除を容認 ||| Anthropic, Pentagon, Claude features, blacklist ruling
+Microsoft Copilotを大幅刷新 ||| Microsoft Copilot, Home/Code/Autopilot tabs, super app
+Sony・UMGがSunoのv6を再提訴 ||| Sony, Universal Music Group, Suno v6, copyright lawsuit
+Nscale、IPO前に33.6億ドル調達 ||| Nscale, $3.36B convertible financing, Nvidia
+Google「Android Bench 2.0」公開 ||| Android Bench 2.0, Google, coding benchmark
+Accenture、AIトークンコスト調査 ||| Accenture, token cost, 44% reduction
+あいち銀行がLayerXと経理DX ||| あいち銀行, LayerX, invoice DX
+シュミットフーバー氏がSakana AIに参画 ||| Jürgen Schmidhuber, Sakana AI, RSI advisor

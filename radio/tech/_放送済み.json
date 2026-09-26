@@ -1,6 +1,111 @@
 {
- "updated": "2026-09-26",
+ "updated": "2026-09-27",
  "entries": [
+  {
+   "date": "2026-09-27",
+   "topic": "OpenAIが最上位モデルの訓練を一時停止",
+   "keys": [
+    "OpenAI training pause",
+    "containment breach",
+    "most capable models"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "OpenAIエージェントが画像53枚を無断投稿",
+   "keys": [
+    "OpenAI agents",
+    "53 user images",
+    "Hugging Face attack",
+    "Supabase data exposure"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "Anthropic、Akamaiと7年116億ドル契約",
+   "keys": [
+    "Anthropic",
+    "Akamai",
+    "$11.6 billion deal",
+    "CPU infrastructure"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "裁判所、国防総省のAnthropic排除を容認",
+   "keys": [
+    "Anthropic",
+    "Pentagon",
+    "Claude features",
+    "blacklist ruling"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "Microsoft Copilotを大幅刷新",
+   "keys": [
+    "Microsoft Copilot",
+    "Home",
+    "Code",
+    "Autopilot tabs",
+    "super app"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "Sony・UMGがSunoのv6を再提訴",
+   "keys": [
+    "Sony",
+    "Universal Music Group",
+    "Suno v6",
+    "copyright lawsuit"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "Nscale、IPO前に33.6億ドル調達",
+   "keys": [
+    "Nscale",
+    "$3.36B convertible financing",
+    "Nvidia"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "Google「Android Bench 2.0」公開",
+   "keys": [
+    "Android Bench 2.0",
+    "Google",
+    "coding benchmark"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "Accenture、AIトークンコスト調査",
+   "keys": [
+    "Accenture",
+    "token cost",
+    "44% reduction"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "あいち銀行がLayerXと経理DX",
+   "keys": [
+    "あいち銀行",
+    "LayerX",
+    "invoice DX"
+   ]
+  },
+  {
+   "date": "2026-09-27",
+   "topic": "シュミットフーバー氏がSakana AIに参画",
+   "keys": [
+    "Jürgen Schmidhuber",
+    "Sakana AI",
+    "RSI advisor"
+   ]
+  },
   {
    "date": "2026-09-26",
    "topic": "Metaの「Muse」がアプリストアで急成長",
@@ -1223,154 +1328,6 @@
     "Sequoia",
     "robot training data",
     "$500M valuation"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "OpenAIのストレージ基盤Habitatが10億人利用者を支える",
-   "keys": [
-    "Habitat",
-    "ChatGPT",
-    "OpenAI storage platform"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "GPT-6 Astra需要急増でChatGPT Proが新規停止",
-   "keys": [
-    "GPT-6 Astra",
-    "ChatGPT Pro",
-    "waitlist pause"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "AnthropicがChina系AI企業の蒸留攻撃を報告",
-   "keys": [
-    "Anthropic",
-    "Alibaba",
-    "Moonshot AI",
-    "DeepSeek",
-    "distillation report"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "Claudeの安全対策をすり抜けた生物兵器研究事例",
-   "keys": [
-    "Claude",
-    "bioweapons safeguards",
-    "Anthropic"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "CodexとChatGPTで抗菌物質を探索する研究",
-   "keys": [
-    "Codex",
-    "ChatGPT",
-    "César de la Fuente",
-    "antimicrobial research"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "アルトマンCEOがAI開発ペース減速を示唆",
-   "keys": [
-    "Sam Altman",
-    "OpenAI",
-    "development pace slowdown"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "AIエージェントが行政申請に利用される事例",
-   "keys": [
-    "AI agents",
-    "public services",
-    "TechCrunch report"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "Nvidia CEOが来年70%成長を予測",
-   "keys": [
-    "Jensen Huang",
-    "Nvidia",
-    "70% growth forecast"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "NscaleがFidji Simo氏を取締役に迎えIPO準備",
-   "keys": [
-    "Nscale",
-    "Fidji Simo",
-    "IPO"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "AmazonとOpenAIが広告で提携",
-   "keys": [
-    "Amazon Ads",
-    "OpenAI",
-    "ChatGPT advertising",
-    "Amazon DSP"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "Windows版Geminiアプリが公開",
-   "keys": [
-    "Gemini app for Windows",
-    "Google",
-    "Gemini Spark"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "Sakana AIがFugu Ultra v2とFugu Maxを発表",
-   "keys": [
-    "Sakana AI",
-    "Fugu Ultra v2",
-    "Fugu Max"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "MetaがAIチャットボットの質問提案を修正",
-   "keys": [
-    "Meta AI chatbot",
-    "invasive questions",
-    "prompt change"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "Slackにチャット内グラフ作成機能追加",
-   "keys": [
-    "Slack",
-    "vibe-coding",
-    "interactive charts"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "音楽生成AI「YuE2」が無料公開",
-   "keys": [
-    "YuE2",
-    "Multimodal Art Projection",
-    "open music model"
-   ]
-  },
-  {
-   "date": "2026-09-12",
-   "topic": "Pocket FMがAI活用で売上倍増",
-   "keys": [
-    "Pocket FM",
-    "AI audio content",
-    "revenue run rate"
    ]
   }
  ]
