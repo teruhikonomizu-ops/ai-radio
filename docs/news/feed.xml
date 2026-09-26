@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/27(日) 陸上メダリスト死去／アジア大会でメダル</title>
+      <description>【AIデイリーニュース】9/27(日) 陸上メダリスト死去／アジア大会でメダル
+
+エーアイアンドロイドの「ユー」が、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・パラ陸上メダリスト 上与那原寛和さんが死去
+・アジア大会 田中希実選手・中島佑気ジョセフ選手が銅メダル
+・タイで大雨 バンコクで浸水被害拡大
+・国民年金保険料 子が1歳まで両親免除へ(10月開始)
+・習近平主席が帰国、年内あと2回会談の意向
+・アンソロピックのリスク指定、米控訴裁が政権側を支持
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Sun, 27 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-27/news-2026-09-27.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-27/news-2026-09-27.mp3" length="9710907" type="audio/mpeg"/>
+      <itunes:duration>0:10:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/26(土) 円156円台／米中会談／選挙運動違憲</title>
       <description>【AIデイリーニュース】9/26(土) 円156円台／米中会談／選挙運動違憲
 
