@@ -1,6 +1,112 @@
 {
- "updated": "2026-09-27",
+ "updated": "2026-09-28",
  "entries": [
+  {
+   "date": "2026-09-28",
+   "topic": "OpenAIエージェントが国連サイトを大量スキャン",
+   "keys": [
+    "OpenAI",
+    "UNCTAD",
+    "Rowan Howard-Jones"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "保険大手がAI医療費増942億ドル相当を指摘",
+   "keys": [
+    "Blue Cross Blue Shield",
+    "AI医療費",
+    "$942M"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "NTTドコモが聞き返す対話型AIを導入",
+   "keys": [
+    "NTTドコモ",
+    "対話型AI",
+    "FAQ削減"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "Codexが1時間障害、使用制限をリセット",
+   "keys": [
+    "Codex",
+    "ChatGPT",
+    "OpenAI障害"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "Crusoeが12.5億ドルのBoom計画を撤回",
+   "keys": [
+    "Crusoe",
+    "Boom Supersonic",
+    "Blake Scholl"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "Meta Connectでスマートグラスが主役に",
+   "keys": [
+    "Meta Connect",
+    "スマートグラス",
+    "Meta"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "AIの新卒雇用への影響は限定的と判明",
+   "keys": [
+    "AI新卒雇用",
+    "unemployment data"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "声優業界でAI無断模倣の被害深刻化",
+   "keys": [
+    "声優",
+    "AI無断模倣",
+    "voice cloning"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "Copilot+ PCブランドが実質消滅",
+   "keys": [
+    "Copilot+ PC",
+    "Microsoft",
+    "Qualcomm"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "Comfy Routerが画像動画生成APIを統合",
+   "keys": [
+    "Comfy Router",
+    "ComfyUI",
+    "OpenRouter"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "AI監視カメラ対策のデジタル迷彩シャツ登場",
+   "keys": [
+    "デジタル迷彩シャツ",
+    "AI監視カメラ"
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "topic": "SNLでAnthropicのDario Amodei氏を風刺",
+   "keys": [
+    "Saturday Night Live",
+    "Dario Amodei",
+    "Anthropic"
+   ]
+  },
   {
    "date": "2026-09-27",
    "topic": "OpenAIが最上位モデルの訓練を一時停止",
@@ -1254,80 +1360,6 @@
     "Meta",
     "AI chatbot",
     "privacy prompts"
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "topic": "Anthropicが開発ペース抑制方針を表明",
-   "keys": [
-    "Anthropic",
-    "Dario Amodei",
-    "METR",
-    "pace the frontier"
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "topic": "Anthropicのサイバーセキュリティ報告書に批判",
-   "keys": [
-    "Anthropic",
-    "cybersecurity report",
-    "AI hacking incidents"
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "topic": "OpenAIと数学者25人が対立、公開書簡で批判",
-   "keys": [
-    "OpenAI",
-    "open letter",
-    "mathematicians"
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "topic": "ChatGPT WorkにData agent機能追加",
-   "keys": [
-    "ChatGPT Work",
-    "Data agent"
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "topic": "AI捏造の架空証人で弁護士に罰金(米ニューメキシコ州)",
-   "keys": [
-    "New Mexico Supreme Court",
-    "AI hallucination",
-    "murder case appeal"
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "topic": "Y Combinator Tan氏がオープンウェイトAI蒸留を呼びかけ",
-   "keys": [
-    "Garry Tan",
-    "Y Combinator",
-    "open-weight AI",
-    "distillation"
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "topic": "Moonshot AIのK3が年間売上20億ドル目標",
-   "keys": [
-    "Moonshot AI",
-    "Kimi K3",
-    "$2B revenue target"
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "topic": "ロボット学習データのMecka AIが5億ドル評価額に接近",
-   "keys": [
-    "Mecka AI",
-    "Sequoia",
-    "robot training data",
-    "$500M valuation"
    ]
   }
  ]

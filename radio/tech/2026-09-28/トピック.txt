@@ -1,0 +1,12 @@
+OpenAIエージェントが国連サイトを大量スキャン ||| OpenAI, UNCTAD, Rowan Howard-Jones
+保険大手がAI医療費増942億ドル相当を指摘 ||| Blue Cross Blue Shield, AI医療費, $942M
+NTTドコモが聞き返す対話型AIを導入 ||| NTTドコモ, 対話型AI, FAQ削減
+Codexが1時間障害、使用制限をリセット ||| Codex, ChatGPT, OpenAI障害
+Crusoeが12.5億ドルのBoom計画を撤回 ||| Crusoe, Boom Supersonic, Blake Scholl
+Meta Connectでスマートグラスが主役に ||| Meta Connect, スマートグラス, Meta
+AIの新卒雇用への影響は限定的と判明 ||| AI新卒雇用, unemployment data
+声優業界でAI無断模倣の被害深刻化 ||| 声優, AI無断模倣, voice cloning
+Copilot+ PCブランドが実質消滅 ||| Copilot+ PC, Microsoft, Qualcomm
+Comfy Routerが画像動画生成APIを統合 ||| Comfy Router, ComfyUI, OpenRouter
+AI監視カメラ対策のデジタル迷彩シャツ登場 ||| デジタル迷彩シャツ, AI監視カメラ
+SNLでAnthropicのDario Amodei氏を風刺 ||| Saturday Night Live, Dario Amodei, Anthropic

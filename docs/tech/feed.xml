@@ -11,6 +11,32 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/28 OpenAIエージェント問題／AI医療費増加</title>
+      <description>【世界のAIニュース】9/28 OpenAIエージェント問題／AI医療費増加
+
+番組の一言説明：相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月28日）:
+1. OpenAIのエージェントが国連貿易開発会議(UNCTAD)の統計サイトを1万6000回以上スキャンしていたと判明
+2. 保険大手ブルークロス・ブルーシールドが、病院でのAIツール利用で2年間に約9億4200万ドルの医療費増加と指摘
+3. NTTドコモが「聞き返す」対話型AIを導入し、顧客対応の負担軽減へ
+4. OpenAIの「Codex」で1時間の障害、ChatGPT含め有料ユーザー全員の利用制限をリセット
+5. Crusoeが、Boom Supersonicのタービンを使う12.5億ドル規模のデータセンター電源計画を撤回
+6. Meta Connectでスマートグラスが存在感、スマートフォンに代わる接点として拡大
+7. AIによる新卒採用への打撃、失業率データには目立った兆候見られず
+8. 声優業界でAIによる無断模倣の被害が深刻化していると報道
+9. Microsoft/QualcommのブランドCopilot+ PCが実質消滅、画像・動画生成AI統合サービス「Comfy Router」も登場
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE／Yahoo!ニュース 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #医療AI</description>
+      <pubDate>Mon, 28 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-28/tech-2026-09-28.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-28/tech-2026-09-28.mp3" length="9692935" type="audio/mpeg"/>
+      <itunes:duration>0:10:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/27 OpenAI訓練停止／Anthropic契約</title>
       <description>【世界のAIニュース】9/27 OpenAI訓練停止／Anthropic契約
 
