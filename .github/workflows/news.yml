@@ -215,7 +215,7 @@ jobs:
       - name: YouTube失敗の最終判定
         if: steps.plan.outputs.mode != 'skip' && steps.youtube.outcome == 'failure'
         run: |
-          echo "::error::YouTube投稿は失敗しましたが、RSS配信(ポッドキャスト)は完了しています。トークン失効なら正典『データ源の状況.md』の直し方欄を参照。この日のYouTube分は自動では再試行されません。"
+          echo "::error::YouTube投稿は失敗しましたが、RSS配信(ポッドキャスト)は完了しています。トークン失効なら正典『データ源の状況.md』の直し方欄を参照。この日のYouTube分は自動では再試行されません。上げ直しは Actions の youtube-retry（番組と日付を指定）で。"
           exit 1
 
       - name: キャッシュ保存用にファイル所有権を戻す

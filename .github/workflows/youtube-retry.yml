@@ -1,0 +1,69 @@
+name: youtube-retry
+
+# YouTube投稿だけが失敗した日の「上げ直し」専用（手動のみ・2026-09-29新設）。
+# 毎朝の news-radio / tech-radio はRSS配信まで済むとその日を「公開済み」と判定し、
+# YouTube分は自動では再試行されない。そこで、Releaseに公開済みのmp3と
+# radio/<番組>/<日付>/ の台本・概要欄から、本番と同じ create_video.py → upload_youtube.py を実行する。
+# ⚠ 同じ日を2回動かすとYouTubeに2本上がる。上がっていないことを確かめてから動かすこと。
+on:
+  workflow_dispatch:
+    inputs:
+      show:
+        description: "番組（news＝AIデイリーニュース / tech＝世界のAIニュース）"
+        required: true
+        type: choice
+        options: [news, tech]
+      date:
+        description: "放送日（例 2026-09-29）"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: youtube-retry
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: 素材がそろっているか確かめる
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHOW: ${{ inputs.show }}
+          DAY: ${{ inputs.date }}
+        run: |
+          ep="radio/$SHOW/$DAY"
+          for f in "$ep/台本.txt" "$ep/概要欄.txt"; do
+            [ -f "$f" ] || { echo "::error::$f が無い"; exit 1; }
+          done
+          mkdir -p work
+          gh release download "$SHOW-$DAY" --pattern "$SHOW-$DAY.mp3" --dir work
+          ls -l work
+
+      - name: 依存ツールを入れる (ffmpeg・日本語フォント)
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg fonts-noto-cjk
+          ffmpeg -version | head -n 1
+
+      - name: YouTube用動画の作成とアップロード
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          SHOW: ${{ inputs.show }}
+          DAY: ${{ inputs.date }}
+        run: |
+          pip install google-auth-oauthlib google-api-python-client pillow
+          ep="radio/$SHOW/$DAY"
+          python3 scripts/create_video.py "work/$SHOW-$DAY.mp3" "$ep/台本.txt" "" "work/$SHOW-$DAY.mp4" "$SHOW"
+          python3 scripts/upload_youtube.py "work/$SHOW-$DAY.mp4" "$ep/概要欄.txt" "$SHOW"
