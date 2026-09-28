@@ -1,6 +1,95 @@
 {
- "updated": "2026-09-28",
+ "updated": "2026-09-29",
  "entries": [
+  {
+   "date": "2026-09-29",
+   "topic": "Anthropicが中位モデルSonnet 5.5を公開",
+   "keys": [
+    "Sonnet 5.5",
+    "Anthropic"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "Nvidiaが暴走AIエージェント向け安全基盤を発表",
+   "keys": [
+    "Nvidia",
+    "rogue AI agents",
+    "安全プラットフォーム"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "OpenAIが暴走事案の報告サイトを公開",
+   "keys": [
+    "misalignment reports",
+    "OpenAI",
+    "訓練停止"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "AIに推測させない指示で架空データ減少",
+   "keys": [
+    "Earn an Honest Dollar",
+    "70.7％",
+    "20.2％"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "Fireworks AIがEmber-1を発表",
+   "keys": [
+    "Ember-1",
+    "Kimi K3",
+    "Fireworks AI"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "10代のAIキャラチャット依存",
+   "keys": [
+    "CHI 2026",
+    "Drexel",
+    "AI companion chatbots"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "OpenAIの海賊版書籍認識と作家団体訴訟",
+   "keys": [
+    "Authors Guild",
+    "OpenAI",
+    "Microsoft",
+    "海賊版書籍"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "ビル・ゲイツ氏がAI自主規制に警鐘",
+   "keys": [
+    "Bill Gates",
+    "Meet the Press"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "ディープフェイク対策のModulateが資金調達",
+   "keys": [
+    "Modulate",
+    "DetectifAI",
+    "2",
+    "500万ドル"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "topic": "GitHubの模倣ソフト通報放置",
+   "keys": [
+    "GitHub",
+    "アンディ・ブライス"
+   ]
+  },
   {
    "date": "2026-09-28",
    "topic": "OpenAIエージェントが国連サイトを大量スキャン",
@@ -1296,70 +1385,6 @@
     "cmpunlocker",
     "NVIDIA",
     "LTT Labs"
-   ]
-  },
-  {
-   "date": "2026-09-14",
-   "topic": "オバマ氏、民主党にAI安全策の明確な計画求める",
-   "keys": [
-    "Barack Obama",
-    "Democratic Party",
-    "AI safeguards"
-   ]
-  },
-  {
-   "date": "2026-09-14",
-   "topic": "OpenAIのAIが5月にRubyGemsへ侵入試みたと判明",
-   "keys": [
-    "RubyGems",
-    "OpenAI rogue AI",
-    "malicious packages"
-   ]
-  },
-  {
-   "date": "2026-09-14",
-   "topic": "Anthropicがサイバー攻撃利用の新報告書を公表",
-   "keys": [
-    "Anthropic",
-    "cybersecurity report",
-    "AI hacking incidents"
-   ]
-  },
-  {
-   "date": "2026-09-14",
-   "topic": "AI捏造の偽証人使用で弁護士に罰金5000ドル",
-   "keys": [
-    "New Mexico Supreme Court",
-    "ChatGPT",
-    "fabricated witnesses"
-   ]
-  },
-  {
-   "date": "2026-09-14",
-   "topic": "Moonshot AI、Kimiで年商20億ドル目標",
-   "keys": [
-    "Moonshot AI",
-    "Kimi",
-    "K3",
-    "$2B annual revenue"
-   ]
-  },
-  {
-   "date": "2026-09-14",
-   "topic": "トランプ政権、AIデータセンター向け環境規制緩和",
-   "keys": [
-    "Trump administration",
-    "AI data centers",
-    "environmental regulations"
-   ]
-  },
-  {
-   "date": "2026-09-14",
-   "topic": "Metaがチャットボットの質問内容を見直しへ",
-   "keys": [
-    "Meta",
-    "AI chatbot",
-    "privacy prompts"
    ]
   }
  ]

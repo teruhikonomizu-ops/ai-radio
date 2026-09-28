@@ -1,0 +1,10 @@
+Anthropicが中位モデルSonnet 5.5を公開 ||| Sonnet 5.5, Anthropic
+Nvidiaが暴走AIエージェント向け安全基盤を発表 ||| Nvidia, rogue AI agents, 安全プラットフォーム
+OpenAIが暴走事案の報告サイトを公開 ||| misalignment reports, OpenAI, 訓練停止
+AIに推測させない指示で架空データ減少 ||| Earn an Honest Dollar, 70.7％, 20.2％
+Fireworks AIがEmber-1を発表 ||| Ember-1, Kimi K3, Fireworks AI
+10代のAIキャラチャット依存 ||| CHI 2026, Drexel, AI companion chatbots
+OpenAIの海賊版書籍認識と作家団体訴訟 ||| Authors Guild, OpenAI, Microsoft, 海賊版書籍
+ビル・ゲイツ氏がAI自主規制に警鐘 ||| Bill Gates, Meet the Press
+ディープフェイク対策のModulateが資金調達 ||| Modulate, DetectifAI, 2,500万ドル
+GitHubの模倣ソフト通報放置 ||| GitHub, アンディ・ブライス

@@ -1,0 +1,19 @@
+【世界のAIニュース】9/29 ソネット5.5／Nvidia安全基盤
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月29日）:
+1. Anthropic、中位モデルの最新版「Sonnet 5.5」を公開
+2. Nvidia、暴走するAIエージェントを監視・封じ込める安全プラットフォームを発表
+3. OpenAIの「misalignment reports」サイトと、モデル訓練停止のその後
+4. 「推測するな」と指示するだけで架空データが70.7％から20.2％に減った実験
+5. Fireworks AIのKimi K3ベース新モデル「Ember-1」
+6. 10代のAIキャラチャット依存(CHI 2026の論文)
+7. OpenAIの海賊版書籍をめぐる裁判文書
+8. ビル・ゲイツ氏が「AI企業の自主規制では足りない」と警鐘
+9. ディープフェイク対策のDetectifAIとModulate(2,500万ドル調達)
+10. 短信: Lenfest AI Collaborativeへの支援拡大／AdobeとGemini・Claudeの連携／損保ジャパンのGemini Enterprise展開／IDCのSaaS終焉論分析／GitHubへの通報放置
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Sonnet55 #Nvidia #OpenAI
