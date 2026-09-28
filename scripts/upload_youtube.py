@@ -68,7 +68,9 @@ def upload_video(video_path, desc_path, show_type):
         token_uri="https://oauth2.googleapis.com/token",
         client_id=client_id,
         client_secret=client_secret,
-        scopes=["https://www.googleapis.com/auth/youtube.upload"]
+        # 2026-09-29: 9/28に入れ替えた合鍵は範囲"youtube"(アップロード＋再生リスト)。
+        # 発行時と違う範囲を名指しすると更新時に invalid_scope で断られる。
+        scopes=["https://www.googleapis.com/auth/youtube"]
     )
 
     youtube = build("youtube", "v3", credentials=creds)

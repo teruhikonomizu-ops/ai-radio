@@ -31,7 +31,7 @@ def main():
         token_uri="https://oauth2.googleapis.com/token",
         client_id=client_id,
         client_secret=client_secret,
-        scopes=["https://www.googleapis.com/auth/youtube.force-ssl"],
+        scopes=["https://www.googleapis.com/auth/youtube"],  # 合鍵の発行範囲と一致させる(2026-09-29)
     )
     youtube = build("youtube", "v3", credentials=creds)
 

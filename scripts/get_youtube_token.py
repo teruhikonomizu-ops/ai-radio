@@ -29,7 +29,7 @@ def main():
         sys.exit(1)
 
     # YouTube投稿に必要なスコープ
-    SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
+    SCOPES = ['https://www.googleapis.com/auth/youtube']  # アップロード＋再生リスト＋削除(2026-09-29)
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
