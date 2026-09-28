@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/29(火) 定数協議／情報漏えい／クマ銃猟</title>
+      <description>【AIデイリーニュース】9/29(火) 定数協議／情報漏えい／クマ銃猟
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・衆院議員定数のあり方、与野党協議会が10月末をめどに結論を得るよう努力する報告書案を了承
+・パーク24のカーシェアで会員情報およそ660万件が漏えい
+・東京・八王子市で都内初の「緊急銃猟」
+・関東のマンション大規模修繕をめぐる談合で約40社に排除措置命令
+・米中が貿易摩擦の「休戦」期限を2か月延長
+・大阪大学がノーベル賞・坂口志文さんの研究拠点を設置へ
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Tue, 29 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-29/news-2026-09-29.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-29/news-2026-09-29.mp3" length="10601996" type="audio/mpeg"/>
+      <itunes:duration>0:11:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/28(月) 熊本地震2カ月／南ア27人死亡</title>
       <description>【AIデイリーニュース】9/28(月) 熊本地震2カ月／南ア27人死亡
 
