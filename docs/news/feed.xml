@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/30(水) 人口最大減／ニデック社長辞任</title>
+      <description>【AIデイリーニュース】9/30(水) 人口最大減／ニデック社長辞任
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・国勢調査の確定値 総人口1億2297万人余り、減少幅は過去最大
+・茨城県常陸大宮市長 核のごみ「文献調査」の判断を30日にも表明へ
+・ニデック 岸田社長が辞任、電子部品子会社の売却方向とも
+・トランプ大統領 AI規制に消極的、中国とは競争の姿勢
+・三菱商事 カナダのLNG生産事業に追加でおよそ5000億円投資
+・スペースX 大型宇宙船を初めて地球周回軌道に投入
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Wed, 30 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-30/news-2026-09-30.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-30/news-2026-09-30.mp3" length="10772106" type="audio/mpeg"/>
+      <itunes:duration>0:11:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/29(火) 定数協議／情報漏えい／クマ銃猟</title>
       <description>【AIデイリーニュース】9/29(火) 定数協議／情報漏えい／クマ銃猟
 
