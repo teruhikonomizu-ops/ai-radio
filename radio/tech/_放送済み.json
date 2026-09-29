@@ -1,6 +1,154 @@
 {
- "updated": "2026-09-29",
+ "updated": "2026-09-30",
  "entries": [
+  {
+   "date": "2026-09-30",
+   "topic": "GPT-6.1 Sol発表、Astra比で5分の1の料金",
+   "keys": [
+    "GPT-6.1 Sol",
+    "GPT-6 Astra"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "OpenAIの常時稼働エージェントdotsとDevDay抗議",
+   "keys": [
+    "dots",
+    "DevDay 2026"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "Codexのクラウド環境とChatGPTプラグイン拡充",
+   "keys": [
+    "Codex",
+    "ChatGPT plugins",
+    "再利用可能なクラウド開発環境"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "AnthropicのIPO書類が人類存亡リスクを警告",
+   "keys": [
+    "Anthropic IPO",
+    "目論見書",
+    "人類存亡リスク"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "フロリダ州がOpenAI開発差し止めを求める",
+   "keys": [
+    "Florida",
+    "OpenAI",
+    "greatest public nuisance"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "AMDがWorld Labsを買収",
+   "keys": [
+    "AMD",
+    "World Labs",
+    "Fei-Fei Li"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "Meta Enterprise Platform開始",
+   "keys": [
+    "Meta Enterprise Platform",
+    "Chirantan Desai",
+    "MongoDB"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "AWSがStrandsハーネスを公開",
+   "keys": [
+    "Strandsハーネス",
+    "AWS"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "Geminiの「Gem」が「スキル」へ移行",
+   "keys": [
+    "Gem",
+    "Gemini",
+    "スキル",
+    "11月17日"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "ChatGPT Pro(20倍)の新規受付再開",
+   "keys": [
+    "Pro（20倍）",
+    "ChatGPT",
+    "5時間制限"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "Microsoft Copilotの画像を人間が確認",
+   "keys": [
+    "Microsoft Copilot",
+    "404 Media"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "Manus 2.0とCue、Manus Studio",
+   "keys": [
+    "Manus 2.0",
+    "Cue",
+    "Manus Studio"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "America.govのチャットボット",
+   "keys": [
+    "America.gov",
+    "White House"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "OpenAIのオーストラリア向け謝罪と安全策",
+   "keys": [
+    "OpenAI",
+    "Australia",
+    "cyber defences"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "ロー・カンナ議員の米中AI条約要求",
+   "keys": [
+    "Ro Khanna",
+    "Geoffrey Irving",
+    "superintelligence"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "エヌビディアの対中AIチップ販売",
+   "keys": [
+    "Nvidia",
+    "ByteDance",
+    "Alibaba"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "topic": "デロイト調査 生成AI個人利用のガイドライン",
+   "keys": [
+    "デロイト トーマツ グループ",
+    "不正リスク調査白書"
+   ]
+  },
   {
    "date": "2026-09-29",
    "topic": "Anthropicが中位モデルSonnet 5.5を公開",
@@ -1319,72 +1467,6 @@
     "Profound",
     "Series D",
     "AEO"
-   ]
-  },
-  {
-   "date": "2026-09-15",
-   "topic": "iOS27でSiri刷新、Daydreamアプリも対応",
-   "keys": [
-    "iOS 27",
-    "Siri",
-    "Daydream",
-    "Apple Intelligence"
-   ]
-  },
-  {
-   "date": "2026-09-15",
-   "topic": "AIエージェントが数学実験で不正を相互告発",
-   "keys": [
-    "MIT Technology Review",
-    "whistleblowing agents",
-    "Yoshua Bengio"
-   ]
-  },
-  {
-   "date": "2026-09-15",
-   "topic": "SuperhumanがFathomを買収",
-   "keys": [
-    "Superhuman",
-    "Fathom",
-    "Y Combinator"
-   ]
-  },
-  {
-   "date": "2026-09-15",
-   "topic": "NTTドコモのAIエージェント運用課題",
-   "keys": [
-    "NTTドコモソリューションズ",
-    "AIエージェント",
-    "IT運用部門"
-   ]
-  },
-  {
-   "date": "2026-09-15",
-   "topic": "GitHubがAI用語集を公開、AIオープン化戦略",
-   "keys": [
-    "GitHub",
-    "FDE",
-    "harness",
-    "オープンウェイト"
-   ]
-  },
-  {
-   "date": "2026-09-15",
-   "topic": "AI減速論の余波で日本のAI関連株急落",
-   "keys": [
-    "ソフトバンクグループ",
-    "キオクシア",
-    "東京エレクトロン",
-    "Trump"
-   ]
-  },
-  {
-   "date": "2026-09-15",
-   "topic": "NVIDIA GPUのメモリロック解除ソフト話題",
-   "keys": [
-    "cmpunlocker",
-    "NVIDIA",
-    "LTT Labs"
    ]
   }
  ]

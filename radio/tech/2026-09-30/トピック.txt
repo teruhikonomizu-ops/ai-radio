@@ -1,0 +1,17 @@
+GPT-6.1 Sol発表、Astra比で5分の1の料金 ||| GPT-6.1 Sol, GPT-6 Astra
+OpenAIの常時稼働エージェントdotsとDevDay抗議 ||| dots, DevDay 2026
+Codexのクラウド環境とChatGPTプラグイン拡充 ||| Codex, ChatGPT plugins, 再利用可能なクラウド開発環境
+AnthropicのIPO書類が人類存亡リスクを警告 ||| Anthropic IPO, 目論見書, 人類存亡リスク
+フロリダ州がOpenAI開発差し止めを求める ||| Florida, OpenAI, greatest public nuisance
+AMDがWorld Labsを買収 ||| AMD, World Labs, Fei-Fei Li
+Meta Enterprise Platform開始 ||| Meta Enterprise Platform, Chirantan Desai, MongoDB
+AWSがStrandsハーネスを公開 ||| Strandsハーネス, AWS
+Geminiの「Gem」が「スキル」へ移行 ||| Gem, Gemini, スキル, 11月17日
+ChatGPT Pro(20倍)の新規受付再開 ||| Pro（20倍）, ChatGPT, 5時間制限
+Microsoft Copilotの画像を人間が確認 ||| Microsoft Copilot, 404 Media
+Manus 2.0とCue、Manus Studio ||| Manus 2.0, Cue, Manus Studio
+America.govのチャットボット ||| America.gov, White House
+OpenAIのオーストラリア向け謝罪と安全策 ||| OpenAI, Australia, cyber defences
+ロー・カンナ議員の米中AI条約要求 ||| Ro Khanna, Geoffrey Irving, superintelligence
+エヌビディアの対中AIチップ販売 ||| Nvidia, ByteDance, Alibaba
+デロイト調査 生成AI個人利用のガイドライン ||| デロイト トーマツ グループ, 不正リスク調査白書

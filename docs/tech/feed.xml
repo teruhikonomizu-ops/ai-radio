@@ -11,6 +11,37 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/30 GPT-6.1 Sol／dots／IPO警告</title>
+      <description>【世界のAIニュース】9/30 GPT-6.1 Sol／dots／IPO警告
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月30日）:
+1. OpenAI「GPT-6.1 Sol」発表、Astraに近い性能で標準API料金は5分の1
+2. OpenAIの常時稼働エージェント「dots」とDevDayでの抗議
+3. Codexの再利用可能なクラウド環境とChatGPTプラグイン拡充
+4. AnthropicのIPO書類が人類存亡リスクを警告、フロリダ州のOpenAI提訴
+5. AMDがWorld Labsを80億ドル超で買収
+6. Meta Enterprise Platform開始、責任者にMongoDBのデサイ氏
+7. AWSがStrandsハーネスをオープンソース公開
+8. Geminiの「Gem」が11月17日から「スキル」へ
+9. ChatGPT Pro（20倍）の新規受付再開と5時間制限の撤廃
+10. Microsoft Copilotの画像を人間が確認と報道
+11. Manus 2.0とCue、Manus Studio
+12. America.govのチャットボット、OpenAIのオーストラリアへの謝罪
+13. カンナ議員の米中AI条約要求、エヌビディアの対中チップ販売
+14. デロイト調査:生成AI個人利用のガイドライン策定は5％
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic #GPT6</description>
+      <pubDate>Wed, 30 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-30/tech-2026-09-30.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-30/tech-2026-09-30.mp3" length="10893732" type="audio/mpeg"/>
+      <itunes:duration>0:11:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/29 ソネット5.5／Nvidia安全基盤</title>
       <description>【世界のAIニュース】9/29 ソネット5.5／Nvidia安全基盤
 
