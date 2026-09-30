@@ -1,0 +1,10 @@
+OpenAIが組織的なモデル蒸留の動きを阻止 ||| adversarial distillation, OpenAI, model reasoning
+OpenAIのIPO延期とHugging Face侵入訴訟 ||| OpenAI IPO, Hugging Face, $30 billion, Sam Altman
+Googleが出版社にAI検索の対価を支払う試験 ||| Google AI search, publishers pilot program, The Information
+Google DeepMindがAI設計タンパク質に透かし ||| SynthID Bio, Google DeepMind, AI-designed proteins
+Liquid AIの意思決定モデルd1とJev ||| d1, Jev, Liquid AI, Decisions API
+ElevenLabsが評価額220億ドルに ||| ElevenLabs, $22B, Wellington, T. Rowe Price
+RedditがRSSと公開API提供を終了 ||| Reddit, RSS, public API access
+DoorDashのテキスト注文AIエージェント ||| DoorDash, Uber Eats, Grubhub
+汎用AIに実車を運転させるDrivingBench ||| DrivingBench, ChatGPT
+OpenAIとSBDCの中小企業向けAI研修 ||| America's SBDC, OpenAI, small businesses

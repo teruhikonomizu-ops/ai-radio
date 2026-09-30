@@ -1,0 +1,21 @@
+【世界のAIニュース】10/1 OpenAI蒸留対策／グーグルAI検索の対価
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月1日）:
+1. OpenAI、モデルの推論を抜き取る組織的な蒸留の動きを阻止
+2. OpenAIのIPO延期と、Hugging Face侵入をめぐる訴訟
+3. Google、AI検索への貢献に対し出版社へ支払う試験プログラム
+4. Google DeepMind、AI設計タンパク質の透かし技術「SynthID Bio」
+5. 意思決定モデル「d1」と「Jev」、OpenAIのDecisions API
+6. ElevenLabsの評価額220億ドル／Redditの RSS・API終了／DoorDashのAI注文エージェント／InstagramのAIアシスタント
+7. AI専用端末「AIたまごっち」の動き
+8. 汎用AIに実車を運転させる実験「DrivingBench」
+9. Googleの4つの設計パターンと、非エンジニアによるAI開発の調査
+10. OpenAIとAmerica's SBDCの中小企業向けAI研修
+11. SlackやTeamsから退職の予兆を探るAIサービス
+12. ローマ教皇レオ14世によるAIリスク否定への非難
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #SynthIDBio #Google

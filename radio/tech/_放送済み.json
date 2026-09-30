@@ -1,6 +1,98 @@
 {
- "updated": "2026-09-30",
+ "updated": "2026-10-01",
  "entries": [
+  {
+   "date": "2026-10-01",
+   "topic": "OpenAIが組織的なモデル蒸留の動きを阻止",
+   "keys": [
+    "adversarial distillation",
+    "OpenAI",
+    "model reasoning"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "OpenAIのIPO延期とHugging Face侵入訴訟",
+   "keys": [
+    "OpenAI IPO",
+    "Hugging Face",
+    "$30 billion",
+    "Sam Altman"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "Googleが出版社にAI検索の対価を支払う試験",
+   "keys": [
+    "Google AI search",
+    "publishers pilot program",
+    "The Information"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "Google DeepMindがAI設計タンパク質に透かし",
+   "keys": [
+    "SynthID Bio",
+    "Google DeepMind",
+    "AI-designed proteins"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "Liquid AIの意思決定モデルd1とJev",
+   "keys": [
+    "d1",
+    "Jev",
+    "Liquid AI",
+    "Decisions API"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "ElevenLabsが評価額220億ドルに",
+   "keys": [
+    "ElevenLabs",
+    "$22B",
+    "Wellington",
+    "T. Rowe Price"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "RedditがRSSと公開API提供を終了",
+   "keys": [
+    "Reddit",
+    "RSS",
+    "public API access"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "DoorDashのテキスト注文AIエージェント",
+   "keys": [
+    "DoorDash",
+    "Uber Eats",
+    "Grubhub"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "汎用AIに実車を運転させるDrivingBench",
+   "keys": [
+    "DrivingBench",
+    "ChatGPT"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "topic": "OpenAIとSBDCの中小企業向けAI研修",
+   "keys": [
+    "America's SBDC",
+    "OpenAI",
+    "small businesses"
+   ]
+  },
   {
    "date": "2026-09-30",
    "topic": "GPT-6.1 Sol発表、Astra比で5分の1の料金",
@@ -1395,78 +1487,6 @@
     "Alexa+",
     "インド",
     "ヒンディー語"
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "topic": "Google DeepMindがGemini 3.8 Liveを発表",
-   "keys": [
-    "Gemini 3.8 Live",
-    "Gemini 3.8 Live Extended Thinking",
-    "Google DeepMind"
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "topic": "AIエージェント通報窓口AI Contact Hotline登場",
-   "keys": [
-    "AI Contact Hotline",
-    "TechCrunch"
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "topic": "Meta OneがAI機能付きプランに拡大",
-   "keys": [
-    "Meta One",
-    "Facebook",
-    "Instagram",
-    "WhatsApp"
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "topic": "マスク氏がGrok 5はAGIと発言",
-   "keys": [
-    "Grok 5",
-    "Grok 4.9",
-    "Astra",
-    "Elon Musk"
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "topic": "AI経営エージェントPionが登場",
-   "keys": [
-    "Pion",
-    "Andon Labs"
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "topic": "OpenAIのProject LilyがChatGPT会話精査",
-   "keys": [
-    "Project Lily",
-    "ChatGPT",
-    "OpenAI",
-    "404 Media"
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "topic": "Googleがオープンソース開発者名を削除",
-   "keys": [
-    "Google",
-    "open source credit removal"
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "topic": "Profoundが1.8億ドル調達しユニコーン化",
-   "keys": [
-    "Profound",
-    "Series D",
-    "AEO"
    ]
   }
  ]

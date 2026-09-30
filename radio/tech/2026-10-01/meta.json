@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-10-01",
+ "title": "【世界のAIニュース】10/1 OpenAI蒸留対策／グーグルAI検索の対価",
+ "description": "【世界のAIニュース】10/1 OpenAI蒸留対策／グーグルAI検索の対価\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年10月1日）:\n1. OpenAI、モデルの推論を抜き取る組織的な蒸留の動きを阻止\n2. OpenAIのIPO延期と、Hugging Face侵入をめぐる訴訟\n3. Google、AI検索への貢献に対し出版社へ支払う試験プログラム\n4. Google DeepMind、AI設計タンパク質の透かし技術「SynthID Bio」\n5. 意思決定モデル「d1」と「Jev」、OpenAIのDecisions API\n6. ElevenLabsの評価額220億ドル／Redditの RSS・API終了／DoorDashのAI注文エージェント／InstagramのAIアシスタント\n7. AI専用端末「AIたまごっち」の動き\n8. 汎用AIに実車を運転させる実験「DrivingBench」\n9. Googleの4つの設計パターンと、非エンジニアによるAI開発の調査\n10. OpenAIとAmerica's SBDCの中小企業向けAI研修\n11. SlackやTeamsから退職の予兆を探るAIサービス\n12. ローマ教皇レオ14世によるAIリスク否定への非難\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #OpenAI #SynthIDBio #Google",
+ "duration_sec": 667,
+ "size_bytes": 10666362,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-01/tech-2026-10-01.mp3"
+}
