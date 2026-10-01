@@ -11,6 +11,38 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/2 Gemini 4 Argon／ロボ上司禁止法</title>
+      <description>【世界のAIニュース】10/2 Gemini 4 Argon／ロボ上司禁止法
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月2日）:
+1. Google「Gemini 4 Argon」発表、まずはサイバー防御組織に限定提供
+2. OpenAI、安全研究者3人と関係終了とWSJが報道
+3. Google AI Overviewsをめぐる反トラスト訴訟を連邦判事が棄却
+4. カリフォルニア州「ロボ上司禁止法」SB-947に知事が署名
+5. Shopify「Canvas」とLegatoのAI補聴グラス
+6. メモリー不足は2028年まで続く見通し
+7. JERAなどが千葉市に日本最大のAIデータセンター建設へ
+8. Google DeepMind「SynthID Bio」
+9. DeepSeekとHuawei、Ascend向け開発ツールを公開
+10. Stratego攻略AIの新手法
+11. 日立とファナックのフィジカルAI協業
+12. 意思決定モデル「Strands Decider 2B」と「Ollaya」
+13. 脳スキャンから見た画像を再現するAIツール
+14. HENNGE、取締役2人だけの新会社「HENNGE AI」
+15. Airbnb Brian Chesky氏のインタビュー
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Gemini #OpenAI #AI規制</description>
+      <pubDate>Fri, 02 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-02/tech-2026-10-02.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-02/tech-2026-10-02.mp3" length="10744938" type="audio/mpeg"/>
+      <itunes:duration>0:11:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/1 OpenAI蒸留対策／グーグルAI検索の対価</title>
       <description>【世界のAIニュース】10/1 OpenAI蒸留対策／グーグルAI検索の対価
 
