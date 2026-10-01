@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/2(金) 副首都要件案／東北3行統合協議</title>
+      <description>【AIデイリーニュース】10/2(金) 副首都要件案／東北3行統合協議
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・「副首都」の指定要件案が判明、人口が全国の1.2％以上など
+・日経平均株価が2203円高の6万8956円72銭
+・青森みちのく銀行・岩手銀行・秋田銀行が経営統合協議へ
+・佐川急便に不正アクセス、個人情報が漏えいした恐れ
+・パキスタンがアフガニスタンの過激派潜伏先を攻撃
+・ICC赤根所長への制裁撤回を求める17万筆余の署名を提出
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Fri, 02 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-02/news-2026-10-02.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-02/news-2026-10-02.mp3" length="10449859" type="audio/mpeg"/>
+      <itunes:duration>0:10:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/1(木) 住宅ローン／西武渋谷閉店</title>
       <description>【AIデイリーニュース】10/1(木) 住宅ローン／西武渋谷閉店
 
