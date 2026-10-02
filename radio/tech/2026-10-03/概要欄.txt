@@ -1,0 +1,21 @@
+【世界のAIニュース】10/3 Apple権限／ChatGPT試着
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月3日）:
+1. Apple、macOSの「Full Disk Access」権限の制御を強化 AIエージェントのリスクを警告
+2. ChatGPTにバーチャル試着とiOSの書類スキャン機能、有料ユーザーの利用制限リセット
+3. Microsoft AI、ストリーミング文字起こし「MAI-Transcribe-2-Streaming」と音声合成モデルを公開
+4. KDDI傘下のELYZAが「LLM-jp-4」ベースのモデルを無料公開
+5. Gemini Liveに「Guided Vision」、Sunoは音声読み上げ生成に対応
+6. Amazonがデータセンター反対への警告ブログを公開
+7. OpenAIの「GPT-6」ファミリー選び方ガイドと新エージェント基盤「Dots」
+8. 対中GPU密輸が続く理由
+9. GitHubで54万件超の有効な認証情報が放置
+10. MIT Tech Review「LLMは推論しない」
+11. Google DeepMind「SynthID Bio」
+12. ChathamとAlbertsonsのOpenAI活用事例
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Apple #ChatGPT #ELYZA

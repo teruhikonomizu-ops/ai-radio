@@ -1,0 +1,12 @@
+macOSのFull Disk Access制御強化 ||| Full Disk Access, macOS, Apple
+ChatGPTのバーチャル試着と書類スキャン ||| ChatGPT virtual try-on, Thibault Sottiaux, iOS
+MicrosoftのMAI音声モデル公開 ||| MAI-Transcribe-2-Streaming, MAI-Voice-2.1, Microsoft Foundry
+ELYZAの国産モデル無料公開 ||| ELYZA-Thinking-1.0-llm-jp-4-33b, ELYZA-Thinking-1.0-llm-jp-4-32b-a3b, LLM-jp-4
+Gemini LiveのGuided VisionとSunoの音声生成 ||| Guided Vision, Gemini Live, Suno
+Amazonのデータセンター支持呼びかけブログ ||| Amazon, AI data center, Kevin O'Leary
+OpenAIのGPT-6ファミリーガイドとDots ||| GPT-6, Dots, OpenAI
+対中GPU密輸の取り締まり課題 ||| GPU密輸, 先端AI半導体, 対中輸出規制
+GitHub認証情報54万件超が有効のまま ||| Truffle Security, 543699件, GitHub
+LLMは推論しないというMIT寄稿 ||| Don't be fooled—LLMs don't reason, MIT Technology Review, 囲碁
+Google DeepMindのSynthID Bio ||| SynthID Bio, Google DeepMind, AI生成タンパク質
+ChathamとAlbertsonsのOpenAI活用事例 ||| Chatham Financial, GPT-5.6, Albertsons, ChatGPT Enterprise

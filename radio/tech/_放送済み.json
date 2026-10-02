@@ -1,6 +1,115 @@
 {
- "updated": "2026-10-02",
+ "updated": "2026-10-03",
  "entries": [
+  {
+   "date": "2026-10-03",
+   "topic": "macOSのFull Disk Access制御強化",
+   "keys": [
+    "Full Disk Access",
+    "macOS",
+    "Apple"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "ChatGPTのバーチャル試着と書類スキャン",
+   "keys": [
+    "ChatGPT virtual try-on",
+    "Thibault Sottiaux",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "MicrosoftのMAI音声モデル公開",
+   "keys": [
+    "MAI-Transcribe-2-Streaming",
+    "MAI-Voice-2.1",
+    "Microsoft Foundry"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "ELYZAの国産モデル無料公開",
+   "keys": [
+    "ELYZA-Thinking-1.0-llm-jp-4-33b",
+    "ELYZA-Thinking-1.0-llm-jp-4-32b-a3b",
+    "LLM-jp-4"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "Gemini LiveのGuided VisionとSunoの音声生成",
+   "keys": [
+    "Guided Vision",
+    "Gemini Live",
+    "Suno"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "Amazonのデータセンター支持呼びかけブログ",
+   "keys": [
+    "Amazon",
+    "AI data center",
+    "Kevin O'Leary"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "OpenAIのGPT-6ファミリーガイドとDots",
+   "keys": [
+    "GPT-6",
+    "Dots",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "対中GPU密輸の取り締まり課題",
+   "keys": [
+    "GPU密輸",
+    "先端AI半導体",
+    "対中輸出規制"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "GitHub認証情報54万件超が有効のまま",
+   "keys": [
+    "Truffle Security",
+    "543699件",
+    "GitHub"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "LLMは推論しないというMIT寄稿",
+   "keys": [
+    "Don't be fooled—LLMs don't reason",
+    "MIT Technology Review",
+    "囲碁"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "Google DeepMindのSynthID Bio",
+   "keys": [
+    "SynthID Bio",
+    "Google DeepMind",
+    "AI生成タンパク質"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "topic": "ChathamとAlbertsonsのOpenAI活用事例",
+   "keys": [
+    "Chatham Financial",
+    "GPT-5.6",
+    "Albertsons",
+    "ChatGPT Enterprise"
+   ]
+  },
   {
    "date": "2026-10-02",
    "topic": "Gemini 4 Argonを限定提供",
@@ -1308,184 +1417,6 @@
    "keys": [
     "NEC SCM AIエージェント",
     "国際物流総合展"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "OpenAIのミスアライメント報告新枠組み",
-   "keys": [
-    "OpenAI",
-    "GPT-5.6 Sol",
-    "misalignment framework"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "米当局が中国AIの知識蒸留に共同勧告",
-   "keys": [
-    "NSA",
-    "CISA",
-    "FBI",
-    "knowledge distillation",
-    "Claude",
-    "GPT"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "DeepMind Instituteの設立とAGI議論",
-   "keys": [
-    "DeepMind Institute",
-    "Demis Hassabis",
-    "AGI"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "三菱重工とPFNの資本業務提携",
-   "keys": [
-    "Mitsubishi Heavy Industries",
-    "Preferred Networks",
-    "100億円出資"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "Cloudflareの「AI学習の不許可」機能",
-   "keys": [
-    "Cloudflare",
-    "Disallow AI Training",
-    "Google",
-    "Apple",
-    "Microsoft"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "Huaweiの次世代AIチップAscend 960DT",
-   "keys": [
-    "Huawei",
-    "Ascend 960DT",
-    "Nvidia",
-    "2027 Q1"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "InstinctとMeta Museの通話機能追加",
-   "keys": [
-    "Instinct",
-    "Meta Muse",
-    "calling feature"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "九州国立博物館の生成AIポスター問題",
-   "keys": [
-    "九州国立博物館",
-    "卑弥呼の鏡",
-    "生成AI"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "千代田区の生成AI活用で4000時間削減",
-   "keys": [
-    "千代田区",
-    "生成AI",
-    "年間4000時間"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "Emerald AI連合のデータセンター電力確保",
-   "keys": [
-    "Emerald AI",
-    "Google",
-    "Nvidia",
-    "Anthropic",
-    "100GW"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "チャールズ国王のAI非公開サミット",
-   "keys": [
-    "King Charles",
-    "AI summit",
-    "UK government"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "AIデータセンターのe-waste問題",
-   "keys": [
-    "e-waste",
-    "23 million shipping containers",
-    "2050"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "PinterestのAI機能「Restyle」",
-   "keys": [
-    "Pinterest",
-    "Restyle",
-    "room redesign"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "Base LabsのAI安全パートナーシップ",
-   "keys": [
-    "Base Labs",
-    "Hugging Face",
-    "Goodfire"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "Trebleの音声シミュレーション資金調達",
-   "keys": [
-    "Treble",
-    "voice simulation",
-    "$18 million"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "SnapのSpecs Intelligence発表",
-   "keys": [
-    "Snap",
-    "Specs Intelligence",
-    "Specs glasses"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "Apple 2029年AIサーバー計画続報",
-   "keys": [
-    "Apple",
-    "M-series Ultra",
-    "2029 server"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "AIコーディングハーネス比較研究",
-   "keys": [
-    "UC Berkeley",
-    "Arena",
-    "harness benchmark"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "topic": "Apple Reference Imageの仕組み",
-   "keys": [
-    "Apple Reference Image",
-    "iPhone 18 Pro"
    ]
   }
  ]
