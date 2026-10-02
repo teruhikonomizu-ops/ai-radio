@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/3(土) G7石油備蓄放出／副首都要件案</title>
+      <description>【AIデイリーニュース】10/3(土) G7石油備蓄放出／副首都要件案
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・G7首脳会議、石油備蓄1億バレルを4か月間で放出へ
+・政府が「副首都」の指定要件案を公表
+・金融庁がプルデンシャル生命の処分を検討
+・アメリカの9月の就業者数が市場予想を大幅に下回る
+・ユーロ圏の9月の消費者物価、3.8％上昇
+・はやぶさ2のエンジンが故障、ノーベル賞は5日から発表
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Sat, 03 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-03/news-2026-10-03.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-03/news-2026-10-03.mp3" length="10161885" type="audio/mpeg"/>
+      <itunes:duration>0:10:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/2(金) 副首都要件案／東北3行統合協議</title>
       <description>【AIデイリーニュース】10/2(金) 副首都要件案／東北3行統合協議
 
