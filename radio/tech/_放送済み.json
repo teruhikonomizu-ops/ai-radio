@@ -1,6 +1,81 @@
 {
- "updated": "2026-10-03",
+ "updated": "2026-10-04",
  "entries": [
+  {
+   "date": "2026-10-04",
+   "topic": "OpenAI安全担当ロビンソン氏が退職",
+   "keys": [
+    "David Robinson",
+    "OpenAI",
+    "culture is broken"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "topic": "AWSがデータセンター批判に反論",
+   "keys": [
+    "Matt Garman",
+    "AWS",
+    "NDA撤廃",
+    "10億ドル超の基金"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "topic": "Meta、Muse Gadgetsを公開",
+   "keys": [
+    "Muse Gadgets",
+    "Muse Home Link",
+    "ESP32",
+    "Raspberry Pi"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "topic": "Sean ParkerがStability AIを音楽軸に再建",
+   "keys": [
+    "Sean Parker",
+    "Stability AI"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "topic": "Capcom、AIと共に作る未来に備える",
+   "keys": [
+    "Capcom",
+    "Pragmata",
+    "Capcom Open Conference RE: 2026"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "topic": "Nvidiaチップ3億ドル密輸でCEO逮捕",
+   "keys": [
+    "Nvidia",
+    "3億ドル",
+    "チップ密輸",
+    "対中輸出"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "topic": "PS5向けAI画質向上技術QSSR",
+   "keys": [
+    "QSSR",
+    "PSSR",
+    "PS5 Pro",
+    "Marvel's Wolverine"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "topic": "Anthropic、人とAIエージェントのチーム指針",
+   "keys": [
+    "Anthropic",
+    "Slack",
+    "ベストプラクティス"
+   ]
+  },
   {
    "date": "2026-10-03",
    "topic": "macOSのFull Disk Access制御強化",
@@ -1331,92 +1406,6 @@
     "Vals AI",
     "Andreessen Horowitz",
     "AI benchmarking"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "ChatGPT開発者手がける新型AIモデル「Jev」",
-   "keys": [
-    "Jev",
-    "ChatGPT",
-    "AIモデル"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "Google家族向けAIエージェント「CC」始動",
-   "keys": [
-    "Google CC",
-    "family AI agent"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "Manus、5億ドル調達し評価額40億ドルへ",
-   "keys": [
-    "Manus",
-    "$500M funding",
-    "$4B valuation"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "研究者がClaudeでOpenAI内部にアクセス",
-   "keys": [
-    "Claude",
-    "OpenAI",
-    "security research"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "ディズニー初代CTOにCharacter.AI元CEO就任",
-   "keys": [
-    "Disney CTO",
-    "Character.AI"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "OpenAIがモデル不整合の報告枠組みを公表",
-   "keys": [
-    "OpenAI",
-    "model misalignment"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "OpenAI「Astra for Law」で法律分野に参入",
-   "keys": [
-    "Astra for Law",
-    "OpenAI",
-    "Cooley GO Public"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "透かし技術SynthIDが有害指示への応答に影響",
-   "keys": [
-    "SynthID",
-    "watermarking",
-    "harmful prompts"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "資生堂がAIエージェントで原料探索95%削減",
-   "keys": [
-    "Shiseido",
-    "AI agent",
-    "LLM"
-   ]
-  },
-  {
-   "date": "2026-09-19",
-   "topic": "NECがSCM向け専門AIエージェントを披露",
-   "keys": [
-    "NEC SCM AIエージェント",
-    "国際物流総合展"
    ]
   }
  ]

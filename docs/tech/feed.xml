@@ -11,6 +11,30 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/4 OpenAI安全担当退職／Amazon反論</title>
+      <description>【世界のAIニュース】10/4 OpenAI安全担当退職／Amazon反論
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月4日）:
+1. OpenAIの安全担当David Robinson氏が退職、「culture is broken」と主張
+2. AWSのMatt Garman氏がデータセンター批判に反論、NDA撤廃と10億ドル超の基金
+3. Meta、Muse Gadgetsを公開（ESP32／Raspberry Pi向けSDK、Muse Home Link）
+4. Sean ParkerがStability AIを音楽軸に再建
+5. Capcom、AIと共に作る未来に備える
+6. Nvidia製チップ3億ドル分の対中密輸容疑でテックCEOを逮捕
+7. そのほか：テキストメッセージ向けAIエージェント、PS5向けQSSR、AnthropicのAIチーム運用指針など
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #データセンター #Meta</description>
+      <pubDate>Sun, 04 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-04/tech-2026-10-04.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-04/tech-2026-10-04.mp3" length="10466577" type="audio/mpeg"/>
+      <itunes:duration>0:10:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/3 Apple権限／ChatGPT試着</title>
       <description>【世界のAIニュース】10/3 Apple権限／ChatGPT試着
 
