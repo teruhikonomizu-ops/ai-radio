@@ -1,0 +1,10 @@
+トランプ大統領のSuper Intelligence Force発表 ||| Super Intelligence Force, Dario Amodei, ホワイトハウス
+個人向けGeminiのモデル選択が厳格化 ||| Gemini, Flash-Lite, AI Plus, AI Pro
+AWSのNDA廃止と10億ドル計画への反発 ||| AWS, NDA, 10億ドル, データセンター
+テキストメッセージで使えるAIエージェント一覧 ||| AI agents in text messages, TechCrunch
+Spliceの社長が語るAIメールと会話 ||| Splice, Kakul Srivastava
+NJ前副知事コールドウェル氏とAI ||| Dale Caldwell, ニュージャージー州
+Cloudflare Quick Tunnelsのレビュー ||| Cloudflare Quick Tunnels, localhost, Cloudflare Tunnel
+SQLデータベースでDoomを動かす ||| Doom, SQL, 35 fps
+スノボキッズの逆コンパイル完了 ||| スノボキッズ, Chris Lewis, NINTENDO64
+Lyftが運転手分類訴訟で和解 ||| Lyft, $272.5M, driver misclassification
