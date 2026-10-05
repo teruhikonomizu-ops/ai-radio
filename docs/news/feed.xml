@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/6(火) 阿部兄妹金／臨時国会／情報漏えい</title>
+      <description>【AIデイリーニュース】10/6(火) 阿部兄妹金／臨時国会／情報漏えい
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・柔道世界選手権 阿部一二三選手と阿部詩選手がきょうだいで金メダル
+・臨時国会が召集 焦点は食料品の消費税減税、高市首相が所信表明
+・焼肉きんぐ運営会社など、個人情報漏えいの発表が相次ぐ
+・日経平均株価 取り引き時間中に3か月ぶりに7万円台回復
+・ノーベル生理学・医学賞に「光遺伝学」の基礎を築いた米独の3人
+・南北の非武装地帯の爆発は北朝鮮軍の地雷が原因と韓国軍
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Tue, 06 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-06/news-2026-10-06.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-06/news-2026-10-06.mp3" length="10483714" type="audio/mpeg"/>
+      <itunes:duration>0:10:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/5(月) 台風27号／日経サイバー攻撃／凱旋門賞</title>
       <description>【AIデイリーニュース】10/5(月) 台風27号／日経サイバー攻撃／凱旋門賞
 
