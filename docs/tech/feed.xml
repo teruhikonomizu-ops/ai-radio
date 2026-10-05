@@ -11,6 +11,38 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/6 ChatGPT文章透かし／広告／韓国銀行攻撃</title>
+      <description>【世界のAIニュース】10/6 ChatGPT文章透かし／広告／韓国銀行攻撃
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月6日）:
+1. OpenAI、ChatGPTとCodexの文章に透かしを導入（EUのユーザーから）
+2. ChatGPTに画像つきの新広告形式、米国でテスト開始へ
+3. サム・アルトマン氏のインタビューをめぐる報道
+4. 韓国の銀行にサイバー攻撃、AIエージェント使用の可能性も
+5. 中国のAIエージェント群を研究者が追跡
+6. TikTokのAIショッピングアシスタントとワンクリック決済
+7. Instinctのグループチャット対応AIエージェント
+8. HackerRankのAI面接官
+9. ノルウェーによるAIメガネへの取り締まり
+10. Googleのデータセンター水使用量・電力容量の黒塗りがコピペで判明
+11. Linuxカーネルの脆弱性1313件
+12. Codexの「28日間は毎日改善」宣言
+13. Strataで125BのQwen3.8-Flash-Nextをローカル実行
+14. ガートナーとサーバーワークスのAI調査
+15. SpaceXAIからSpaceXSIへの改名
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #ChatGPT #OpenAI #サイバー攻撃</description>
+      <pubDate>Tue, 06 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-06/tech-2026-10-06.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-06/tech-2026-10-06.mp3" length="10897911" type="audio/mpeg"/>
+      <itunes:duration>0:11:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/5 スーパーインテリジェンス／Gemini無料枠</title>
       <description>【世界のAIニュース】10/5 スーパーインテリジェンス／Gemini無料枠
 

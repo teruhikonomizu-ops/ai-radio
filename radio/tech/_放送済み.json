@@ -1,6 +1,146 @@
 {
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "entries": [
+  {
+   "date": "2026-10-06",
+   "topic": "ChatGPTとCodexの文章透かし",
+   "keys": [
+    "ChatGPT",
+    "Codex",
+    "text watermarking",
+    "EU text provenance rules"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "ChatGPTの画像つき新広告形式",
+   "keys": [
+    "ChatGPT visual ads",
+    "image generation ads",
+    "brand suitability"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "アルトマン氏インタビューをめぐる報道",
+   "keys": [
+    "Sam Altman",
+    "Vanity Fair",
+    "Mark Guiducci"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "韓国の銀行へのサイバー攻撃",
+   "keys": [
+    "新韓銀行",
+    "韓国の銀行6行",
+    "AIエージェント攻撃"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "中国のAIエージェント群の追跡",
+   "keys": [
+    "agent fleet",
+    "Tencent",
+    "Amap",
+    "Alibaba"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "TikTokのAIショッピングアシスタント",
+   "keys": [
+    "TikTok Shopping Assistant",
+    "one-click checkout"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "Instinctのグループチャット機能",
+   "keys": [
+    "Instinct",
+    "group chats",
+    "AI agent"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "HackerRankのAI面接官",
+   "keys": [
+    "HackerRank AI interviewer",
+    "Snowflake",
+    "Snorkel",
+    "Capgemini"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "ノルウェーのAIメガネ取り締まり",
+   "keys": [
+    "AI glasses",
+    "Norway",
+    "録画できるメガネ"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "Googleデータセンター黒塗り報告",
+   "keys": [
+    "Google",
+    "Lincoln Nebraska",
+    "DWEE",
+    "年次報告書"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "Linuxカーネル脆弱性1313件",
+   "keys": [
+    "Linux kernel",
+    "1313 CVE",
+    "Debian"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "Codexの28日間毎日改善宣言",
+   "keys": [
+    "Codex",
+    "ティボ",
+    "フルリセット",
+    "28日間"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "Strataで量子化Qwenをローカル実行",
+   "keys": [
+    "Strata",
+    "Qwen3.8-Flash-Next",
+    "125B"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "ガートナーとサーバーワークスのAI調査",
+   "keys": [
+    "Gartner",
+    "サーバーワークス",
+    "AIエージェント導入52.7％"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "topic": "SpaceXAIからSpaceXSIへ改名",
+   "keys": [
+    "SpaceXSI",
+    "SpaceXAI",
+    "Super Intelligence",
+    "イーロン・マスク"
+   ]
+  },
   {
    "date": "2026-10-05",
    "topic": "トランプ大統領のSuper Intelligence Force発表",
@@ -1348,64 +1488,6 @@
     "Trump",
     "AI Force",
     "AI czar naming vote"
-   ]
-  },
-  {
-   "date": "2026-09-21",
-   "topic": "トランプ氏のAIフォース構想",
-   "keys": [
-    "AI Force",
-    "Truth Social",
-    "AI czar"
-   ]
-  },
-  {
-   "date": "2026-09-21",
-   "topic": "エヌビディアCEOのAI懸念発言",
-   "keys": [
-    "Jensen Huang",
-    "Nvidia"
-   ]
-  },
-  {
-   "date": "2026-09-21",
-   "topic": "AI減速・規制論争と生物兵器リスクの警鐘",
-   "keys": [
-    "Dario Amodei",
-    "TechCrunch Equity",
-    "AI bioweapons"
-   ]
-  },
-  {
-   "date": "2026-09-21",
-   "topic": "元OpenAI研究者が新型AI「Jev」発表",
-   "keys": [
-    "Jev",
-    "TypeSafe AI"
-   ]
-  },
-  {
-   "date": "2026-09-21",
-   "topic": "OpenAI豪州の青少年安全指針を公表",
-   "keys": [
-    "Australian Youth Safety Blueprint",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-09-21",
-   "topic": "会議メモ用AIリング「Vocci」登場",
-   "keys": [
-    "Vocci",
-    "$249"
-   ]
-  },
-  {
-   "date": "2026-09-21",
-   "topic": "教科書動画化アプリ「ScrollEd」登場",
-   "keys": [
-    "ScrollEd",
-    "Palo Alto"
    ]
   }
  ]

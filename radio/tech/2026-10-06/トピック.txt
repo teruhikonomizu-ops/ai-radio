@@ -1,0 +1,15 @@
+ChatGPTとCodexの文章透かし ||| ChatGPT, Codex, text watermarking, EU text provenance rules
+ChatGPTの画像つき新広告形式 ||| ChatGPT visual ads, image generation ads, brand suitability
+アルトマン氏インタビューをめぐる報道 ||| Sam Altman, Vanity Fair, Mark Guiducci
+韓国の銀行へのサイバー攻撃 ||| 新韓銀行, 韓国の銀行6行, AIエージェント攻撃
+中国のAIエージェント群の追跡 ||| agent fleet, Tencent, Amap, Alibaba
+TikTokのAIショッピングアシスタント ||| TikTok Shopping Assistant, one-click checkout
+Instinctのグループチャット機能 ||| Instinct, group chats, AI agent
+HackerRankのAI面接官 ||| HackerRank AI interviewer, Snowflake, Snorkel, Capgemini
+ノルウェーのAIメガネ取り締まり ||| AI glasses, Norway, 録画できるメガネ
+Googleデータセンター黒塗り報告 ||| Google, Lincoln Nebraska, DWEE, 年次報告書
+Linuxカーネル脆弱性1313件 ||| Linux kernel, 1313 CVE, Debian
+Codexの28日間毎日改善宣言 ||| Codex, ティボ, フルリセット, 28日間
+Strataで量子化Qwenをローカル実行 ||| Strata, Qwen3.8-Flash-Next, 125B
+ガートナーとサーバーワークスのAI調査 ||| Gartner, サーバーワークス, AIエージェント導入52.7％
+SpaceXAIからSpaceXSIへ改名 ||| SpaceXSI, SpaceXAI, Super Intelligence, イーロン・マスク
