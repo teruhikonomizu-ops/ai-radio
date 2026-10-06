@@ -11,6 +11,34 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/7 Mistral Large 4／情報流出</title>
+      <description>【世界のAIニュース】10/7 Mistral Large 4／情報流出
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月7日）:
+1. フランスMistral AIが新大型モデル「Mistral Large 4」を公開
+2. OpenAIのエージェントとWikipediaの障害・トラフィック問題、AIエージェント暴走を追うコミュニティ
+3. Anthropicがスタートアップに「Claude Team」1年無料と1,000ドル分クレジットを提供
+4. Claude Coworkのローカル実行オプション廃止、クラウド実行へ
+5. 国内で相次ぐ不正アクセス・情報流出と安野氏の指摘
+6. Nolla HealthがユタでAIによるニキビ治療薬の初回処方
+7. Tavusの「Griffin」、ビデオ通話で参加者の約48％が人間と誤認
+8. AtlassianとOpenAIの提携拡大、OpenAIとIroncladのエージェント評価
+9. LibreOfficeが「no AI」を機能と位置づけ
+10. 東芝のAIデータセンター向けHDD増産報道
+11. 短信: Alexa Plusの「lalala」不具合／YouTubeショートのおすすめ変更／Geminiの「Call for Me」拡大報道
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE／Yahoo!ニュース 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Mistral #AIエージェント #情報漏えい</description>
+      <pubDate>Wed, 07 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-07/tech-2026-10-07.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-07/tech-2026-10-07.mp3" length="10812230" type="audio/mpeg"/>
+      <itunes:duration>0:11:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/6 ChatGPT文章透かし／広告／韓国銀行攻撃</title>
       <description>【世界のAIニュース】10/6 ChatGPT文章透かし／広告／韓国銀行攻撃
 

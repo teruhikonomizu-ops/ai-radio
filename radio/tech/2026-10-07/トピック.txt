@@ -1,0 +1,10 @@
+Mistralの新大型モデル公開 ||| Mistral Large 4, Mistral AI
+OpenAIエージェントとWikipedia障害 ||| Wikimedia Foundation, OpenAI agents, Wikipedia
+Anthropicのスタートアップ支援 ||| Claude Team, $1,000 credits
+Claude Coworkのローカル実行廃止 ||| Claude Cowork, このコンピュータのみ
+国内の不正アクセス・情報流出急増 ||| 旭化成, シチズン, MrMax, 焼肉きんぐ, 安野貴博
+Nolla HealthのAIニキビ処方 ||| Nolla Health, Utah, AI prescription
+TavusのAIモデルGriffin ||| Griffin, Griffin-Lite, Tavus
+AtlassianとOpenAIの提携拡大 ||| Atlassian, Ironclad, OpenAI
+LibreOfficeのno AI方針 ||| LibreOffice, no AI
+東芝のAI向けHDD増産 ||| 東芝, Western Digital, Seagate
