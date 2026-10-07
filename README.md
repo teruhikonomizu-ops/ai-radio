@@ -78,6 +78,8 @@ GitHub Actions (毎朝・cron)
 
 ## 運用メモ
 
+- **英字の読み替え(2026-10-07〜)**: `scripts/tts_aivis.py` は合成の直前に `scripts/reading_fix.py` で英字をカタカナにする(台本.txt・字幕は元の表記のまま)。台本の指示(「英字はカタカナに」)だけでは守られず、9/16〜29の28本中15本に英字が残っていたため。辞書は `scripts/reading_dict.json`。大文字の略語は辞書に無くても1文字ずつ読む(CNN→シーエヌエヌ)。辞書に無い英単語は Actions のログに「読み辞書に無い英単語」と出る＝読みが変だと気づいたらそこに足す。辞書が壊れても番組は止まらない(警告だけ)。確認=`python scripts/reading_fix.py radio/*/*/台本.txt`(残り0行が正常)
+
 - 手動実行: Actionsタブ → news-radio → Run workflow
 - 作り直したい日: `radio/news/<日付>/` の `meta.json` を消して手動実行(台本ごと作り直すなら`台本.txt`も消す)
 - 元の運用(ローカルPC生成+stand.fm投稿)は
