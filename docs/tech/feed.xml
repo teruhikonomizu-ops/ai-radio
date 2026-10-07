@@ -11,6 +11,35 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/8 Teens大学支援／数学722本</title>
+      <description>【世界のAIニュース】10/8 Teens大学支援／数学722本
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月8日）:
+1. ChatGPT for Teensに大学出願支援「College Planner」追加、Common Sense Mediaは強い懸念
+2. OpenAI、社内フロンティアモデルによる数学の成果722本をGitHubで公開
+3. Microsoft、Copilotにローカルファイルやwindows操作の権限／Surface RTX Spark Dev Boxは予約開始
+4. Google、AI生成物を判定できる新しいSynthIDサイトを公開
+5. Anthropic、Cyber Verification Programを拡充しClaude Mythos 5.1も対象に
+6. バイブコーディングで作られた公開Webアプリの約9割に脆弱性との調査
+7. Googleの画像モデル「Nano Banana 2.1」とゲーム作成「Playground」
+8. Meta「Muse」がiPad対応、不正広告検出のAIツールも導入
+9. OpenAIの判断専用「Decisions API」がパブリックベータに
+10. 韓国の金融機関へのAI悪用とみられるハッキング、6万8000人分流出の恐れ
+11. 仮想細胞への3億ドル投資、Healthleapの資金調達、Tony Fadell氏のAIガジェット論
+12. AIが設計するオープンソースのAIアクセラレータ「openTPU」
+
+出典: OpenAI／Google／TechCrunch／The Verge／Ars Technica／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #ChatGPT #SynthID #Copilot</description>
+      <pubDate>Thu, 08 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-08/tech-2026-10-08.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-08/tech-2026-10-08.mp3" length="10772524" type="audio/mpeg"/>
+      <itunes:duration>0:11:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/7 Mistral Large 4／情報流出</title>
       <description>【世界のAIニュース】10/7 Mistral Large 4／情報流出
 

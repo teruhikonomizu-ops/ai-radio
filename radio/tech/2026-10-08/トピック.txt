@@ -1,0 +1,12 @@
+ChatGPT for Teensに大学進学支援と安全性の指摘 ||| ChatGPT for Teens, College Planner, Common Sense Media
+OpenAIが数学の成果722本を公開 ||| OpenAI, Lean, 722本, GitHub
+MicrosoftのCopilot強化とSurface発表 ||| Copilot, Surface Laptop Ultra, Surface RTX Spark Dev Box
+GoogleのSynthID判定サイト公開 ||| SynthID, 新SynthIDサイト
+AnthropicのCyber Verification Program拡充 ||| Cyber Verification Program, Claude Mythos 5.1, Project Glasswing
+バイブコーディング製Webアプリの脆弱性調査 ||| Understanding the (In)Security of Vibe-Coded Applications, バイブコーディング
+Nano Banana 2.1とPlaygroundの公開 ||| Nano Banana 2.1, Gemini 3.6 Flash, Playground
+Meta MuseのiPad対応と不正広告検出AI ||| Muse, iPad, Meta
+OpenAIのDecisions API公開 ||| Decisions API, OpenAI
+韓国金融機関へのAI悪用ハッキング ||| 新韓銀行, KB国民銀行, ハナ銀行
+仮想細胞への3億ドル投資 ||| virtual cell, Isomorphic Labs, Google DeepMind
+openTPUの公開 ||| openTPU, Qwen3.5, Gemma 4

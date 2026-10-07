@@ -1,6 +1,112 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-08",
  "entries": [
+  {
+   "date": "2026-10-08",
+   "topic": "ChatGPT for Teensに大学進学支援と安全性の指摘",
+   "keys": [
+    "ChatGPT for Teens",
+    "College Planner",
+    "Common Sense Media"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "OpenAIが数学の成果722本を公開",
+   "keys": [
+    "OpenAI",
+    "Lean",
+    "722本",
+    "GitHub"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "MicrosoftのCopilot強化とSurface発表",
+   "keys": [
+    "Copilot",
+    "Surface Laptop Ultra",
+    "Surface RTX Spark Dev Box"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "GoogleのSynthID判定サイト公開",
+   "keys": [
+    "SynthID",
+    "新SynthIDサイト"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "AnthropicのCyber Verification Program拡充",
+   "keys": [
+    "Cyber Verification Program",
+    "Claude Mythos 5.1",
+    "Project Glasswing"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "バイブコーディング製Webアプリの脆弱性調査",
+   "keys": [
+    "Understanding the (In)Security of Vibe-Coded Applications",
+    "バイブコーディング"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "Nano Banana 2.1とPlaygroundの公開",
+   "keys": [
+    "Nano Banana 2.1",
+    "Gemini 3.6 Flash",
+    "Playground"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "Meta MuseのiPad対応と不正広告検出AI",
+   "keys": [
+    "Muse",
+    "iPad",
+    "Meta"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "OpenAIのDecisions API公開",
+   "keys": [
+    "Decisions API",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "韓国金融機関へのAI悪用ハッキング",
+   "keys": [
+    "新韓銀行",
+    "KB国民銀行",
+    "ハナ銀行"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "仮想細胞への3億ドル投資",
+   "keys": [
+    "virtual cell",
+    "Isomorphic Labs",
+    "Google DeepMind"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "topic": "openTPUの公開",
+   "keys": [
+    "openTPU",
+    "Qwen3.5",
+    "Gemma 4"
+   ]
+  },
   {
    "date": "2026-10-07",
    "topic": "Mistralの新大型モデル公開",
@@ -1384,91 +1490,6 @@
    "keys": [
     "AWS",
     "Salesforce"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "オープンエーアイがGPT-6 Sol/Lunaを発表",
-   "keys": [
-    "GPT-6 Sol",
-    "GPT-6 Luna",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "OpenAIが数学諮問組織AGMAIと連携",
-   "keys": [
-    "AGMAI",
-    "OpenAI",
-    "mathematics advisory"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "OpenAIのストレージ基盤Habitatを解説",
-   "keys": [
-    "OpenAI Habitat",
-    "40 petabytes",
-    "1 billion users"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "アンソロピックOpus5.5、低価格と高性能を強調",
-   "keys": [
-    "Claude Opus 5.5",
-    "Anthropic",
-    "Fable"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "SpaceXAIがGrok 4.7を発表",
-   "keys": [
-    "Grok 4.7",
-    "SpaceXAI"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "トランプ大統領がAIを「超知能」に呼称変更",
-   "keys": [
-    "super intelligence",
-    "AI Force",
-    "Trump"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "トヨタが人型ロボット訓練を従業員に指示",
-   "keys": [
-    "Toyota",
-    "humanoid robot"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "安いAIモデルほど修正費用が高くつく研究",
-   "keys": [
-    "Fiddler",
-    "AI coding model cost"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "AI登山計画で学生遭難、シャスタ山で救助",
-   "keys": [
-    "Mount Shasta",
-    "AI trip planning"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "topic": "Meta MuseのゼロデイにパッチMissing",
-   "keys": [
-    "Meta Muse",
-    "zero-day patch"
    ]
   }
  ]
