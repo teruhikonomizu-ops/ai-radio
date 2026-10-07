@@ -26,6 +26,9 @@ import urllib.request
 import urllib.parse
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import reading_fix  # 英字→カタカナの読み替え(エンジンに渡す文字列だけ。台本と字幕は元のまま)
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 BASE = "http://127.0.0.1:10101"
@@ -144,6 +147,8 @@ def main():
     print(f"engine {version} / 速度 {speed} / 間: 文{sent_pause}秒 段落{para_pause}秒 コーナー{sect_pause}秒")
 
     text = src.read_text(encoding="utf-8")
+    reading_table = reading_fix.load_dict()
+    reading_unknown = set()
     items = parse_script(text)
     total = sum(1 for it in items if it not in ("para", "sect"))
     print(f"セリフ行 {total}")
@@ -179,7 +184,8 @@ def main():
         sentences = split_sentences(line_text)
         for si, s in enumerate(sentences):
             sent_start = cur_time()
-            wav_bytes = synthesize(s, spk["id"], speed, spk["pitch"], spk["intonation"])
+            spoken = reading_fix.fix(s, reading_table, reading_unknown)
+            wav_bytes = synthesize(spoken, spk["id"], speed, spk["pitch"], spk["intonation"])
             with wave.open(io.BytesIO(wav_bytes)) as w:
                 if params is None:
                     params = w.getparams()
@@ -209,6 +215,8 @@ def main():
     segments_path = dst.with_suffix(".segments.json")
     segments_path.write_text(json.dumps(segments, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    if reading_unknown:
+        print(f"読み辞書に無い英単語(英字のまま合成した・scripts/reading_dict.json に足す候補): {sorted(reading_unknown)}")
     mb = dst.stat().st_size / 1024 / 1024
     print(f"完成: {dst} ({dur/60:.1f}分, {mb:.1f}MB) / タイミング: {segments_path}")
 
