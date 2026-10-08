@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-10-09",
+ "title": "【世界のAIニュース】10/9 Haiku5.5／Geminiエージェント",
+ "description": "【世界のAIニュース】10/9 Haiku5.5／Geminiエージェント\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年10月9日）:\n1. Anthropic「Claude Haiku 5.5」公開、コスト約75％減・effort設定に初対応\n2. Anthropicが利用ポリシーを更新、選挙干渉やClaudeへの極端な虐待行為を禁止\n3. Google、仕事向けの「universal」Geminiエージェントを発表\n4. USA Today Coが地方紙とともにOpenAIを提訴\n5. OpenAIの売上が従来予測より200億ドル少ないとの報道\n6. AIモデル評価のArena、2億ドル調達で企業価値31億ドルに\n7. Googleのゲーム作成「Playground」、SynthID Detector一般公開、オフライン文字起こしアプリ、OpenAIの情報工作摘発、Goodfireの監視技術\n\n出典: OpenAI／Google／TechCrunch／The Verge／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #ClaudeHaiku #Gemini #OpenAI",
+ "duration_sec": 661,
+ "size_bytes": 10581516,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-09/tech-2026-10-09.mp3"
+}

@@ -1,6 +1,94 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "entries": [
+  {
+   "date": "2026-10-09",
+   "topic": "Anthropic、小型モデルClaude Haiku 5.5を公開",
+   "keys": [
+    "Claude Haiku 5.5",
+    "Haiku 4.5",
+    "effort設定"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "Anthropicが利用ポリシーを更新",
+   "keys": [
+    "Anthropic usage policy",
+    "Claude",
+    "選挙干渉"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "Google、仕事向けGeminiエージェント発表",
+   "keys": [
+    "Gemini at Work",
+    "universal Gemini agent",
+    "subagents"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "USA TodayがOpenAIを提訴",
+   "keys": [
+    "USA Today Co.",
+    "OpenAI",
+    "著作権訴訟"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "OpenAIの売上が予測を下回るとの報道",
+   "keys": [
+    "OpenAI revenue",
+    "200億ドル",
+    "年換算売上700億ドル"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "Arenaが2億ドル調達、評価額31億ドル",
+   "keys": [
+    "LMArena",
+    "Arena",
+    "Lightspeed",
+    "Khosla"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "Google「Playground」とUnity Spark",
+   "keys": [
+    "Google Playground",
+    "Unity Spark"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "OpenAIが偽装メディアによる情報工作を摘発",
+   "keys": [
+    "Disrupting AI-enabled false front operations",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "GoogleがSynthID Detectorを一般公開",
+   "keys": [
+    "SynthID Detector",
+    "Google",
+    "NVIDIA"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "topic": "Goodfireのエージェント監視モニター",
+   "keys": [
+    "Goodfire",
+    "inside-out monitors"
+   ]
+  },
   {
    "date": "2026-10-08",
    "topic": "ChatGPT for Teensに大学進学支援と安全性の指摘",
@@ -1391,105 +1479,6 @@
     "Patreon",
     "Sam Yam",
     "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "ChatGPTモバイルに声のエージェント機能追加",
-   "keys": [
-    "ChatGPT mobile",
-    "Work tab",
-    "voice agent"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "OpenAI Academy2周年とウクライナ支援拡大",
-   "keys": [
-    "OpenAI Academy",
-    "Daybreak",
-    "Ukraine"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "Google Beam拡大とPrivate AI Compute強化",
-   "keys": [
-    "Google Beam",
-    "Private AI Compute",
-    "Industrious"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "新音声合成モデルGemini 3.8のTTS発表",
-   "keys": [
-    "Gemini 3.8",
-    "text-to-speech"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "YouTubeのAI新機能拡充(カスタムフィード等)",
-   "keys": [
-    "YouTube custom feeds",
-    "Ask Music",
-    "YouTube Studio"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "サンダース議員が超知能禁止法案を提出",
-   "keys": [
-    "Bernie Sanders",
-    "Greg Casar",
-    "superintelligence ban"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "AI日常利用者でも不安根強いという米調査",
-   "keys": [
-    "daily AI users survey",
-    "public unease"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "NHTSAがcomma.aiを調査、5件の事故確認",
-   "keys": [
-    "NHTSA",
-    "comma.ai",
-    "5 crashes"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "MicrosoftがEvilTokensを停止",
-   "keys": [
-    "Microsoft",
-    "EvilTokens",
-    "12",
-    "000 accounts"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "invideo/Ringg/HarveyのGPT-6 Astra活用事例",
-   "keys": [
-    "GPT-6 Astra",
-    "invideo",
-    "Ringg",
-    "Harvey",
-    "GPT-5.6"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "topic": "AWSとSalesforceのAI連携強化",
-   "keys": [
-    "AWS",
-    "Salesforce"
    ]
   }
  ]

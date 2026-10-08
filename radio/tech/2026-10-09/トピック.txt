@@ -1,0 +1,10 @@
+Anthropic、小型モデルClaude Haiku 5.5を公開 ||| Claude Haiku 5.5, Haiku 4.5, effort設定
+Anthropicが利用ポリシーを更新 ||| Anthropic usage policy, Claude, 選挙干渉
+Google、仕事向けGeminiエージェント発表 ||| Gemini at Work, universal Gemini agent, subagents
+USA TodayがOpenAIを提訴 ||| USA Today Co., OpenAI, 著作権訴訟
+OpenAIの売上が予測を下回るとの報道 ||| OpenAI revenue, 200億ドル, 年換算売上700億ドル
+Arenaが2億ドル調達、評価額31億ドル ||| LMArena, Arena, Lightspeed, Khosla
+Google「Playground」とUnity Spark ||| Google Playground, Unity Spark
+OpenAIが偽装メディアによる情報工作を摘発 ||| Disrupting AI-enabled false front operations, OpenAI
+GoogleがSynthID Detectorを一般公開 ||| SynthID Detector, Google, NVIDIA
+Goodfireのエージェント監視モニター ||| Goodfire, inside-out monitors
