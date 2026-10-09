@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/10(土) ICC制裁／平和賞／情報漏えい</title>
+      <description>【AIデイリーニュース】10/10(土) ICC制裁／平和賞／情報漏えい
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・米財務省がICC(国際刑事裁判所)を制裁対象に指定
+・ノーベル平和賞に南アフリカ出身のナビ・ピレイ氏
+・スカイチケット、ブックオフ、手間いらずで情報漏えいの発表が相次ぐ
+・コメの平均価格は5キロ2860円、8週連続の値下がり
+・8月の家計調査、実質消費支出は9か月連続の減少
+・プルデンシャル生命に一部業務停止命令
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Sat, 10 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-10/news-2026-10-10.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-10/news-2026-10-10.mp3" length="10524674" type="audio/mpeg"/>
+      <itunes:duration>0:10:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/9(金) ユニクロ最高益／佐藤輝明三冠王</title>
       <description>【AIデイリーニュース】10/9(金) ユニクロ最高益／佐藤輝明三冠王
 
