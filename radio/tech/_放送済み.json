@@ -1,6 +1,159 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "entries": [
+  {
+   "date": "2026-10-10",
+   "topic": "OpenAIが722件の数学的成果を公開",
+   "keys": [
+    "722件",
+    "Association for Human Mathematics",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "解雇されたOpenAI安全研究者3人の公開書簡",
+   "keys": [
+    "公開書簡",
+    "OpenAI安全研究者",
+    "significant breach of trust"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "Anthropic Cyber Mission開始",
+   "keys": [
+    "Anthropic Cyber Mission",
+    "OSS Scanner",
+    "CIDP"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "Claudeへの虐待行為を禁止",
+   "keys": [
+    "Claude",
+    "利用ポリシー",
+    "abusive or cruel behavior"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "韓国金融機関攻撃とCrowdStrike分析",
+   "keys": [
+    "CrowdStrike",
+    "韓国の金融機関",
+    "26歳"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "履歴書の隠し文字を調べた研究",
+   "keys": [
+    "USENIX Security Symposium 2026",
+    "履歴書",
+    "プロンプトインジェクション"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "トランプ大統領のAI→SI呼称変更",
+   "keys": [
+    "SI GOV",
+    "AI.gov",
+    "SIF"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "Amazonがデータセンター交渉のNDAを廃止",
+   "keys": [
+    "Amazon",
+    "データセンター",
+    "NDA"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "Google Cloud Gemini Agent発表",
+   "keys": [
+    "Gemini Agent",
+    "Claude Opus 5.5",
+    "Claude Sonnet 5.5"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "ChatGPTが音声ファイルに対応",
+   "keys": [
+    "ChatGPT",
+    "音声ファイル",
+    "文字起こし"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "Sophos・AsanaのOpenAI活用事例",
+   "keys": [
+    "Sophos",
+    "Daybreak",
+    "Asana"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "Amazon Alexa Tablet発表",
+   "keys": [
+    "Amazon Alexa Tablet",
+    "Alexa+",
+    "Amazonキッズタブレット"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "ICANNへの.agentドメイン申請",
+   "keys": [
+    ".agent",
+    ".agi",
+    "ICANN"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "Yandexデータセンターがドローン攻撃で被災",
+   "keys": [
+    "Yandex",
+    "データセンター",
+    "ウクライナ"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "Nikon Small World in Motion優勝作品が失格",
+   "keys": [
+    "Nikon",
+    "Small World in Motion",
+    "Nguyen Nam Nhat"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "AIコンパニオンの1年追跡調査",
+   "keys": [
+    "Living with AI Companions",
+    "スタンフォード大学",
+    "カーネギーメロン大学"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "topic": "PC出荷台数が20.1%減",
+   "keys": [
+    "PC shipments",
+    "20.1 percent",
+    "Q1 2023"
+   ]
+  },
   {
    "date": "2026-10-09",
    "topic": "Anthropic、小型モデルClaude Haiku 5.5を公開",
@@ -1408,77 +1561,6 @@
     "Sakana AI",
     "Jürgen Schmidhuber",
     "EdgeCortix RAIDEN"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "topic": "Metaがキーホルダー型AIガジェット発表",
-   "keys": [
-    "Muse Charm",
-    "Meta Connect 2026",
-    "Horizon"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "topic": "MuseがファイルシステムをAI漏洩、OpenClaw類似指摘",
-   "keys": [
-    "Muse",
-    "OpenClaw",
-    "Meta AI agent"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "topic": "AI誤情報が招いた米中軍事的緊張の報道",
-   "keys": [
-    "AI-generated report",
-    "China vessel",
-    "nuclear parts"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "topic": "OracleがStargateデータセンターでforce majeure通知",
-   "keys": [
-    "Oracle",
-    "Stargate",
-    "New Mexico data center"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "topic": "RSA暗号を破る新解読手法の発見",
-   "keys": [
-    "RSA",
-    "factoring",
-    "cryptography"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "topic": "NVIDIAが音声識別AIモデルを公開",
-   "keys": [
-    "NVIDIA Nemotron 3 Diarization",
-    "speaker diarization"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "topic": "Lovableの年間換算売上が6億ドル突破",
-   "keys": [
-    "Lovable",
-    "$600M ARR",
-    "vibe coding"
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "topic": "Patreon共同創業者らがOpenAIへ移籍",
-   "keys": [
-    "Patreon",
-    "Sam Yam",
-    "OpenAI"
    ]
   }
  ]

@@ -1,0 +1,25 @@
+【世界のAIニュース】10/10 数学成果の波紋／OpenAI解雇／Claude
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月10日）:
+1. OpenAIが722件の数学的成果を公開、数学者の反応と批判
+2. 解雇されたOpenAI安全研究者3人が公開書簡で反論
+3. Anthropic Cyber Mission（OSS Scanner・CIDP）とClaudeへの虐待行為の禁止
+4. 韓国の金融機関への攻撃をめぐるCrowdStrikeの分析
+5. 履歴書に仕込まれた「AIだけが読める文字」の調査
+6. トランプ大統領のAI→SI呼称変更
+7. Amazonがデータセンター交渉でNDAを廃止
+8. Google Cloud「Gemini Agent」でClaudeが利用可能に
+9. ChatGPTが音声ファイルのアップロードに対応
+10. Sophos・Asanaなど企業のOpenAI活用事例
+11. Amazon Alexa Tabletの発表
+12. ICANNへの「.agent」ドメイン申請
+13. Yandexのデータセンターがドローン攻撃で被災
+14. Nikonコンテスト優勝作品が生成AIで失格
+15. AIコンパニオンの1年追跡調査
+16. PC出荷台数が20.1%減
+
+出典: OpenAI／Google／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic #Claude

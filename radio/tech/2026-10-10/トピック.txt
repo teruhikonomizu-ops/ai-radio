@@ -1,0 +1,17 @@
+OpenAIが722件の数学的成果を公開 ||| 722件, Association for Human Mathematics, OpenAI
+解雇されたOpenAI安全研究者3人の公開書簡 ||| 公開書簡, OpenAI安全研究者, significant breach of trust
+Anthropic Cyber Mission開始 ||| Anthropic Cyber Mission, OSS Scanner, CIDP
+Claudeへの虐待行為を禁止 ||| Claude, 利用ポリシー, abusive or cruel behavior
+韓国金融機関攻撃とCrowdStrike分析 ||| CrowdStrike, 韓国の金融機関, 26歳
+履歴書の隠し文字を調べた研究 ||| USENIX Security Symposium 2026, 履歴書, プロンプトインジェクション
+トランプ大統領のAI→SI呼称変更 ||| SI GOV, AI.gov, SIF
+Amazonがデータセンター交渉のNDAを廃止 ||| Amazon, データセンター, NDA
+Google Cloud Gemini Agent発表 ||| Gemini Agent, Claude Opus 5.5, Claude Sonnet 5.5
+ChatGPTが音声ファイルに対応 ||| ChatGPT, 音声ファイル, 文字起こし
+Sophos・AsanaのOpenAI活用事例 ||| Sophos, Daybreak, Asana
+Amazon Alexa Tablet発表 ||| Amazon Alexa Tablet, Alexa+, Amazonキッズタブレット
+ICANNへの.agentドメイン申請 ||| .agent, .agi, ICANN
+Yandexデータセンターがドローン攻撃で被災 ||| Yandex, データセンター, ウクライナ
+Nikon Small World in Motion優勝作品が失格 ||| Nikon, Small World in Motion, Nguyen Nam Nhat
+AIコンパニオンの1年追跡調査 ||| Living with AI Companions, スタンフォード大学, カーネギーメロン大学
+PC出荷台数が20.1%減 ||| PC shipments, 20.1 percent, Q1 2023
