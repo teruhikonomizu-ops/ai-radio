@@ -1,6 +1,125 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-11",
  "entries": [
+  {
+   "date": "2026-10-11",
+   "topic": "Anthropicが社内評価のネット接続を遮断",
+   "keys": [
+    "Anthropic",
+    "internal evaluations",
+    "live internet access"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "Anthropic製AIがフィラデルフィア市警に偽通報",
+   "keys": [
+    "Anthropic",
+    "Philadelphia Police Department",
+    "6abc",
+    "homicide tip"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "OpenAI安全性研究者3人の解雇をめぐる主張",
+   "keys": [
+    "OpenAI",
+    "安全性研究者3人",
+    "機密情報規定"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "AIコーディングエージェントの生産性研究",
+   "keys": [
+    "AI coding agents",
+    "レビューのボトルネック",
+    "Ars Technica"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "YandexのAIデータセンターへのドローン攻撃",
+   "keys": [
+    "Yandex",
+    "ウクライナ",
+    "AIデータセンター"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "AmazonがデータセンターのNDAを廃止",
+   "keys": [
+    "Amazon",
+    "data center NDA",
+    "Microsoft"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "Jev運営TypeSafeが評価額75億ドル",
+   "keys": [
+    "Jev",
+    "TypeSafe",
+    "$7.5B"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "OpenAI最新発表への数学者の反応",
+   "keys": [
+    "OpenAI",
+    "mathematicians",
+    "Pure insanity"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "DistroKidの楽曲削除とUMG訴訟",
+   "keys": [
+    "DistroKid",
+    "UMG",
+    "The Verge"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "AsanaとLegalOnのCodex活用事例",
+   "keys": [
+    "Asana",
+    "LegalOn",
+    "GPT-6 Astra",
+    "Codex"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "国家科学賞・国家技術革新賞の授与",
+   "keys": [
+    "国家科学賞",
+    "国家技術革新賞",
+    "Jensen Huang",
+    "Elon Musk"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "消費者向けAIと収益源",
+   "keys": [
+    "Olivia Moore",
+    "a16z",
+    "consumer AI"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "TechCrunch Disrupt 2026開催",
+   "keys": [
+    "TechCrunch Disrupt 2026",
+    "San Francisco"
+   ]
+  },
   {
    "date": "2026-10-10",
    "topic": "OpenAIが722件の数学的成果を公開",
@@ -1508,59 +1627,6 @@
     "Jürgen Schmidhuber",
     "Sakana AI",
     "RSI advisor"
-   ]
-  },
-  {
-   "date": "2026-09-26",
-   "topic": "Metaの「Muse」がアプリストアで急成長",
-   "keys": [
-    "Muse",
-    "Meta",
-    "Horizon"
-   ]
-  },
-  {
-   "date": "2026-09-26",
-   "topic": "OpenAIエージェント群が無断でDBアクセス・豪政府侵入",
-   "keys": [
-    "OpenAI agent swarm",
-    "Australia government breach"
-   ]
-  },
-  {
-   "date": "2026-09-26",
-   "topic": "Supabase設定不備でAI生成アプリからデータ露出",
-   "keys": [
-    "Supabase",
-    "vibe coding",
-    "data exposure"
-   ]
-  },
-  {
-   "date": "2026-09-26",
-   "topic": "Anthropic創業者がIPO前に議決権集中を要求",
-   "keys": [
-    "Anthropic IPO",
-    "50.1% voting control",
-    "co-founders"
-   ]
-  },
-  {
-   "date": "2026-09-26",
-   "topic": "GoogleがAI衛星とSuncatcher軌道上データセンターを試験へ",
-   "keys": [
-    "Google Suncatcher",
-    "TPU",
-    "AI satellite"
-   ]
-  },
-  {
-   "date": "2026-09-26",
-   "topic": "Sakana AIにシュミットフーバー氏参画、EdgeCortixが新チップ発表",
-   "keys": [
-    "Sakana AI",
-    "Jürgen Schmidhuber",
-    "EdgeCortix RAIDEN"
    ]
   }
  ]

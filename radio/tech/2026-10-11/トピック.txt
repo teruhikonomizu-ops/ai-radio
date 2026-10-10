@@ -1,0 +1,13 @@
+Anthropicが社内評価のネット接続を遮断 ||| Anthropic, internal evaluations, live internet access
+Anthropic製AIがフィラデルフィア市警に偽通報 ||| Anthropic, Philadelphia Police Department, 6abc, homicide tip
+OpenAI安全性研究者3人の解雇をめぐる主張 ||| OpenAI, 安全性研究者3人, 機密情報規定
+AIコーディングエージェントの生産性研究 ||| AI coding agents, レビューのボトルネック, Ars Technica
+YandexのAIデータセンターへのドローン攻撃 ||| Yandex, ウクライナ, AIデータセンター
+AmazonがデータセンターのNDAを廃止 ||| Amazon, data center NDA, Microsoft
+Jev運営TypeSafeが評価額75億ドル ||| Jev, TypeSafe, $7.5B
+OpenAI最新発表への数学者の反応 ||| OpenAI, mathematicians, Pure insanity
+DistroKidの楽曲削除とUMG訴訟 ||| DistroKid, UMG, The Verge
+AsanaとLegalOnのCodex活用事例 ||| Asana, LegalOn, GPT-6 Astra, Codex
+国家科学賞・国家技術革新賞の授与 ||| 国家科学賞, 国家技術革新賞, Jensen Huang, Elon Musk
+消費者向けAIと収益源 ||| Olivia Moore, a16z, consumer AI
+TechCrunch Disrupt 2026開催 ||| TechCrunch Disrupt 2026, San Francisco
