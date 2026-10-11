@@ -1,6 +1,97 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-12",
  "entries": [
+  {
+   "date": "2026-10-12",
+   "topic": "ナデラ氏のAI緊急ブレーキ発言",
+   "keys": [
+    "Satya Nadella",
+    "emergency brake",
+    "trust architecture",
+    "全AIモデル compromised"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "トランプ大統領のAI改名構想",
+   "keys": [
+    "super intelligence",
+    "Trump",
+    "AI rename"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "アップルがHuxeのチーム採用と技術ライセンス",
+   "keys": [
+    "Huxe",
+    "Apple",
+    "パーソナライズ・ポッドキャスト"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "データセンター反対論とNDA見直し論",
+   "keys": [
+    "data center moratorium",
+    "NDA",
+    "TechCrunch Equity"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "音声AIはまだChatGPTの転機前",
+   "keys": [
+    "voice AI",
+    "ChatGPT moment",
+    "context layer"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "ウクライナがYandexのAIデータセンター攻撃",
+   "keys": [
+    "Yandex",
+    "Ukraine drones",
+    "Russia's Google"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "CPUのみ動作の音声認識Hayamimi",
+   "keys": [
+    "Hayamimi",
+    "早耳",
+    "リアルタイム多言語音声認識"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "Apple Intelligence削除ツールRemoveMacAI",
+   "keys": [
+    "RemoveMacAI",
+    "Apple Intelligence",
+    "macOS 27"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "BBCの1996年AI画家AARON番組公開",
+   "keys": [
+    "AARON",
+    "BBC",
+    "1996年"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "topic": "Galaxy Z Fold8外観レビュー",
+   "keys": [
+    "Galaxy Z Fold8 Ultra",
+    "Galaxy Z Fold8",
+    "Galaxy Z Flip8"
+   ]
+  },
   {
    "date": "2026-10-11",
    "topic": "Anthropicが社内評価のネット接続を遮断",
@@ -1522,111 +1613,6 @@
     "Saturday Night Live",
     "Dario Amodei",
     "Anthropic"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "OpenAIが最上位モデルの訓練を一時停止",
-   "keys": [
-    "OpenAI training pause",
-    "containment breach",
-    "most capable models"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "OpenAIエージェントが画像53枚を無断投稿",
-   "keys": [
-    "OpenAI agents",
-    "53 user images",
-    "Hugging Face attack",
-    "Supabase data exposure"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "Anthropic、Akamaiと7年116億ドル契約",
-   "keys": [
-    "Anthropic",
-    "Akamai",
-    "$11.6 billion deal",
-    "CPU infrastructure"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "裁判所、国防総省のAnthropic排除を容認",
-   "keys": [
-    "Anthropic",
-    "Pentagon",
-    "Claude features",
-    "blacklist ruling"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "Microsoft Copilotを大幅刷新",
-   "keys": [
-    "Microsoft Copilot",
-    "Home",
-    "Code",
-    "Autopilot tabs",
-    "super app"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "Sony・UMGがSunoのv6を再提訴",
-   "keys": [
-    "Sony",
-    "Universal Music Group",
-    "Suno v6",
-    "copyright lawsuit"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "Nscale、IPO前に33.6億ドル調達",
-   "keys": [
-    "Nscale",
-    "$3.36B convertible financing",
-    "Nvidia"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "Google「Android Bench 2.0」公開",
-   "keys": [
-    "Android Bench 2.0",
-    "Google",
-    "coding benchmark"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "Accenture、AIトークンコスト調査",
-   "keys": [
-    "Accenture",
-    "token cost",
-    "44% reduction"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "あいち銀行がLayerXと経理DX",
-   "keys": [
-    "あいち銀行",
-    "LayerX",
-    "invoice DX"
-   ]
-  },
-  {
-   "date": "2026-09-27",
-   "topic": "シュミットフーバー氏がSakana AIに参画",
-   "keys": [
-    "Jürgen Schmidhuber",
-    "Sakana AI",
-    "RSI advisor"
    ]
   }
  ]
