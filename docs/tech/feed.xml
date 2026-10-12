@@ -11,6 +11,33 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/13 新AIチップ／トークン予算</title>
+      <description>【世界のAIニュース】10/13 新AIチップ／トークン予算
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月13日）:
+1. Microsoftが第3世代の自社開発AIチップ「Maia」を発表
+2. MicrosoftのナデラCEOがXで提言、SIモデルは内部リスクとして扱い統制はモデルの外に
+3. Microsoftのブラッド・スミス社長がAI規制を訴え、英国が主導に最適と発言
+4. アクセンチュア調査：3社に1社がトークン予算を超過
+5. Gartner予測：FDE構築のAIエージェントの7割を企業が放棄へ
+6. WindBorneが気球データで米空軍と約5,000万ドル近い契約を獲得
+7. Amazonのロボットが100万台超、人間の従業員はどうなる
+8. NVIDIA「SHIELD TV Pro」が米国で約1.5倍に値上げ
+9. 「確率的オウム」とは何か
+10. 注目スタートアップ：Blueprints AI／Plaud元幹部の新アプリ／Honeyjar
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Microsoft #AIチップ #トークン予算</description>
+      <pubDate>Tue, 13 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-13/tech-2026-10-13.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-13/tech-2026-10-13.mp3" length="11097696" type="audio/mpeg"/>
+      <itunes:duration>0:11:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/12 ナデラ氏の緊急ブレーキ／AI改名構想</title>
       <description>【世界のAIニュース】10/12 ナデラ氏の緊急ブレーキ／AI改名構想
 

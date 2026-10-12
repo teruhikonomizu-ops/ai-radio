@@ -1,0 +1,10 @@
+Microsoftが第3世代AIチップを発表 ||| Maia, Microsoft, Nvidia GPU
+ナデラCEOがAIモデルのリスクを提言 ||| Satya Nadella, SIモデル, 7つの設計原則
+スミス社長がAI規制を訴える ||| Brad Smith, 英国, AI regulation
+アクセンチュアのトークン予算調査 ||| Accenture, トークン予算, 最大44％
+ガートナーのAIエージェント放棄予測 ||| Gartner, FDE, 2028年
+WindBorneが米空軍と契約 ||| WindBorne, US Air Force, 気象気球
+Amazonのロボットが100万台超 ||| Amazon, 100万台, robot workers
+SHIELD TV Proが値上げ ||| SHIELD TV Pro, NVIDIA, 1.5倍
+確率的オウムの解説 ||| 確率的オウム, stochastic parrots, 言語モデル
+Blueprints AIなど注目スタートアップ ||| Blueprints AI, Plaud, Honeyjar

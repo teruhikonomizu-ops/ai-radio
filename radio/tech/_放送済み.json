@@ -1,6 +1,96 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "entries": [
+  {
+   "date": "2026-10-13",
+   "topic": "Microsoftが第3世代AIチップを発表",
+   "keys": [
+    "Maia",
+    "Microsoft",
+    "Nvidia GPU"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "ナデラCEOがAIモデルのリスクを提言",
+   "keys": [
+    "Satya Nadella",
+    "SIモデル",
+    "7つの設計原則"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "スミス社長がAI規制を訴える",
+   "keys": [
+    "Brad Smith",
+    "英国",
+    "AI regulation"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "アクセンチュアのトークン予算調査",
+   "keys": [
+    "Accenture",
+    "トークン予算",
+    "最大44％"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "ガートナーのAIエージェント放棄予測",
+   "keys": [
+    "Gartner",
+    "FDE",
+    "2028年"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "WindBorneが米空軍と契約",
+   "keys": [
+    "WindBorne",
+    "US Air Force",
+    "気象気球"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "Amazonのロボットが100万台超",
+   "keys": [
+    "Amazon",
+    "100万台",
+    "robot workers"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "SHIELD TV Proが値上げ",
+   "keys": [
+    "SHIELD TV Pro",
+    "NVIDIA",
+    "1.5倍"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "確率的オウムの解説",
+   "keys": [
+    "確率的オウム",
+    "stochastic parrots",
+    "言語モデル"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "topic": "Blueprints AIなど注目スタートアップ",
+   "keys": [
+    "Blueprints AI",
+    "Plaud",
+    "Honeyjar"
+   ]
+  },
   {
    "date": "2026-10-12",
    "topic": "ナデラ氏のAI緊急ブレーキ発言",
@@ -1507,112 +1597,6 @@
    "keys": [
     "GitHub",
     "アンディ・ブライス"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "OpenAIエージェントが国連サイトを大量スキャン",
-   "keys": [
-    "OpenAI",
-    "UNCTAD",
-    "Rowan Howard-Jones"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "保険大手がAI医療費増942億ドル相当を指摘",
-   "keys": [
-    "Blue Cross Blue Shield",
-    "AI医療費",
-    "$942M"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "NTTドコモが聞き返す対話型AIを導入",
-   "keys": [
-    "NTTドコモ",
-    "対話型AI",
-    "FAQ削減"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "Codexが1時間障害、使用制限をリセット",
-   "keys": [
-    "Codex",
-    "ChatGPT",
-    "OpenAI障害"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "Crusoeが12.5億ドルのBoom計画を撤回",
-   "keys": [
-    "Crusoe",
-    "Boom Supersonic",
-    "Blake Scholl"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "Meta Connectでスマートグラスが主役に",
-   "keys": [
-    "Meta Connect",
-    "スマートグラス",
-    "Meta"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "AIの新卒雇用への影響は限定的と判明",
-   "keys": [
-    "AI新卒雇用",
-    "unemployment data"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "声優業界でAI無断模倣の被害深刻化",
-   "keys": [
-    "声優",
-    "AI無断模倣",
-    "voice cloning"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "Copilot+ PCブランドが実質消滅",
-   "keys": [
-    "Copilot+ PC",
-    "Microsoft",
-    "Qualcomm"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "Comfy Routerが画像動画生成APIを統合",
-   "keys": [
-    "Comfy Router",
-    "ComfyUI",
-    "OpenRouter"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "AI監視カメラ対策のデジタル迷彩シャツ登場",
-   "keys": [
-    "デジタル迷彩シャツ",
-    "AI監視カメラ"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "topic": "SNLでAnthropicのDario Amodei氏を風刺",
-   "keys": [
-    "Saturday Night Live",
-    "Dario Amodei",
-    "Anthropic"
    ]
   }
  ]
