@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/14(水) 道新記者拘束／防災メール漏えい</title>
+      <description>【AIデイリーニュース】10/14(水) 道新記者拘束／防災メール漏えい
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・ロシアで北海道新聞の記者が拘束されたとタス通信が報道
+・自治体の防災メール運営会社に不正アクセス、300万件の漏えいか
+・自民党が安保上重要な土地の取得規制強化法案を大筋了承
+・ことしの新米の予想収穫量は740万トン、需要を大幅に上回る見通し
+・ジャパンモビリティショーとCEATECが開幕
+・なでしこジャパン、ドイツに1対2で逆転負け
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Wed, 14 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-14/news-2026-10-14.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-14/news-2026-10-14.mp3" length="10589875" type="audio/mpeg"/>
+      <itunes:duration>0:11:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/13(火) 九州新幹線見合わせ／財務相が議長に</title>
       <description>【AIデイリーニュース】10/13(火) 九州新幹線見合わせ／財務相が議長に
 
