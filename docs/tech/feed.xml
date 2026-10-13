@@ -11,6 +11,37 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/14 Gemini 4／HomeView</title>
+      <description>【世界のAIニュース】10/14 Gemini 4／HomeView
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月14日）:
+1. Google「Gemini 4 Argon」公開、有料プランと開発者向け割引
+2. Google Play、AIで作った個人用アプリを動かせる新機能
+3. Character.AIが破産申請、一部資産をDisneyへ売却
+4. Epic Games、Disney向け未発表ゲームでAI中心の開発へ
+5. Facebook「Your Algorithm」でフィードを自分で調整
+6. Anthropic、安価な機器上での自己複製AIのリスクを警告
+7. Apple初のスマートディスプレイ「HomeView」
+8. X Subscription、X Premium・Grok・Cursorを一本化
+9. AIラボが閉鎖スタートアップのデータを購入
+10. SB Intuitions「Sarashinaサービス」無償β版
+11. Amexのエージェント購入枠組みとAIエージェントの法令違反リスク調査
+12. Pluto Securityが4,200万ドルを調達
+13. Gemini agent、Flox Intelligence、Satlyt、Laplace Intelligence
+14. XboxのAI移植、DLSS 5、Mia Goth氏のAI画像への発言、Fleeting
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Gemini #Anthropic #Apple</description>
+      <pubDate>Wed, 14 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-14/tech-2026-10-14.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-14/tech-2026-10-14.mp3" length="10768344" type="audio/mpeg"/>
+      <itunes:duration>0:11:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/13 新AIチップ／トークン予算</title>
       <description>【世界のAIニュース】10/13 新AIチップ／トークン予算
 

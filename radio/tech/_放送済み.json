@@ -1,6 +1,133 @@
 {
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "entries": [
+  {
+   "date": "2026-10-14",
+   "topic": "Google Gemini 4 Argon公開",
+   "keys": [
+    "Gemini 4 Argon",
+    "Antigravity",
+    "Gemini app"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Google Playで個人用バイブコーディングアプリ",
+   "keys": [
+    "Google Play",
+    "AI Studio",
+    "vibe-coded apps"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Character.AI破産申請とDisney資産売却",
+   "keys": [
+    "Character.AI",
+    "破産",
+    "Disney"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Epic Games AI中心開発とDisney向けゲーム",
+   "keys": [
+    "Epic Games",
+    "AI first",
+    "Disney game"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Facebook Your Algorithm",
+   "keys": [
+    "Your Algorithm",
+    "Facebook Reels",
+    "Instagram"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Anthropic自己複製AIの警告",
+   "keys": [
+    "Anthropic",
+    "重みベースの複製体",
+    "Android TVボックス",
+    "26Bモデル"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Apple HomeView発表",
+   "keys": [
+    "Apple HomeView",
+    "スマートディスプレイ",
+    "299ドル"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "X Subscription一本化",
+   "keys": [
+    "SpaceXSI",
+    "X Subscription",
+    "Grok",
+    "Cursor"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "AIラボが閉鎖スタートアップのデータ購入",
+   "keys": [
+    "MIT Technology Review",
+    "dead startups",
+    "学習データ"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Sarashinaサービス無償β版",
+   "keys": [
+    "Sarashina",
+    "SB Intuitions",
+    "Sarashinaサービス"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Amexのエージェント購入枠組み",
+   "keys": [
+    "American Express",
+    "AI agents",
+    "不正購入防止"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Pluto Securityが4,200万ドル調達",
+   "keys": [
+    "Pluto Security",
+    "$42M",
+    "エンタープライズセキュリティ"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "Gemini agent企業向け提供",
+   "keys": [
+    "Gemini agent",
+    "Gemini Enterprise"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "topic": "DLSS 5 Hogwarts Legacy初登場",
+   "keys": [
+    "DLSS 5",
+    "Hogwarts Legacy",
+    "Nvidia"
+   ]
+  },
   {
    "date": "2026-10-13",
    "topic": "Microsoftが第3世代AIチップを発表",
@@ -1508,95 +1635,6 @@
    "keys": [
     "デロイト トーマツ グループ",
     "不正リスク調査白書"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "Anthropicが中位モデルSonnet 5.5を公開",
-   "keys": [
-    "Sonnet 5.5",
-    "Anthropic"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "Nvidiaが暴走AIエージェント向け安全基盤を発表",
-   "keys": [
-    "Nvidia",
-    "rogue AI agents",
-    "安全プラットフォーム"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "OpenAIが暴走事案の報告サイトを公開",
-   "keys": [
-    "misalignment reports",
-    "OpenAI",
-    "訓練停止"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "AIに推測させない指示で架空データ減少",
-   "keys": [
-    "Earn an Honest Dollar",
-    "70.7％",
-    "20.2％"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "Fireworks AIがEmber-1を発表",
-   "keys": [
-    "Ember-1",
-    "Kimi K3",
-    "Fireworks AI"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "10代のAIキャラチャット依存",
-   "keys": [
-    "CHI 2026",
-    "Drexel",
-    "AI companion chatbots"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "OpenAIの海賊版書籍認識と作家団体訴訟",
-   "keys": [
-    "Authors Guild",
-    "OpenAI",
-    "Microsoft",
-    "海賊版書籍"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "ビル・ゲイツ氏がAI自主規制に警鐘",
-   "keys": [
-    "Bill Gates",
-    "Meet the Press"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "ディープフェイク対策のModulateが資金調達",
-   "keys": [
-    "Modulate",
-    "DetectifAI",
-    "2",
-    "500万ドル"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "topic": "GitHubの模倣ソフト通報放置",
-   "keys": [
-    "GitHub",
-    "アンディ・ブライス"
    ]
   }
  ]
