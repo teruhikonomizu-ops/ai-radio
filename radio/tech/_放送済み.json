@@ -1,6 +1,93 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "entries": [
+  {
+   "date": "2026-10-15",
+   "topic": "OpenAI役員会議室の録音装置でエンジニア逮捕",
+   "keys": [
+    "OpenAI",
+    "録音装置",
+    "役員会議室",
+    "FBI"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "OpenAIが元従業員のApple移籍と製品計画持ち出しを主張",
+   "keys": [
+    "OpenAI",
+    "Apple",
+    "元従業員",
+    "製品計画ファイル"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "Anthropicが小型モデルの自己複製を警告",
+   "keys": [
+    "Anthropic",
+    "Small weight-based replicators",
+    "Jack Clark",
+    "RSI"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "YouTube MusicのAI生成曲ラベルとDeezerフィルター",
+   "keys": [
+    "YouTube Music",
+    "Made with AI",
+    "Deezer"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "DeepMindとシンガポールの詐欺検知Gemmaモデル",
+   "keys": [
+    "GovTech Singapore",
+    "Gemma",
+    "Google Messages",
+    "Apate.ai"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "デジタルハリウッド大学がClaudeを全学導入",
+   "keys": [
+    "デジタルハリウッド大学",
+    "Claude",
+    "Anthropic"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "OpenAI・Google新モデルがヌード画像生成の攻撃に弱いとの指摘",
+   "keys": [
+    "OpenAI",
+    "Google",
+    "ヌード画像",
+    "Ars Technica"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "Character.AIをめぐるNY州司法長官の調査",
+   "keys": [
+    "Character.AI",
+    "Letitia James",
+    "Chapter 11"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "topic": "Square Kiosk・Epic新ランチャー・日立木造データセンター",
+   "keys": [
+    "Square Kiosk",
+    "Epic Games launcher",
+    "日立製作所",
+    "木造データセンター"
+   ]
+  },
   {
    "date": "2026-10-14",
    "topic": "Google Gemini 4 Argon公開",
@@ -1487,154 +1574,6 @@
     "America's SBDC",
     "OpenAI",
     "small businesses"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "GPT-6.1 Sol発表、Astra比で5分の1の料金",
-   "keys": [
-    "GPT-6.1 Sol",
-    "GPT-6 Astra"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "OpenAIの常時稼働エージェントdotsとDevDay抗議",
-   "keys": [
-    "dots",
-    "DevDay 2026"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "Codexのクラウド環境とChatGPTプラグイン拡充",
-   "keys": [
-    "Codex",
-    "ChatGPT plugins",
-    "再利用可能なクラウド開発環境"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "AnthropicのIPO書類が人類存亡リスクを警告",
-   "keys": [
-    "Anthropic IPO",
-    "目論見書",
-    "人類存亡リスク"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "フロリダ州がOpenAI開発差し止めを求める",
-   "keys": [
-    "Florida",
-    "OpenAI",
-    "greatest public nuisance"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "AMDがWorld Labsを買収",
-   "keys": [
-    "AMD",
-    "World Labs",
-    "Fei-Fei Li"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "Meta Enterprise Platform開始",
-   "keys": [
-    "Meta Enterprise Platform",
-    "Chirantan Desai",
-    "MongoDB"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "AWSがStrandsハーネスを公開",
-   "keys": [
-    "Strandsハーネス",
-    "AWS"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "Geminiの「Gem」が「スキル」へ移行",
-   "keys": [
-    "Gem",
-    "Gemini",
-    "スキル",
-    "11月17日"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "ChatGPT Pro(20倍)の新規受付再開",
-   "keys": [
-    "Pro（20倍）",
-    "ChatGPT",
-    "5時間制限"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "Microsoft Copilotの画像を人間が確認",
-   "keys": [
-    "Microsoft Copilot",
-    "404 Media"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "Manus 2.0とCue、Manus Studio",
-   "keys": [
-    "Manus 2.0",
-    "Cue",
-    "Manus Studio"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "America.govのチャットボット",
-   "keys": [
-    "America.gov",
-    "White House"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "OpenAIのオーストラリア向け謝罪と安全策",
-   "keys": [
-    "OpenAI",
-    "Australia",
-    "cyber defences"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "ロー・カンナ議員の米中AI条約要求",
-   "keys": [
-    "Ro Khanna",
-    "Geoffrey Irving",
-    "superintelligence"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "エヌビディアの対中AIチップ販売",
-   "keys": [
-    "Nvidia",
-    "ByteDance",
-    "Alibaba"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "topic": "デロイト調査 生成AI個人利用のガイドライン",
-   "keys": [
-    "デロイト トーマツ グループ",
-    "不正リスク調査白書"
    ]
   }
  ]

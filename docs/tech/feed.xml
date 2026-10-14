@@ -11,6 +11,32 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/15 録音装置事件／AI音楽表示／詐欺対策</title>
+      <description>【世界のAIニュース】10/15 録音装置事件／AI音楽表示／詐欺対策
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月15日）:
+1. OpenAIの役員会議室で録音装置が見つかり、エンジニアが逮捕・訴追
+2. OpenAIが元従業員による製品計画ファイル持ち出しとApple移籍を主張
+3. Anthropicが小型モデルの自己複製を警告／ジャック・クラーク氏が東大で講演
+4. YouTube MusicのAI生成曲ラベルと、DeezerのAI音楽フィルター
+5. Google DeepMindとGovTech Singaporeの詐欺検知Gemmaモデル、Android・Apateの詐欺対策
+6. デジタルハリウッド大学がClaudeを全学導入
+7. OpenAI・Googleの新モデルがヌード画像生成の攻撃に弱いとの指摘
+8. 続報：Character.AIをめぐるニューヨーク州司法長官の調査
+9. そのほか：Microsoftの天気予報ツール、Square Kiosk、Epic Gamesの新ランチャー、日立の木造データセンター、Zenzap、Cerebras
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic #詐欺対策</description>
+      <pubDate>Thu, 15 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-15/tech-2026-10-15.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-15/tech-2026-10-15.mp3" length="10524674" type="audio/mpeg"/>
+      <itunes:duration>0:10:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/14 Gemini 4／HomeView</title>
       <description>【世界のAIニュース】10/14 Gemini 4／HomeView
 
