@@ -1,6 +1,152 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "entries": [
+  {
+   "date": "2026-10-16",
+   "topic": "アメリカ8州がOpenAIを提訴",
+   "keys": [
+    "ChatGPT",
+    "OpenAI",
+    "Eight states"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "FTCがAnthropicとOpenAIを調査",
+   "keys": [
+    "FTC",
+    "Anthropic",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "YouTube Musicが生成AI曲にラベル",
+   "keys": [
+    "YouTube Music",
+    "AI music labels"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "Google Universal Cart米国公開",
+   "keys": [
+    "Universal Cart",
+    "Gemini app"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "Amazon Bee新AIデバイス2種",
+   "keys": [
+    "Bee",
+    "Amazon Bee",
+    "$75"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "日本企業へのAIエージェント攻撃",
+   "keys": [
+    "ビットフォレスト",
+    "Swarmchasers",
+    "Tencent"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "Bluesky Attieで誰でもアプリ作成",
+   "keys": [
+    "Attie",
+    "Bluesky",
+    "social vibe coding"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "McKinseyのAIクライアント面接",
+   "keys": [
+    "McKinsey",
+    "AI client simulation"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "RivianにAIエージェント搭載",
+   "keys": [
+    "Rivian",
+    "AI Autonomy Day"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "日立などのワークロードシフト実証",
+   "keys": [
+    "ワークロードシフト",
+    "日立製作所",
+    "横浜",
+    "北九州"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "Sakana Chatの記憶可視化機能",
+   "keys": [
+    "Sakana Chat",
+    "My Fish",
+    "Sakana AI"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "抗菌ペプチド探索とAntigravity",
+   "keys": [
+    "Google Antigravity for Science",
+    "antimicrobial peptides"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "Ricursive IntelligenceのAI設計チップ",
+   "keys": [
+    "Ricursive Intelligence",
+    "AI-designed chips"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "Figmaのエージェント機能とコードレイヤー",
+   "keys": [
+    "Figma",
+    "code layers"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "RTX Spark搭載PCとWindows最適化",
+   "keys": [
+    "RTX Spark",
+    "Nvidia",
+    "Windows"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "マシュマロ型ロボット玩具の情報管理",
+   "keys": [
+    "marshmallow robot toy",
+    "Chinese servers"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "topic": "Flockのマイクと提訴",
+   "keys": [
+    "Flock",
+    "ALPR",
+    "ACLU"
+   ]
+  },
   {
    "date": "2026-10-15",
    "topic": "OpenAI役員会議室の録音装置でエンジニア逮捕",
@@ -1482,98 +1628,6 @@
    "keys": [
     "Brian Chesky",
     "Airbnb"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "OpenAIが組織的なモデル蒸留の動きを阻止",
-   "keys": [
-    "adversarial distillation",
-    "OpenAI",
-    "model reasoning"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "OpenAIのIPO延期とHugging Face侵入訴訟",
-   "keys": [
-    "OpenAI IPO",
-    "Hugging Face",
-    "$30 billion",
-    "Sam Altman"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "Googleが出版社にAI検索の対価を支払う試験",
-   "keys": [
-    "Google AI search",
-    "publishers pilot program",
-    "The Information"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "Google DeepMindがAI設計タンパク質に透かし",
-   "keys": [
-    "SynthID Bio",
-    "Google DeepMind",
-    "AI-designed proteins"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "Liquid AIの意思決定モデルd1とJev",
-   "keys": [
-    "d1",
-    "Jev",
-    "Liquid AI",
-    "Decisions API"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "ElevenLabsが評価額220億ドルに",
-   "keys": [
-    "ElevenLabs",
-    "$22B",
-    "Wellington",
-    "T. Rowe Price"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "RedditがRSSと公開API提供を終了",
-   "keys": [
-    "Reddit",
-    "RSS",
-    "public API access"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "DoorDashのテキスト注文AIエージェント",
-   "keys": [
-    "DoorDash",
-    "Uber Eats",
-    "Grubhub"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "汎用AIに実車を運転させるDrivingBench",
-   "keys": [
-    "DrivingBench",
-    "ChatGPT"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "topic": "OpenAIとSBDCの中小企業向けAI研修",
-   "keys": [
-    "America's SBDC",
-    "OpenAI",
-    "small businesses"
    ]
   }
  ]
