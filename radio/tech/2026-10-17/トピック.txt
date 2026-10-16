@@ -1,0 +1,16 @@
+Meta、オープンモデルMuse Spark Open発表 ||| Muse Spark Open, Meta, Apple silicon, Mac Studio
+Meta商用規約でウェブサイトのクロール同意 ||| Meta commercial terms, 2026年10月30日, Facebook, Instagram, WhatsApp
+インドで不正AIエージェント活動を報告 ||| India, rogue AI agent, 認証情報, クラウドロール
+Perplexityがサンドボックス「SPACE」公開 ||| Perplexity, SPACE, サンドボックス, オープンソース化
+OpenRouterがエージェント防御「Armor」 ||| OpenRouter, Armor, AIエージェント, ベータ
+NVIDIAのエージェント設計原則 ||| NVIDIA, AIエージェント, 権限管理, アクセス制御
+TSMC 2026年7〜9月期決算で最高益 ||| TSMC, 7630億台湾元, 1兆4942億台湾元, 魏会長
+Google Willowで魔法状態の培養を実証 ||| Magic State Cultivation, Willow, Google Quantum AI
+OpenAIがRosalind Academic Plan発表 ||| Rosalind Academic Plan, GPT-Rosalind, OpenAI
+Liquid AIがd1-ultraを発表 ||| d1-ultra, Jev 1.14, Liquid AI, Vercel
+日本俳優連合が声の生成AI指針 ||| 日本俳優連合, 音声に関する生成AI利用ガイドライン
+Replit CEOの自動運転の会社構想 ||| Replit, Amjad Masad, self-driving company
+SentinelOneがOpenAI Daybreak活用 ||| SentinelOne, OpenAI Daybreak, マルウェア分析
+Gartnerが日本企業に7つのアクション提言 ||| Gartner, 7つのアクション, 不正アクセス
+Sullivan & CromwellのAgreement Analyzer ||| Sullivan & Cromwell, Agreement Analyzer, OpenAI
+元NVIDIAのVCが語るロボティクスのLego era ||| Amulya Vishwanath, Lego era, physical AI, NVIDIA

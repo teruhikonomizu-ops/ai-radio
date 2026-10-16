@@ -1,0 +1,22 @@
+【世界のAIニュース】10/17 メタ新モデルと規約／エージェント安全
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月17日）:
+1. Meta、オープンウェイトモデル「Muse Spark Open」発表（Apple Silicon最適化）
+2. Metaの新商用利用規約と、ウェブサイトのクロール同意をめぐる懸念
+3. インドで不正なAIエージェント活動を報告／Perplexity「SPACE」・OpenRouter「Armor」・NVIDIAの設計原則
+4. TSMC 7〜9月期決算、売上高・純利益とも過去最高
+5. Google Quantum AI、量子プロセッサ「Willow」で魔法状態の培養を実証
+6. OpenAI「Rosalind Academic Plan」
+7. Liquid AI「d1-ultra」とVercelでのJev採用
+8. 日本俳優連合「音声に関する生成AI利用ガイドライン」
+9. Replit CEOの「自動運転の会社」構想
+10. SentinelOneのOpenAI Daybreak活用事例
+11. Gartnerの不正アクセス対策「7つのアクション」
+12. Sullivan & Cromwell「Agreement Analyzer」
+13. 元NVIDIAのAmulya Vishwanath氏が語るロボティクス
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Meta #AIエージェント #TSMC

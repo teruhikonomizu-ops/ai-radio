@@ -1,6 +1,159 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "entries": [
+  {
+   "date": "2026-10-17",
+   "topic": "Meta、オープンモデルMuse Spark Open発表",
+   "keys": [
+    "Muse Spark Open",
+    "Meta",
+    "Apple silicon",
+    "Mac Studio"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "Meta商用規約でウェブサイトのクロール同意",
+   "keys": [
+    "Meta commercial terms",
+    "2026年10月30日",
+    "Facebook",
+    "Instagram",
+    "WhatsApp"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "インドで不正AIエージェント活動を報告",
+   "keys": [
+    "India",
+    "rogue AI agent",
+    "認証情報",
+    "クラウドロール"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "Perplexityがサンドボックス「SPACE」公開",
+   "keys": [
+    "Perplexity",
+    "SPACE",
+    "サンドボックス",
+    "オープンソース化"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "OpenRouterがエージェント防御「Armor」",
+   "keys": [
+    "OpenRouter",
+    "Armor",
+    "AIエージェント",
+    "ベータ"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "NVIDIAのエージェント設計原則",
+   "keys": [
+    "NVIDIA",
+    "AIエージェント",
+    "権限管理",
+    "アクセス制御"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "TSMC 2026年7〜9月期決算で最高益",
+   "keys": [
+    "TSMC",
+    "7630億台湾元",
+    "1兆4942億台湾元",
+    "魏会長"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "Google Willowで魔法状態の培養を実証",
+   "keys": [
+    "Magic State Cultivation",
+    "Willow",
+    "Google Quantum AI"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "OpenAIがRosalind Academic Plan発表",
+   "keys": [
+    "Rosalind Academic Plan",
+    "GPT-Rosalind",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "Liquid AIがd1-ultraを発表",
+   "keys": [
+    "d1-ultra",
+    "Jev 1.14",
+    "Liquid AI",
+    "Vercel"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "日本俳優連合が声の生成AI指針",
+   "keys": [
+    "日本俳優連合",
+    "音声に関する生成AI利用ガイドライン"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "Replit CEOの自動運転の会社構想",
+   "keys": [
+    "Replit",
+    "Amjad Masad",
+    "self-driving company"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "SentinelOneがOpenAI Daybreak活用",
+   "keys": [
+    "SentinelOne",
+    "OpenAI Daybreak",
+    "マルウェア分析"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "Gartnerが日本企業に7つのアクション提言",
+   "keys": [
+    "Gartner",
+    "7つのアクション",
+    "不正アクセス"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "Sullivan & CromwellのAgreement Analyzer",
+   "keys": [
+    "Sullivan & Cromwell",
+    "Agreement Analyzer",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "topic": "元NVIDIAのVCが語るロボティクスのLego era",
+   "keys": [
+    "Amulya Vishwanath",
+    "Lego era",
+    "physical AI",
+    "NVIDIA"
+   ]
+  },
   {
    "date": "2026-10-16",
    "topic": "アメリカ8州がOpenAIを提訴",
@@ -1508,126 +1661,6 @@
     "GPT-5.6",
     "Albertsons",
     "ChatGPT Enterprise"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "Gemini 4 Argonを限定提供",
-   "keys": [
-    "Gemini 4 Argon",
-    "Google DeepMind"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "OpenAIが安全研究者3人と関係終了",
-   "keys": [
-    "OpenAI",
-    "WSJ",
-    "安全研究者3人"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "AI Overviews訴訟を棄却",
-   "keys": [
-    "AI Overviews",
-    "Chegg",
-    "Penske Media Corporation"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "ロボ上司禁止法に知事署名",
-   "keys": [
-    "SB-947",
-    "No Robo Bosses Act",
-    "Gavin Newsom"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "Shopify Canvas発表",
-   "keys": [
-    "Shopify Canvas",
-    "Sidekick",
-    "Legato"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "メモリー不足は2028年まで",
-   "keys": [
-    "RAM shortage",
-    "2028",
-    "2027年向けメモリー価格"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "千葉市にAIデータセンター",
-   "keys": [
-    "JERA",
-    "Dell Technologies",
-    "RHAELM"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "SynthID Bio発表",
-   "keys": [
-    "SynthID Bio",
-    "Google DeepMind"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "DeepSeekとHuaweiの開発ツール公開",
-   "keys": [
-    "TileLang",
-    "DeepGEMM Ascend",
-    "Ascend"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "Strategoを攻略するAI",
-   "keys": [
-    "Stratego",
-    "ニューラルネットワーク"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "日立とファナックのフィジカルAI",
-   "keys": [
-    "日立製作所",
-    "ファナック"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "意思決定モデルStrands Decider 2B",
-   "keys": [
-    "Strands Decider 2B",
-    "Jev",
-    "Ollaya"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "HENNGE AI設立",
-   "keys": [
-    "HENNGE AI",
-    "HENNGE"
-   ]
-  },
-  {
-   "date": "2026-10-02",
-   "topic": "Brian Chesky氏のインタビュー",
-   "keys": [
-    "Brian Chesky",
-    "Airbnb"
    ]
   }
  ]
