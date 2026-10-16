@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/17(土) 緊急地震速報の会見／日銀総裁</title>
+      <description>【AIデイリーニュース】10/17(土) 緊急地震速報の会見／日銀総裁
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・気象庁が緊急地震速報の誤発表で3度目の会見、過去の対策が機能せず
+・個人情報の漏えい、2026年はのべ1億6500万人分余りに
+・日銀の植田総裁、今後も利上げを進める考え
+・TSMCの熊本第2工場、3ナノ世代の半導体生産計画を国が認定
+・コメの平均価格は5キロ2837円、9週連続の値下がり
+・台風30号、非常に強い勢力に発達する見込み
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Sat, 17 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-17/news-2026-10-17.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-17/news-2026-10-17.mp3" length="10599071" type="audio/mpeg"/>
+      <itunes:duration>0:11:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/16(金) 消費税減税／不正アクセス</title>
       <description>【AIデイリーニュース】10/16(金) 消費税減税／不正アクセス
 
