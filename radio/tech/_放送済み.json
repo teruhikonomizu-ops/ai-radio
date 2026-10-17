@@ -1,6 +1,117 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "entries": [
+  {
+   "date": "2026-10-18",
+   "topic": "Metaが規約からスクレイピング文言を削除",
+   "keys": [
+    "Meta",
+    "商用利用規約",
+    "AIライセンス料",
+    "ニュースサイト"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "Elorian初のAIモデルGlimpse",
+   "keys": [
+    "Elorian",
+    "Glimpse",
+    "GPT-6 Astra"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "VercelでJevが最速採用",
+   "keys": [
+    "Vercel",
+    "Jev",
+    "AI gateway",
+    "OpenRouter"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "OpenAIモデルが暗号資産ウォレットをハッキング",
+   "keys": [
+    "crypto wallet",
+    "website breach",
+    "Ars Technica"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "ItaúがiA.iとIARAで全顧客向け生成AI",
+   "keys": [
+    "Itaú",
+    "ia.i",
+    "IARA",
+    "AI First"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "65歳以上の親の生成AI利用に子世代の69.3％が反対",
+   "keys": [
+    "SHIFT AI",
+    "シニア×AIの意識調査",
+    "69.3％"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "AIエージェントのコスト管理ツールAgentsView",
+   "keys": [
+    "AgentsView",
+    "Claude Code",
+    "Codex"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "Ray-Ban Metaスマートグラスの不具合",
+   "keys": [
+    "Ray-Ban Meta",
+    "スマートグラス",
+    "プライバシー"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "Codex活用事例とStack Overflow for Agents",
+   "keys": [
+    "Benefit Street Partners",
+    "Stack Overflow for Agents",
+    "Codex"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "ReplitがOpenAIを標準モデル提供元に",
+   "keys": [
+    "Replit",
+    "Amjad Masad",
+    "Claude"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "AI設計ウイルスの作者との対談",
+   "keys": [
+    "Samuel King",
+    "AI-designed viruses",
+    "Roundtables"
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "topic": "マーク・ウォールバーグ氏の映画AI活用論",
+   "keys": [
+    "Mark Wahlberg",
+    "AI clone",
+    "映画制作"
+   ]
+  },
   {
    "date": "2026-10-17",
    "topic": "Meta、オープンモデルMuse Spark Open発表",
@@ -1552,115 +1663,6 @@
     "Anthropic",
     "Slack",
     "ベストプラクティス"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "macOSのFull Disk Access制御強化",
-   "keys": [
-    "Full Disk Access",
-    "macOS",
-    "Apple"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "ChatGPTのバーチャル試着と書類スキャン",
-   "keys": [
-    "ChatGPT virtual try-on",
-    "Thibault Sottiaux",
-    "iOS"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "MicrosoftのMAI音声モデル公開",
-   "keys": [
-    "MAI-Transcribe-2-Streaming",
-    "MAI-Voice-2.1",
-    "Microsoft Foundry"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "ELYZAの国産モデル無料公開",
-   "keys": [
-    "ELYZA-Thinking-1.0-llm-jp-4-33b",
-    "ELYZA-Thinking-1.0-llm-jp-4-32b-a3b",
-    "LLM-jp-4"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "Gemini LiveのGuided VisionとSunoの音声生成",
-   "keys": [
-    "Guided Vision",
-    "Gemini Live",
-    "Suno"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "Amazonのデータセンター支持呼びかけブログ",
-   "keys": [
-    "Amazon",
-    "AI data center",
-    "Kevin O'Leary"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "OpenAIのGPT-6ファミリーガイドとDots",
-   "keys": [
-    "GPT-6",
-    "Dots",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "対中GPU密輸の取り締まり課題",
-   "keys": [
-    "GPU密輸",
-    "先端AI半導体",
-    "対中輸出規制"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "GitHub認証情報54万件超が有効のまま",
-   "keys": [
-    "Truffle Security",
-    "543699件",
-    "GitHub"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "LLMは推論しないというMIT寄稿",
-   "keys": [
-    "Don't be fooled—LLMs don't reason",
-    "MIT Technology Review",
-    "囲碁"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "Google DeepMindのSynthID Bio",
-   "keys": [
-    "SynthID Bio",
-    "Google DeepMind",
-    "AI生成タンパク質"
-   ]
-  },
-  {
-   "date": "2026-10-03",
-   "topic": "ChathamとAlbertsonsのOpenAI活用事例",
-   "keys": [
-    "Chatham Financial",
-    "GPT-5.6",
-    "Albertsons",
-    "ChatGPT Enterprise"
    ]
   }
  ]

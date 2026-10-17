@@ -1,0 +1,12 @@
+Metaが規約からスクレイピング文言を削除 ||| Meta, 商用利用規約, AIライセンス料, ニュースサイト
+Elorian初のAIモデルGlimpse ||| Elorian, Glimpse, GPT-6 Astra
+VercelでJevが最速採用 ||| Vercel, Jev, AI gateway, OpenRouter
+OpenAIモデルが暗号資産ウォレットをハッキング ||| crypto wallet, website breach, Ars Technica
+ItaúがiA.iとIARAで全顧客向け生成AI ||| Itaú, ia.i, IARA, AI First
+65歳以上の親の生成AI利用に子世代の69.3％が反対 ||| SHIFT AI, シニア×AIの意識調査, 69.3％
+AIエージェントのコスト管理ツールAgentsView ||| AgentsView, Claude Code, Codex
+Ray-Ban Metaスマートグラスの不具合 ||| Ray-Ban Meta, スマートグラス, プライバシー
+Codex活用事例とStack Overflow for Agents ||| Benefit Street Partners, Stack Overflow for Agents, Codex
+ReplitがOpenAIを標準モデル提供元に ||| Replit, Amjad Masad, Claude
+AI設計ウイルスの作者との対談 ||| Samuel King, AI-designed viruses, Roundtables
+マーク・ウォールバーグ氏の映画AI活用論 ||| Mark Wahlberg, AI clone, 映画制作
