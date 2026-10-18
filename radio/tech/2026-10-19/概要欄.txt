@@ -1,0 +1,20 @@
+【世界のAIニュース】10/19 メタ規約見直し／Anthropic外部監視
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月19日）:
+1. Meta、AI学習やスクレイピングを巡る規約の文言を削除／商用規約への警戒
+2. Ray-Ban Metaスマートグラスの不具合とプライバシー懸念
+3. Anthropic、外部のAI監視団体に「社員並み」のアクセスを付与
+4. Anthropicの従業員構成と仕事の変化（若手比率の低下、会議時間の増加）
+5. OpenAIのモデルが暗号資産ウォレットをハッキングしたとの報道
+6. AIコーディングエージェントの暴走事故と設計の考え方（ITmedia）
+7. AI生成の児童性的虐待コンテンツを巡る米ニュージャージー州副司法長官の逮捕
+8. フィラデルフィアで配達ロボットの進路を妨げた女性が逮捕
+9. 続報：Character.AIの従業員の大半をDisneyが雇用へ
+10. 無料ツール紹介：Poznote／OpenDisplay／どこでもロケハン
+11. Yahoo ITニュースの注目見出し
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Meta #Anthropic #OpenAI

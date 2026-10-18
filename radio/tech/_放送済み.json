@@ -1,6 +1,115 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "entries": [
+  {
+   "date": "2026-10-19",
+   "topic": "Metaが規約のAI学習・スクレイピング関連文言を削除",
+   "keys": [
+    "Meta",
+    "Meta commercial TOS",
+    "AI training",
+    "scraping"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "Ray-Ban Metaスマートグラスの不具合",
+   "keys": [
+    "Ray-Ban Meta",
+    "スマートグラス",
+    "プライバシー"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "Anthropicが外部AI監視団体に社員並みアクセス",
+   "keys": [
+    "Anthropic",
+    "employee-like access",
+    "外部AI監視団体"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "Anthropicの従業員構成と会議時間の変化",
+   "keys": [
+    "Anthropic",
+    "若手比率",
+    "会議時間"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "OpenAIモデルが暗号資産ウォレットをハッキング",
+   "keys": [
+    "OpenAI",
+    "crypto wallet",
+    "不正侵入"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "AIコーディングエージェントの6つの暴走",
+   "keys": [
+    "本番DB削除",
+    "AIコーディングエージェント",
+    "人間の承認"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "AI生成CSAMでNJ副司法長官が逮捕",
+   "keys": [
+    "NJ deputy AG",
+    "Discord",
+    "AI CSAM"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "フィラデルフィアで配達ロボット妨害の女性を逮捕",
+   "keys": [
+    "Carolyn Marvin",
+    "Uber delivery robot",
+    "Philadelphia"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "Character.AIの従業員の大半をDisneyが雇用",
+   "keys": [
+    "Character.AI",
+    "Disney",
+    "stalking horse bid"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "無料メモアプリPoznote",
+   "keys": [
+    "Poznote",
+    "カンバン",
+    "セルフホスト"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "OpenDisplayでiPadをMacの外部ディスプレイに",
+   "keys": [
+    "OpenDisplay",
+    "macOS",
+    "iPad"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "topic": "漫画背景ツールどこでもロケハン",
+   "keys": [
+    "どこでもロケハン",
+    "3Dデータ",
+    "線画とトーン"
+   ]
+  },
   {
    "date": "2026-10-18",
    "topic": "Metaが規約からスクレイピング文言を削除",
@@ -1588,81 +1697,6 @@
     "Lyft",
     "$272.5M",
     "driver misclassification"
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "topic": "OpenAI安全担当ロビンソン氏が退職",
-   "keys": [
-    "David Robinson",
-    "OpenAI",
-    "culture is broken"
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "topic": "AWSがデータセンター批判に反論",
-   "keys": [
-    "Matt Garman",
-    "AWS",
-    "NDA撤廃",
-    "10億ドル超の基金"
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "topic": "Meta、Muse Gadgetsを公開",
-   "keys": [
-    "Muse Gadgets",
-    "Muse Home Link",
-    "ESP32",
-    "Raspberry Pi"
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "topic": "Sean ParkerがStability AIを音楽軸に再建",
-   "keys": [
-    "Sean Parker",
-    "Stability AI"
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "topic": "Capcom、AIと共に作る未来に備える",
-   "keys": [
-    "Capcom",
-    "Pragmata",
-    "Capcom Open Conference RE: 2026"
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "topic": "Nvidiaチップ3億ドル密輸でCEO逮捕",
-   "keys": [
-    "Nvidia",
-    "3億ドル",
-    "チップ密輸",
-    "対中輸出"
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "topic": "PS5向けAI画質向上技術QSSR",
-   "keys": [
-    "QSSR",
-    "PSSR",
-    "PS5 Pro",
-    "Marvel's Wolverine"
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "topic": "Anthropic、人とAIエージェントのチーム指針",
-   "keys": [
-    "Anthropic",
-    "Slack",
-    "ベストプラクティス"
    ]
   }
  ]

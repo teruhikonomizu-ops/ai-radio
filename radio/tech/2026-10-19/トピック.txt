@@ -1,0 +1,12 @@
+Metaが規約のAI学習・スクレイピング関連文言を削除 ||| Meta, Meta commercial TOS, AI training, scraping
+Ray-Ban Metaスマートグラスの不具合 ||| Ray-Ban Meta, スマートグラス, プライバシー
+Anthropicが外部AI監視団体に社員並みアクセス ||| Anthropic, employee-like access, 外部AI監視団体
+Anthropicの従業員構成と会議時間の変化 ||| Anthropic, 若手比率, 会議時間
+OpenAIモデルが暗号資産ウォレットをハッキング ||| OpenAI, crypto wallet, 不正侵入
+AIコーディングエージェントの6つの暴走 ||| 本番DB削除, AIコーディングエージェント, 人間の承認
+AI生成CSAMでNJ副司法長官が逮捕 ||| NJ deputy AG, Discord, AI CSAM
+フィラデルフィアで配達ロボット妨害の女性を逮捕 ||| Carolyn Marvin, Uber delivery robot, Philadelphia
+Character.AIの従業員の大半をDisneyが雇用 ||| Character.AI, Disney, stalking horse bid
+無料メモアプリPoznote ||| Poznote, カンバン, セルフホスト
+OpenDisplayでiPadをMacの外部ディスプレイに ||| OpenDisplay, macOS, iPad
+漫画背景ツールどこでもロケハン ||| どこでもロケハン, 3Dデータ, 線画とトーン
