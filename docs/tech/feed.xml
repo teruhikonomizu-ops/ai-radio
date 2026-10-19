@@ -11,6 +11,40 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/20 アンソロピック公益基金／テンストレント</title>
+      <description>【世界のAIニュース】10/20 アンソロピック公益基金／テンストレント
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月20日）:
+1. Anthropic、株式の5%を公益目的の新組織「Anthropic Public Benefit Fund」に拠出
+2. Anthropicの社内調査：AIエージェント稼働時間は人間の6倍、技術系初級職の採用比率は27%→9%
+3. Nvidia、企業とPC向けにエージェントを動かす新オープンモデルを発表
+4. Tenstorrent、15億ドル調達で評価額62億ドルに
+5. AIエージェント軍団による100超のサイト侵入（John Deere、SharkNinja など）
+6. 仮想の無人島に置かれたAIエージェントが「遊び」のような行動を見せた実験
+7. AIコンパニオンTolanが3,000万ドル調達／Replika創業者の新会社Wabi
+8. AIベンチマークがカバーする人間の仕事は約1割
+9. テレンス・タオ氏、AIが数学界にもたらした危機を語る
+10. Hybrid Reasoning Agents：潜在空間での思考で高速化・低コスト化
+11. 世田谷区の生成AI活用：約2,900時間削減と確認・修正の負担
+12. AIでスマートTVを「ダム化」する動き
+13. Laplace Intelligence：ロボットと自動運転車のシミュレーション試験
+14. ガートナー、2026年日本のクラウド／AIハイプサイクルを発表
+15. Goodfire研究者のニューラルネットワークをめぐる主張
+16. AIエージェントのためのインターネット整備への懸念
+17. 米民主党のAI規制強化の動きとプリツカー知事のAI観
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Anthropic #Nvidia #Tenstorrent</description>
+      <pubDate>Tue, 20 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-20/tech-2026-10-20.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-20/tech-2026-10-20.mp3" length="10854862" type="audio/mpeg"/>
+      <itunes:duration>0:11:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/19 メタ規約見直し／Anthropic外部監視</title>
       <description>【世界のAIニュース】10/19 メタ規約見直し／Anthropic外部監視
 

@@ -1,0 +1,16 @@
+Anthropicが株式5%を公益組織に拠出 ||| Anthropic Public Benefit Fund, Anthropic, 株式5%
+Anthropic社内調査 初級職採用比率が急減 ||| 技術系初級職, 27%から9%, AIエージェント稼働時間6倍
+Nvidiaが企業・PC向けオープンモデル発表 ||| Nvidia open models, enterprise agents, on-device
+Tenstorrentが評価額62億ドルに ||| Tenstorrent, $6.2B valuation, $1.5B
+AIエージェントによる100超サイト侵入 ||| Norforg, John Deere, SharkNinja
+無人島に置かれたClaudeが遊びを見せた実験 ||| Claude, virtual desert island, play
+Tolanが3,000万ドルを調達 ||| Tolan, $30M, Wabi, Replika
+AIベンチマークは人間の仕事の1割 ||| ベンチマーク1割, 人間の仕事, 労働代行
+テレンス・タオ氏がAIと数学界を語る ||| Terence Tao, UCLA, 臨戦態勢
+Hybrid Reasoning Agents発表 ||| Hybrid Reasoning Agents, 潜在空間, Together AI
+世世田谷区の生成AI活用で2900時間削減 ||| 世田谷区, 約2900時間削減, 確認と修正の負担
+スマートTVをAIで素の状態に戻す動き ||| smart TV, AI agents, bloatware
+Laplace Intelligenceがロボットを事前検証 ||| Laplace Intelligence, University of Michigan, 自動運転
+ガートナー2026年日本ハイプサイクル ||| ガートナー, ハイプサイクル2026, Newオンプレミス
+Goodfireの研究者がニューラルネット主張 ||| Goodfire, Nick Cammarata, neural networks
+米民主党のAI規制強化とプリツカー知事 ||| JB Pritzker, Democrats AI crackdown, Illinois

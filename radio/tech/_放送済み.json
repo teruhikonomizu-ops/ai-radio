@@ -1,6 +1,151 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "entries": [
+  {
+   "date": "2026-10-20",
+   "topic": "Anthropicが株式5%を公益組織に拠出",
+   "keys": [
+    "Anthropic Public Benefit Fund",
+    "Anthropic",
+    "株式5%"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "Anthropic社内調査 初級職採用比率が急減",
+   "keys": [
+    "技術系初級職",
+    "27%から9%",
+    "AIエージェント稼働時間6倍"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "Nvidiaが企業・PC向けオープンモデル発表",
+   "keys": [
+    "Nvidia open models",
+    "enterprise agents",
+    "on-device"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "Tenstorrentが評価額62億ドルに",
+   "keys": [
+    "Tenstorrent",
+    "$6.2B valuation",
+    "$1.5B"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "AIエージェントによる100超サイト侵入",
+   "keys": [
+    "Norforg",
+    "John Deere",
+    "SharkNinja"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "無人島に置かれたClaudeが遊びを見せた実験",
+   "keys": [
+    "Claude",
+    "virtual desert island",
+    "play"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "Tolanが3,000万ドルを調達",
+   "keys": [
+    "Tolan",
+    "$30M",
+    "Wabi",
+    "Replika"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "AIベンチマークは人間の仕事の1割",
+   "keys": [
+    "ベンチマーク1割",
+    "人間の仕事",
+    "労働代行"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "テレンス・タオ氏がAIと数学界を語る",
+   "keys": [
+    "Terence Tao",
+    "UCLA",
+    "臨戦態勢"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "Hybrid Reasoning Agents発表",
+   "keys": [
+    "Hybrid Reasoning Agents",
+    "潜在空間",
+    "Together AI"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "世世田谷区の生成AI活用で2900時間削減",
+   "keys": [
+    "世田谷区",
+    "約2900時間削減",
+    "確認と修正の負担"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "スマートTVをAIで素の状態に戻す動き",
+   "keys": [
+    "smart TV",
+    "AI agents",
+    "bloatware"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "Laplace Intelligenceがロボットを事前検証",
+   "keys": [
+    "Laplace Intelligence",
+    "University of Michigan",
+    "自動運転"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "ガートナー2026年日本ハイプサイクル",
+   "keys": [
+    "ガートナー",
+    "ハイプサイクル2026",
+    "Newオンプレミス"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "Goodfireの研究者がニューラルネット主張",
+   "keys": [
+    "Goodfire",
+    "Nick Cammarata",
+    "neural networks"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "topic": "米民主党のAI規制強化とプリツカー知事",
+   "keys": [
+    "JB Pritzker",
+    "Democrats AI crackdown",
+    "Illinois"
+   ]
+  },
   {
    "date": "2026-10-19",
    "topic": "Metaが規約のAI学習・スクレイピング関連文言を削除",
@@ -1608,95 +1753,6 @@
     "SpaceXAI",
     "Super Intelligence",
     "イーロン・マスク"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "トランプ大統領のSuper Intelligence Force発表",
-   "keys": [
-    "Super Intelligence Force",
-    "Dario Amodei",
-    "ホワイトハウス"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "個人向けGeminiのモデル選択が厳格化",
-   "keys": [
-    "Gemini",
-    "Flash-Lite",
-    "AI Plus",
-    "AI Pro"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "AWSのNDA廃止と10億ドル計画への反発",
-   "keys": [
-    "AWS",
-    "NDA",
-    "10億ドル",
-    "データセンター"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "テキストメッセージで使えるAIエージェント一覧",
-   "keys": [
-    "AI agents in text messages",
-    "TechCrunch"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "Spliceの社長が語るAIメールと会話",
-   "keys": [
-    "Splice",
-    "Kakul Srivastava"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "NJ前副知事コールドウェル氏とAI",
-   "keys": [
-    "Dale Caldwell",
-    "ニュージャージー州"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "Cloudflare Quick Tunnelsのレビュー",
-   "keys": [
-    "Cloudflare Quick Tunnels",
-    "localhost",
-    "Cloudflare Tunnel"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "SQLデータベースでDoomを動かす",
-   "keys": [
-    "Doom",
-    "SQL",
-    "35 fps"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "スノボキッズの逆コンパイル完了",
-   "keys": [
-    "スノボキッズ",
-    "Chris Lewis",
-    "NINTENDO64"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "topic": "Lyftが運転手分類訴訟で和解",
-   "keys": [
-    "Lyft",
-    "$272.5M",
-    "driver misclassification"
    ]
   }
  ]
