@@ -1,0 +1,10 @@
+グーグルがPyTorch移行ツールを公開 ||| PyTorch, Nvidia GPU, Google, Amazon
+Meta Museが米国1000万DLと共有停止 ||| Meta Muse, Muse sharing, 10M U.S. downloads
+米国がDeepSeekを連邦民間機関から排除 ||| DeepSeek, 連邦調達サプライチェーン安全法, 国土安全保障省
+デジタル庁が源内でAIエージェント環境を展開 ||| 源内, 源内基準, デジタル庁
+ChatGPTにチャットのロック機能 ||| ChatGPT lock chats, ChatGPT
+Spotifyが5000万曲のAIスロップを除外 ||| Spotify, 50 million tracks
+Eka Roboticsが評価額14.5億ドル ||| Eka Robotics, physical AI
+OpenAIがOrchestra Bioを買収 ||| Orchestra Bio, OpenAI
+Otter.aiが3.2億ドル調達 ||| Otter.ai, Customer Value Fund
+Cloudflareが抽出AI Clairicを発表 ||| Clairic, System One, Cloudflare

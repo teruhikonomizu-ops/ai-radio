@@ -1,6 +1,92 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "entries": [
+  {
+   "date": "2026-10-21",
+   "topic": "グーグルがPyTorch移行ツールを公開",
+   "keys": [
+    "PyTorch",
+    "Nvidia GPU",
+    "Google",
+    "Amazon"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "Meta Museが米国1000万DLと共有停止",
+   "keys": [
+    "Meta Muse",
+    "Muse sharing",
+    "10M U.S. downloads"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "米国がDeepSeekを連邦民間機関から排除",
+   "keys": [
+    "DeepSeek",
+    "連邦調達サプライチェーン安全法",
+    "国土安全保障省"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "デジタル庁が源内でAIエージェント環境を展開",
+   "keys": [
+    "源内",
+    "源内基準",
+    "デジタル庁"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "ChatGPTにチャットのロック機能",
+   "keys": [
+    "ChatGPT lock chats",
+    "ChatGPT"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "Spotifyが5000万曲のAIスロップを除外",
+   "keys": [
+    "Spotify",
+    "50 million tracks"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "Eka Roboticsが評価額14.5億ドル",
+   "keys": [
+    "Eka Robotics",
+    "physical AI"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "OpenAIがOrchestra Bioを買収",
+   "keys": [
+    "Orchestra Bio",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "Otter.aiが3.2億ドル調達",
+   "keys": [
+    "Otter.ai",
+    "Customer Value Fund"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "topic": "Cloudflareが抽出AI Clairicを発表",
+   "keys": [
+    "Clairic",
+    "System One",
+    "Cloudflare"
+   ]
+  },
   {
    "date": "2026-10-20",
    "topic": "Anthropicが株式5%を公益組織に拠出",
@@ -1613,146 +1699,6 @@
     "東芝",
     "Western Digital",
     "Seagate"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "ChatGPTとCodexの文章透かし",
-   "keys": [
-    "ChatGPT",
-    "Codex",
-    "text watermarking",
-    "EU text provenance rules"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "ChatGPTの画像つき新広告形式",
-   "keys": [
-    "ChatGPT visual ads",
-    "image generation ads",
-    "brand suitability"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "アルトマン氏インタビューをめぐる報道",
-   "keys": [
-    "Sam Altman",
-    "Vanity Fair",
-    "Mark Guiducci"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "韓国の銀行へのサイバー攻撃",
-   "keys": [
-    "新韓銀行",
-    "韓国の銀行6行",
-    "AIエージェント攻撃"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "中国のAIエージェント群の追跡",
-   "keys": [
-    "agent fleet",
-    "Tencent",
-    "Amap",
-    "Alibaba"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "TikTokのAIショッピングアシスタント",
-   "keys": [
-    "TikTok Shopping Assistant",
-    "one-click checkout"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "Instinctのグループチャット機能",
-   "keys": [
-    "Instinct",
-    "group chats",
-    "AI agent"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "HackerRankのAI面接官",
-   "keys": [
-    "HackerRank AI interviewer",
-    "Snowflake",
-    "Snorkel",
-    "Capgemini"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "ノルウェーのAIメガネ取り締まり",
-   "keys": [
-    "AI glasses",
-    "Norway",
-    "録画できるメガネ"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "Googleデータセンター黒塗り報告",
-   "keys": [
-    "Google",
-    "Lincoln Nebraska",
-    "DWEE",
-    "年次報告書"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "Linuxカーネル脆弱性1313件",
-   "keys": [
-    "Linux kernel",
-    "1313 CVE",
-    "Debian"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "Codexの28日間毎日改善宣言",
-   "keys": [
-    "Codex",
-    "ティボ",
-    "フルリセット",
-    "28日間"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "Strataで量子化Qwenをローカル実行",
-   "keys": [
-    "Strata",
-    "Qwen3.8-Flash-Next",
-    "125B"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "ガートナーとサーバーワークスのAI調査",
-   "keys": [
-    "Gartner",
-    "サーバーワークス",
-    "AIエージェント導入52.7％"
-   ]
-  },
-  {
-   "date": "2026-10-06",
-   "topic": "SpaceXAIからSpaceXSIへ改名",
-   "keys": [
-    "SpaceXSI",
-    "SpaceXAI",
-    "Super Intelligence",
-    "イーロン・マスク"
    ]
   }
  ]

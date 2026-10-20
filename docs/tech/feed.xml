@@ -11,6 +11,31 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/21 Muse共有停止／DeepSeek排除</title>
+      <description>【世界のAIニュース】10/21 Muse共有停止／DeepSeek排除
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月21日）:
+1. Googleが、PyTorchアプリをNvidia GPUから移しやすくする開発者向けツールを公開
+2. Meta「Muse」が40日で米国1000万ダウンロード、会話の共有機能は一時停止
+3. 米国が連邦民間機関にDeepSeek製品の排除を命令
+4. デジタル庁「源内」で政府職員18万人向けAIエージェント環境、「源内基準」も公表
+5. ChatGPTにチャットをロックする機能
+6. Spotifyが5000万曲超のAIスロップ・スパムをおすすめから除外
+7. Eka Roboticsの評価額14.5億ドル、Otter.aiの3.2億ドル調達、OpenAIのOrchestra Bio買収
+8. Yelpの電話確認機能、Cloudflare「Clairic」、ベンチマーク「Parsimony」ほか
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Muse #DeepSeek #源内</description>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-21/tech-2026-10-21.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-21/tech-2026-10-21.mp3" length="10648390" type="audio/mpeg"/>
+      <itunes:duration>0:11:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/20 アンソロピック公益基金／テンストレント</title>
       <description>【世界のAIニュース】10/20 アンソロピック公益基金／テンストレント
 
