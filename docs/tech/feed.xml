@@ -11,6 +11,33 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/22 PHP脆弱性／ChatGPT広告拡大</title>
+      <description>【世界のAIニュース】10/22 PHP脆弱性／ChatGPT広告拡大
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月22日）:
+1. PHPの重大脆弱性「PHP2Shell」をAIで発見、緊急アップデートと「Patch the Planet」
+2. OpenAIのモデルとCodexがGoogle CloudのModel Gardenに登場
+3. ChatGPT Adsが新たに26か国へ拡大、チャットのロック機能も
+4. Gemini、Apple CarPlay対応とPersonal Intelligenceの車載展開
+5. Anthropicが提案するAI安全法案と、クラウド各社との関係
+6. AI型ペネトレーションテストツール「ARTEX」による日本企業への攻撃
+7. Alibabaらの研究 AIにネットショップを1年運営させるE-Commerce Bench
+8. AI導入で評価が難しくなったと答える管理職の調査
+9. SpaceXの第3四半期黒字とAI事業
+10. OpenEvidence、AT&amp;T、日立のGPU冷却、デジタル庁「Harunobu」、政府機関向けGemini ほか
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #PHP #OpenAI #Gemini</description>
+      <pubDate>Thu, 22 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-22/tech-2026-10-22.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-22/tech-2026-10-22.mp3" length="10633343" type="audio/mpeg"/>
+      <itunes:duration>0:11:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/21 Muse共有停止／DeepSeek排除</title>
       <description>【世界のAIニュース】10/21 Muse共有停止／DeepSeek排除
 

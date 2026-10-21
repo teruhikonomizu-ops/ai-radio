@@ -1,0 +1,10 @@
+PHP2Shellの脆弱性をAIが発見 ||| PHP2Shell, PHP 8.5.12, Patch the Planet, Calif, Wiz
+OpenAIモデルがGoogle Cloudへ ||| Model Garden, Codex, Google Cloud Marketplace
+ChatGPT Adsが26か国に拡大 ||| ChatGPT Ads, 26 new countries, ChatGPTのチャットロック
+GeminiがApple CarPlayに対応 ||| Gemini CarPlay, Personal Intelligence, Android Auto
+Anthropicの安全法案とクラウド問題 ||| Anthropic AI safety bill, Eric Schmidt, Dario Amodei
+AIペンテストツールARTEXによる攻撃 ||| ARTEX, GMOサイバーセキュリティ byイエラエ
+AIのネットショップ運営ベンチマーク ||| E-Commerce Bench, Qwen, HKUST
+OpenEvidenceの医療AIと広告 ||| OpenEvidence, 150億ドル
+政府機関向けGeminiのプレビュー ||| Gemini for government services, Google Cloud
+デジタル庁の神Excel対策ツール ||| Harunobu, デジタル庁

@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-10-22",
+ "title": "【世界のAIニュース】10/22 PHP脆弱性／ChatGPT広告拡大",
+ "description": "【世界のAIニュース】10/22 PHP脆弱性／ChatGPT広告拡大\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年10月22日）:\n1. PHPの重大脆弱性「PHP2Shell」をAIで発見、緊急アップデートと「Patch the Planet」\n2. OpenAIのモデルとCodexがGoogle CloudのModel Gardenに登場\n3. ChatGPT Adsが新たに26か国へ拡大、チャットのロック機能も\n4. Gemini、Apple CarPlay対応とPersonal Intelligenceの車載展開\n5. Anthropicが提案するAI安全法案と、クラウド各社との関係\n6. AI型ペネトレーションテストツール「ARTEX」による日本企業への攻撃\n7. Alibabaらの研究 AIにネットショップを1年運営させるE-Commerce Bench\n8. AI導入で評価が難しくなったと答える管理職の調査\n9. SpaceXの第3四半期黒字とAI事業\n10. OpenEvidence、AT&T、日立のGPU冷却、デジタル庁「Harunobu」、政府機関向けGemini ほか\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #PHP #OpenAI #Gemini",
+ "duration_sec": 665,
+ "size_bytes": 10633343,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-22/tech-2026-10-22.mp3"
+}

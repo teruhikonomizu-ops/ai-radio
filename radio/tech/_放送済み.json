@@ -1,6 +1,94 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "entries": [
+  {
+   "date": "2026-10-22",
+   "topic": "PHP2Shellの脆弱性をAIが発見",
+   "keys": [
+    "PHP2Shell",
+    "PHP 8.5.12",
+    "Patch the Planet",
+    "Calif",
+    "Wiz"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "OpenAIモデルがGoogle Cloudへ",
+   "keys": [
+    "Model Garden",
+    "Codex",
+    "Google Cloud Marketplace"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "ChatGPT Adsが26か国に拡大",
+   "keys": [
+    "ChatGPT Ads",
+    "26 new countries",
+    "ChatGPTのチャットロック"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "GeminiがApple CarPlayに対応",
+   "keys": [
+    "Gemini CarPlay",
+    "Personal Intelligence",
+    "Android Auto"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "Anthropicの安全法案とクラウド問題",
+   "keys": [
+    "Anthropic AI safety bill",
+    "Eric Schmidt",
+    "Dario Amodei"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "AIペンテストツールARTEXによる攻撃",
+   "keys": [
+    "ARTEX",
+    "GMOサイバーセキュリティ byイエラエ"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "AIのネットショップ運営ベンチマーク",
+   "keys": [
+    "E-Commerce Bench",
+    "Qwen",
+    "HKUST"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "OpenEvidenceの医療AIと広告",
+   "keys": [
+    "OpenEvidence",
+    "150億ドル"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "政府機関向けGeminiのプレビュー",
+   "keys": [
+    "Gemini for government services",
+    "Google Cloud"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "topic": "デジタル庁の神Excel対策ツール",
+   "keys": [
+    "Harunobu",
+    "デジタル庁"
+   ]
+  },
   {
    "date": "2026-10-21",
    "topic": "グーグルがPyTorch移行ツールを公開",
@@ -1610,95 +1698,6 @@
     "openTPU",
     "Qwen3.5",
     "Gemma 4"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "Mistralの新大型モデル公開",
-   "keys": [
-    "Mistral Large 4",
-    "Mistral AI"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "OpenAIエージェントとWikipedia障害",
-   "keys": [
-    "Wikimedia Foundation",
-    "OpenAI agents",
-    "Wikipedia"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "Anthropicのスタートアップ支援",
-   "keys": [
-    "Claude Team",
-    "$1",
-    "000 credits"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "Claude Coworkのローカル実行廃止",
-   "keys": [
-    "Claude Cowork",
-    "このコンピュータのみ"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "国内の不正アクセス・情報流出急増",
-   "keys": [
-    "旭化成",
-    "シチズン",
-    "MrMax",
-    "焼肉きんぐ",
-    "安野貴博"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "Nolla HealthのAIニキビ処方",
-   "keys": [
-    "Nolla Health",
-    "Utah",
-    "AI prescription"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "TavusのAIモデルGriffin",
-   "keys": [
-    "Griffin",
-    "Griffin-Lite",
-    "Tavus"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "AtlassianとOpenAIの提携拡大",
-   "keys": [
-    "Atlassian",
-    "Ironclad",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "LibreOfficeのno AI方針",
-   "keys": [
-    "LibreOffice",
-    "no AI"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "topic": "東芝のAI向けHDD増産",
-   "keys": [
-    "東芝",
-    "Western Digital",
-    "Seagate"
    ]
   }
  ]
