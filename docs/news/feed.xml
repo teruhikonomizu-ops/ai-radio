@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/23(金) 道新記者／ドラフト／定数削減</title>
+      <description>【AIデイリーニュース】10/23(金) 道新記者／ドラフト／定数削減
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・ロシアで拘束された北海道新聞の記者、日本大使館が差し入れ、領事面会と即時解放を働きかけ
+・プロ野球ドラフト会議、織田翔希投手は巨人、14歳の関蓮太郎選手を巨人が育成5位で指名
+・自民党が衆院の比例代表31議席削減案を提示、来週再協議へ
+・台風30号、先島諸島が暴風域に
+・カプコンで会員情報約1177万件が漏えい、PHPの脆弱性対応でサービス停止も相次ぐ
+・中国チベット自治区でM7.0の地震
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Fri, 23 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-23/news-2026-10-23.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-23/news-2026-10-23.mp3" length="10577337" type="audio/mpeg"/>
+      <itunes:duration>0:11:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/22(木) 秋田大雨／高市政権1年</title>
       <description>【AIデイリーニュース】10/22(木) 秋田大雨／高市政権1年
 
