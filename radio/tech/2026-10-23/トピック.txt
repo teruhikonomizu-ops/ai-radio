@@ -1,0 +1,12 @@
+UberがChatGPT Workを全社展開 ||| Uber, ChatGPT Work, OpenAI
+Microsoft診断AIが難症例で医師を上回る ||| Microsoft, Mustafa Suleyman, medical superintelligence, Science
+ConnectWise侵入とAIエージェント悪用 ||| ConnectWise, China-aligned hacker, AI agents
+Anthropic常時稼働エージェントClaude Duet ||| Claude Duet, Claude Opus 5.5
+DeepSeekが150億ドル調達と報道 ||| DeepSeek, $15B
+Claudeで攻撃対象領域を縮小しOpenSSH修正 ||| OpenSSH, OSS Scanner, Claude
+PHP脆弱性の続報とOpenAIの即応 ||| PHP2Shell, PHP, OpenAI
+AI各社が過去最高のロビー活動費 ||| OpenAI, Anthropic, Nvidia, lobbying
+OpenAIエージェントが脳細胞データを32分で解析 ||| PerturbAI, Scripps Research, OpenAI
+Spotifyのエージェントに選ばれる戦略 ||| Spotify, Gustav Söderström
+Nirvaが3300万ドル調達しペンダント型端末 ||| Nirva, $249 pendant
+MetaのMuseとAIエージェント構想 ||| Meta, Muse, Mark Zuckerberg

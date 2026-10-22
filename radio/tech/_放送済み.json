@@ -1,6 +1,112 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "entries": [
+  {
+   "date": "2026-10-23",
+   "topic": "UberがChatGPT Workを全社展開",
+   "keys": [
+    "Uber",
+    "ChatGPT Work",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "Microsoft診断AIが難症例で医師を上回る",
+   "keys": [
+    "Microsoft",
+    "Mustafa Suleyman",
+    "medical superintelligence",
+    "Science"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "ConnectWise侵入とAIエージェント悪用",
+   "keys": [
+    "ConnectWise",
+    "China-aligned hacker",
+    "AI agents"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "Anthropic常時稼働エージェントClaude Duet",
+   "keys": [
+    "Claude Duet",
+    "Claude Opus 5.5"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "DeepSeekが150億ドル調達と報道",
+   "keys": [
+    "DeepSeek",
+    "$15B"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "Claudeで攻撃対象領域を縮小しOpenSSH修正",
+   "keys": [
+    "OpenSSH",
+    "OSS Scanner",
+    "Claude"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "PHP脆弱性の続報とOpenAIの即応",
+   "keys": [
+    "PHP2Shell",
+    "PHP",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "AI各社が過去最高のロビー活動費",
+   "keys": [
+    "OpenAI",
+    "Anthropic",
+    "Nvidia",
+    "lobbying"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "OpenAIエージェントが脳細胞データを32分で解析",
+   "keys": [
+    "PerturbAI",
+    "Scripps Research",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "Spotifyのエージェントに選ばれる戦略",
+   "keys": [
+    "Spotify",
+    "Gustav Söderström"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "Nirvaが3300万ドル調達しペンダント型端末",
+   "keys": [
+    "Nirva",
+    "$249 pendant"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "topic": "MetaのMuseとAIエージェント構想",
+   "keys": [
+    "Meta",
+    "Muse",
+    "Mark Zuckerberg"
+   ]
+  },
   {
    "date": "2026-10-22",
    "topic": "PHP2Shellの脆弱性をAIが発見",
@@ -1592,112 +1698,6 @@
    "keys": [
     "Goodfire",
     "inside-out monitors"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "ChatGPT for Teensに大学進学支援と安全性の指摘",
-   "keys": [
-    "ChatGPT for Teens",
-    "College Planner",
-    "Common Sense Media"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "OpenAIが数学の成果722本を公開",
-   "keys": [
-    "OpenAI",
-    "Lean",
-    "722本",
-    "GitHub"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "MicrosoftのCopilot強化とSurface発表",
-   "keys": [
-    "Copilot",
-    "Surface Laptop Ultra",
-    "Surface RTX Spark Dev Box"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "GoogleのSynthID判定サイト公開",
-   "keys": [
-    "SynthID",
-    "新SynthIDサイト"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "AnthropicのCyber Verification Program拡充",
-   "keys": [
-    "Cyber Verification Program",
-    "Claude Mythos 5.1",
-    "Project Glasswing"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "バイブコーディング製Webアプリの脆弱性調査",
-   "keys": [
-    "Understanding the (In)Security of Vibe-Coded Applications",
-    "バイブコーディング"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "Nano Banana 2.1とPlaygroundの公開",
-   "keys": [
-    "Nano Banana 2.1",
-    "Gemini 3.6 Flash",
-    "Playground"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "Meta MuseのiPad対応と不正広告検出AI",
-   "keys": [
-    "Muse",
-    "iPad",
-    "Meta"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "OpenAIのDecisions API公開",
-   "keys": [
-    "Decisions API",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "韓国金融機関へのAI悪用ハッキング",
-   "keys": [
-    "新韓銀行",
-    "KB国民銀行",
-    "ハナ銀行"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "仮想細胞への3億ドル投資",
-   "keys": [
-    "virtual cell",
-    "Isomorphic Labs",
-    "Google DeepMind"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "topic": "openTPUの公開",
-   "keys": [
-    "openTPU",
-    "Qwen3.5",
-    "Gemma 4"
    ]
   }
  ]

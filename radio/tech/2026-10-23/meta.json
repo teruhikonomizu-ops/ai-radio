@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-10-23",
+ "title": "【世界のAIニュース】10/23 Uber全社導入／医療AI",
+ "description": "【世界のAIニュース】10/23 Uber全社導入／医療AI\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年10月23日）:\n1. UberがChatGPT Workを3万人以上の従業員に展開\n2. Microsoftの診断AIが難しい症例で一般医を上回ったとする研究\n3. ConnectWise侵入で中国寄りのハッカーがAIエージェントを悪用と報道\n4. Anthropicの常時稼働エージェント「Claude Duet」\n5. DeepSeekが150億ドルを調達と報道\n6. Claudeでソフトウェアの攻撃対象領域を縮小する研究とOpenSSHの修正\n7. PHP脆弱性の続報（OpenAIのモデルが発見、緊急メンテナンスの経緯）\n8. 短めのニュース: AI各社の過去最高のロビー活動費／OpenAIのエージェントによる脳細胞データ解析／Spotifyのエージェント戦略／Nirvaのペンダント型AI端末／MetaのAIエージェント構想／ビル・ゲイツ氏の発言／漢検のAI生成画像の誤字／宇宙AIデータセンター構想\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #ChatGPT #ClaudeDuet #DeepSeek",
+ "duration_sec": 687,
+ "size_bytes": 10991116,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-23/tech-2026-10-23.mp3"
+}
