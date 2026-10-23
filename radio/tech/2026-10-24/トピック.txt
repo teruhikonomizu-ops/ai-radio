@@ -1,0 +1,12 @@
+OpenAIが300億ドル調達を準備 ||| OpenAI, $30B raise, $1.25T valuation
+ChatGPT基盤Habitatのストレージ拡張 ||| Habitat, Azure Cosmos DB, ChatGPT
+OpenAIとポーランドNASKの提携 ||| NASK, OpenAI, AI safety
+OpenAI Decisions APIとCOBOL移行検証 ||| Decisions API, COBOL, Fortran
+MITの仮想の島のAIエージェント実験 ||| MIT, 13 AIs, virtual island
+1Password for Agentsの発表 ||| 1Password for Agents, 1Password
+Canva初の画像生成モデル ||| Canva, image generation model
+AI侵入テストツールARTEXの悪用 ||| ARTEX, Storm-0940, チームみらい
+Googleのプライバシーポリシー更新と広告 ||| Gmail, Google Photos, privacy policy
+CodexによるSwitch 2脱獄手法ns2jb ||| ns2jb, Codex, Nintendo Switch 2
+inDriveのロボタクシー試験計画 ||| inDrive, Pony.ai, Kazakhstan
+推論エンジンLiquid RIPLとWorldTUI ||| Liquid RIPL, WorldTUI, Liquid AI

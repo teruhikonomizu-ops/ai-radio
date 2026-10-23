@@ -1,0 +1,9 @@
+{
+ "show": "tech",
+ "date": "2026-10-24",
+ "title": "【世界のAIニュース】10/24 OpenAI調達／ARTEX悪用",
+ "description": "【世界のAIニュース】10/24 OpenAI調達／ARTEX悪用\n\n相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。\n\n今日のトピック（2026年10月24日）:\n1. OpenAIが300億ドル規模の調達を準備、企業価値1.25兆ドルと報道\n2. ChatGPTを支えるストレージ基盤Habitat、OpenAIとNASKの提携\n3. OpenAI Decisions APIとCOBOL移行の検証結果\n4. MITが13のAIエージェントを仮想の島に置いた実験\n5. 1Password for Agents：パスワードを見せずにAIがログイン\n6. Canva初の画像生成モデル\n7. 侵入テストツールARTEXの悪用とチームみらいの緊急提言\n8. Googleのプライバシーポリシー更新とレトロゲームのAI化\n9. Codexを使ったNintendo Switch 2の脱獄手法\n10. inDriveのロボタクシー試験計画\n11. Liquid RIPL／WorldTUIなど注目ツール、コーディングAIの課題\n\n出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。\n\n#AI #人工知能 #テクノロジー #ニュース #OpenAI #サイバーセキュリティ #AIエージェント",
+ "duration_sec": 641,
+ "size_bytes": 10263867,
+ "url": "https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-24/tech-2026-10-24.mp3"
+}

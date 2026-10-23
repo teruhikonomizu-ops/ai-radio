@@ -1,6 +1,112 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "entries": [
+  {
+   "date": "2026-10-24",
+   "topic": "OpenAIが300億ドル調達を準備",
+   "keys": [
+    "OpenAI",
+    "$30B raise",
+    "$1.25T valuation"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "ChatGPT基盤Habitatのストレージ拡張",
+   "keys": [
+    "Habitat",
+    "Azure Cosmos DB",
+    "ChatGPT"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "OpenAIとポーランドNASKの提携",
+   "keys": [
+    "NASK",
+    "OpenAI",
+    "AI safety"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "OpenAI Decisions APIとCOBOL移行検証",
+   "keys": [
+    "Decisions API",
+    "COBOL",
+    "Fortran"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "MITの仮想の島のAIエージェント実験",
+   "keys": [
+    "MIT",
+    "13 AIs",
+    "virtual island"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "1Password for Agentsの発表",
+   "keys": [
+    "1Password for Agents",
+    "1Password"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "Canva初の画像生成モデル",
+   "keys": [
+    "Canva",
+    "image generation model"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "AI侵入テストツールARTEXの悪用",
+   "keys": [
+    "ARTEX",
+    "Storm-0940",
+    "チームみらい"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "Googleのプライバシーポリシー更新と広告",
+   "keys": [
+    "Gmail",
+    "Google Photos",
+    "privacy policy"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "CodexによるSwitch 2脱獄手法ns2jb",
+   "keys": [
+    "ns2jb",
+    "Codex",
+    "Nintendo Switch 2"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "inDriveのロボタクシー試験計画",
+   "keys": [
+    "inDrive",
+    "Pony.ai",
+    "Kazakhstan"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "topic": "推論エンジンLiquid RIPLとWorldTUI",
+   "keys": [
+    "Liquid RIPL",
+    "WorldTUI",
+    "Liquid AI"
+   ]
+  },
   {
    "date": "2026-10-23",
    "topic": "UberがChatGPT Workを全社展開",
@@ -1610,94 +1716,6 @@
     "PC shipments",
     "20.1 percent",
     "Q1 2023"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "Anthropic、小型モデルClaude Haiku 5.5を公開",
-   "keys": [
-    "Claude Haiku 5.5",
-    "Haiku 4.5",
-    "effort設定"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "Anthropicが利用ポリシーを更新",
-   "keys": [
-    "Anthropic usage policy",
-    "Claude",
-    "選挙干渉"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "Google、仕事向けGeminiエージェント発表",
-   "keys": [
-    "Gemini at Work",
-    "universal Gemini agent",
-    "subagents"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "USA TodayがOpenAIを提訴",
-   "keys": [
-    "USA Today Co.",
-    "OpenAI",
-    "著作権訴訟"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "OpenAIの売上が予測を下回るとの報道",
-   "keys": [
-    "OpenAI revenue",
-    "200億ドル",
-    "年換算売上700億ドル"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "Arenaが2億ドル調達、評価額31億ドル",
-   "keys": [
-    "LMArena",
-    "Arena",
-    "Lightspeed",
-    "Khosla"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "Google「Playground」とUnity Spark",
-   "keys": [
-    "Google Playground",
-    "Unity Spark"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "OpenAIが偽装メディアによる情報工作を摘発",
-   "keys": [
-    "Disrupting AI-enabled false front operations",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "GoogleがSynthID Detectorを一般公開",
-   "keys": [
-    "SynthID Detector",
-    "Google",
-    "NVIDIA"
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "topic": "Goodfireのエージェント監視モニター",
-   "keys": [
-    "Goodfire",
-    "inside-out monitors"
    ]
   }
  ]
