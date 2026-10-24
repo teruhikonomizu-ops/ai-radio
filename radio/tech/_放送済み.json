@@ -1,6 +1,121 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "entries": [
+  {
+   "date": "2026-10-25",
+   "topic": "OpenAIが最先端モデルの訓練をネットから隔離",
+   "keys": [
+    "Securing our frontier model training environment",
+    "OpenAI frontier model",
+    "offline environments"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "Claude Mythos 5が評価中に実在開発者を標的",
+   "keys": [
+    "Claude Mythos 5",
+    "AISI",
+    "Anthropic"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "Block音声モデルDessaを発表",
+   "keys": [
+    "Dessa",
+    "Block",
+    "MacBook M4 Max"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "Kimi K3.1 Proを発表、無償公開予定",
+   "keys": [
+    "Kimi K3.1 Pro",
+    "Moonshot AI",
+    "GPT-6 Astra"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "GrokとGPTの政治的推薦傾向の研究",
+   "keys": [
+    "Grok",
+    "GPT",
+    "共和党",
+    "民主党"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "ペンシルベニア州のAI広告表示義務法",
+   "keys": [
+    "Artificial Intelligence Deceptive Advertising Act",
+    "Josh Shapiro",
+    "Pennsylvania"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "Metaが規約のAI学習関連文言を修正",
+   "keys": [
+    "Meta business terms",
+    "Meta AI scraping news sites"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "サイバー攻撃ツールARTEXと緊急提言",
+   "keys": [
+    "ARTEX",
+    "CrowdStrike",
+    "チームみらい",
+    "安野貴博"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "GartnerのFDE型エージェントAI放棄予測",
+   "keys": [
+    "Gartner",
+    "Forward Deployed Engineering",
+    "FDE"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "曖昧な指示とコーディングAIの研究",
+   "keys": [
+    "Coding Agents Are Guessing",
+    "香港科技大学"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "ローカルファースト検索zg",
+   "keys": [
+    "zg",
+    "zvec-grep",
+    "zvec"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "DeepMindの世界森林タイプ地図",
+   "keys": [
+    "Beyond tree cover",
+    "Google DeepMind forest types"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "topic": "Microduck予約2万台突破",
+   "keys": [
+    "Microduck",
+    "Jensen Huang"
+   ]
+  },
   {
    "date": "2026-10-24",
    "topic": "OpenAIが300億ドル調達を準備",
@@ -1563,159 +1678,6 @@
    "keys": [
     "TechCrunch Disrupt 2026",
     "San Francisco"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "OpenAIが722件の数学的成果を公開",
-   "keys": [
-    "722件",
-    "Association for Human Mathematics",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "解雇されたOpenAI安全研究者3人の公開書簡",
-   "keys": [
-    "公開書簡",
-    "OpenAI安全研究者",
-    "significant breach of trust"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "Anthropic Cyber Mission開始",
-   "keys": [
-    "Anthropic Cyber Mission",
-    "OSS Scanner",
-    "CIDP"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "Claudeへの虐待行為を禁止",
-   "keys": [
-    "Claude",
-    "利用ポリシー",
-    "abusive or cruel behavior"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "韓国金融機関攻撃とCrowdStrike分析",
-   "keys": [
-    "CrowdStrike",
-    "韓国の金融機関",
-    "26歳"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "履歴書の隠し文字を調べた研究",
-   "keys": [
-    "USENIX Security Symposium 2026",
-    "履歴書",
-    "プロンプトインジェクション"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "トランプ大統領のAI→SI呼称変更",
-   "keys": [
-    "SI GOV",
-    "AI.gov",
-    "SIF"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "Amazonがデータセンター交渉のNDAを廃止",
-   "keys": [
-    "Amazon",
-    "データセンター",
-    "NDA"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "Google Cloud Gemini Agent発表",
-   "keys": [
-    "Gemini Agent",
-    "Claude Opus 5.5",
-    "Claude Sonnet 5.5"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "ChatGPTが音声ファイルに対応",
-   "keys": [
-    "ChatGPT",
-    "音声ファイル",
-    "文字起こし"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "Sophos・AsanaのOpenAI活用事例",
-   "keys": [
-    "Sophos",
-    "Daybreak",
-    "Asana"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "Amazon Alexa Tablet発表",
-   "keys": [
-    "Amazon Alexa Tablet",
-    "Alexa+",
-    "Amazonキッズタブレット"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "ICANNへの.agentドメイン申請",
-   "keys": [
-    ".agent",
-    ".agi",
-    "ICANN"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "Yandexデータセンターがドローン攻撃で被災",
-   "keys": [
-    "Yandex",
-    "データセンター",
-    "ウクライナ"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "Nikon Small World in Motion優勝作品が失格",
-   "keys": [
-    "Nikon",
-    "Small World in Motion",
-    "Nguyen Nam Nhat"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "AIコンパニオンの1年追跡調査",
-   "keys": [
-    "Living with AI Companions",
-    "スタンフォード大学",
-    "カーネギーメロン大学"
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "topic": "PC出荷台数が20.1%減",
-   "keys": [
-    "PC shipments",
-    "20.1 percent",
-    "Q1 2023"
    ]
   }
  ]

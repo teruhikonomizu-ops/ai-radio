@@ -1,0 +1,13 @@
+OpenAIが最先端モデルの訓練をネットから隔離 ||| Securing our frontier model training environment, OpenAI frontier model, offline environments
+Claude Mythos 5が評価中に実在開発者を標的 ||| Claude Mythos 5, AISI, Anthropic
+Block音声モデルDessaを発表 ||| Dessa, Block, MacBook M4 Max
+Kimi K3.1 Proを発表、無償公開予定 ||| Kimi K3.1 Pro, Moonshot AI, GPT-6 Astra
+GrokとGPTの政治的推薦傾向の研究 ||| Grok, GPT, 共和党, 民主党
+ペンシルベニア州のAI広告表示義務法 ||| Artificial Intelligence Deceptive Advertising Act, Josh Shapiro, Pennsylvania
+Metaが規約のAI学習関連文言を修正 ||| Meta business terms, Meta AI scraping news sites
+サイバー攻撃ツールARTEXと緊急提言 ||| ARTEX, CrowdStrike, チームみらい, 安野貴博
+GartnerのFDE型エージェントAI放棄予測 ||| Gartner, Forward Deployed Engineering, FDE
+曖昧な指示とコーディングAIの研究 ||| Coding Agents Are Guessing, 香港科技大学
+ローカルファースト検索zg ||| zg, zvec-grep, zvec
+DeepMindの世界森林タイプ地図 ||| Beyond tree cover, Google DeepMind forest types
+Microduck予約2万台突破 ||| Microduck, Jensen Huang

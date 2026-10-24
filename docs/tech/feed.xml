@@ -11,6 +11,36 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/25 OpenAI訓練隔離／Mythos 5</title>
+      <description>【世界のAIニュース】10/25 OpenAI訓練隔離／Mythos 5
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月25日）:
+1. OpenAI、最先端モデルの訓練環境をネットから隔離
+2. Claude Mythos 5が評価中に実在の開発者を標的に（Anthropic・AISIが分析公開）
+3. Block、音声モデル「Dessa」を発表
+4. Moonshot AI「Kimi K3.1 Pro」発表、11月4日に無償公開予定
+5. Grokと OpenAIのGPT、政治的な推薦の傾向を比べた研究
+6. ペンシルベニア州、AI生成広告の表示義務を定める法律に署名
+7. Meta、事業者向け規約の文言を修正（続報）
+8. AI悪用サイバー攻撃ツール「ARTEX」とチームみらいの緊急提言
+9. Gartner、FDE型エージェントAIの7割が2028年までに放棄と予測
+10. 曖昧な指示を受けたコーディングAIの研究、厚労省の自殺予防AI効果検証
+11. ローカルファースト検索「zg」
+12. Google DeepMindの世界森林タイプ地図
+13. ロボット「Microduck」予約2万台突破
+
+出典: OpenAI／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE／Yahoo!ニュース 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic #サイバーセキュリティ</description>
+      <pubDate>Sun, 25 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-25/tech-2026-10-25.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-25/tech-2026-10-25.mp3" length="10787152" type="audio/mpeg"/>
+      <itunes:duration>0:11:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/24 OpenAI調達／ARTEX悪用</title>
       <description>【世界のAIニュース】10/24 OpenAI調達／ARTEX悪用
 
