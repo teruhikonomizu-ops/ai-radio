@@ -11,6 +11,34 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】10/26 AI投資の収益／検索と出版／Meta規約</title>
+      <description>【世界のAIニュース】10/26 AI投資の収益／検索と出版／Meta規約
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月26日）:
+1. AIは大半の企業で財務上の見返りゼロ、とApolloのエコノミストが指摘
+2. GoogleのAI検索変更がオンライン出版を揺さぶる（The Stepback）
+3. Metaが新事業規約の適用を延期、AIスクレイピングへの出版社の懸念
+4. r/opensourceがAI利用プロジェクトなどを禁止する新投稿ルール
+5. 600以上の言語に対応する無料TTSモデル「OmniVoice」
+6. 厚労省が自殺予防へのAI活用の効果検証へ
+7. 続報：OpenAIが最先端モデルをライブのインターネットで訓練しない方針
+8. TechCrunchの特集：AIの墓場／AIウェアラブル／テキストメッセージのAIエージェント
+9. Nvidia CEOが遊ぶ小型ロボット「Microduck」
+10. BBC「Blue Planet III」とレトロゲームに見るAI時代の映像
+11. テック短信：Intelの適用除外、XboxのCOO退任、Starlink速度制限解除ほか
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #AI投資 #Meta #OpenAI</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-26/tech-2026-10-26.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-10-26/tech-2026-10-26.mp3" length="10968128" type="audio/mpeg"/>
+      <itunes:duration>0:11:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】10/25 OpenAI訓練隔離／Mythos 5</title>
       <description>【世界のAIニュース】10/25 OpenAI訓練隔離／Mythos 5
 

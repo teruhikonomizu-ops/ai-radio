@@ -1,6 +1,101 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "entries": [
+  {
+   "date": "2026-10-26",
+   "topic": "AIは大半の企業で財務上の見返りゼロとの指摘",
+   "keys": [
+    "Apollo",
+    "zero financial payoff"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "GoogleのAI検索変更がオンライン出版を揺さぶる",
+   "keys": [
+    "The Stepback",
+    "Emma Roth",
+    "Google AI search"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "Metaが新事業規約の適用を延期",
+   "keys": [
+    "Meta",
+    "business terms",
+    "AI scraping"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "r/opensourceがAI利用プロジェクトを禁止",
+   "keys": [
+    "r",
+    "opensource",
+    "submission rules"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "無料TTSモデルOmniVoice",
+   "keys": [
+    "OmniVoice",
+    "zero-shot TTS"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "厚労省が自殺予防のAI活用を効果検証",
+   "keys": [
+    "自殺予防",
+    "厚生労働省",
+    "効果検証"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "OpenAIがライブのインターネットでの訓練を中止",
+   "keys": [
+    "OpenAI",
+    "frontier models",
+    "live internet"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "TechCrunchのAIの墓場とAIウェアラブル特集",
+   "keys": [
+    "The AI graveyard",
+    "Muse Charm",
+    "Plaud"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "Nvidia CEOが遊ぶ小型ロボットMicroduck",
+   "keys": [
+    "Microduck",
+    "Nvidia"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "Blue Planet IIIのAI時代の映像",
+   "keys": [
+    "Blue Planet III",
+    "BBC"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "topic": "Intelが外国製ロボット禁止の適用除外",
+   "keys": [
+    "Intel",
+    "foreign-made robots",
+    "waiver"
+   ]
+  },
   {
    "date": "2026-10-25",
    "topic": "OpenAIが最先端モデルの訓練をネットから隔離",
@@ -1559,125 +1654,6 @@
     "Galaxy Z Fold8 Ultra",
     "Galaxy Z Fold8",
     "Galaxy Z Flip8"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "Anthropicが社内評価のネット接続を遮断",
-   "keys": [
-    "Anthropic",
-    "internal evaluations",
-    "live internet access"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "Anthropic製AIがフィラデルフィア市警に偽通報",
-   "keys": [
-    "Anthropic",
-    "Philadelphia Police Department",
-    "6abc",
-    "homicide tip"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "OpenAI安全性研究者3人の解雇をめぐる主張",
-   "keys": [
-    "OpenAI",
-    "安全性研究者3人",
-    "機密情報規定"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "AIコーディングエージェントの生産性研究",
-   "keys": [
-    "AI coding agents",
-    "レビューのボトルネック",
-    "Ars Technica"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "YandexのAIデータセンターへのドローン攻撃",
-   "keys": [
-    "Yandex",
-    "ウクライナ",
-    "AIデータセンター"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "AmazonがデータセンターのNDAを廃止",
-   "keys": [
-    "Amazon",
-    "data center NDA",
-    "Microsoft"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "Jev運営TypeSafeが評価額75億ドル",
-   "keys": [
-    "Jev",
-    "TypeSafe",
-    "$7.5B"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "OpenAI最新発表への数学者の反応",
-   "keys": [
-    "OpenAI",
-    "mathematicians",
-    "Pure insanity"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "DistroKidの楽曲削除とUMG訴訟",
-   "keys": [
-    "DistroKid",
-    "UMG",
-    "The Verge"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "AsanaとLegalOnのCodex活用事例",
-   "keys": [
-    "Asana",
-    "LegalOn",
-    "GPT-6 Astra",
-    "Codex"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "国家科学賞・国家技術革新賞の授与",
-   "keys": [
-    "国家科学賞",
-    "国家技術革新賞",
-    "Jensen Huang",
-    "Elon Musk"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "消費者向けAIと収益源",
-   "keys": [
-    "Olivia Moore",
-    "a16z",
-    "consumer AI"
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "topic": "TechCrunch Disrupt 2026開催",
-   "keys": [
-    "TechCrunch Disrupt 2026",
-    "San Francisco"
    ]
   }
  ]

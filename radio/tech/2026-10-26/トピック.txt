@@ -1,0 +1,11 @@
+AIは大半の企業で財務上の見返りゼロとの指摘 ||| Apollo, zero financial payoff
+GoogleのAI検索変更がオンライン出版を揺さぶる ||| The Stepback, Emma Roth, Google AI search
+Metaが新事業規約の適用を延期 ||| Meta, business terms, AI scraping
+r/opensourceがAI利用プロジェクトを禁止 ||| r/opensource, submission rules
+無料TTSモデルOmniVoice ||| OmniVoice, zero-shot TTS
+厚労省が自殺予防のAI活用を効果検証 ||| 自殺予防, 厚生労働省, 効果検証
+OpenAIがライブのインターネットでの訓練を中止 ||| OpenAI, frontier models, live internet
+TechCrunchのAIの墓場とAIウェアラブル特集 ||| The AI graveyard, Muse Charm, Plaud
+Nvidia CEOが遊ぶ小型ロボットMicroduck ||| Microduck, Nvidia
+Blue Planet IIIのAI時代の映像 ||| Blue Planet III, BBC
+Intelが外国製ロボット禁止の適用除外 ||| Intel, foreign-made robots, waiver
