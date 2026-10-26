@@ -1,6 +1,108 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "entries": [
+  {
+   "date": "2026-10-27",
+   "topic": "Anthropicが上場を正式申請",
+   "keys": [
+    "Anthropic S-1",
+    "Claude Platform",
+    "Anthropic IPO"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "SpaceXが約400億ドルのGPU資金調達",
+   "keys": [
+    "SpaceX",
+    "Apollo",
+    "$40B GPU financing"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "Microsoftが最大6万人に希望退職",
+   "keys": [
+    "Microsoft buyouts",
+    "60",
+    "000 employees"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "OpenAIが学習中のネット遮断方針を発表",
+   "keys": [
+    "OpenAI frontier model training",
+    "Brotli"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "Googleがプライバシーポリシーに広告利用の例外を追記",
+   "keys": [
+    "Google Personal Intelligence",
+    "Gmail",
+    "Googleフォト"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "OpenAI Signalsと仕事でのChatGPT利用",
+   "keys": [
+    "OpenAI Signals",
+    "Fanatics",
+    "Shop the Look"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "GPS偽装でデータセンター向け貨物を窃盗",
+   "keys": [
+    "GPS spoofing",
+    "data center cargo"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "Boston DynamicsのICE向けロボット犬販売に従業員反対",
+   "keys": [
+    "Boston Dynamics",
+    "ICE"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "日本HPが大規模AI向けワークステーション発表",
+   "keys": [
+    "HP ZGX Fury G1n AI Station",
+    "GB300 Grace Blackwell Ultra"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "The RealRealがAIエージェント対策を強化",
+   "keys": [
+    "The RealReal",
+    "bot defense"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "Dataikuの新サービスとAIガバナンス",
+   "keys": [
+    "Dataiku",
+    "AIガバナンス一元化"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "topic": "Google Fitbit Edgeが発売",
+   "keys": [
+    "Google Fitbit Edge",
+    "Pixel Watch",
+    "Fitbit Air"
+   ]
+  },
   {
    "date": "2026-10-26",
    "topic": "AIは大半の企業で財務上の見返りゼロとの指摘",
@@ -1563,97 +1665,6 @@
     "Blueprints AI",
     "Plaud",
     "Honeyjar"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "ナデラ氏のAI緊急ブレーキ発言",
-   "keys": [
-    "Satya Nadella",
-    "emergency brake",
-    "trust architecture",
-    "全AIモデル compromised"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "トランプ大統領のAI改名構想",
-   "keys": [
-    "super intelligence",
-    "Trump",
-    "AI rename"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "アップルがHuxeのチーム採用と技術ライセンス",
-   "keys": [
-    "Huxe",
-    "Apple",
-    "パーソナライズ・ポッドキャスト"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "データセンター反対論とNDA見直し論",
-   "keys": [
-    "data center moratorium",
-    "NDA",
-    "TechCrunch Equity"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "音声AIはまだChatGPTの転機前",
-   "keys": [
-    "voice AI",
-    "ChatGPT moment",
-    "context layer"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "ウクライナがYandexのAIデータセンター攻撃",
-   "keys": [
-    "Yandex",
-    "Ukraine drones",
-    "Russia's Google"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "CPUのみ動作の音声認識Hayamimi",
-   "keys": [
-    "Hayamimi",
-    "早耳",
-    "リアルタイム多言語音声認識"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "Apple Intelligence削除ツールRemoveMacAI",
-   "keys": [
-    "RemoveMacAI",
-    "Apple Intelligence",
-    "macOS 27"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "BBCの1996年AI画家AARON番組公開",
-   "keys": [
-    "AARON",
-    "BBC",
-    "1996年"
-   ]
-  },
-  {
-   "date": "2026-10-12",
-   "topic": "Galaxy Z Fold8外観レビュー",
-   "keys": [
-    "Galaxy Z Fold8 Ultra",
-    "Galaxy Z Fold8",
-    "Galaxy Z Flip8"
    ]
   }
  ]

@@ -1,0 +1,12 @@
+Anthropicが上場を正式申請 ||| Anthropic S-1, Claude Platform, Anthropic IPO
+SpaceXが約400億ドルのGPU資金調達 ||| SpaceX, Apollo, $40B GPU financing
+Microsoftが最大6万人に希望退職 ||| Microsoft buyouts, 60,000 employees
+OpenAIが学習中のネット遮断方針を発表 ||| OpenAI frontier model training, Brotli
+Googleがプライバシーポリシーに広告利用の例外を追記 ||| Google Personal Intelligence, Gmail, Googleフォト
+OpenAI Signalsと仕事でのChatGPT利用 ||| OpenAI Signals, Fanatics, Shop the Look
+GPS偽装でデータセンター向け貨物を窃盗 ||| GPS spoofing, data center cargo
+Boston DynamicsのICE向けロボット犬販売に従業員反対 ||| Boston Dynamics, ICE
+日本HPが大規模AI向けワークステーション発表 ||| HP ZGX Fury G1n AI Station, GB300 Grace Blackwell Ultra
+The RealRealがAIエージェント対策を強化 ||| The RealReal, bot defense
+Dataikuの新サービスとAIガバナンス ||| Dataiku, AIガバナンス一元化
+Google Fitbit Edgeが発売 ||| Google Fitbit Edge, Pixel Watch, Fitbit Air

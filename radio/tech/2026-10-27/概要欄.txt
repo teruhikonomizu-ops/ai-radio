@@ -1,0 +1,25 @@
+【世界のAIニュース】10/27 Anthropic上場申請／MS希望退職
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月27日）:
+1. Anthropicが上場を正式申請、S-1から見える収益・損失・顧客戦略
+2. SpaceXが約400億ドルのGPU資金調達を確保
+3. Microsoftが最大6万人に希望退職を提示
+4. OpenAI、フロンティアモデル学習中のネット遮断方針を発表
+5. Google、Gmail・フォトのデータを広告に使う例外をポリシーに追記
+6. OpenAI Signalsが示す仕事でのChatGPT利用／FanaticsのShop the Look
+7. データセンター向け貨物をGPS偽装で狙う窃盗団
+8. Boston Dynamics従業員、ロボット犬のICE販売に反対
+9. 日本HP、大規模AI向けワークステーション「HP ZGX Fury G1n AI Station」
+10. The RealReal、AIエージェント対策のボット防御を更新
+11. Dataikuの新サービスから考えるAIガバナンス一元化
+12. 日常のAI被害に目を向けよという論考
+13. AIはCOBOLコード危機を解決できるか
+14. Teslaの自動運転サブスク戦略
+15. Kevin Roose氏と『The AGI Chronicles』
+16. Google Fitbit Edge発売／Google AI Quests「Polar Peaks」
+
+出典: OpenAI／Google／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Anthropic #IPO #SpaceX
