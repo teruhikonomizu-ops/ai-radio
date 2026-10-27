@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/28(水) ちばてつやさん死去／王座戦</title>
+      <description>【AIデイリーニュース】10/28(水) ちばてつやさん死去／王座戦
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・漫画家のちばてつやさんが87歳で死去
+・ヨルダンがシリアのIS拠点を空爆
+・将棋の王座戦で広瀬章人九段がタイトル獲得
+・10月の月例経済報告は「緩やかに回復」を維持
+・浜岡原発の運転差し止めの訴えを静岡地裁が退ける
+・KDDIがフィジカルAI事業に本格参入
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Wed, 28 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-28/news-2026-10-28.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-28/news-2026-10-28.mp3" length="10314440" type="audio/mpeg"/>
+      <itunes:duration>0:10:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/27(火) メタ15兆円調達／情報漏えい相次ぐ</title>
       <description>【AIデイリーニュース】10/27(火) メタ15兆円調達／情報漏えい相次ぐ
 
