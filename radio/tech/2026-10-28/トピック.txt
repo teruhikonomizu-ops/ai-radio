@@ -1,0 +1,14 @@
+Google DeepMindの世界モデルGenie 4を発表 ||| Genie 4, Genie 3, Google AI Ultra
+OpenAIが調和解析・計算複雑性・場の量子論で新発見 ||| Exponential Time Hypothesis, Kakeya conjecture, quantum chromodynamics
+AnthropicがIPO目論見書Form S-1を提出 ||| Anthropic, Form S-1, SEC
+AppleがPages・Keynote・NumbersにAIアシスタント ||| Pages, Keynote, Numbers
+FirefoxのSmart WindowにAI入力補助と監視機能 ||| Firefox, Smart Window
+OperaがローカルAI用の新標準WebAIを発表 ||| Opera, WebAI
+General Computeが1億ドルのシリーズA調達 ||| General Compute, Series A
+NvidiaがインドのSimplismartを支援 ||| Simplismart, Nvidia
+OpenAIとOracleがChatGPT向け提携を拡大 ||| Oracle, ChatGPT
+AI生成の個人向けフィッシングでクリック率約2.7倍 ||| A Large-Scale Study of Personalized Phishing using Large Language Models, ベルリン工科大学
+サイボウズ調査 大企業のAIコスト把握は3割未満 ||| サイボウズ, AI投資
+GMO Internetのクラウド不正アクセスと顧客データ公開 ||| GMO Internet, 警視庁
+MetaのRohit Patelが退社しNdocを設立 ||| Rohit Patel, Ndoc
+OpenAIのdotsとCodex Ultrafast ||| dots, Codex Ultrafast, Alexander Embiricos

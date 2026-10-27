@@ -1,6 +1,123 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "entries": [
+  {
+   "date": "2026-10-28",
+   "topic": "Google DeepMindの世界モデルGenie 4を発表",
+   "keys": [
+    "Genie 4",
+    "Genie 3",
+    "Google AI Ultra"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "OpenAIが調和解析・計算複雑性・場の量子論で新発見",
+   "keys": [
+    "Exponential Time Hypothesis",
+    "Kakeya conjecture",
+    "quantum chromodynamics"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "AnthropicがIPO目論見書Form S-1を提出",
+   "keys": [
+    "Anthropic",
+    "Form S-1",
+    "SEC"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "AppleがPages・Keynote・NumbersにAIアシスタント",
+   "keys": [
+    "Pages",
+    "Keynote",
+    "Numbers"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "FirefoxのSmart WindowにAI入力補助と監視機能",
+   "keys": [
+    "Firefox",
+    "Smart Window"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "OperaがローカルAI用の新標準WebAIを発表",
+   "keys": [
+    "Opera",
+    "WebAI"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "General Computeが1億ドルのシリーズA調達",
+   "keys": [
+    "General Compute",
+    "Series A"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "NvidiaがインドのSimplismartを支援",
+   "keys": [
+    "Simplismart",
+    "Nvidia"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "OpenAIとOracleがChatGPT向け提携を拡大",
+   "keys": [
+    "Oracle",
+    "ChatGPT"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "AI生成の個人向けフィッシングでクリック率約2.7倍",
+   "keys": [
+    "A Large-Scale Study of Personalized Phishing using Large Language Models",
+    "ベルリン工科大学"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "サイボウズ調査 大企業のAIコスト把握は3割未満",
+   "keys": [
+    "サイボウズ",
+    "AI投資"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "GMO Internetのクラウド不正アクセスと顧客データ公開",
+   "keys": [
+    "GMO Internet",
+    "警視庁"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "MetaのRohit Patelが退社しNdocを設立",
+   "keys": [
+    "Rohit Patel",
+    "Ndoc"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "topic": "OpenAIのdotsとCodex Ultrafast",
+   "keys": [
+    "dots",
+    "Codex Ultrafast",
+    "Alexander Embiricos"
+   ]
+  },
   {
    "date": "2026-10-27",
    "topic": "Anthropicが上場を正式申請",
@@ -1575,96 +1692,6 @@
     "DLSS 5",
     "Hogwarts Legacy",
     "Nvidia"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "Microsoftが第3世代AIチップを発表",
-   "keys": [
-    "Maia",
-    "Microsoft",
-    "Nvidia GPU"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "ナデラCEOがAIモデルのリスクを提言",
-   "keys": [
-    "Satya Nadella",
-    "SIモデル",
-    "7つの設計原則"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "スミス社長がAI規制を訴える",
-   "keys": [
-    "Brad Smith",
-    "英国",
-    "AI regulation"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "アクセンチュアのトークン予算調査",
-   "keys": [
-    "Accenture",
-    "トークン予算",
-    "最大44％"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "ガートナーのAIエージェント放棄予測",
-   "keys": [
-    "Gartner",
-    "FDE",
-    "2028年"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "WindBorneが米空軍と契約",
-   "keys": [
-    "WindBorne",
-    "US Air Force",
-    "気象気球"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "Amazonのロボットが100万台超",
-   "keys": [
-    "Amazon",
-    "100万台",
-    "robot workers"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "SHIELD TV Proが値上げ",
-   "keys": [
-    "SHIELD TV Pro",
-    "NVIDIA",
-    "1.5倍"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "確率的オウムの解説",
-   "keys": [
-    "確率的オウム",
-    "stochastic parrots",
-    "言語モデル"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "topic": "Blueprints AIなど注目スタートアップ",
-   "keys": [
-    "Blueprints AI",
-    "Plaud",
-    "Honeyjar"
    ]
   }
  ]
