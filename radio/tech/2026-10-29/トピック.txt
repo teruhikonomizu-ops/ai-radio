@@ -1,0 +1,18 @@
+Gemini 4 Carbonを発表 ||| Gemini 4 Carbon, Google DeepMind
+Geminiと検索のアプリ開放、Chrome自動入力 ||| Chrome Autofill, Gmail, Gemini
+Anthropicが創薬に着手 ||| Mithril Medicine, Anthropic, Claude
+エルヴィス・プレスリー楽曲訴訟 ||| Elvis Presley, Anthropic, Claude
+Anthropic上場とAmazonの持ち分 ||| Anthropic IPO, Amazon
+AGENTS.mdを使う攻撃の注意喚起 ||| AGENTS.md, ダウンロードフォルダ
+Wiz CTOが脆弱性の波を警告 ||| Vulnpocalypse, PHP, Wiz
+パナソニックの個人情報流出 ||| パナソニックグループ, 約33万人分, 外部生成AI
+AI音声による詐欺電話の研究 ||| Evaluating AI Models' Capability to Automate Voice Phishing Attacks, Harvard
+PFNの国産モデル発表 ||| PLaMo 3.1 Prime, Preferred Networks
+Discord公開サーバーの検索対象化 ||| Discord, 公開サーバー, AI要約
+xAI子会社の住宅買い取り ||| xAI, Mississippi, Texas NAACP
+Nvidiaの文字起こしモデルとOracle TPU ||| Nvidia, Oracle Cloud, Google TPU
+MicrosoftがスマートテレビのCopilot終了 ||| Copilot, LG, Samsung, CES 2025
+Echo Studio with Home Camera ||| Echo Studio with Home Camera, Amazon
+Meta Waddle World公開 ||| Waddle World, Meta
+OpenAIの成果公開への研究者の不満 ||| OpenAI, Kakeya conjecture, The Verge
+Apple M6搭載iMacとOLED MacBook Pro ||| M6, N1, MacBook Pro, iMac
