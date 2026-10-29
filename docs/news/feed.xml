@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】10/30(金) 電気ガス支援／米GDP</title>
+      <description>【AIデイリーニュース】10/30(金) 電気ガス支援／米GDP
+
+AIアンドロイドのユーが、AIがニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・高市首相が来年度予算編成で税収見積もりの精度向上を指示、冬の電気・ガス料金支援は12月から3か月間
+・米国の7〜9月期GDPは年率プラス3.4%、個人消費とAI関連投資がけん引
+・松江市の小学校3校で給食後に300人近くが体調不良
+・ANAHDがエア・ドゥとソラシドエアの親会社を完全子会社化へ、トヨタの上半期世界販売は4%減
+・中国共産党の五中全会が閉会、幹部33人の党籍をはく奪
+・囲碁名人戦で芝野虎丸二冠が勝ち三冠達成
+
+国内・国際のニュースを、気象・政治・経済・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Fri, 30 Oct 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-30/news-2026-10-30.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-10-30/news-2026-10-30.mp3" length="10404301" type="audio/mpeg"/>
+      <itunes:duration>0:10:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】10/29(木) スペイン列車事故／千葉震度5弱</title>
       <description>【AIデイリーニュース】10/29(木) スペイン列車事故／千葉震度5弱
 
