@@ -1,0 +1,12 @@
+OpenAIがModel Specの更新版を公開 ||| Model Spec, OpenAI, 五つの中核的な価値
+フロンティアモデルの不整合検出とエージェント監視 ||| frontier model misalignment, layered monitoring, Hugging Face
+Mistralが1兆パラメータ級モデルの重みを公開 ||| Mistral, trillion-parameter, open weights, cybersecurity
+Nvidia CEOをめぐる中国スパイ計画の捜査報道 ||| Nvidia, Jensen Huang, Singapore AI cloud, Chinese spy
+Alphabet決算とAI検索広告拡大、Azure売上高 ||| Alphabet Q3, AI Search ads, Azure $33.2 billion
+GeminiでGoogleドキュメント等を生成・編集 ||| Gemini, Google Docs, Google Sheets
+ChatGPT ProとBusinessにAPI利用枠 ||| ChatGPT Pro, ChatGPT Business, API 月500ドル
+Granola音声入力とDeepgramのDaily買収 ||| Granola, Wispr, Deepgram, Pipecat, Wabi
+Liquid AIの小型モデル群LFM3 ||| LFM3, Liquid AI
+AIエージェントが人間を雇うRentAHumanの研究 ||| RentAHuman, Security Risks of AI Agents Hiring Humans
+Adam MosseriがAIへの反感は悪化すると発言 ||| Adam Mosseri, Instagram
+AIチャットの広告商品で選択率約3倍の研究 ||| Commercial Persuasion in AI-Mediated Conversations, プリンストン大学

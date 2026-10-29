@@ -1,6 +1,114 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "entries": [
+  {
+   "date": "2026-10-30",
+   "topic": "OpenAIがModel Specの更新版を公開",
+   "keys": [
+    "Model Spec",
+    "OpenAI",
+    "五つの中核的な価値"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "フロンティアモデルの不整合検出とエージェント監視",
+   "keys": [
+    "frontier model misalignment",
+    "layered monitoring",
+    "Hugging Face"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "Mistralが1兆パラメータ級モデルの重みを公開",
+   "keys": [
+    "Mistral",
+    "trillion-parameter",
+    "open weights",
+    "cybersecurity"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "Nvidia CEOをめぐる中国スパイ計画の捜査報道",
+   "keys": [
+    "Nvidia",
+    "Jensen Huang",
+    "Singapore AI cloud",
+    "Chinese spy"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "Alphabet決算とAI検索広告拡大、Azure売上高",
+   "keys": [
+    "Alphabet Q3",
+    "AI Search ads",
+    "Azure $33.2 billion"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "GeminiでGoogleドキュメント等を生成・編集",
+   "keys": [
+    "Gemini",
+    "Google Docs",
+    "Google Sheets"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "ChatGPT ProとBusinessにAPI利用枠",
+   "keys": [
+    "ChatGPT Pro",
+    "ChatGPT Business",
+    "API 月500ドル"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "Granola音声入力とDeepgramのDaily買収",
+   "keys": [
+    "Granola",
+    "Wispr",
+    "Deepgram",
+    "Pipecat",
+    "Wabi"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "Liquid AIの小型モデル群LFM3",
+   "keys": [
+    "LFM3",
+    "Liquid AI"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "AIエージェントが人間を雇うRentAHumanの研究",
+   "keys": [
+    "RentAHuman",
+    "Security Risks of AI Agents Hiring Humans"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "Adam MosseriがAIへの反感は悪化すると発言",
+   "keys": [
+    "Adam Mosseri",
+    "Instagram"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "topic": "AIチャットの広告商品で選択率約3倍の研究",
+   "keys": [
+    "Commercial Persuasion in AI-Mediated Conversations",
+    "プリンストン大学"
+   ]
+  },
   {
    "date": "2026-10-29",
    "topic": "Gemini 4 Carbonを発表",
@@ -1635,93 +1743,6 @@
     "Flock",
     "ALPR",
     "ACLU"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "OpenAI役員会議室の録音装置でエンジニア逮捕",
-   "keys": [
-    "OpenAI",
-    "録音装置",
-    "役員会議室",
-    "FBI"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "OpenAIが元従業員のApple移籍と製品計画持ち出しを主張",
-   "keys": [
-    "OpenAI",
-    "Apple",
-    "元従業員",
-    "製品計画ファイル"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "Anthropicが小型モデルの自己複製を警告",
-   "keys": [
-    "Anthropic",
-    "Small weight-based replicators",
-    "Jack Clark",
-    "RSI"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "YouTube MusicのAI生成曲ラベルとDeezerフィルター",
-   "keys": [
-    "YouTube Music",
-    "Made with AI",
-    "Deezer"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "DeepMindとシンガポールの詐欺検知Gemmaモデル",
-   "keys": [
-    "GovTech Singapore",
-    "Gemma",
-    "Google Messages",
-    "Apate.ai"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "デジタルハリウッド大学がClaudeを全学導入",
-   "keys": [
-    "デジタルハリウッド大学",
-    "Claude",
-    "Anthropic"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "OpenAI・Google新モデルがヌード画像生成の攻撃に弱いとの指摘",
-   "keys": [
-    "OpenAI",
-    "Google",
-    "ヌード画像",
-    "Ars Technica"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "Character.AIをめぐるNY州司法長官の調査",
-   "keys": [
-    "Character.AI",
-    "Letitia James",
-    "Chapter 11"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "topic": "Square Kiosk・Epic新ランチャー・日立木造データセンター",
-   "keys": [
-    "Square Kiosk",
-    "Epic Games launcher",
-    "日立製作所",
-    "木造データセンター"
    ]
   }
  ]
