@@ -1,0 +1,26 @@
+【世界のAIニュース】10/31 Google衛星／OpenAI安全対策
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年10月31日）:
+1. Googleのデータセンター衛星が宇宙から初の応答（Gemma 4を搭載）
+2. OpenAI、AI学習の意思表示を伝える共通のrobots.txt信号を尊重へ
+3. Wikimedia Foundation、AI著作権裁判で中間的な立場を表明
+4. OpenAI、ChatGPTの暴力防止と十代向け保護を強化
+5. Mistral Large 4（Le Chonk）の重みをHugging Faceで公開
+6. ChatGPT Pro 100／500の利用上限を倍に、Pro 200の半減は撤回
+7. Sam Altman氏、数学者への配慮を示しつつAIの数学成果は続けると表明
+8. Alphabetの検索売上比率が初めて50％割れ（49.7％）
+9. DoorDash、AIエージェント経由の注文は数百件
+10. ローマ教皇レオ14世がAIの武装解除を呼びかけ
+11. Gemini Notebookで教科書が無料で読める
+12. SB Intuitions「Sarashina3.2 mini thinking」を発表
+13. Zestのレストラン予約AIエージェント
+14. Starbucksがドライブスルーでの個別デジタルメニューを構想
+15. JASRAC、AI生成曲の検知導入を検討
+16. キオクシア中間決算、純利益2.2兆円
+17. Rimeの音声AI「Prism」
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Google #OpenAI #Mistral

@@ -1,6 +1,156 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "entries": [
+  {
+   "date": "2026-10-31",
+   "topic": "Googleのデータセンター衛星が初の応答",
+   "keys": [
+    "Gemma 4",
+    "TPU in space",
+    "Google DeepMind"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "OpenAIがAI学習の意思表示信号を尊重",
+   "keys": [
+    "robots.txt",
+    "AI training preferences",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "ウィキメディア財団がAI著作権裁判で見解",
+   "keys": [
+    "Wikimedia Foundation",
+    "AI copyright cases",
+    "open web"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "ChatGPTの暴力防止と十代保護を強化",
+   "keys": [
+    "Community safety report",
+    "ChatGPT",
+    "teens"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "Mistral Large 4の重みを公開",
+   "keys": [
+    "Mistral Large 4",
+    "Le Chonk",
+    "Hugging Face"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "ChatGPT Proの利用上限を倍に",
+   "keys": [
+    "ChatGPT Pro 100",
+    "ChatGPT Pro 200",
+    "Business Premium"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "アルトマン氏が数学者に共感",
+   "keys": [
+    "Sam Altman",
+    "OpenAI math",
+    "mathematicians"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "Alphabetの検索売上比率が50％割れ",
+   "keys": [
+    "Alphabet Q3 2026",
+    "Google検索",
+    "49.7%"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "DoorDashのAIエージェント注文は数百件",
+   "keys": [
+    "DoorDash",
+    "AI agents",
+    "several hundred orders"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "ローマ教皇がAIの武装解除を呼びかけ",
+   "keys": [
+    "Pope Leo XIV",
+    "disarmament of AI"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "Gemini Notebookで教科書が無料に",
+   "keys": [
+    "Gemini Notebook",
+    "教科書",
+    "米国・インドの出版社"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "Sarashina初の思考モデル",
+   "keys": [
+    "Sarashina3.2 mini thinking",
+    "SB Intuitions"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "Zestのレストラン予約AI",
+   "keys": [
+    "Zest",
+    "AI concierge",
+    "restaurant reservations"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "Starbucksの個別デジタルメニュー構想",
+   "keys": [
+    "Starbucks",
+    "personalized digital menu",
+    "drive-thru"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "JASRACがAI生成曲検知を検討",
+   "keys": [
+    "JASRAC",
+    "AI生成曲検知"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "キオクシア中間決算で初の配当",
+   "keys": [
+    "キオクシア",
+    "2027年3月期中間決算",
+    "純利益2.2兆円"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "topic": "Rimeの音声AI Prism",
+   "keys": [
+    "Rime",
+    "Prism",
+    "音声AI"
+   ]
+  },
   {
    "date": "2026-10-30",
    "topic": "OpenAIがModel Specの更新版を公開",
@@ -1597,152 +1747,6 @@
     "Lego era",
     "physical AI",
     "NVIDIA"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "アメリカ8州がOpenAIを提訴",
-   "keys": [
-    "ChatGPT",
-    "OpenAI",
-    "Eight states"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "FTCがAnthropicとOpenAIを調査",
-   "keys": [
-    "FTC",
-    "Anthropic",
-    "OpenAI"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "YouTube Musicが生成AI曲にラベル",
-   "keys": [
-    "YouTube Music",
-    "AI music labels"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "Google Universal Cart米国公開",
-   "keys": [
-    "Universal Cart",
-    "Gemini app"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "Amazon Bee新AIデバイス2種",
-   "keys": [
-    "Bee",
-    "Amazon Bee",
-    "$75"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "日本企業へのAIエージェント攻撃",
-   "keys": [
-    "ビットフォレスト",
-    "Swarmchasers",
-    "Tencent"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "Bluesky Attieで誰でもアプリ作成",
-   "keys": [
-    "Attie",
-    "Bluesky",
-    "social vibe coding"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "McKinseyのAIクライアント面接",
-   "keys": [
-    "McKinsey",
-    "AI client simulation"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "RivianにAIエージェント搭載",
-   "keys": [
-    "Rivian",
-    "AI Autonomy Day"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "日立などのワークロードシフト実証",
-   "keys": [
-    "ワークロードシフト",
-    "日立製作所",
-    "横浜",
-    "北九州"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "Sakana Chatの記憶可視化機能",
-   "keys": [
-    "Sakana Chat",
-    "My Fish",
-    "Sakana AI"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "抗菌ペプチド探索とAntigravity",
-   "keys": [
-    "Google Antigravity for Science",
-    "antimicrobial peptides"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "Ricursive IntelligenceのAI設計チップ",
-   "keys": [
-    "Ricursive Intelligence",
-    "AI-designed chips"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "Figmaのエージェント機能とコードレイヤー",
-   "keys": [
-    "Figma",
-    "code layers"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "RTX Spark搭載PCとWindows最適化",
-   "keys": [
-    "RTX Spark",
-    "Nvidia",
-    "Windows"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "マシュマロ型ロボット玩具の情報管理",
-   "keys": [
-    "marshmallow robot toy",
-    "Chinese servers"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "Flockのマイクと提訴",
-   "keys": [
-    "Flock",
-    "ALPR",
-    "ACLU"
    ]
   }
  ]

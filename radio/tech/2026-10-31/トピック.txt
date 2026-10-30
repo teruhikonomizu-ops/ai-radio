@@ -1,0 +1,17 @@
+Googleのデータセンター衛星が初の応答 ||| Gemma 4, TPU in space, Google DeepMind
+OpenAIがAI学習の意思表示信号を尊重 ||| robots.txt, AI training preferences, OpenAI
+ウィキメディア財団がAI著作権裁判で見解 ||| Wikimedia Foundation, AI copyright cases, open web
+ChatGPTの暴力防止と十代保護を強化 ||| Community safety report, ChatGPT, teens
+Mistral Large 4の重みを公開 ||| Mistral Large 4, Le Chonk, Hugging Face
+ChatGPT Proの利用上限を倍に ||| ChatGPT Pro 100, ChatGPT Pro 200, Business Premium
+アルトマン氏が数学者に共感 ||| Sam Altman, OpenAI math, mathematicians
+Alphabetの検索売上比率が50％割れ ||| Alphabet Q3 2026, Google検索, 49.7%
+DoorDashのAIエージェント注文は数百件 ||| DoorDash, AI agents, several hundred orders
+ローマ教皇がAIの武装解除を呼びかけ ||| Pope Leo XIV, disarmament of AI
+Gemini Notebookで教科書が無料に ||| Gemini Notebook, 教科書, 米国・インドの出版社
+Sarashina初の思考モデル ||| Sarashina3.2 mini thinking, SB Intuitions
+Zestのレストラン予約AI ||| Zest, AI concierge, restaurant reservations
+Starbucksの個別デジタルメニュー構想 ||| Starbucks, personalized digital menu, drive-thru
+JASRACがAI生成曲検知を検討 ||| JASRAC, AI生成曲検知
+キオクシア中間決算で初の配当 ||| キオクシア, 2027年3月期中間決算, 純利益2.2兆円
+Rimeの音声AI Prism ||| Rime, Prism, 音声AI
