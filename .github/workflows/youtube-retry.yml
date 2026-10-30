@@ -36,6 +36,11 @@ jobs:
         with:
           ref: main
 
+      - name: 投稿を止めている間は動かさない（2026-10-30 のみさん決定）
+        run: |
+          echo "::error::ラジオのYouTube投稿は2026-10-30に止めました（README冒頭）。上げ直すなら、このステップを消してから。"
+          exit 1
+
       - name: 素材がそろっているか確かめる
         env:
           GH_TOKEN: ${{ github.token }}

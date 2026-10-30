@@ -23,6 +23,9 @@ concurrency:
 
 env:
   TZ: Asia/Tokyo
+  # 2026-10-30 のみさん決定: YouTubeへの投稿は止める（再生が1本あたり平均3〜4回・紙芝居のチャンネルの邪魔になる）。
+  # ラジオの生成とポッドキャスト配信(RSS)はそのまま。戻す時はここを 'on' に。
+  YOUTUBE_UPLOAD: 'off'
   SHOW: news
   MODEL_UUID: baaae3c0-7b22-4605-8ba5-80c959b41a48   # morioki(ユー役・AivisHub)
   AIVIS_ARGS: "--yu-speaker 497929760 --zeta-speaker 1878365376 --zeta-pitch -0.09 --zeta-intonation 0.85 --speed 0.85 --sentpause 0.40 --parapause 1.15 --sectpause 1.8"
@@ -177,7 +180,7 @@ jobs:
           gh release upload "$tag" "work/$SHOW-${{ steps.plan.outputs.today }}.mp3" --clobber
 
       - name: YouTube用動画の作成とアップロード
-        if: steps.plan.outputs.mode != 'skip'
+        if: steps.plan.outputs.mode != 'skip' && env.YOUTUBE_UPLOAD == 'on'
         id: youtube
         # 失敗しても次の「フィード更新とコミット」(=ポッドキャストRSS)を道連れにしない。
         # 2026-08-11、トークン失効でここが落ちた際にRSS配信まで止まった実害への対策。
