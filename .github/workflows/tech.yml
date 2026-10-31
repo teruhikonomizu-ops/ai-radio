@@ -5,14 +5,8 @@ name: tech-radio
 # 手動実行: Actionsタブ → tech-radio → Run workflow
 
 on:
-  schedule:
-    # 2026-08-28改修: 毎時0分はGitHub Actionsの混雑ピークで発火自体が飛びやすい(公式ドキュメント明記)。
-    # 8/26〜28に本線・保険とも数時間遅れ/丸ごと欠落が続いたため、0分を避けた分に移し、保険を3本に増強。
-    # 公開済みの朝はmode=skipで約10秒で終わるため、保険が多くても無駄なし(公開リポジトリ=分数無料)。
-    - cron: '13 19 * * *'   # 19:13 UTC = 日本時間 04:13(本線)
-    - cron: '13 20 * * *'   # 05:13 JST(保険1)
-    - cron: '13 21 * * *'   # 06:13 JST(保険2)
-    - cron: '13 22 * * *'   # 07:13 JST(保険3)
+  # 2026-11-01 のみさん指示で「朝のAI＆ニュース」(news-radio)へ統合。定時起動は外し、
+  # GitHub側でもワークフローを無効化した(gh workflow disable tech-radio)。戻す時は git の履歴から schedule を戻して enable。
   workflow_dispatch:
 
 permissions:

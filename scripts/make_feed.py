@@ -18,9 +18,10 @@ PAGES = f"https://{owner}.github.io/{name}"
 
 SHOWS = {
     "news": {
-        "title": "AIデイリーニュース",
-        "description": "AIがNHKニュース・Yahoo!ニュースの公式RSS見出しをもとに要約し、"
-                       "AIアンドロイドのユーがAI音声でお届けする約10分のデイリーニュース。"
+        # 2026-11-01 「世界のAIニュース」と統合して1本に(フィードのURLはそのまま)
+        "title": "朝のAI＆ニュース",
+        "description": "世界と国内のAIニュース、続いて国内中心の一般ニュースを、"
+                       "AIが各社の公式配信をもとに要約し、AI音声でお届けする約15分の番組。"
                        "毎朝5時ごろ自動更新。",
         "author": "unizom",
         "category": "News",

@@ -1,7 +1,9 @@
 name: news-radio
 
-# AIデイリーニュース: 毎朝クラウドで 収集→台本(Claude、ユーのソロ進行)→音声合成(AivisSpeech)→
-#   配信(Release+RSS)→YouTube動画(立ち絵+字幕) まで無人実行
+# 朝のAI＆ニュース(2026-11-01 のみさん指示で2番組を1本に統合・約15分):
+#   AI(世界→国内)→ニュース(国内中心＋大きな国際)。挨拶・出典の紹介なし、「以上です」で終わる。
+#   毎朝クラウドで 収集(AI＋ニュースの両方)→台本(Claude)→音声合成(AivisSpeech・まお おちつき)→配信(Release+RSS)
+#   フィードは従来のニュース番組 news/feed.xml を使い回す(AntennaPodの購読し直し不要)。tech-radio は停止。
 # 手動実行: Actionsタブ → news-radio → Run workflow
 
 on:
@@ -27,8 +29,10 @@ env:
   # ラジオの生成とポッドキャスト配信(RSS)はそのまま。戻す時はここを 'on' に。
   YOUTUBE_UPLOAD: 'off'
   SHOW: news
-  MODEL_UUID: baaae3c0-7b22-4605-8ba5-80c959b41a48   # morioki(ユー役・AivisHub)
-  AIVIS_ARGS: "--yu-speaker 497929760 --zeta-speaker 1878365376 --zeta-pitch -0.09 --zeta-intonation 0.85 --speed 0.85 --sentpause 0.40 --parapause 1.15 --sectpause 1.8"
+  # 2026-11-01 のみさん決定: 声は「まお」のおちつき(style 888753763)。台本の話者名はゼータ。
+  # 速さ1.0・間を短め(AntennaPodで1.3倍で聞いていた＝今までより速めでよい)。
+  MODEL_UUID: a59cb814-0083-4369-8542-f51a29e72af7   # まお(AivisHub)
+  AIVIS_ARGS: "--zeta-speaker 888753763 --speed 1.0 --sentpause 0.3 --parapause 0.8 --sectpause 1.3"
 
 jobs:
   build:
@@ -95,7 +99,7 @@ jobs:
           docker logs aivis
           exit 1
 
-      - name: 声モデル (morioki・ユー役) を用意
+      - name: 声モデル (まお) を用意
         if: steps.plan.outputs.mode != 'skip'
         run: |
           if curl -fsS http://127.0.0.1:10101/aivm_models | grep -q "$MODEL_UUID"; then
@@ -105,11 +109,15 @@ jobs:
             python3 scripts/install_model.py "$MODEL_UUID"
           fi
 
-      - name: ニュース収集 (公式RSS)
+      - name: AIニュースと一般ニュースの収集 (公式RSS)
         if: steps.plan.outputs.mode == 'full'
         run: |
-          python3 scripts/collect_news.py work/digest.md  --log "radio/$SHOW/_放送済み.json" --also-log radio/tech/_放送済み.json
-          python3 scripts/check_digest.py work/digest.md
+          # 放送済み台帳は1本化後は news 側だけに書く。tech 側は統合前の7日分の重複よけとして読むだけ
+          python3 scripts/collect_ai_news.py work/digest_ai.md  --log "radio/$SHOW/_放送済み.json" --also-log radio/tech/_放送済み.json
+          python3 scripts/check_digest.py work/digest_ai.md
+          python3 scripts/collect_news.py work/digest_news.md  --log "radio/$SHOW/_放送済み.json" --also-log radio/tech/_放送済み.json
+          python3 scripts/check_digest.py work/digest_news.md
+          { echo "【AIニュースダイジェスト(前半用)】"; cat work/digest_ai.md; echo; echo "========"; echo "【ニュースダイジェスト(後半用)】"; cat work/digest_news.md; } > work/digest.md
 
       - name: Claude で台本と概要欄を執筆
         if: steps.plan.outputs.mode == 'full'
@@ -129,8 +137,9 @@ jobs:
               continue
             fi
             judged=$((judged+1))
-            # 1回目は狙いどおりの尺(約10分半)に収まる範囲。2回目以降は放送を落とさないため緩める
-            if [ "$judged" = 1 ]; then lo=2700; hi=3050; strict=1; else lo=2400; hi=3400; strict=0; fi
+            # 1回目は狙いどおりの尺(約15分)に収まる範囲。2回目以降は放送を落とさないため緩める
+            # (2026-11-01実測: まお・速さ1.0で 4,477字→14分3秒 ＝ 約5.3字/秒)
+            if [ "$judged" = 1 ]; then lo=4450; hi=5050; strict=1; else lo=4000; hi=5500; strict=0; fi
             if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt  "$lo" "$hi" work/topics.txt "$strict"; then
               ok=1; break
             fi
@@ -147,7 +156,7 @@ jobs:
           cp work/desc.txt "$ep/概要欄.txt"
           cp work/topics.txt "$ep/トピック.txt" 2>/dev/null || true
 
-      - name: 音声合成 (AivisSpeech・ユー)
+      - name: 音声合成 (AivisSpeech・まお)
         if: steps.plan.outputs.mode != 'skip'
         run: |
           mkdir -p work
@@ -161,8 +170,8 @@ jobs:
           mp3="work/$SHOW-${{ steps.plan.outputs.today }}.mp3"
           dur=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$mp3" | cut -d. -f1)
           echo "長さ: $((dur/60))分$((dur%60))秒"
-          if [ "$dur" -lt 480 ] || [ "$dur" -gt 960 ]; then
-            echo "長さが異常(8分未満または16分超)のため公開を中止"
+          if [ "$dur" -lt 660 ] || [ "$dur" -gt 1200 ]; then
+            echo "長さが異常(11分未満または20分超)のため公開を中止"
             exit 1
           fi
           python3 scripts/write_meta.py "$SHOW" "${{ steps.plan.outputs.today }}" "$mp3" "$ep/概要欄.txt" "$ep/meta.json"

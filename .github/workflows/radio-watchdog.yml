@@ -1,8 +1,7 @@
 name: radio-watchdog
 
-# ラジオ2番組(tech-radio/news-radio)は「1セット」。
-# 本線・保険どちらのcronも終わった後の時間帯に、両番組の当日分が
-# ちゃんとRSSに乗っているかを確認する。
+# ラジオ(news-radio＝朝のAI＆ニュース)の当日分がRSSに乗っているかを確認する。
+# 2026-11-01 2番組を1本に統合したため、tech は見ない(tech-radio は停止)。
 #
 # 2026-08-28改修(自己修復化): 8/26〜28にGitHub側のスケジュール発火が丸ごと欠落する事象が
 # 続いたため、「知らせるだけ」から「欠けていたら workflow_dispatch で自動再実行→
@@ -30,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - name: 両番組の本日分を確認し、欠けていたら自動で再実行
+      - name: 本日分を確認し、欠けていたら自動で再実行
         run: |
           today=$(date +%F)
           echo "本日(JST): $today"
@@ -41,7 +40,7 @@ jobs:
           }
 
           missing=""
-          for id in tech news; do
+          for id in news; do
             if check "$id"; then
               echo "$id: 本日分あり"
             else
