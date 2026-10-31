@@ -1,0 +1,23 @@
+【世界のAIニュース】11/1 OpenAI目標下げ／Intel株急落
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年11月1日）:
+1. OpenAIの資金調達、目標引き下げと報道／NvidiaによるNscale融資の連帯保証検討
+2. Anthropic、上場後に高いジャンク格付けの見通し（FT報道）
+3. CursorのAnthropic拡張機能が約12時間バックドア化
+4. Intel株急落とメモリ不足、Sam Altman氏のRAM発言
+5. Apple Intelligence、iOS 27.3で中国提供へ
+6. WaymoがトヨタbZ4Xで日本の自動運転タクシーを2027年に開始
+7. Alphabet決算、Google検索の売上割合が初めて50％未満に
+8. AIの性格診断は言語で結果が変わる（中国科学技術大学）
+9. Dartmouth大のプロボストとAI利用／Ollie終了
+10. スマートグラス映像からパスワードを推測する攻撃手法
+11. AIエージェントは実運用が主流に（INDUSTRIAL-X調査）
+12. Theranos内部告発者のAIブーム警鐘／OpenAIのフェアユース意見書
+13. Geminiのチャット内でPDF・スライド編集／GMOの懸賞金とMonsterCloud CEO起訴
+14. Boomのデータセンター電力事業／メイン州のデータセンター反発／IOWN／Proton
+
+出典: OpenAI／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic #データセンター

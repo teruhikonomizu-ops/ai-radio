@@ -1,0 +1,22 @@
+OpenAIが資金調達の目標額を引き下げ ||| OpenAI funding round, 資金調達ラウンド, 目標額
+NvidiaがNscaleの融資を連帯保証検討 ||| Nvidia, Nscale, West Virginia
+Anthropicに高いジャンク格付けの見通し ||| Anthropic IPO, Blackstone, junk rating, FT
+Cursor上のAnthropic拡張機能がバックドア化 ||| Anthropic VS Code extension, Cursor, backdoor
+Intel株急落とメモリ不足 ||| Intel, RAM shortage, Sam Altman, 政府の持ち株
+Apple Intelligenceが中国で提供へ ||| Apple Intelligence, iOS 27.3, MacRumors
+WaymoがトヨタbZ4Xで日本参入 ||| Waymo, bZ4X, ロボタクシー, 2027年
+Google検索がAlphabet売上の50％未満に ||| Alphabet 2026年第3四半期, Google検索, 49.7％
+AIの性格診断は言語で変化 ||| 中国科学技術大学, 性格診断, AIの性格
+Dartmouth大プロボストのAI利用で失職 ||| Dartmouth, provost, AI cheating
+プライバシー重視AI「Ollie」が終了 ||| Ollie, privacy-focused AI assistant
+スマートグラス映像からパスワード推測 ||| Watch and Crack, Meta Ray-Ban, テルアビブ大学
+AIエージェントの実運用が主流に ||| INDUSTRIAL-X, AIエージェント, 実運用
+Theranos内部告発者がAIブームに警鐘 ||| Tyler Shultz, Theranos, AI boom
+OpenAIがフェアユース意見書の抜粋を公開 ||| Fair use, OpenAI court briefs, AI training
+Geminiのチャット内でPDF・スライド編集 ||| Gemini, Google Workspace, PDF編集
+GMOのサイバー攻撃情報懸賞金とMonsterCloud起訴 ||| GMO 1.5億円懸賞金, MonsterCloud, ランサムウェア
+Boomが超音速旅客機からデータセンター電力へ ||| Boom, supersonic airliner, data center power
+メイン州のデータセンター反発と上院選 ||| Maine, Susan Collins, data center revolt
+東京エレクトロンデバイスが半導体供給の優先説を否定 ||| 東京エレクトロン デバイス, 半導体供給, データセンター優先
+IOWNで東京と台北を17ミリ秒で接続 ||| IOWN, アンリツ, 17ミリ秒
+ProtonのAI導入とCEOの叱責 ||| Proton Mail, Lumo, 404 Media
