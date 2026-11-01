@@ -139,7 +139,7 @@ jobs:
             judged=$((judged+1))
             # 1回目は狙いどおりの尺(約15分)に収まる範囲。2回目以降は放送を落とさないため緩める
             # (2026-11-01実測: まお・速さ1.0で 4,477字→14分3秒 ＝ 約5.3字/秒)
-            if [ "$judged" = 1 ]; then lo=4450; hi=5050; strict=1; else lo=4000; hi=5500; strict=0; fi
+            if [ "$judged" = 1 ]; then lo=4450; hi=5300; strict=1; else lo=4000; hi=5600; strict=0; fi
             if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt  "$lo" "$hi" work/topics.txt "$strict"; then
               ok=1; break
             fi

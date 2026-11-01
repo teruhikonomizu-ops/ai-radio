@@ -49,7 +49,7 @@ jobs:
             fi
           done
           if [ -z "$missing" ]; then
-            echo "両番組とも本日分の配信を確認しました。"
+            echo "本日分の配信を確認しました。"
             exit 0
           fi
 
@@ -72,5 +72,5 @@ jobs:
             echo "待機中($i/9): 未配信=$missing"
           done
 
-          echo "::error::自動再実行でも復旧せず:$missing。tech-radio/news-radioのActionsログを確認してください。"
+          echo "::error::自動再実行でも復旧せず:$missing。news-radioのActionsログを確認してください。"
           exit 1

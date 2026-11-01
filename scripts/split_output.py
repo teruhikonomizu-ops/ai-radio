@@ -43,6 +43,15 @@ topic_lines = [l for l in topics.splitlines()
 print(f"台本(読み上げ分) {chars}字 / タイトル {len(title)}字 / トピック {len(topic_lines)}件: {title}")
 
 problems = []
+# 2026-11-01: 話者名(半角コロン)の無い行があると、音声合成(tts_aivis.py)で止まり作り直しに戻れない。ここで弾いて作り直させる
+untagged = [l.strip() for l in script.splitlines()   # tts_aivis.py の parse_script と同じ読み方
+            if l.strip() and not l.strip().startswith("#")
+            and not re.match(r"^(ユー|ゼータ):\s*(.+)$", l.strip())]
+if untagged:
+    problems.append(
+        f"話者名の無い行が{len(untagged)}行あった(例: {untagged[0][:30]})。"
+        "コメント行(#)と空行以外の全ての行の先頭に、半角コロンで『ゼータ: 』を付けること。"
+    )
 if not (lo <= chars <= hi):
     problems.append(
         f"台本の読み上げ文字数が{chars}字で、許容範囲({lo}〜{hi}字)の外だった。"
