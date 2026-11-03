@@ -11,6 +11,37 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/4(水) Anthropic IPO修正／米中間選挙 投票続く</title>
+      <description>11/4(水) Anthropic IPO修正／米中間選挙 投票続く
+
+【AI】
+・Anthropic、IPO登録届出書を修正 7〜9月売上は約169億ドル
+・Marvellが光通信のLumentumを約1150億ドルで買収へ
+・OpenAI、バグバウンティ報酬を引き上げ／LifeVal／新顧問
+・Apple Watch beta版にAudio Intelligence、App Storeは18歳以上の区分
+・Netflix「AI Discover」タブ
+・Googleが130万台のAndroid TVボックスのボットネットを解体、UEFIブートキットBlackX
+・バイナンス攻撃に北朝鮮グループのAI手法か
+・メルカリのAI利用率100％、防衛省のAI方針見直し、nanochat-jp
+・GMO続報、アソビューなど情報流出相次ぐ
+
+【ニュース】
+・関東 4日夜〜5日に激しい雨のおそれ
+・JR宗谷線 4日から全区間で運転再開へ
+・防災庁の緊急要請、憲法公布80年、秋の叙勲3861人
+・倉本聰さんお別れの会、三の丸尚蔵館が全面再開
+・アジアカップ 来年12月に延期
+・アメリカ中間選挙 投票続く
+・ウクライナ南部で31人死亡、10日から3か国実務者協議
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Wed, 04 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-04/news-2026-11-04.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-04/news-2026-11-04.mp3" length="14911990" type="audio/mpeg"/>
+      <itunes:duration>0:15:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/3(火) OpenAI電力網プログラム／防災庁が発足</title>
       <description>11/3(火) OpenAI電力網プログラム／防災庁が発足
 
