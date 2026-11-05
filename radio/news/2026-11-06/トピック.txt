@@ -1,0 +1,23 @@
+ナスダック一時5％下落 AI規制懸念 ||| Nasdaq, ナスダック 2万5000, データセンター規制, 中間選挙
+テキサス州のデータセンター建設に逆風 ||| Texas, データセンター, ビッグテック, 中間選挙
+OpenAIが地域共生の方針を公表 ||| OpenAI, National Community Compact, Compute Campus Policy Blueprint
+OpenAIのサイバーモデル発表 ||| GPT-6 Cyber, OpenAI, Linux kernel, 948件
+ブロックマン社長が2027年IPO準備に言及 ||| OpenAI, Greg Brockman, IPO, 2027年
+ClaudeにPersonal Finance機能 ||| Claude, Anthropic, Personal Finance, Plaid
+Gemini Omni 1.2 Flash公開 ||| Gemini Omni 1.2 Flash, Google, 15秒動画, 30％値下げ
+DropboxがTigris Dataを買収 ||| Dropbox, Tigris Data, DBX Agent Cloud, 3億5000万ドル
+BoxがNemotron活用の検索システム ||| Box, Nvidia, Nemotron, 4倍速
+Appleが社内AI予算を削減 ||| Apple, tokenmaxxing, 社内AI予算
+Agilityがナスダックに上場 ||| Agility, Nasdaq, ヒューマノイドロボット
+PFNが翻訳特化LLMを公開 ||| Preferred Networks, PLaMo 3 Translate, オープンウェイト
+国内の個人情報漏えい相次ぐ ||| アイリスオーヤマ 770万人, NTTドコモ 30万件, 松井証券 83万件, SMBCコンシューマーファイナンス 32万人
+政府が緊急対策パッケージと予備費100億円 ||| 緊急対策パッケージ, 予備費 100億円, サイバー救援隊
+自転車の青切符 半年で約1万6000件 ||| 青切符 1万6000件, ながらスマホ 4割
+ロシアがJT関連4工場を一時管理下に ||| JT, プーチン大統領, 大統領令, 4つの工場
+日本製鉄が業績見通しを4400億円に上方修正 ||| 日本製鉄 4400億円, USスチール, 上方修正
+日本製紙 八代工場の生産再開を断念へ ||| 日本製紙, 八代工場, 熊本地震
+秋本元衆院議員に懲役6年求刑 ||| 秋本真利, 洋上風力, 懲役6年
+COP31に笹川環境相が出席予定 ||| COP31, 笹川環境大臣, 木原官房長官
+英中銀が3年3か月ぶり利上げ ||| イギリス中央銀行, 0.25％利上げ, 3年3か月ぶり
+欧州の旅客機に爆破予告 ||| 旅客機10機以上, 爆破予告, ヨーロッパ
+米中間選挙のその後 共和党内で責任論 ||| 中間選挙, バンス副大統領, 民主党 上下両院, 国防長官 更迭

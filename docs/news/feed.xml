@@ -11,6 +11,56 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/6(金) AI規制懸念でナスダック急落／英中銀が利上げ</title>
+      <description>11/6(金) AI規制懸念でナスダック急落／英中銀が利上げ
+
+【AI】
+・ナスダックが一時5％下落、AI・データセンター規制への懸念
+・テキサス州のデータセンター建設に逆風
+・OpenAIが地域共生の方針を公表
+・OpenAIのサイバーセキュリティ向けモデル GPT-6 Cyber
+・OpenAIのブロックマン社長「2027年にIPO準備可能」
+・ClaudeにPersonal Finance機能
+・Gemini Omni 1.2 Flash、価格30％引き下げ
+・DropboxがTigris Dataを買収
+・Box、NvidiaのNemotronを活用した検索システム
+・Qualcomm、データセンターに注力
+・Appleが社内AI予算を削減と報道
+・Axiom Math、Stacks Projectを形式検証
+・Agilityがナスダックに上場
+・iOS・Androidの欠陥を悪用した攻撃
+・PFN、翻訳特化LLM PLaMo 3 Translateを公開
+・リコーと川崎重工が設計知識のAI活用で提携
+・TOTOの半導体材料事業
+・国内で個人情報漏えいが相次ぐ、政府が緊急対策へ
+・フランスの血液保存施設へのサイバー攻撃
+
+【ニュース】
+・自転車の青切符、半年で約1万6000件
+・ロシアがJT関連の4工場を一時的に管理下へ
+・日本製鉄が業績見通しを4400億円に上方修正
+・日本製紙、八代工場の生産再開を断念へ
+・会計検査院、1400億円余りを不適切と指摘
+・秋本元衆院議員に懲役6年を求刑
+・COP31に笹川環境相が出席予定
+・財政制度等審議会、防衛力強化の安定財源
+・小泉防衛相がウクライナ国防相と会談
+・クアッド共同訓練が始まる
+・介護施設のBCPで自治体連携を努力義務化する案
+・電子投票端末に音声読み上げ機能
+・新語・流行語大賞の候補30語
+・米中間選挙のその後、共和党内で責任論
+・英中銀が3年3か月ぶりに利上げ
+・欧州で旅客機に爆破予告
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Fri, 06 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-06/news-2026-11-06.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-06/news-2026-11-06.mp3" length="14516601" type="audio/mpeg"/>
+      <itunes:duration>0:15:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/5(木) AIの応答を証明FlashProve／米中間選挙で民主躍進</title>
       <description>11/5(木) AIの応答を証明FlashProve／米中間選挙で民主躍進
 
