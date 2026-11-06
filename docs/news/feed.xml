@@ -11,6 +11,39 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/7(土) 中間選挙でAI業界に逆風／食料品消費税減税法案が衆院通過</title>
+      <description>11/7(土) 中間選挙でAI業界に逆風／食料品消費税減税法案が衆院通過
+
+【AI】
+・米中間選挙でAI・データセンターへの逆風、OpenAIは秘密保持契約から距離
+・MetaのMuseに「Spaces」と音声会話・アバター機能
+・Amazon、Alexaにテキストで買い物できる機能
+・Ramp調べ、AI支出が頭打ちにAnthropicの上場前
+・Nvidia CEOを米議会が召喚と伝えられる
+・Artexのハッキングツールが公開状態で発見
+・Palo Alto Networks、Clutch買収交渉
+・PerplexityのTeammatesとAirbnbのAI旅行エージェント
+・METRがAnthropic内部を調査、OpenRouterでオープンモデルが72％
+・国内：フィックスターズ、ドコモ・ロート製薬・アララなどの情報流出
+
+【ニュース】
+・食料品の消費税減税法案が衆院通過
+・大分の陸自戦車事故、前の砲弾の破片が原因とみられる
+・台湾有事答弁から1年
+・日経平均が一時4300円超下落、米雇用統計は16.5万人増
+・128の信用金庫でシステム障害、ドコモ通信障害は復旧
+・トクリュウ対策法案が衆院委員会で可決
+・訪問介護の新支援策、青切符1万6000件
+・G7外相会合に茂木外相、在沖米軍の再発防止策、マカオ初の国家安全維持法違反判決
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Sat, 07 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-07/news-2026-11-07.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-07/news-2026-11-07.mp3" length="14551292" type="audio/mpeg"/>
+      <itunes:duration>0:15:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/6(金) AI規制懸念でナスダック急落／英中銀が利上げ</title>
       <description>11/6(金) AI規制懸念でナスダック急落／英中銀が利上げ
 

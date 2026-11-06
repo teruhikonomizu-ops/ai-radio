@@ -1,0 +1,26 @@
+米中間選挙でAIデータセンターへの逆風 ||| 中間選挙, データセンター, 住民投票41件, Texas
+OpenAIが秘密保持契約から距離を置く方針 ||| OpenAI, NDA, データセンター, Microsoft Amsterdam
+MetaのMuseにSpacesと音声会話 ||| Meta, Muse, Spaces, アバター
+AmazonのAlexa for Shoppingでテキスト購入 ||| Amazon, Alexa for Shopping, Alexa
+RampデータでAI支出が頭打ち ||| Ramp, Anthropic, IPO, AI支出
+Nvidia Jensen Huang CEOを米議会が召喚 ||| Nvidia, Jensen Huang, Congress, 中国情報機関
+Artexのハッキングツールが公開状態 ||| Artex, 侵入テストツール, 数百台のサーバー
+Palo Alto NetworksがClutch買収交渉 ||| Palo Alto Networks, Clutch, 5億ドル, 8500万ドル
+PerplexityがTeammatesを発表 ||| Perplexity, Teammates, OpenAI, Anthropic
+AirbnbがAI旅行エージェントを2027年前半に ||| Airbnb, AI travel agent, 2027年前半
+METRがAnthropic内部でAIによるAI開発加速を調査 ||| METR, Anthropic, AI開発加速
+OpenRouterでオープンウェイトモデル72％ ||| OpenRouter, オープンウェイト, 72％, ERNIE 5.5 Flash Base
+NTTドコモの情報流出と社長陳謝 ||| NTTドコモ, 前田義晃, 29万件, 見舞金
+ロート製薬・アララなどの情報流出 ||| ロート製薬, 280万人分, アララ, 8132万件
+フィックスターズが国内GPUサーバでオープンモデル提供 ||| フィックスターズ, DeepSeek-V4.1-Flash-1017, GPUサーバ
+ピザーラのDr.STONEコラボCMのAI広告謝罪 ||| ピザーラ, フォーシーズ, Dr.STONE, TikTok
+食料品の消費税減税法案が衆院通過 ||| 食料品消費税減税, 衆議院, 参議院, 石破前首相
+大分の陸自戦車事故で砲弾の破片が原因とみられる ||| 大分県, 陸上自衛隊, 戦車, 隊員3人死亡
+台湾有事答弁から1年 ||| 高市総理大臣, 台湾有事, 木原官房長官, 日中共同声明1972年
+日経平均が一時4300円超下落、米10月雇用16.5万人増 ||| 日経平均, 4300円, 米雇用統計, 16万5000人
+128信用金庫のシステム障害とドコモ通信障害 ||| 128信用金庫, ドコモ, 5G SA, 6日午前1時20分
+トクリュウ対策の通信内容遠隔把握法案が委員会可決 ||| トクリュウ, 衆院内閣委員会, 匿名・流動型犯罪グループ
+KDDI社長がモンゴル火災で陳謝 ||| KDDI, 松田浩路, モンゴル, 自然保護区
+G7外相会合に茂木外相がフランス訪問 ||| 茂木外務大臣, G7外相会合, フランス, 8日
+在沖米軍の再発防止策 ||| 茂木外務大臣, 海兵隊, 日米合同パトロール, 沖縄
+マカオで初の国家安全維持法違反判決 ||| マカオ, 国家安全維持法, 懲役12年6か月
