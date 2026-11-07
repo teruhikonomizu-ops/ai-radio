@@ -112,12 +112,14 @@ jobs:
           npm --version
           npm config ls -l | grep -q "min-release-age" || echo "::warning::このnpmは待ち期間（min-release-age）に未対応＝最新版がそのまま入ります。ワークフローの見直しが必要です"
           npm install -g @anthropic-ai/claude-code --min-release-age=3
-          claude --version || echo "::warning::claude --version が失敗（ネットの瞬断など）。次の執筆手順の再挑戦に任せる"
+          claude --version || echo "::warning::claude --version が失敗（導入の失敗・PATH など）。次の執筆手順で再挑戦する"
 
       - name: Claude で台本と概要欄を執筆
         if: steps.plan.outputs.mode == 'full'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # 2026-11-08 鍵を持つこの手順の中で Claude Code が自分を最新版へ更新しないように止める
+          DISABLE_AUTOUPDATER: "1"
         run: |
           cat "prompts/$SHOW.md" work/digest.md > work/prompt.md
           ok=""
@@ -185,7 +187,8 @@ jobs:
         if: steps.plan.outputs.mode != 'skip' && env.YOUTUBE_UPLOAD == 'on'
         # 2026-11-08 のみさん承認: 部品の乗っ取り（サプライチェーン攻撃）対策。出たばかりの版は入れない・鍵を持たせた手順の中で部品を入れない。
         continue-on-error: true
-        run: pip install -r requirements-youtube.txt
+        # --no-deps＝一覧に無い部品は入れない（足りなければ次の手順の import で赤になる）・pip check＝食い違いをログに出す
+        run: pip install --no-deps -r requirements-youtube.txt && pip check
 
       - name: YouTube用動画の作成とアップロード
         if: steps.plan.outputs.mode != 'skip' && env.YOUTUBE_UPLOAD == 'on'
