@@ -141,3 +141,8 @@ NHKのRSSが `www3.nhk.or.jp` → `www.nhk.or.jp` へ移転していたが、**�
 再発防止として、各フィードの最新記事が何日前かを毎回測り、
 ニュース系は3日、テック系は10日新着が無ければ `::warning::` を出すようにした。
 **「エラーが出ていない＝正常」ではない。**
+
+## 🛡 部品の入れ方（2026-11-08 部品の乗っ取り対策）
+- **鍵（secrets）を持たせた手順の中で `npm install`／`pip install` をしない。** 部品は鍵なしの別の手順で先に入れる（乗っ取られた部品が入った瞬間に鍵を持ち出す攻撃＝2026-03 の LiteLLM 型への備え）
+- Claude Code は `npm install -g @anthropic-ai/claude-code --min-release-age=3`（公開から3日たった版だけ）。ランナーの npm がこの設定を知らない時は Actions の画面に warning が出る
+- YouTube 用の Python 部品は `requirements-youtube.txt` で依存まで `==` 固定（26部品）。上げる時は公開から数日たった版か・既知の穴が無いかを確かめて一覧ごと書き換える。**YouTube 投稿を ON に戻した初回は実行ログを1度見る**（ubuntu-26.04 ではこの一覧はまだ走っていない）
