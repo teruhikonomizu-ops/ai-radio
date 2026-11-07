@@ -19,11 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: YouTube用の部品を入れる（版を固定・鍵はまだ渡さない）
+        # 2026-11-08 のみさん承認: 部品の乗っ取り（サプライチェーン攻撃）対策。出たばかりの版は入れない・鍵を持たせた手順の中で部品を入れない。
+        run: pip install -r requirements-youtube.txt
+
       - name: 動画を削除
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: |
-          pip install google-auth-oauthlib google-api-python-client
           python3 scripts/delete_youtube.py "${{ github.event.inputs.video_id }}"

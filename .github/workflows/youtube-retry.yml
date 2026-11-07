@@ -60,6 +60,10 @@ jobs:
           sudo apt-get update && sudo apt-get install -y ffmpeg fonts-noto-cjk
           ffmpeg -version | head -n 1
 
+      - name: YouTube用の部品を入れる（版を固定・鍵はまだ渡さない）
+        # 2026-11-08 のみさん承認: 部品の乗っ取り（サプライチェーン攻撃）対策。出たばかりの版は入れない・鍵を持たせた手順の中で部品を入れない。
+        run: pip install -r requirements-youtube.txt
+
       - name: YouTube用動画の作成とアップロード
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
@@ -68,7 +72,6 @@ jobs:
           SHOW: ${{ inputs.show }}
           DAY: ${{ inputs.date }}
         run: |
-          pip install google-auth-oauthlib google-api-python-client pillow
           ep="radio/$SHOW/$DAY"
           python3 scripts/create_video.py "work/$SHOW-$DAY.mp3" "$ep/台本.txt" "" "work/$SHOW-$DAY.mp4" "$SHOW"
           python3 scripts/upload_youtube.py "work/$SHOW-$DAY.mp4" "$ep/概要欄.txt" "$SHOW"

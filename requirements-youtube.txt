@@ -1,0 +1,32 @@
+# YouTube への投稿・削除で使う Python の部品（GitHub Actions 用）
+# 2026-11-08 のみさん承認: 部品の乗っ取り（サプライチェーン攻撃）対策で版を固定した。
+# 中身は 2026-09-28 の投稿成功回（youtube-retry #36495617307）で実際に入った版そのまま＝動いた実績のある組み合わせ。
+# 上げる時は、新しい版が公開から数日たっているか・既知の穴が無いかを確かめてから、この一覧ごと書き換える。
+charset_normalizer==3.5.1
+google-api-core==2.39.0
+google-api-python-client==2.200.0
+google-auth==2.59.0
+google-auth-httplib2==0.4.2
+google-auth-oauthlib==1.4.1
+googleapis-common-protos==1.75.4
+opentelemetry-api==1.45.0
+pillow==12.3.0
+proto-plus==1.28.4
+protobuf==7.36.2
+requests==2.34.2
+requests-oauthlib==2.0.0
+uritemplate==4.2.0
+# 依存の部品（9/28 はランナーに最初から入っていて一覧に出なかった物）。2026-11-08 別の目の点検の指摘で固定を追加。
+# 版は手元で解決した版（どれも公開から8日以上・取り下げなし）。ubuntu-26.04 では未実行＝YouTube を ON に戻した初回は実行ログを1度見る。
+certifi==2026.10.23
+cffi==2.1.1
+cryptography==50.0.2
+httplib2==0.32.1
+idna==3.20
+oauthlib==4.0.1
+pyasn1==0.6.5
+pyasn1_modules==0.4.2
+pycparser==3.12
+pyparsing==3.3.3
+typing_extensions==4.16.0
+urllib3==2.8.0

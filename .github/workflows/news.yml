@@ -119,12 +119,20 @@ jobs:
           python3 scripts/check_digest.py work/digest_news.md
           { echo "【AIニュースダイジェスト(前半用)】"; cat work/digest_ai.md; echo; echo "========"; echo "【ニュースダイジェスト(後半用)】"; cat work/digest_news.md; } > work/digest.md
 
+      - name: Claude Code を入れる（公開から3日たった版だけ・鍵はまだ渡さない）
+        if: steps.plan.outputs.mode == 'full'
+        # 2026-11-08 のみさん承認: 部品の乗っ取り（サプライチェーン攻撃）対策。出たばかりの版は入れない・鍵を持たせた手順の中で部品を入れない。
+        run: |
+          npm --version
+          npm config ls -l | grep -q "min-release-age" || echo "::warning::このnpmは待ち期間（min-release-age）に未対応＝最新版がそのまま入ります。ワークフローの見直しが必要です"
+          npm install -g @anthropic-ai/claude-code --min-release-age=3
+          claude --version || echo "::warning::claude --version が失敗（ネットの瞬断など）。次の執筆手順の再挑戦に任せる"
+
       - name: Claude で台本と概要欄を執筆
         if: steps.plan.outputs.mode == 'full'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
-          npm install -g @anthropic-ai/claude-code
           cat "prompts/$SHOW.md" work/digest.md > work/prompt.md
           ok=""
           judged=0   # 品質判定まで到達した回数(Claude呼び出し自体の失敗は数えない)
@@ -188,6 +196,12 @@ jobs:
           fi
           gh release upload "$tag" "work/$SHOW-${{ steps.plan.outputs.today }}.mp3" --clobber
 
+      - name: YouTube用の部品を入れる（版を固定・鍵はまだ渡さない）
+        if: steps.plan.outputs.mode != 'skip' && env.YOUTUBE_UPLOAD == 'on'
+        # 2026-11-08 のみさん承認: 部品の乗っ取り（サプライチェーン攻撃）対策。出たばかりの版は入れない・鍵を持たせた手順の中で部品を入れない。
+        continue-on-error: true
+        run: pip install -r requirements-youtube.txt
+
       - name: YouTube用動画の作成とアップロード
         if: steps.plan.outputs.mode != 'skip' && env.YOUTUBE_UPLOAD == 'on'
         id: youtube
@@ -200,7 +214,6 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: |
-          pip install google-auth-oauthlib google-api-python-client pillow
           mp3="work/$SHOW-${{ steps.plan.outputs.today }}.mp3"
           mp4="work/$SHOW-${{ steps.plan.outputs.today }}.mp4"
           ep="radio/$SHOW/${{ steps.plan.outputs.today }}"
