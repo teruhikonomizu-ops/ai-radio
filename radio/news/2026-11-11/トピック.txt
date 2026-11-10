@@ -1,0 +1,32 @@
+Anthropic IPO価格帯 ||| Anthropic, IPO, 70〜78ドル, 1兆4040億ドル
+ChatGPTの企業向け機能 ||| OpenAI, Businesses in ChatGPT, Business Agents
+Googleの新TPU2種 ||| Google, TPU, 機密モデル訓練
+Gemini Robotics 2.5公開 ||| Gemini Robotics 2.5, ASIMOV-jailbreak, DeepMind
+AlphaProof CodeでSignal検証 ||| AlphaProof Code, Lean, Signal, DeepMind
+Adobeのエージェント型AI ||| Adobe, Firefly, Photoshop, Premiere, Figma
+Ring Drone Cam発表 ||| Ring Drone Cam, 249.99ドル, Amazon
+Spotify AI DJの新機能 ||| Spotify, AI DJ
+IGF審査員の生成AI不投票声明 ||| IGF, Independent Games Festival, 生成AI
+OpenAIとUpworkのフリーランス研究 ||| OpenAI, Upwork, フリーランス
+ChatGPT EnterpriseがAWS対応 ||| ChatGPT Enterprise, AWS Marketplace
+OpenAI Control Room ||| OpenAI, Control Room
+ウクライナ光ファイバー式ドローン不足 ||| Ukraine, 光ファイバー, データセンター
+Kora 無料Windows代替 ||| Kora, Cyanogen, Windows
+Instagramのティーンアカウント拡大 ||| Instagram, ティーンアカウント, Meta, Threads
+三井化学がJSR買収 ||| 三井化学, JSR, 1.8兆円, 市村社長
+日商の受験者情報漏えい ||| 日本商工会議所, 98万人, 簿記
+ソフト99の個人情報漏えい ||| ソフト99コーポレーション, 13万人, クレジットカード
+何でもリバースエンジニアリング流行 ||| リバースエンジニアリング, REA, GitHub
+NIIのオープンAIモデル資料公開 ||| NII, LLM-jp, オープン大規模言語モデルシンポジウム
+車の遠隔解錠の脆弱性 ||| トヨタ, レクサス, 遠隔解錠
+台風32号 小笠原最接近 ||| 台風32号, 小笠原諸島, 気象庁
+小泉防衛相 高市首相を支える考え ||| 小泉防衛相, 高市首相, 自民総裁選
+小渕氏 税調副会長退任 ||| 小渕氏, 古川氏, 小野寺税調会長, 食料品消費税減税
+国民健康保険料の上限引き上げ ||| 国民健康保険, 96万円, 厚生労働省
+土地取得規制法案が審議入り ||| 小野田経済安保相, 土地取得規制法案, 衆議院
+9月家計調査 消費支出6.8%減 ||| 家計調査, 6.8%減, 10か月連続, 総務省
+ホンダ業績上方修正とスズキ中間決算 ||| ホンダ, スズキ, 3兆4000億円, インド
+エルニーニョ現象 過去最大の強さ ||| エルニーニョ, 4.4度, 気象庁
+米10月消費者物価指数 0.4%上昇 ||| 米消費者物価指数, 0.4%, FRB, 追加利上げ
+中国の貿易黒字1兆ドル超 ||| 中国, 貿易黒字, 1兆ドル, EU
+特殊詐欺対策の国際会議 ||| 特殊詐欺, 国際会議, 官民連携

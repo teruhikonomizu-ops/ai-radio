@@ -11,6 +11,47 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/11(水) Anthropic上場価格帯／台風32号が小笠原に最接近</title>
+      <description>11/11(水) Anthropic上場価格帯／台風32号が小笠原に最接近
+
+【AI】
+・Anthropicが新規上場の価格帯を提示(1株70〜78ドル、評価額は最大1兆4040億ドル)
+・OpenAI、ChatGPTに企業向け機能とBusiness Agentsを導入
+・Googleが新しいTPUを2種類発表
+・DeepMindがGemini Robotics 2.5と安全ベンチマークASIMOV-jailbreakを公開
+・DeepMindのAlphaProof CodeがSignalの暗号を検証
+・Adobeがエージェント型AIをPhotoshop・Premiere・Fireflyに
+・Ringが家庭用ドローンと警備ロボットを発表
+・SpotifyのAI DJに新しい声と個性
+・IGFの審査員が生成AI利用ゲームへの不投票を表明
+・OpenAIとUpworkのフリーランス研究、ChatGPT EnterpriseのAWS Marketplace対応
+・ウクライナの光ファイバー式ドローンとデータセンター需要
+・InstagramがAIで10代を推定、日本でも保護機能を適用
+・三井化学がJSRを約1.8兆円で買収
+・日本商工会議所とソフト99の情報漏えい、フィッシングの変化への懸念
+・何でもリバースエンジニアリングの流行、NIIのオープンAIモデル資料、車の遠隔解錠の脆弱性
+
+【ニュース】
+・台風32号が小笠原諸島に最接近
+・小泉防衛相、来年の総裁選で高市首相の立候補なら支える考え
+・小渕氏が税調副会長の退任を受け入れ
+・国民健康保険料、高所得層の年間上限額を3万円引き上げ方向
+・安全保障上重要な土地の取得規制法案が審議入り
+・9月の家計調査、実質消費支出が6.8%減
+・ホンダが業績見通しを上方修正、スズキ中間決算は過去最高
+・エルニーニョ現象が過去最大の強さに
+・米消費者物価指数が予想を上回る
+・中国の貿易黒字が1兆ドル超、独身の日
+・特殊詐欺対策の国際会議
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Wed, 11 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-11/news-2026-11-11.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-11/news-2026-11-11.mp3" length="14886077" type="audio/mpeg"/>
+      <itunes:duration>0:15:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/10(火) Claude新モデル／消費税減税法案</title>
       <description>11/10(火) Claude新モデル／消費税減税法案
 
