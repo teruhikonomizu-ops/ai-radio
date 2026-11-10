@@ -3,3 +3,4 @@ engine-data/
 __pycache__/
 client_secret.json
 
+**/.claude/settings.local.json*
