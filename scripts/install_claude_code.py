@@ -4,17 +4,21 @@
 2026-11-13 改修。それまでは `npm install -g @anthropic-ai/claude-code --min-release-age=3` の1行だった。
 
 落ちた原因（2026-11-13 朝の放送）:
-  npm はこの待ち期間を「本体」と「実行ファイルの部品（@anthropic-ai/claude-code-linux-x64 など）」で
-  別々に判定する。部品は本体の約4分後に公開されるので、版が出てちょうど N 日後の約4分間だけ
-  「本体は入るが、実行ファイルの部品は若すぎて入らない」状態になる。部品は「無くてもよい物」の扱い
-  なので npm はエラーにせず、claude は "native binary not installed" で動かない。
+  Claude Code は「本体」と「実行ファイルの部品（@anthropic-ai/claude-code-linux-x64 など）」の2つで1組。
+  本体の bin/claude.exe は最初は仮置き（500バイトのエラー文）で、本体の後処理（install.cjs）が
+  部品から本物の実行ファイルを写して動くようになる。
+  npm の待ち期間は本体と部品を別々に判定する。部品は本体の約4分後に公開されるので、版が出て
+  ちょうど N 日後の約4分間だけ「本体は入るが、部品は若すぎて入らない」状態になる。部品は
+  「無くてもよい物」の扱いなので npm はエラーにせず、仮置きのまま＝"native binary not installed"。
   （2.1.321: 本体 11/09 19:02:47Z・部品 19:06:45Z → 11/12 19:05Z のインストールが命中）
 
 直し方:
   1. 本体と実行ファイルの部品の「両方」が N 日たった版のうち、いちばん新しい版を自分で選ぶ
   2. その版を名指しして入れる（npm 側の待ち期間 --min-release-age も付けたまま＝二重の守り）
-  3. 入れた後に `claude --version` が通ることまで確かめる。通らなければ1つ古い版で入れ直す
+  3. 入れた後に `claude --version` が通り、版の番号が合うことまで確かめる。だめなら1つ古い版で入れ直す
   4. どの版でも動かなければ、この手順を赤にして止める（鍵を持つ次の手順まで行かせない）
+
+同じ物を2つのリポジトリに置いている（ai-radio と unizom-insta の scripts/）。直す時は両方そろえる。
 
 使い方:
   python3 scripts/install_claude_code.py --days 3
@@ -23,6 +27,7 @@
 """
 import argparse
 import json
+import os
 import platform
 import re
 import shutil
@@ -33,6 +38,7 @@ from datetime import datetime, timedelta, timezone
 PKG = "@anthropic-ai/claude-code"
 MARGIN_SEC = 600   # 境目ぎりぎりを避ける余裕（npm 側の判定と数秒ずれても食い違わないように）
 MAX_TRY = 3        # 新しい順に何版まで試すか
+STALE_DAYS = 14    # 選んだ版が latest よりこれ以上古ければ注意を出す（部品の名前が変わった等の疑い）
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -104,13 +110,54 @@ def pick_versions(days, now):
     picked.sort(key=vkey, reverse=True)
     log(f"基準: {now:%Y-%m-%d %H:%M:%S}Z の {days} 日前（余裕 {MARGIN_SEC // 60} 分）＝ {cutoff:%Y-%m-%d %H:%M:%S}Z より前に公開された版")
     log(f"実行ファイルの部品: {npkg} ／ latest: {latest} ／ 条件を満たす版（新しい順）: {', '.join(picked[:MAX_TRY]) or 'なし'}")
+    if not picked:
+        log("::warning::条件を満たす版が1つも見つからなかった（部品の名前が変わった等の疑い）。scripts/install_claude_code.py の見直しが必要です")
+    elif latest and latest in main.get("time", {}):
+        gap = parse_time(main["time"][latest]) - parse_time(main["time"][picked[0]])
+        if gap > timedelta(days=STALE_DAYS):
+            log(f"::warning::選んだ版 {picked[0]} が latest（{latest}）より {gap.days} 日古い。部品の名前や配り方が変わっていないか確認してください")
     return picked[:MAX_TRY]
 
 
-def install(spec, days):
+def native_installed():
+    """実行ファイルの部品のフォルダが入っているか（分からなければ None）。失敗した時の切り分け用。"""
+    try:
+        npkg = native_pkg()
+        root = subprocess.run([npm_exe(), "root", "-g"], capture_output=True, text=True, encoding="utf-8", timeout=60).stdout.strip()
+        if not npkg or not root:
+            return None
+        sub = npkg.split("/")
+        return any(os.path.isdir(p) for p in (
+            os.path.join(root, *PKG.split("/"), "node_modules", *sub),
+            os.path.join(root, *sub),
+        ))
+    except Exception:
+        return None
+
+
+def check_claude(exe, want):
+    """claude --version が通り、版が want と合えばその文字列。だめなら None（例外にはしない）。"""
+    try:
+        v = subprocess.run([exe, "--version"], capture_output=True, text=True, encoding="utf-8", timeout=120)
+    except (OSError, subprocess.SubprocessError) as e:
+        # 部品が入らなかった時の仮置きは「#! の無いシェル文」なので、直接は実行できずここに来る
+        log(f"claude を実行できない（{type(e).__name__}: {e}）")
+        return None
+    text = (v.stdout + v.stderr).strip()
+    if v.returncode != 0:
+        log("claude --version が失敗:")
+        log(text[-600:])
+        return None
+    if want and want not in text:
+        log(f"入れた版（{want}）と違う claude が動いた: {text[:200]}")
+        return None
+    return text
+
+
+def install(spec, days, want, extra):
     """入れて、動くことまで確かめる。動けば版の文字列、だめなら None。"""
     log(f"--- 入れる: {spec}")
-    r = subprocess.run([npm_exe(), "install", "-g", spec, f"--min-release-age={days}"])
+    r = subprocess.run([npm_exe(), "install", "-g", spec, f"--min-release-age={days}"] + extra)
     if r.returncode != 0:
         log(f"npm install が失敗（終了コード {r.returncode}）")
         return None
@@ -118,11 +165,13 @@ def install(spec, days):
     if not exe:
         log("claude が見つからない（PATH）")
         return None
-    v = subprocess.run([exe, "--version"], capture_output=True, text=True, encoding="utf-8", timeout=120)
-    text = (v.stdout + v.stderr).strip()
-    if v.returncode != 0:
-        log("claude --version が失敗（実行ファイルの部品が入っていない等）:")
-        log(text[-600:])
+    text = check_claude(exe, want)
+    if not text:
+        has = native_installed()
+        if has is False:
+            log("切り分け: 実行ファイルの部品が入っていない（待ち期間で弾かれた・ダウンロードの失敗）")
+        elif has:
+            log("切り分け: 部品は入っているのに動かない＝本体の後処理（install.cjs）が走っていない疑い（npm が止めた等）")
         return None
     log(f"claude --version: {text}")
     return text
@@ -138,28 +187,38 @@ def main():
         sys.exit("--now は --dry-run と一緒にだけ使える（本番で基準時刻をずらすと待ち期間が崩れる）")
     now = parse_time(a.now) if a.now else datetime.now(timezone.utc)
 
-    # npm 自身が待ち期間を知っているか（知らなくても、下で版を自分で選ぶので待ち期間は守られる）
-    cfg = subprocess.run([npm_exe(), "config", "ls", "-l"], capture_output=True, text=True, encoding="utf-8")
-    if "min-release-age" not in cfg.stdout:
+    cfg = subprocess.run([npm_exe(), "config", "ls", "-l"], capture_output=True, text=True, encoding="utf-8").stdout
+    knows_age = "min-release-age" in cfg       # npm 自身が待ち期間を知っているか
+    knows_allow = "allow-scripts" in cfg       # npm が「後処理を名指しで許可する」設定を知っているか
+    if not knows_age:
         log("::warning::このnpmは待ち期間（min-release-age）に未対応。版は自前で選ぶので待ち期間は守られるが、ワークフローの見直しが必要です")
 
     try:
         versions = pick_versions(a.days, now)
-    except Exception as e:  # 公開情報が取れない時は、従来の入れ方に落とす（下で動作まで確かめる）
-        log(f"::warning::版を自前で選べなかった（{e}）。npm の待ち期間だけで入れる")
+    except Exception as e:  # 公開情報が取れない時は、npm の待ち期間だけで入れる（下で動作まで確かめる）
+        log(f"::warning::版を自前で選べなかった（{type(e).__name__}: {e}）。npm の待ち期間だけで入れる")
         versions = []
 
     if a.dry_run:
         log(f"（試し）入れる版: {versions[0] if versions else 'npm に任せる'}")
         return
 
-    specs = [f"{PKG}@{v}" for v in versions] or [PKG]
-    for i, spec in enumerate(specs):
-        if install(spec, a.days):
+    if not versions and not knows_age:
+        # 版も選べず npm も待ち期間を知らない＝このまま入れると出たばかりの版が入る。入れずに止める
+        log("::error::版を自前で選べず、npm も待ち期間に未対応のため、Claude Code を入れずに止めた（出たばかりの版を入れないため）")
+        sys.exit(1)
+
+    # 本体の後処理（install.cjs＝入った部品から実行ファイルを写すだけ・通信しない）を名指しで許可する。
+    # 今の npm は既定で走らせているが、将来の npm は名指しの許可が無いと止める予定のため、先にそろえておく。
+    extra = [f"--allow-scripts={PKG}"] if knows_allow else []
+
+    targets = [(f"{PKG}@{v}", v) for v in versions] or [(PKG, None)]
+    for i, (spec, want) in enumerate(targets):
+        if install(spec, a.days, want, extra):
             if i > 0:
                 log(f"::warning::いちばん新しい候補では動かず、{spec} に下げて入れた。ログを一度見てください")
             return
-    log("::error::Claude Code を入れられなかった（どの版でも claude --version が通らない）。scripts/install_claude_code.py のログを見てください")
+    log("::error::Claude Code を入れられなかった（どの版でも claude --version が通らない）。上の「切り分け」の行を見てください")
     sys.exit(1)
 
 

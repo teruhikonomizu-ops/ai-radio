@@ -15,7 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      - name: 公式アクション cache が動くか（news.yml と同じ版・中身は空の目印だけ）
+        # news.yml の cache は本番でしか走らないので、版を上げた時にここで先に確かめる。版は news.yml とそろえる。
+        uses: actions/cache@v5
+        with:
+          path: .cache-check
+          key: claude-install-check-v1
 
       - name: 落ちた朝と同じ時刻で版選びを試す（2.1.319 を選べば合格）
         # 2026-11-13 朝（11/12 19:05Z）は 2.1.321 の本体だけが3日たっていて、実行ファイルの部品が入らなかった。
@@ -25,7 +32,22 @@ jobs:
           echo "$out"
           echo "$out" | grep -q "入れる版: 2.1.319"
 
-      - name: 今の時刻で実際に入れて、動くことを確かめる
+      - name: 落ちた朝と同じ壊れ方をわざと作り、例外にせず「だめ」と判定できるか
+        # 実行ファイルの部品を入れずに本体だけ入れる（--omit=optional）＝11/13 朝と同じ状態（仮置きの claude だけがある）。
+        # 判定が「だめ」（None）で、切り分けが「部品が入っていない」（False）なら合格。
+        run: |
+          npm install -g @anthropic-ai/claude-code@2.1.319 --min-release-age=3 --omit=optional
+          python3 - <<'EOF'
+          import shutil, sys
+          sys.path.insert(0, "scripts")
+          import install_claude_code as m
+          r = m.check_claude(shutil.which("claude"), "2.1.319")
+          has = m.native_installed()
+          print("判定:", r, "／部品が入っているか:", has)
+          sys.exit(0 if r is None and has is False else 1)
+          EOF
+
+      - name: 今の時刻で実際に入れて、動くことを確かめる（上の壊れた状態からの入れ直しも兼ねる）
         run: |
           npm --version
           python3 scripts/install_claude_code.py --days 3
