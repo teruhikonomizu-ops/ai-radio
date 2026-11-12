@@ -135,6 +135,12 @@ def native_installed():
         return None
 
 
+def npm_knows(cfg, key):
+    """npm の設定一覧（npm config ls -l）に、その名前ちょうどの設定があるか。
+    allow-scripts-pin や min-release-age-exclude のような「名前が似た別の設定」には当てない。"""
+    return re.search(r"^\s*;?\s*" + re.escape(key) + r"\s*=", cfg, re.M) is not None
+
+
 def check_claude(exe, want):
     """claude --version が通り、版が want と合えばその文字列。だめなら None（例外にはしない）。"""
     try:
@@ -148,16 +154,16 @@ def check_claude(exe, want):
         log("claude --version が失敗:")
         log(text[-600:])
         return None
-    if want and want not in text:
+    if want and text.split()[:1] != [want]:   # 出力は「2.1.321 (Claude Code)」の形。先頭の語が版
         log(f"入れた版（{want}）と違う claude が動いた: {text[:200]}")
         return None
     return text
 
 
-def install(spec, days, want, extra):
+def install(spec, want, flags):
     """入れて、動くことまで確かめる。動けば版の文字列、だめなら None。"""
-    log(f"--- 入れる: {spec}")
-    r = subprocess.run([npm_exe(), "install", "-g", spec, f"--min-release-age={days}"] + extra)
+    log(f"--- 入れる: {spec} {' '.join(flags)}")
+    r = subprocess.run([npm_exe(), "install", "-g", spec] + flags)
     if r.returncode != 0:
         log(f"npm install が失敗（終了コード {r.returncode}）")
         return None
@@ -188,8 +194,8 @@ def main():
     now = parse_time(a.now) if a.now else datetime.now(timezone.utc)
 
     cfg = subprocess.run([npm_exe(), "config", "ls", "-l"], capture_output=True, text=True, encoding="utf-8").stdout
-    knows_age = "min-release-age" in cfg       # npm 自身が待ち期間を知っているか
-    knows_allow = "allow-scripts" in cfg       # npm が「後処理を名指しで許可する」設定を知っているか
+    knows_age = npm_knows(cfg, "min-release-age")     # npm 自身が待ち期間を知っているか
+    knows_allow = npm_knows(cfg, "allow-scripts")     # npm が「後処理を名指しで許可する」設定を知っているか
     if not knows_age:
         log("::warning::このnpmは待ち期間（min-release-age）に未対応。版は自前で選ぶので待ち期間は守られるが、ワークフローの見直しが必要です")
 
@@ -210,11 +216,13 @@ def main():
 
     # 本体の後処理（install.cjs＝入った部品から実行ファイルを写すだけ・通信しない）を名指しで許可する。
     # 今の npm は既定で走らせているが、将来の npm は名指しの許可が無いと止める予定のため、先にそろえておく。
-    extra = [f"--allow-scripts={PKG}"] if knows_allow else []
+    # npm が知らない指定は渡さない（今は注意だけだが、将来の npm では入れる処理そのものが失敗する）。
+    # 待ち期間は上で版を自前で選んで守っているので、npm 側の指定は「知っている時だけの二重の守り」。
+    flags = ([f"--min-release-age={a.days}"] if knows_age else []) + ([f"--allow-scripts={PKG}"] if knows_allow else [])
 
     targets = [(f"{PKG}@{v}", v) for v in versions] or [(PKG, None)]
     for i, (spec, want) in enumerate(targets):
-        if install(spec, a.days, want, extra):
+        if install(spec, want, flags):
             if i > 0:
                 log(f"::warning::いちばん新しい候補では動かず、{spec} に下げて入れた。ログを一度見てください")
             return

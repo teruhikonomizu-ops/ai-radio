@@ -17,12 +17,16 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: 公式アクション cache が動くか（news.yml と同じ版・中身は空の目印だけ）
+      - name: 公式アクション cache の復元と保存が動くか（news.yml と同じ版・中身は目印1つだけ）
         # news.yml の cache は本番でしか走らないので、版を上げた時にここで先に確かめる。版は news.yml とそろえる。
+        # 初回は「無い」→最後に保存、2回目以降は「復元できた」になる。保存は下の手順で目印を置かないと飛ばされる。
         uses: actions/cache@v5
         with:
           path: .cache-check
           key: claude-install-check-v1
+
+      - name: cache に保存する目印を置く
+        run: mkdir -p .cache-check && date > .cache-check/mark.txt
 
       - name: 落ちた朝と同じ時刻で版選びを試す（2.1.319 を選べば合格）
         # 2026-11-13 朝（11/12 19:05Z）は 2.1.321 の本体だけが3日たっていて、実行ファイルの部品が入らなかった。
