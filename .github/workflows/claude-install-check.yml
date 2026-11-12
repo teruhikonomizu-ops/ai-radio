@@ -33,15 +33,17 @@ jobs:
           echo "$out" | grep -q "入れる版: 2.1.319"
 
       - name: 落ちた朝と同じ壊れ方をわざと作り、例外にせず「だめ」と判定できるか
-        # 実行ファイルの部品を入れずに本体だけ入れる（--omit=optional）＝11/13 朝と同じ状態（仮置きの claude だけがある）。
+        # 「11/09 19:05Z より前に公開された物だけ」で入れる＝11/13 朝と同じ経路で、2.1.321 の本体だけが入り
+        # 実行ファイルの部品（19:06:45Z 公開）は入らない（仮置きの claude だけがある状態）。
         # 判定が「だめ」（None）で、切り分けが「部品が入っていない」（False）なら合格。
+        # ※ --omit=optional では部品が入ってしまい、壊れた状態を作れなかった（2026-11-13 実測）。
         run: |
-          npm install -g @anthropic-ai/claude-code@2.1.319 --min-release-age=3 --omit=optional
+          npm install -g @anthropic-ai/claude-code --before=2026-11-09T19:05:00.000Z
           python3 - <<'EOF'
           import shutil, sys
           sys.path.insert(0, "scripts")
           import install_claude_code as m
-          r = m.check_claude(shutil.which("claude"), "2.1.319")
+          r = m.check_claude(shutil.which("claude"), "2.1.321")
           has = m.native_installed()
           print("判定:", r, "／部品が入っているか:", has)
           sys.exit(0 if r is None and has is False else 1)
