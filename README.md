@@ -144,6 +144,9 @@ NHKのRSSが `www3.nhk.or.jp` → `www.nhk.or.jp` へ移転していたが、**�
 
 ## 🛡 部品の入れ方（2026-11-08 部品の乗っ取り対策）
 - **鍵（secrets）を持たせた手順の中で `npm install`／`pip install` をしない。** 部品は鍵なしの別の手順で先に入れる（乗っ取られた部品が入った瞬間に鍵を持ち出す攻撃＝2026-03 の LiteLLM 型への備え）
-- Claude Code は `npm install -g @anthropic-ai/claude-code --min-release-age=3`（公開から3日たった版だけ）。ランナーの npm がこの設定を知らない時は Actions の画面に warning が出る。鍵を持つ執筆の手順では `DISABLE_AUTOUPDATER=1` で自己更新を止めている
+- Claude Code は `python3 scripts/install_claude_code.py --days 3`（公開から3日たった版だけ）で入れる。~~`npm install -g @anthropic-ai/claude-code --min-release-age=3` の1行~~ は 2026-11-13 に廃止＝**この1行に戻さない**。鍵を持つ執筆の手順では `DISABLE_AUTOUPDATER=1` で自己更新を止めている
+  - 廃止の理由（2026-11-13 朝の放送が落ちた）: npm の待ち期間は「本体」と「実行ファイルの部品（`@anthropic-ai/claude-code-linux-x64`）」を別々に判定する。部品は本体の約4分後に公開されるので、版が出てちょうど3日後の約4分間は「本体だけ入って実行ファイルが入らない」。部品は無くてもよい物の扱いなので npm はエラーにせず、`claude` が `native binary not installed` で動かない。GAS の 4:00 起動がこの4分間に当たった（2.1.321: 本体 11/09 19:02:47Z・部品 19:06:45Z・インストール 11/12 19:05Z）
+  - スクリプトがやること: 本体と部品の**両方**が3日たった版を選ぶ → 版を名指しして入れる（npm 側の `--min-release-age` も付けたまま）→ `claude --version` が通ることまで確かめる → 通らなければ1つ古い版 → 全部だめならその手順で赤（鍵を持つ執筆の手順まで行かない）
+  - 入れ方だけを本番と同じ機械で試す: `gh workflow run claude-install-check -R teruhikonomizu-ops/ai-radio`（鍵なし・何も公開しない・手動だけ）。同じスクリプトを unizom-insta の `weekly-build` も使っている＝直す時は2つのリポジトリをそろえる
 - YouTube 用の部品は `pip install --no-deps -r requirements-youtube.txt && pip check`＝一覧に無い部品は入れない（足りなければ次の手順で赤になる）
 - YouTube 用の Python 部品は `requirements-youtube.txt` で依存まで `==` 固定（26部品）。上げる時は公開から数日たった版か・既知の穴が無いかを確かめて一覧ごと書き換える。**YouTube 投稿を ON に戻した初回は実行ログを1度見る**（ubuntu-26.04 ではこの一覧はまだ走っていない）

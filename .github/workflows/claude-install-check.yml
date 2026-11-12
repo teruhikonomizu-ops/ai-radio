@@ -1,0 +1,32 @@
+name: claude-install-check
+
+# Claude Code の入れ方（scripts/install_claude_code.py）だけを、本番と同じ機械で試す点検用（2026-11-13 新設）。
+# 鍵は一切渡さない・何も公開しない・コミットもしない。手で動かした時だけ走る（定時なし）。
+# 使いどころ: 入れ方を直した後の確認／news-radio が「Claude Code を入れる」で赤になった時の切り分け。
+# 手動実行: gh workflow run claude-install-check -R teruhikonomizu-ops/ai-radio
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 落ちた朝と同じ時刻で版選びを試す（2.1.319 を選べば合格）
+        # 2026-11-13 朝（11/12 19:05Z）は 2.1.321 の本体だけが3日たっていて、実行ファイルの部品が入らなかった。
+        # 同じ時刻を渡して、1つ前の 2.1.319 を選ぶことを確かめる。
+        run: |
+          out=$(python3 scripts/install_claude_code.py --days 3 --dry-run --now 2026-11-12T19:05:00Z)
+          echo "$out"
+          echo "$out" | grep -q "入れる版: 2.1.319"
+
+      - name: 今の時刻で実際に入れて、動くことを確かめる
+        run: |
+          npm --version
+          python3 scripts/install_claude_code.py --days 3
+          claude --version

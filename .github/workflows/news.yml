@@ -122,11 +122,12 @@ jobs:
       - name: Claude Code を入れる（公開から3日たった版だけ・鍵はまだ渡さない）
         if: steps.plan.outputs.mode == 'full'
         # 2026-11-08 のみさん承認: 部品の乗っ取り（サプライチェーン攻撃）対策。出たばかりの版は入れない・鍵を持たせた手順の中で部品を入れない。
+        # 2026-11-13 改修: npm の待ち期間は本体と実行ファイルの部品を別々に判定するため、版が出て3日後の約4分間だけ
+        #   「本体は入るが実行ファイルが入らない」状態になる（11/13 朝の放送が落ちた原因）。両方が3日たった版を
+        #   スクリプトが選んで入れ、claude --version が通ることまで確かめる。通らなければここで赤にして止める。
         run: |
           npm --version
-          npm config ls -l | grep -q "min-release-age" || echo "::warning::このnpmは待ち期間（min-release-age）に未対応＝最新版がそのまま入ります。ワークフローの見直しが必要です"
-          npm install -g @anthropic-ai/claude-code --min-release-age=3
-          claude --version || echo "::warning::claude --version が失敗（導入の失敗・PATH など）。次の執筆手順で再挑戦する"
+          python3 scripts/install_claude_code.py --days 3
 
       - name: Claude で台本と概要欄を執筆
         if: steps.plan.outputs.mode == 'full'
