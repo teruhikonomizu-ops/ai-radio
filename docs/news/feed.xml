@@ -11,6 +11,44 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/13(金) Gemini 4 Hydrogenを検索に／定数削減法案</title>
+      <description>11/13(金) Gemini 4 Hydrogenを検索に／定数削減法案
+
+【AI】
+・Google検索にGemini 4 Hydrogenを世界で導入
+・United航空が外部AIエージェントによる航空券予約を禁止、MuseはUS事業者への発信が有料で可能に
+・Nvidiaがチップ追跡による密輸対策は技術的に可能と議員に伝えていた
+・Jensen Huang氏辞任の続報、オープンソースAIとHugging Faceへの影響
+・Nebiusの400億ドル投資計画とSoftBankのガスタービン損失
+・OpenAIが子どもの安全研究に200万ドル、Googleは学校でのGemini試験導入に反発
+・AIチャットボットが偽の通販サイトを勧める調査結果、マヤ遺跡発見の主張に指摘
+・Microsoft 365の接続障害、Notion AIのチャット記録漏えいの恐れ
+・GPT-6 Lunaの国内推論、MuseのメールアドレスをMuseが日本でも提供
+・パナソニックHDのフィジカルAI、最高検の生成AI指針
+・AWS Nitro Sandboxes、AWS Emulator、NemotronのPersonas-Finance-Japan/PII-Japan、kintoneコード無料診断
+
+【ニュース】
+・山形県寒河江市と広島県福山市の住宅火災
+・衆院定数を比例で31削減する法案を自民・維新・国民が提出
+・来年度税制改正の議論、食料品の消費税減税と丸亀製麺の値下げ
+・円相場が一時1ドル160円台に
+・重要物資の老朽設備を国費で買い取る制度の検討、空室税の検討
+・安保3文書改定に向けた維新の議論、防衛研究所の中国報告書
+・キユーピー・不二家・良品計画の個人情報流出
+・JR芸備線の一部区間バス転換案、阿波市長逮捕を受けた会見
+・芥川龍之介「藪の中」直筆原稿、植物と動物の特徴を併せ持つ新細胞
+・COP31と日本の化石賞、皇宮警察の武道大会、EBiDANの紅白初出場
+・プーチン大統領が米特使と会談し局地停戦を提案、ウクライナの衛星通信制限
+・米ニューヨークの建物崩壊、習主席の台湾統一への意欲
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-13/news-2026-11-13.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-13/news-2026-11-13.mp3" length="14266243" type="audio/mpeg"/>
+      <itunes:duration>0:14:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/12(木) アンソロピックIPO／食品消費税減税が参院へ</title>
       <description>11/12(木) アンソロピックIPO／食品消費税減税が参院へ
 
