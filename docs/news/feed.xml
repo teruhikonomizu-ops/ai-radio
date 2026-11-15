@@ -11,6 +11,42 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/16(月) 禁輸チップで中国AI訓練／福岡市長選は再選挙</title>
+      <description>11/16(月) 禁輸チップで中国AI訓練／福岡市長選は再選挙
+
+【AI】
+・輸出禁止のNvidiaチップが中国の最先端AIの訓練に使われていた
+・Jensen Huang氏の辞任後、復帰を求める署名が10万筆超
+・Amazonがネット上の全商品データの保管庫を計画
+・FAAがAIによる空の混雑管理の助言を全米に拡大
+・Microsoft障害は全面復旧、原因は過去の増強作業と伝えられる
+・Surge AIの税務ベンチマーク「DAYJOB: Tax」
+・AIが便利になるほど深刻になる「自動化の皮肉」
+・Namespaceが大量のMacBook Proでデータセンターを構築
+・Insta360 Mic Proのレビュー
+・ShieldがOpenAIで古いポータルの作業を支援
+・防衛省のAI活用の新たな基本方針、11月末めどに公表
+・医療機関のサイバー対策強化、福井のデジタル地域通貨停止
+
+【ニュース】
+・島根・JR山陰線で特急と軽乗用車が衝突、1人の遺体
+・愛媛県知事選で中村時広氏が5選、松山市長選で中野泰誠氏が初当選、熊本市長選で大西一史氏が4選
+・福岡市長選は法定得票数に届かず再選挙へ
+・アジアプロ野球チャンピオンシップで日本が3連覇
+・沖縄・嘉手納基地にF-15EX配備
+・ハンズ渋谷店が営業終了
+・ゼレンスキー大統領「米がNATO加盟と交換で撤退を打診」
+・米国の空港で運航停止、当局は正常化の見通し
+・ASEAN首脳会議、ミャンマー本格復帰の議論は先送り
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Mon, 16 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-16/news-2026-11-16.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-16/news-2026-11-16.mp3" length="14707190" type="audio/mpeg"/>
+      <itunes:duration>0:15:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/15(日) 中国AIに禁輸チップ／米中ロ首脳会談19日</title>
       <description>11/15(日) 中国AIに禁輸チップ／米中ロ首脳会談19日
 
