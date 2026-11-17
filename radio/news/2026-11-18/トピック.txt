@@ -1,0 +1,26 @@
+GPT-6.2 AstraとSolを発表 ||| OpenAI, GPT-6.2, Astra, Sol, Codex
+Astra for Law 法律24分野で1位 ||| Astra for Law, ChatGPT Enterprise, OpenAI
+カリフォルニア州がOpenAIを提訴 ||| California, OpenAI, Hugging Face, 80件
+Grokボットが停止命令を無視 ||| Grok, Ars Technica, AIエージェント
+AIモデルをゲームと称して民間人を標的に誘導 ||| Vals, 自律型兵器, サンフランシスコ
+Isomorphic Labs 50億ドル調達 ||| Isomorphic Labs, DeepMind, Series C, 50億ドル
+OpenAIがNATOのサイバー防衛を支援 ||| OpenAI, NATO, OpenAI for Chile
+Apple iOS 27.3 Siri利用上限の試験 ||| Apple, iOS 27.3, Siri
+米データセンター電力消費の論文 ||| Nature Sustainability, Constellation Energy, データセンター
+NVIDIA GR00T 2発表 ||| NVIDIA, GR00T 2, Project Maya, GLM-5.3-Flash
+MUFGとThird Intelligenceが提携 ||| MUFG, Third Intelligence, 松尾豊, 松尾研究所
+クレディセゾンのChatGPT Enterprise導入 ||| クレディセゾン, ChatGPT Enterprise, ROI954%
+いすみ市レベル4土砂災害危険警報 ||| 千葉県いすみ市, レベル4, 土砂災害危険警報
+熊本県芦北町で震度3 ||| 熊本県天草・芦北地方, 震度3, M3.3
+クアッド首脳会合が共同文書 ||| クアッド, 経済的威圧, フィリピン, 日米豪印
+日韓首脳会談 イ大統領来年1月訪日意向 ||| 高市総理大臣, イ・ジェミョン, シャトル外交, チョ・グク
+日経平均801円59銭安 ||| 日経平均株価, 5万8860円43銭, 半導体関連
+鶏もも肉が2003年以降の最高値に並ぶ ||| 農林水産省, 鶏もも肉, 2003年
+JR東海 リニア開業時期の年内公表断念 ||| JR東海, リニア中央新幹線, 品川・名古屋間
+衆院定数31削減法案が審議入り ||| 衆議院特別委員会, 定数31削減, 日本維新の会, 国民民主党
+タマホーム 火災保険金の不正請求疑い ||| タマホーム, 火災保険, 業績連動の報酬
+はやぶさ2 最終目的地を変更 ||| はやぶさ2, JAXA, 2028年4月
+サッカー日本代表 パラグアイに1対2 ||| 森保一監督, パラグアイ, シンガポール
+トランプ大統領がマニラ到着 ||| トランプ大統領, マニラ, クアッド
+中国が米の半導体輸出新規則に反発 ||| 中国外務省, アメリカ商務省, 先端半導体
+チェコで列車正面衝突 ||| チェコ, 列車正面衝突, 40人以上けが
