@@ -1,6 +1,6 @@
 name: news-radio
 
-# 朝のAI＆ニュース(2026-11-01 のみさん指示で2番組を1本に統合・約15分):
+# 朝のAI＆ニュース(2026-11-01 のみさん指示で2番組を1本に統合。2026-11-19 のみさん指示で約15分→約10分・大きい話題だけに):
 #   AI(世界→国内)→ニュース(国内中心＋大きな国際)。挨拶・出典の紹介なし、「以上です」で終わる。
 #   毎朝クラウドで 収集(AI＋ニュースの両方)→台本(Claude)→音声合成(AivisSpeech・まお おちつき)→配信(Release+RSS)
 #   フィードは従来のニュース番組 news/feed.xml を使い回す(AntennaPodの購読し直し不要)。tech-radio は停止。
@@ -148,10 +148,10 @@ jobs:
               continue
             fi
             judged=$((judged+1))
-            # 1回目は狙いどおりの尺(約15分)に収まる範囲。2回目以降は放送を落とさないため緩める
-            # (2026-11-01実測: まお・速さ1.0で 4,477字→14分3秒 ＝ 約5.3字/秒)
-            if [ "$judged" = 1 ]; then lo=4450; hi=5300; strict=1; else lo=4000; hi=5600; strict=0; fi
-            if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt  "$lo" "$hi" work/topics.txt "$strict"; then
+            # 1回目は狙いどおりの尺(約10分)に収まる範囲。2回目以降は放送を落とさないため緩める
+            # (2026-11-15〜19実測: まお・速さ1.0で 約5.5字/秒 ＝ 10分≒3,300字。指示書の目標は3,150〜3,400字)
+            if [ "$judged" = 1 ]; then lo=3000; hi=3600; strict=1; else lo=2700; hi=3900; strict=0; fi
+            if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt  "$lo" "$hi" work/topics.txt "$strict" 12; then
               ok=1; break
             fi
             if [ "$judged" -ge 2 ]; then echo "品質不合格が2回続いた"; break; fi
@@ -181,8 +181,9 @@ jobs:
           mp3="work/$SHOW-${{ steps.plan.outputs.today }}.mp3"
           dur=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$mp3" | cut -d. -f1)
           echo "長さ: $((dur/60))分$((dur%60))秒"
-          if [ "$dur" -lt 660 ] || [ "$dur" -gt 1200 ]; then
-            echo "長さが異常(11分未満または20分超)のため公開を中止"
+          # 2026-11-19 約10分の番組に変更(3,300字前後→約10分)。2回目の緩めた字数でも収まる範囲
+          if [ "$dur" -lt 450 ] || [ "$dur" -gt 780 ]; then
+            echo "長さが異常(7分30秒未満または13分超)のため公開を中止"
             exit 1
           fi
           python3 scripts/write_meta.py "$SHOW" "${{ steps.plan.outputs.today }}" "$mp3" "$ep/概要欄.txt" "$ep/meta.json"

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Claudeの出力を 台本 / 概要欄 / トピック台帳 に分割し、文字数・タイトル長を検査する。
-使い方: python3 split_output.py <claude出力> <台本> <概要欄> [最小字数] [最大字数] [トピック出力] [厳格=1/0]
+使い方: python3 split_output.py <claude出力> <台本> <概要欄> [最小字数] [最大字数] [トピック出力] [厳格=1/0] [話題の上限本数=0で検査なし]
 不合格なら <claude出力と同じフォルダ>/feedback.txt に修正指示を書き、exit 3。
 字数は「#コメント行と空白を除いた、実際に読み上げられる文字数」で数える。
 
@@ -16,6 +16,8 @@ lo = int(sys.argv[4]) if len(sys.argv) > 4 else 2600
 hi = int(sys.argv[5]) if len(sys.argv) > 5 else 3400
 dst_topics = Path(sys.argv[6]) if len(sys.argv) > 6 else src.parent / "topics.txt"
 strict = (sys.argv[7] if len(sys.argv) > 7 else "1") == "1"
+# 2026-11-19 約10分の番組に縮めた時に追加。上限を超えたら、厳格=1では作り直させ、0では警告だけ(放送を落とさない)
+max_topics = int(sys.argv[8]) if len(sys.argv) > 8 else 0
 text = src.read_text(encoding="utf-8")
 
 
@@ -65,6 +67,14 @@ if len(topic_lines) < 4:
            "『===トピック台帳ここから===』〜『===トピック台帳ここまで===』の中に、"
            "台本で扱った話題を1行1件で『見出し ||| キーワード1, キーワード2, キーワード3』の形で"
            "4件以上書くこと(キーワードは各2個以上・その話題を一意に特定できる固有名詞)。")
+    if strict:
+        problems.append(msg)
+    else:
+        print("警告: " + msg, file=sys.stderr)
+
+if max_topics and len(topic_lines) > max_topics:
+    msg = (f"話題が{len(topic_lines)}本あった(トピック台帳の行数)。上限は{max_topics}本。"
+           "小さい話題を落として大きい話題だけに絞り、字数は大きい話題の説明(背景・影響・今後)を厚くして合わせること。")
     if strict:
         problems.append(msg)
     else:
