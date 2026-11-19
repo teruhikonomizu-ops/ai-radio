@@ -195,6 +195,8 @@ def main():
             sent_start = cur_time()
             spoken = reading_words.apply(s, words_table, words_hits) if reading_words else s
             spoken = reading_fix.fix(spoken, reading_table, reading_unknown)
+            if reading_words:  # 英字をカタカナにした後にも数字の決まりを当てる(SolidWorks2027 等)
+                spoken = reading_words.fix_numbers(spoken)
             wav_bytes = synthesize(spoken, spk["id"], speed, spk["pitch"], spk["intonation"])
             with wave.open(io.BytesIO(wav_bytes)) as w:
                 if params is None:

@@ -130,12 +130,75 @@ def load(path: Path = DICT_PATH, with_local: bool = False) -> Table:
 def apply(text: str, table: Table, hits=None) -> str:
     """エンジンへ渡す文字列だけを置き換える。hits に set を渡すと当たった書きを積む。
     万一ここで失敗しても、元の文のまま返す（声づくりを止めない）。"""
-    if table is None or getattr(table, "pattern", None) is None or not text:
+    if not text:
         return text
+    if table is not None and getattr(table, "pattern", None) is not None:
+        try:
+            text = _apply(text, table, hits)
+        except Exception as ex:  # noqa: BLE001
+            print(f"::warning::読み方辞書の置き換えに失敗したので元の文で続けます: {ex}")
+    return fix_numbers(text)
+
+
+_KDIG = {"〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+
+
+def _kanji_int(s: str):
+    """漢数字の整数（六十四・二〇二六・千二百 等）を数にする。読めなければ None。"""
+    if not s:
+        return None
+    if all(c in _KDIG for c in s):                      # 位取りの無い並び（二〇二六）
+        return int("".join(str(_KDIG[c]) for c in s))
+    total, cur = 0, 0
+    for c in s:
+        if c in _KDIG:
+            cur = _KDIG[c]
+        elif c in "十百千":
+            total += (cur or 1) * {"十": 10, "百": 100, "千": 1000}[c]
+            cur = 0
+        else:
+            return None
+    return total + cur
+
+
+# 数字の読み方の決まり（2026-11-19 のみさん「2026年とかよく言ってるけど…今これできないの？」）。
+# ラジオ全212本の台本で実測した読み違いだけを直す。辞書とは別に、いつも当てる。
+_RE_ZERO_RUN = re.compile(r"(?<![〇一二三四五六七八九十百千])[〇一二三四五六七八九]*〇[〇一二三四五六七八九]*(?![〇一二三四五六七八九十百千])")
+_DEC_UNITS = "度倍分人兆億万円秒割歳件"
+_RE_KDEC = re.compile(r"(?<![〇一二三四五六七八九十百千第])([〇一二三四五六七八九十百千]+)・([〇一二三四五六七八九]+)"
+                      r"(?![〇一二三四五六七八九十百千]|・[〇一二三四五六七八九十百千])(?=$|[^一-鿿々]|[" + _DEC_UNITS + "])")
+_RE_TAI = re.compile(r"(\d+)対(\d+)")
+_RE_KATA_NUM = re.compile(r"([ァ-ヶー])(\d{3,})(?![\d.．])")
+
+
+def fix_numbers(text: str) -> str:
+    """数字の書き方で読み違える所を直す（エンジンへ渡す文字列だけ）。
+      ・〇の入った漢数字の並び（二〇二六年→ニマル…）→ 算用数字（2026年）。〇だけの並び（〇〇さん）は触らない
+      ・中黒で書いた小数（六十四・九パーセント→ロクジュウヨン、キュウ）→ 64.9。直後が漢字なら単位（度・倍・分 等）の時だけ
+        ＝「一・二年生」「一・二審」「二・二六事件」は触らない
+      ・1対2（イチツイニ）→ 1たい2
+      ・カタカナの直後の3桁以上の数字（1ドル158円→イチゴオハチ・ソリッドワークス2027→ニイゼロニイナナ）→ 間に半角スペース
+    万一失敗しても元の文を返す。"""
     try:
-        return _apply(text, table, hits)
+        def zero(m):
+            s = m.group(0)
+            if set(s) == {"〇"}:
+                return s
+            return "".join(str(_KDIG[c]) for c in s)
+
+        def kdec(m):
+            a = _kanji_int(m.group(1))
+            if a is None:
+                return m.group(0)
+            return f"{a}." + "".join(str(_KDIG[c]) for c in m.group(2))
+
+        text = _RE_KDEC.sub(kdec, text)        # 小数を先に（〇・四 → 0.4）
+        text = _RE_ZERO_RUN.sub(zero, text)
+        text = _RE_TAI.sub(r"\1たい\2", text)
+        text = _RE_KATA_NUM.sub(r"\1 \2", text)
+        return text
     except Exception as ex:  # noqa: BLE001
-        print(f"::warning::読み方辞書の置き換えに失敗したので元の文で続けます: {ex}")
+        print(f"::warning::数字の読み方の決まりで失敗したので元の文で続けます: {ex}")
         return text
 
 
@@ -172,6 +235,18 @@ def _selftest() -> int:
         ("その間違いは", "その間違いは"),      # 後に続かない＝守られる
         ("空間と時間", "空間と時間"),          # 前に来ない＝守られる
         ("間をとる", "まをとる"),
+        # 数字の決まり（変える物・変えない物の境目）
+        ("二〇二六年十月", "2026年十月"),
+        ("〇〇さん", "〇〇さん"),
+        ("六十四・九パーセント", "64.9パーセント"),
+        ("〇・四パーセント", "0.4パーセント"),
+        ("五・六・ソル", "5.6・ソル"),
+        ("一・二年生", "一・二年生"),
+        ("一・二審", "一・二審"),
+        ("二・二六事件", "二・二六事件"),
+        ("1対2", "1たい2"),
+        ("1ドル158円", "1ドル 158円"),
+        ("ジェミニ3.7", "ジェミニ3.7"),
     ]
     bad = 0
     for src, want in cases:
