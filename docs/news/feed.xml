@@ -3,13 +3,40 @@
   <channel>
     <title>朝のAI＆ニュース</title>
     <link>https://teruhikonomizu-ops.github.io/ai-radio/</link>
-    <description>世界と国内のAIニュース、続いて国内中心の一般ニュースを、AIが各社の公式配信をもとに要約し、AI音声でお届けする約15分の番組。毎朝5時ごろ自動更新。</description>
+    <description>世界と国内のAIニュース、続いて国内中心の一般ニュースを、AIが各社の公式配信をもとに要約し、AI音声でお届けする約10分の番組。毎朝5時ごろ自動更新。</description>
     <language>ja</language>
     <atom:link href="https://teruhikonomizu-ops.github.io/ai-radio/news/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>unizom</itunes:author>
     <itunes:image href="https://teruhikonomizu-ops.github.io/ai-radio/news/artwork.png"/>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>11/20(金) アンソロピック上場／米中ロ初の首脳会談</title>
+      <description>11/20(金) アンソロピック上場／米中ロ初の首脳会談
+
+【AI】
+・Anthropicが米ナスダックに上場、約813億ドルを調達
+・MetaのAIエージェント「Muse」が会話を取り違え、非公開情報を表示と報道
+・OpenAIがAIによるAI研究のレポートを公開、ChatGPTにLive Dictation
+・非公式APIやAPIルーターに潜むモデル偽装・乗っ取りのリスク
+・Huaweiの大型AIデータセンターはxAIのColossus 2の約7%
+・元Alibaba幹部のEverfulが4850万ドル調達、中国工場と小売業者を直結
+
+【ニュース】
+・熊本県で震度5弱、1週間ほどは注意・山地は積雪の可能性
+・楽天証券で447万口座の情報漏えいの可能性、金融庁が報告徴求命令
+・JTがロシア事業を連結除外、約1兆3770億円の損失へ
+・コメ補助金の見直し案を自民党が了承
+・史上初の米中ロ首脳会談、平和宣言を取りまとめ
+・国際司法裁判所がロヒンギャ迫害をジェノサイドと認定
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Fri, 20 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-20/news-2026-11-20.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-20/news-2026-11-20.mp3" length="9659497" type="audio/mpeg"/>
+      <itunes:duration>0:10:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>11/19(木) アルトマン氏がAI支配に警鐘／熊本で震度5弱</title>
       <description>11/19(木) アルトマン氏がAI支配に警鐘／熊本で震度5弱
