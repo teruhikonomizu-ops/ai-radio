@@ -181,9 +181,9 @@ jobs:
           mp3="work/$SHOW-${{ steps.plan.outputs.today }}.mp3"
           dur=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$mp3" | cut -d. -f1)
           echo "長さ: $((dur/60))分$((dur%60))秒"
-          # 2026-11-19 約10分の番組に変更(3,300字前後→約10分)。2回目の緩めた字数でも収まる範囲
-          if [ "$dur" -lt 450 ] || [ "$dur" -gt 780 ]; then
-            echo "長さが異常(7分30秒未満または13分超)のため公開を中止"
+          # 2026-11-19 約10分の番組に変更(3,300字前後→約10分)。2回目の緩めた字数(〜3,900字)が遅め(約5.0字/秒)に読まれても収まる範囲
+          if [ "$dur" -lt 450 ] || [ "$dur" -gt 810 ]; then
+            echo "長さが異常(7分30秒未満または13分30秒超)のため公開を中止"
             exit 1
           fi
           python3 scripts/write_meta.py "$SHOW" "${{ steps.plan.outputs.today }}" "$mp3" "$ep/概要欄.txt" "$ep/meta.json"
