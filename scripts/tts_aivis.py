@@ -28,6 +28,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reading_fix  # 英字→カタカナの読み替え(エンジンに渡す文字列だけ。台本と字幕は元のまま)
+# 読み方辞書(2026-11-19): 漢字などの言葉の読み違い(その間→ソノカン 等)を直す。英字の前に当てる。
+# 正本は OneDriveデスクトップ _tools/tts/reading_words.json。ここの2ファイルは sync_to_radio.py が写す＝ここで直接直さない
+try:
+    import reading_words
+except Exception as _e:  # noqa: BLE001
+    print(f"::warning::読み方辞書の部品を読めなかったので、置き換えなしで続けます: {_e}")
+    reading_words = None
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
@@ -149,6 +156,8 @@ def main():
     text = src.read_text(encoding="utf-8")
     reading_table = reading_fix.load_dict()
     reading_unknown = set()
+    words_table = reading_words.load() if reading_words else None
+    words_hits = set()
     items = parse_script(text)
     total = sum(1 for it in items if it not in ("para", "sect"))
     print(f"セリフ行 {total}")
@@ -184,7 +193,8 @@ def main():
         sentences = split_sentences(line_text)
         for si, s in enumerate(sentences):
             sent_start = cur_time()
-            spoken = reading_fix.fix(s, reading_table, reading_unknown)
+            spoken = reading_words.apply(s, words_table, words_hits) if reading_words else s
+            spoken = reading_fix.fix(spoken, reading_table, reading_unknown)
             wav_bytes = synthesize(spoken, spk["id"], speed, spk["pitch"], spk["intonation"])
             with wave.open(io.BytesIO(wav_bytes)) as w:
                 if params is None:
@@ -215,6 +225,8 @@ def main():
     segments_path = dst.with_suffix(".segments.json")
     segments_path.write_text(json.dumps(segments, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    if words_hits:
+        print(f"読み方辞書で直した言葉: {'・'.join(sorted(words_hits))}")
     if reading_unknown:
         print(f"読み辞書に無い英単語(英字のまま合成した・scripts/reading_dict.json に足す候補): {sorted(reading_unknown)}")
     mb = dst.stat().st_size / 1024 / 1024
