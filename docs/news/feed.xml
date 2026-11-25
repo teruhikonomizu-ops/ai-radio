@@ -11,6 +11,33 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/26(木) AI先端モデルに懸念／米が日本に追加関税</title>
+      <description>11/26(木) AI先端モデルに懸念／米が日本に追加関税
+
+【AI】
+・AnthropicとOpenAIの従業員、未公開モデルの能力に懸念
+・Anthropicが評価手法「Siren」を発表、エージェントのサンドボックス脱出を検証
+・中国の国家安全部、AIチップ入手を支援する秘密工作
+・AmazonとMeta、AIエージェント「Muse」のブロック解除を協議
+・Microsoft、Microsoft 365の大規模障害を受け「コードレッド」宣言
+・ニューヨークでAIチャットボット搭載おもちゃを5年間禁止
+
+【ニュース】
+・米が通商法301条で日本などに追加関税の方針、日本は最大15％
+・日経平均が一時2100円超下落、エヌビディアの不透明感とフアン氏のその後
+・PayPayでカード連携サービスの決済障害
+・陸自の長射程ミサイル、12月上旬に上富良野へ搬入・配備へ
+・持ち帰り残業でのうつ病発症を労災と認める判決
+・インドネシアの金鉱山で浸水、3人死亡23人閉じ込めか
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Thu, 26 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-26/news-2026-11-26.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-26/news-2026-11-26.mp3" length="9296291" type="audio/mpeg"/>
+      <itunes:duration>0:09:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/25(水) アンソロピック株価割れ／補正予算案の編成指示</title>
       <description>11/25(水) アンソロピック株価割れ／補正予算案の編成指示
 
