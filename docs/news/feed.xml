@@ -11,6 +11,33 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/27(金) Character.AI競売に異議／不登校が過去最多</title>
+      <description>11/27(金) Character.AI競売に異議／不登校が過去最多
+
+【AI】
+・Character.AIのチャット履歴売却に41州とDCの司法長官が異議
+・FCCがSpaceXの宇宙データセンター衛星最大100万基を認可
+・S&amp;PがNvidiaの格下げを検討、中国系企業への優先販売の報道も
+・OpenAI、ChatGPTのChatとWorkを統合／行列乗算の論文を公開
+・脆弱性が急増、Microsoftは月1000件超に
+・Claude Duetの研究プレビューが日本でも開始
+
+【ニュース】
+・熊本・震度5弱から1週間、地震の多い状態が当分続く見通し
+・不登校35万9424人で過去最多、教員不足の緊急決議も
+・ロシアに拘束された北海道新聞記者の妻が手記を公開
+・年末商戦前にダークパターンや詐欺サイトへ注意喚起
+・KARTEの不正アクセスで各社の個人情報漏えいが相次ぐ
+・アメリカの新たな関税案に中国が反発
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Fri, 27 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-27/news-2026-11-27.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-27/news-2026-11-27.mp3" length="9567964" type="audio/mpeg"/>
+      <itunes:duration>0:09:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/26(木) AI先端モデルに懸念／米が日本に追加関税</title>
       <description>11/26(木) AI先端モデルに懸念／米が日本に追加関税
 
