@@ -11,6 +11,33 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>11/28(土) Nvidia東南アジア出荷停止／電気料金10社値下がり</title>
+      <description>11/28(土) Nvidia東南アジア出荷停止／電気料金10社値下がり
+
+【AI】
+・エヌビディア、東南アジア4カ国へのサーバー出荷を停止するよう指示
+・S&amp;PがNvidiaの格付け引き下げを検討
+・Character.AIのチャット履歴売却に、42州の司法長官が反対
+・FCCがSpaceXの最大100万基の衛星計画を条件付きで認可
+・Anthropicのアモデイ氏、人間の主体性を明け渡すとの批判に反論
+・AIデータセンターの建設が難航、ネオクラウドにも影響
+
+【ニュース】
+・日経電子版など、個人情報の漏えいが相次ぐ
+・12月使用分の電気料金、大手10社で値下がり
+・関文科相の問責案否決後、消費税減税法案の質疑へ
+・関東など28日朝にかけ大雨の所も
+・不登校の小中学生が35万9424人で過去最多
+・台湾で統一地方選挙、28日投票
+
+※AIが各社の公式配信をもとに要約しています。誤りを含む可能性があります</description>
+      <pubDate>Sat, 28 Nov 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-28/news-2026-11-28.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-11-28/news-2026-11-28.mp3" length="10160212" type="audio/mpeg"/>
+      <itunes:duration>0:10:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>11/27(金) Character.AI競売に異議／不登校が過去最多</title>
       <description>11/27(金) Character.AI競売に異議／不登校が過去最多
 
